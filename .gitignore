@@ -1,0 +1,6 @@
+# MkDocs
+_build
+comment.md
+
+.idea
+.tox
