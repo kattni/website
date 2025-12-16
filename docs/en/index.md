@@ -7,6 +7,8 @@ hide:
 
 ![Brutus the Bee](images/brutus.png){ .beeware-logo-index }
 
+<div class="intro-block-index" markdown="1">
+
 <div class="intro-content-index" markdown="1">
 
 # BeeWare { .title-index }
@@ -29,6 +31,8 @@ Write your apps in Python and release them on iOS, Android, Windows, MacOS, Linu
 [I want to contribute](contributing/index.md){ .contribute-button }
 
 [Donate and support us!](membership/index.md){ .donate-button }
+
+</div>
 
 </div>
 

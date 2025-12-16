@@ -17,6 +17,6 @@ dev = [
 ]
 
 docs = [
-    "beeware-docs-tools @ git+https://github.com/kattni/beeware-docs-tools@tooling/website-to-mkdocs",
+    "beeware-docs-tools @ git+https://github.com/kattni/beeware-docs-tools@tooling/website-mkdocs-migration",
     {include-group = "redirects"},
 ]
