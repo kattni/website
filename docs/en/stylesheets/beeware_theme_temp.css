@@ -325,7 +325,8 @@ a.keep-content-button {
 }
 
 /* All H* with a class - requires custom class tags on each heading */
-h1[class] {
+h1#featured-tools,
+h1#other-tools {
     text-align: center;
     margin-top: 2rem;
     margin-left: 1em;
@@ -622,38 +623,38 @@ and (min-width: 1600px) {
    of space. Overriding `top` causes a significant gap at the bottom between the end
    of the sidebar and the footer. Therefore the following margin changes are needed.
 */
-/*.md-main__inner {*/
-/*    margin-top: 0;*/
-/*    padding-top: 12px;*/
-/*}*/
+.md-main__inner {
+    margin-top: 0;
+    padding-top: 12px;
+}
 
-/*.md-header {*/
-/*    margin-bottom: 72px;*/
-/*}*/
+.md-header {
+    margin-bottom: 0;
+}
 
-/*.md-sidebar {*/
-/*    padding-top: 12px;*/
-/*}*/
+.md-sidebar {
+    padding-top: 12px;
+}
 
-/*.md-content__inner {*/
-/*    padding-top: 8px;*/
-/*    margin-top: -69px;*/
-/*}*/
+.md-content__inner {
+    padding-top: 8px;
+    margin-top: 0;
+}
 
-/*.md-content__inner::before {*/
-/*    height: 0;*/
-/*}*/
+.md-content__inner::before {
+    height: 0;
+}
 
-/*.md-footer {*/
-/*    position: relative;*/
-/*    margin-top: 69px;*/
-/*}*/
+.md-footer {
+    position: relative;
+    margin-top: 0;
+}
 
-/*@media screen and (min-width: 60em) {*/
-/*    .md-sidebar__scrollwrap {*/
-/*        margin-top: -64px;*/
-/*    }*/
-/*}*/
+@media screen and (min-width: 60em) {
+    .md-sidebar__scrollwrap {
+        margin-top: 0;
+    }
+}
 
 /* Fix "Made with" hover link color in light mode */
 html .md-footer-meta.md-typeset a:hover {

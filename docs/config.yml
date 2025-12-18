@@ -39,10 +39,11 @@ theme:
   features:
     - content.tabs.link
     - toc.follow
-    - navigation.indexes
-    - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.path
+    - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
@@ -91,5 +92,5 @@ plugins:
     blog_dir: news
   autorefs: {}
   literate-nav:
-    nav_file: SUMMARY.md
+    nav-file: SUMMARY.md
   macros: {}
