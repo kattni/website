@@ -470,4 +470,5 @@ h1.beeware-project {
 
 h1.beeware-project ~ p {
     max-width: 44rem;
+    padding-right: 4rem;
 }
