@@ -317,18 +317,26 @@ h2#sidebar {
     }
 }
 
-/* About page */
-/*.team-image-details {*/
-/*    float: right;*/
-/*    padding-top: 1.5rem;*/
-/*    max-width: 38%;*/
-/*    font-size: 0.6rem;*/
-/*}*/
+/* Team page */
+.team-member {
+    height: 30rem;
+}
 
-/*.team-bio {*/
-/*    float: left;*/
-/*    max-width: 60%;*/
-/*}*/
+.team-image-details {
+    float: right;
+    padding-top: 1.5rem;
+    max-width: 38%;
+    font-size: 0.85rem;
+}
+
+.team-image-details img {
+    width: 230px;
+}
+
+.team-bio {
+    float: left;
+    max-width: 60%;
+}
 
 .team-join,
 .team-emeritus {
