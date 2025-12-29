@@ -98,7 +98,7 @@ h1.index-intro-title a.headerlink,
 
 .index-page-content {
     max-width: 44rem;
-    padding: 0 2rem;
+    padding: 0 4rem 0 0;
 }
 
 .index-sidebar {
@@ -456,7 +456,7 @@ h4.chaquopy-name {
 
 div[class*="-info"] p {
     margin-top: 0;
-    max-width: 37rem;
+    max-width: 41rem;
 ;
 }
 
@@ -469,5 +469,5 @@ h1.beeware-project {
 }
 
 h1.beeware-project ~ p {
-    max-width: 40rem;
+    max-width: 44rem;
 }
