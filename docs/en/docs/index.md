@@ -3,7 +3,7 @@ title: BeeWare docs
 hide:
     - navigation
 ---
-
+<div class="docs-page" markdown="1">
 <div class="tutorial" markdown=1>
 
 ![Brutus the Bee](../images/brutus.png){ width=100 .tutorial-logo }
@@ -125,24 +125,26 @@ A meta-package for building a version of Python that can be embedded into a macO
 
 BeeWare is more than a suite of tools for building amazing apps. It's also an amazing open source community!
 
-## BeeWare Community Code of Conduct
+### BeeWare Community Code of Conduct
 
 Everyone participating in the BeeWare community, in any way, is required to adhere to the guidelines in the [BeeWare Community Code of Conduct](../community/code-of-conduct.md).
 
-## About the project
+### About the project
 
 Learn more [about the history and goals of the BeeWare project](../about/index.md).
 
-## Get help using BeeWare
+### Get help using BeeWare
 
 Need help using BeeWare? We've got [lots of community resources](../community/resources.md) that might help. If you need to ask a more specific question, here's [how you can find someone that might be able to help](../community/getting-help.md). We can also help you [find commercial support](../community/commercial.md).
 
-## Contributing to the BeeWare project
+### Contributing to the BeeWare project
 
 Want to contribute to BeeWare? See our [contribution guide](../contributing/index.md). If you've never contributed to Open Source before, start with our [guide for first time contributors.](../contributing/first-time-contributors.md)
 
 Or, if you just want to support the project financially, you can [become a financial member of the project.](../membership/index.md)
 
-## Stay in touch!
+### Stay in touch!
 
 Follow us on Mastodon [@beeware@fosstodon.org](https://fosstodon.org/@beeware), or [sign up for our mailing list](https://eepurl.com/b2Xb4z) for regular project updates.
+
+</div>

@@ -3,6 +3,7 @@ hide:
     - navigation
     - toc
 ---
+<div class="index-page" markdown="1">
 <div class="index-intro-full" markdown="1">
 
 ![Brutus the Bee](images/brutus.png){ .index-intro-beeware-logo }
@@ -136,5 +137,5 @@ None at the moment....
 Projects links here!
 
 </div>
-
+</div>
 </div>

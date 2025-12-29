@@ -1,12 +1,6 @@
 /* Limit width of content, to compensate for navigation being hidden. */
 .md-grid {
-    max-width: 48rem;
-}
-
-/* Default font size is 1rem, but calculates to 24px due to dynamic sizing on HTML tag. */
-/* This makes default font size 16px, which is standard 1rem. */
-.md-typeset {
-    font-size: 0.67rem;
+    max-width: 70rem;
 }
 
 /* Remove header markers to avoid spacing issues with longer headers. Use the ToC instead. */
@@ -22,7 +16,9 @@
 
 @media screen and (min-width: 76.25em) {
   .md-path {
-    margin: 0 0.8rem;
+        flex: 54%;
+        margin-right: 2.5rem;
+        margin: 0 0.8rem;
   }
 }
 
@@ -75,7 +71,6 @@
 }
 
 /* Website index */
-
 .index-intro-full {
     background-color: light-dark(#E9ECEF, #282D32);
     margin-top: -2rem;
@@ -98,6 +93,11 @@ h1.index-intro-title a.headerlink,
 .behaving-index {
     display: flex;
     justify-content: center;
+}
+
+.index-page-content {
+    max-width: 44rem;
+    padding: 0 2rem;
 }
 
 .index-sidebar {
@@ -125,21 +125,16 @@ h1.index-intro-title a.headerlink,
     .index-sidebar {
         display: flex;
         flex-direction: column;
-        flex: 30%;
+        min-width: 24rem;
         padding: 15px;
         height: fit-content;
         border-radius: 15px;
-        margin: 1.5rem 0 0 0.5rem;
+        margin: 1.5rem 0 0 0.4rem;
     }
 
     .index-main-content {
         display: flex;
         flex-direction: row;
-    }
-
-    .index-page-content {
-        flex: 70%;
-        margin-right: 10px;
     }
 
     .index-intro-beeware-logo {
@@ -174,10 +169,15 @@ h1.index-intro-title a.headerlink,
     }
 }
 
-@media screen and (max-width: 1164px) {
+@media screen and (max-width: 1174px) {
     .index-main-content {
         display: unset;
         flex-direction: unset;
+    }
+
+    .index-sidebar {
+        max-width: 24rem;
+        margin-left: 1.6rem;
     }
 }
 
@@ -197,16 +197,11 @@ h1.index-intro-title a.headerlink,
     .index-sidebar {
         display: flex;
         flex-direction: column;
-        flex: 20%;
+        max-width: 24rem;
         margin: 30px;
         padding: 15px;
         height: fit-content;
         border-radius: 10px;
-    }
-
-    .index-page-content {
-        flex: 80%;
-        margin-right: 10px;
     }
 
     .index-intro-beeware-logo {
@@ -226,7 +221,7 @@ a.intro-contribute-button,
 a.intro-donate-button {
     padding: .5rem 1rem;
     margin: 0 0.5rem 0 0;
-    font-size: 0.7rem;
+    font-size: 1.25rem;
     line-height: 1.5;
     border-radius: .3rem;
     display: inline-block;
@@ -264,12 +259,14 @@ a.index-main-keep-in-touch-button:hover {
 .index-main-open-source-logo,
 .index-main-diversity-logo {
     float: right;
+    margin-left: 0.5rem;
 }
 
 .index-main-cross-platform-logo,
 .index-main-brutus-logo,
 .index-main-hands-logo {
     float: left;
+    margin-right: 0.5rem;
 }
 
 .index-main-button {
@@ -296,7 +293,24 @@ a.index-main-keep-in-touch-button {
     background-color: #28A745;
 }
 
-/* About page CSS */
+/* On this page ToC sidebar */
+.md-sidebar--secondary {
+    min-width: 23rem;
+}
+
+h2#sidebar {
+    margin-top: 0rem;
+}
+
+[data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    padding: 8rem;
+}
+
+.md-nav--primary .md-nav__item {
+    font-size: 1rem;
+}
+
+/* About page */
 /*.team-image-details {*/
 /*    float: right;*/
 /*    padding-top: 1.5rem;*/
@@ -426,6 +440,8 @@ h4.chaquopy-name {
 
 div[class*="-info"] p {
     margin-top: 0;
+    max-width: 37rem;
+;
 }
 
 .docs-spacing {
@@ -434,4 +450,8 @@ div[class*="-info"] p {
 
 h1.beeware-project {
     margin-bottom: 0.64rem;
+}
+
+h1.beeware-project ~ p {
+    max-width: 40rem;
 }

@@ -11,7 +11,7 @@ So who are the people behind BeeWare? Well, there's a huge group of contributors
 
 <div class="team-image-details" markdown="1">
 
-![Russell Keith-Magee](team/freakboy3742.png){ width=300px }
+![Russell Keith-Magee](images/freakboy3742.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }} freakboy3742</div>
@@ -38,7 +38,7 @@ sponsor)](/community/members/anaconda/).
 </div>
 <div class="team-image-details" markdown="1">
 
-![Katie McLaughlin](team/glasnt.png){ width=300px }
+![Katie McLaughlin](images/glasnt.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  glasnt</div>
@@ -62,7 +62,7 @@ emoji.
 </div>
 <div class="team-image-details" markdown="1">
 
-![Philip James](team/phildini.png){ width=300px }
+![Philip James](images/phildini.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  phildini</div>
@@ -83,7 +83,7 @@ California with his wife and her cat. Philip believes in the web.
 
 </div><div class="team-image-details" markdown="1">
 
-![Malcolm Smith](team/mhsmith.png){ width=300px }
+![Malcolm Smith](images/mhsmith.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  mhsmith</div>
@@ -107,7 +107,7 @@ sponsor)](/community/members/anaconda/).
 
 <div class="team-image-details" markdown="1">
 
-![Russell Martin](team/rmartin16.png){ width=300px }
+![Russell Martin](images/rmartin16.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  rmartin16</div>
@@ -128,7 +128,7 @@ playing sysadmin to his bloated home lab.
 
 <div class="team-image-details" markdown="1">
 
-![Charles Whittington](team/halfwhitt.png){ width=300px }
+![Charles Whittington](images/halfwhitt.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  HalfWhitt</div>
@@ -150,7 +150,7 @@ shelving or other storage unit in their house.
 
 <div class="team-image-details" markdown="1">
 
-![Kattni](team/kattni.png){ width=300px }
+![Kattni](images/kattni.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  kattni</div>
@@ -171,7 +171,7 @@ Kattni is a creator, community leader, programmer, technical writer, maker, phot
 
 <div class="team-image-details" markdown="1">
 
-![Chiang Fong Lee](team/cflee.png){ width=300px }
+![Chiang Fong Lee](images/cflee.png){ width=300px }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  cflee</div>
@@ -197,7 +197,7 @@ of not mixing inky fingers with pretty keycaps.
 
 <div class="team-image-details" markdown="1">
 
-![Elias Dorneles](team/elias.png){ width=300 }
+![Elias Dorneles](images/elias.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-email">{{ fa("envelope", "lg", "solid") }} eliasdorneles@gmail.com</div>
@@ -220,7 +220,7 @@ Elias gets by with a little help from his friends.
 
 <div class="team-image-details" markdown="1">
 
-![Christopher Swenson](team/swenson.png){ width=300 }
+![Christopher Swenson](images/swenson.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  swenson</div>
@@ -247,7 +247,7 @@ PyDX. Swenson is a cupcake.
 
 <div class="team-image-details" markdown="1">
 
-![Dan Yeaw](team/danyeaw.png){ width=300 }
+![Dan Yeaw](images/danyeaw.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  danyeaw</div>
@@ -271,7 +271,7 @@ kids, brew beer, and play soccer.
 
 <div class="team-image-details" markdown="1">
 
-![Olga Bulat](team/obulat.png){ width=300 }
+![Olga Bulat](images/obulat.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  obulat</div>
@@ -293,7 +293,7 @@ She also enjoys hanging out with kids.
 
 <div class="team-image-details" markdown="1">
 
-![Sam Schott](team/samschott.png){ width=300 }
+![Sam Schott](images/samschott.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  samschott</div>
@@ -315,7 +315,7 @@ find him hiking or sailing along the English coast.
 
 <div class="team-image-details" markdown="1">
 
-![Charlotte Mays](team/flowerncsu.png){ width=300 }
+![Charlotte Mays](images/flowerncsu.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  flowerncsu</div>
@@ -339,7 +339,7 @@ out of code.
 
 <div class="team-image-details" markdown="1">
 
-![Sagi Shadur](team/saroad2.png){ width=300 }
+![Sagi Shadur](images/saroad2.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  saroad2</div>
@@ -361,7 +361,7 @@ and Valleys" and "The Emissary".
 
 <div class="team-image-details" markdown="1">
 
-![Amber Brown](team/hawkowl.png){ width=300 }
+![Amber Brown](images/hawkowl.png){ width=300 }
 
 <div class="team-contact-details" markdown="1">
 <div class="team-github-handle">{{ fa("github", "lg", "brands") }}  hawkowl</div>

@@ -29,7 +29,6 @@ extra:
 
 
 extra_css:
-  - stylesheets/beeware_theme_temp.css  # TODO: Included for iteration; move to beeware-theme.css in docs-tools for final.
   - stylesheets/beeware.css
 
 theme:
