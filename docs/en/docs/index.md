@@ -3,12 +3,14 @@ title: BeeWare docs
 hide:
     - navigation
 ---
+# Documentation { .documentation }
+
 <div class="docs-page" markdown="1">
-<div class="tutorial" markdown=1>
+<div class="tutorial" markdown="1">
 
 ![Brutus the Bee](../images/brutus.png){ width=100 .tutorial-logo }
 
-<div class="tutorial-info" markdown=1>
+<div class="tutorial-info" markdown="1">
 
 ## New to BeeWare? { .tutorial-text }
 
@@ -17,11 +19,11 @@ hide:
 </div>
 </div>
 
-# Featured tools { .featured-tools }
+## Featured tools { .featured-tools }
 
-<div class="featured" markdown=1>
+<div class="featured" markdown="1">
 
-<div class="toga" markdown=1>
+<div class="toga" markdown="1">
 
 [![Tiberius](../images/toga.png)](https://toga.beeware.org){ .featured-logo }
 
@@ -31,7 +33,7 @@ A Python native, OS native GUI toolkit.
 
 </div>
 
-<div class="briefcase" markdown=1>
+<div class="briefcase" markdown="1">
 
 [![Briefcase](../images/briefcase.png)](https://briefcase.beeware.org){ .featured-logo }
 
@@ -42,7 +44,7 @@ Convert a Python project into a standalone native application.
 </div>
 </div>
 
-# Other tools { .other-tools }
+## Other tools { .other-tools }
 
 Utilities used by and applications built with BeeWare tools.
 
@@ -50,7 +52,7 @@ Utilities used by and applications built with BeeWare tools.
 
 Applications maintained by the BeeWare team that are built using BeeWare's tools.
 
-<div class="other-tools-package" markdown=1>
+<div class="other-tools-package" markdown="1">
 
 [![Podium](../images/podium.png)](https://podium.beeware.org){ .other-tools-logo }
 
@@ -58,7 +60,7 @@ Applications maintained by the BeeWare team that are built using BeeWare's tools
 
 #### [Podium](https://podium.beeware.org) { .podium-name }
 
-<div class="podium-info" markdown=1>
+<div class="podium-info" markdown="1">
 
 A markup-based slide presentation tool.
 
@@ -71,7 +73,7 @@ A markup-based slide presentation tool.
 
 Pieces used by other BeeWare tools that can be useful on their own.
 
-<div class="other-tools-package" markdown=1>
+<div class="other-tools-package" markdown="1">
 
 [![Rubicon](../images/rubicon.png)](https://rubicon.beeware.org){ .other-tools-logo }
 
@@ -79,7 +81,7 @@ Pieces used by other BeeWare tools that can be useful on their own.
 
 #### [Rubicon Objective-C](https://rubicon.beeware.org) { .rubicon-name }
 
-<div class="rubicon-info" markdown=1>
+<div class="rubicon-info" markdown="1">
 
 A library for bridging between Python and the Objective-C language runtimes.
 
@@ -87,7 +89,7 @@ A library for bridging between Python and the Objective-C language runtimes.
 </div>
 </div>
 
-<div class="other-tools-package" markdown=1>
+<div class="other-tools-package" markdown="1">
 
 [![Brutus the Bee](../images/brutus.png)](https://python-apple-support.beeware.org){ .other-tools-logo }
 
@@ -95,7 +97,7 @@ A library for bridging between Python and the Objective-C language runtimes.
 
 #### [Python Apple Support](https://python-apple-support.beeware.org) { .python-apple-name }
 
-<div class="python-apple-info" markdown=1>
+<div class="python-apple-info" markdown="1">
 
 A meta-package for building a version of Python that can be embedded into a macOS, iOS, tvOS or watchOS project.
 
@@ -103,7 +105,7 @@ A meta-package for building a version of Python that can be embedded into a macO
 </div>
 </div>
 
-<div class="other-tools-package" markdown=1>
+<div class="other-tools-package" markdown="1">
 
 [![Chaquopy](../images/chaquopy.png)](https://chaquo.com/chaquopy/){ .other-tools-logo }
 
@@ -111,7 +113,7 @@ A meta-package for building a version of Python that can be embedded into a macO
 
 #### [Chaquopy](https://chaquo.com/chaquopy/) { .chaquopy-name }
 
-<div class="chaquopy-info" markdown=1>
+<div class="chaquopy-info" markdown="1">
 
 A meta-package for building a version of Python that can be embedded into a macOS, iOS, tvOS or watchOS project.
 
@@ -119,7 +121,7 @@ A meta-package for building a version of Python that can be embedded into a macO
 </div>
 </div>
 
-# The BeeWare Project { .beeware-project }
+## The BeeWare Project { .beeware-project }
 
 BeeWare is more than a suite of tools for building amazing apps. It's also an amazing open source community!
 

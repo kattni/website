@@ -1,8 +1,3 @@
-/* Limit width of content, to compensate for navigation being hidden. */
-.md-grid {
-    max-width: 70rem;
-}
-
 /* Cleans up vertical spacing on breadcrumbs. */
 .md-path {
     margin-top: 0;
@@ -44,6 +39,11 @@
 
 .md-sidebar {
     padding-top: 0.8rem;
+}
+
+.md-sidebar--primary:is([hidden]) ~ .md-content {
+    margin-left: 6.1rem;
+    margin-right: 6.1rem;
 }
 
 .md-content__inner {
@@ -293,7 +293,6 @@ a.index-main-keep-in-touch-button {
 /* On this page ToC sidebar */
 .md-sidebar--secondary {
     min-width: 15rem;
-    margin-left: 7rem;
 }
 
 h2#sidebar {
@@ -341,6 +340,11 @@ h2#sidebar {
 }
 
 /* Documentation page CSS */
+/* Workaround for not having H1 on page */
+h1.documentation {
+    display: none;
+}
+
 .tutorial {
     display: flex;
     flex-direction: row;
@@ -349,7 +353,6 @@ h2#sidebar {
     background-color: light-dark(#E9ECEF, #282D32);;
     border-radius: 5px;
     padding-bottom: 1rem;
-    /*margin-right: -5rem;*/
 }
 
 .tutorial-info {
@@ -358,25 +361,24 @@ h2#sidebar {
     align-items: center;
 }
 
-h1.featured-tools,
-h1.other-tools {
+h2.featured-tools,
+h2.other-tools {
     text-align: center;
     margin-top: 2rem;
-    /*margin-left: 5rem;*/
 }
 
 .tutorial-logo {
     margin-right: 3rem;
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 43.125rem) {
     .docs-tutorial-button {
         width: 11rem;
         margin: 0 0.5rem;
     }
 }
 
-@media screen and (min-width: 690px) {
+@media screen and (min-width: 43.125rem) {
     .docs-tutorial-button {
         width: 20rem;
     }
@@ -420,7 +422,6 @@ a.docs-tutorial-button:hover {
 
 .briefcase {
     margin-left: 5rem;
-    /*margin-right: -5rem;*/
 }
 
 .featured-logo {
@@ -466,7 +467,7 @@ div[class*="-info"] p {
     height: 1em;
 }
 
-h1.beeware-project {
+h2.beeware-project {
     margin-bottom: 0.64rem;
     text-align: center;
     margin-top: 2rem;
@@ -474,4 +475,44 @@ h1.beeware-project {
 
 h2.beeware-project ~ p {
     max-width: 45rem;
+}
+
+/* Blog */
+.md-sidebar--primary,
+.md-sidebar--post {
+    width: 12rem;
+}
+
+.md-sidebar--primary:is([hidden]) ~ .md-content.md-content--post {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (min-width: 76.25em) {
+    /* Disable sidebar other than blog navigation */
+    .small .sidebar-title-block {
+        display: none;
+    }
+
+    .md-nav--primary > .md-nav__list > .md-nav__item {
+        display: none;
+    }
+
+    .md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--active,
+    .md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--active > .md-nav .md-nav__list .md-nav__item {
+        display: block;
+        width: 12rem;
+    }
+
+    [dir="ltr"] .md-sidebar--secondary:not([hidden]) ~ .md-content > .md-content__inner {
+        margin-right: 1rem;
+    }
+
+    [dir="ltr"] .md-content--post > .md-content__inner {
+        margin-left: 1rem;
+    }
+
+    [dir="ltr"] .md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner {
+        margin-left: 1rem;
+    }
 }

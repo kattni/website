@@ -1,6 +1,20 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 copyright: © Russell Keith-Magee
 
+nav:
+  - About:
+      - "about/index.md"
+  - Documentation:
+      - "docs/index.md"
+  - Community:
+      - "community/index.md"
+  - Contributing:
+      - "contributing/index.md"
+  - News:
+      - "news/index.md"
+  - Donate:
+      - "membership/index.md"
+
 not_in_nav: |
   /index.md
 
@@ -48,6 +62,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - navigation.path
+    - navigation.expand
     - search.suggest
     - search.highlight
     - search.share
@@ -96,8 +111,11 @@ plugins:
   search: {}
   blog:
     blog_dir: news
+    post_url_format: "{categories}/{slug}"
+    post_url_max_categories: 1
+    categories_url_format: "{slug}"
   autorefs:
     resolve_closest: true  # autorefs warns of the Usage headings begin duplicates without this - we will have to assign unique ids to all of them otherwise
-  literate-nav: {}
+#  literate-nav: {}
   macros:
     include_dir: ../website
