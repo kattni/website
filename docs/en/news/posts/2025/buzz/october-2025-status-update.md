@@ -8,6 +8,8 @@ categories:
 ---
 October saw the release of Python 3.14, which brought about a lot of release-related housekeeping. We've also seen some major improvements to BeeWare's documentation, and the addition of some useful new features in Briefcase.
 
+<!-- more -->
+
 ## What we've done
 
 - We completed our transition to using Markdown for all our documentation, including [the tutorial](https://github.com/beeware/beeware-tutorial), [Toga](https://github.com/beeware/toga/pull/3719), [Briefcase](https://github.com/beeware/briefcase/pull/2502), and [Rubicon Objective-C](https://github.com/beeware/rubicon-objc/pull/658).

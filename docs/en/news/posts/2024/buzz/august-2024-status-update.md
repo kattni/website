@@ -10,6 +10,8 @@ August has seen some good progress on BeeWare's support for Python 3.13,
 plus a number of long-awaited features landing in a stable release of
 Toga.
 
+<!-- more -->
+
 ## What we've done
 
 - We've completed the process of backporting the CPython changes for iOS

@@ -13,6 +13,8 @@ Android support is lacking. The BeeWare core team knows what needs to be
 done to address the problem - what we’ve been missing are time and
 resources.
 
+<!-- more -->
+
 Thanks to the PSF Education Grants group, that’s no longer an issue.
 We’ve been awarded a US$50,000 grant to bring BeeWare’s Android support
 to a level comparable with our iOS support. We currently don’t have the

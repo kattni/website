@@ -10,6 +10,7 @@ event:
   url: https://2017.djangocon.eu/
   date: 2017-04-03
   end_date: 2017-04-06
+  description: ''
 involvement:
 - type: talk
   team_members:

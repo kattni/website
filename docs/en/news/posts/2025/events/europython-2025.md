@@ -10,6 +10,7 @@ event:
   url: https://ep2025.europython.eu
   date: 2025-07-14
   end_date: 2025-07-20
+  description: ''
 involvement:
 - type: attending
   team_members:

@@ -185,8 +185,8 @@ yaml.add_representer(str, NoAliasDumper.represent_str, Dumper=NoAliasDumper)
 
 def generate_filename(filename_metadata):
     filename = f"{re.sub(r"[^\w ]", "", filename_metadata["title"]).lower().replace(" ", "-")}.md"
-    Path(Path(__file__).parent.parent / f"docs/en/news/posts/{filename_metadata["date"].year}").mkdir(parents=True, exist_ok=True)
-    return Path(__file__).parent.parent / f"docs/en/news/posts/{filename_metadata["date"].year}" / filename
+    Path(Path(__file__).parent.parent / f"docs/en/news/posts/{filename_metadata["date"].year}/{filename_metadata["categories"][0].lower()}").mkdir(parents=True, exist_ok=True)
+    return Path(__file__).parent.parent / f"docs/en/news/posts/{filename_metadata["date"].year}/{filename_metadata["categories"][0].lower()}" / filename
 
 
 def generate_entry(metadata, payload):
@@ -205,7 +205,12 @@ if __name__ == "__main__":
     post_type = request_post_type()
     if post_type == "blog":
         metadata = request_blog_metadata()
-        payload = "Add blog post content here."
+        payload = dedent("""\
+        Add blog post introduction here.
+
+        <!-- more -->
+
+        Add blog post content here.""")
     elif post_type == "event":
         metadata = request_event_metadata()
         payload = "{{ generate_event_post(authors, event, involvement, team) }}"

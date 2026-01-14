@@ -10,6 +10,8 @@ categories:
 mailing list. If you'd like to receive regular updates about the BeeWare
 project, why not* [subscribe](/community/keep-informed/)?
 
+<!-- more -->
+
 When you're designing a GUI app - be it for desktop, mobile, or
 browser - one of the most fundamental tasks is describing how to lay
 widgets out the screen. Most widget toolkits will use a grid or box

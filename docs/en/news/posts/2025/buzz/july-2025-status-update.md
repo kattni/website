@@ -8,6 +8,8 @@ categories:
 ---
 In July, BeeWare hit some more major milestones in our work on mobile packaging - but we also found time to make some improvements to other parts of BeeWare.
 
+<!-- more -->
+
 ## What we've done
 
 - We attended [EuroPython](https://ep2025.europython.eu), where we gave a tutorial and a talk, attended the WebAssembly summit, and ran a sprint - at which we gave out 25 BeeWare challenge coins to first-time contributors.

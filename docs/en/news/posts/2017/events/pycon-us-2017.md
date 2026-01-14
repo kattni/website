@@ -14,6 +14,7 @@ event:
   url: https://us.pycon.org/2017/
   date: 2017-05-17
   end_date: 2017-05-22
+  description: ''
 involvement:
 - type: tutorial
   team_members:

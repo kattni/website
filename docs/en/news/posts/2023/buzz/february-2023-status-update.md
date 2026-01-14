@@ -10,6 +10,8 @@ Although there haven't been a lot of new BeeWare features developed in
 February, the work that has been completed represents some important
 progress against our overall project goals.
 
+<!-- more -->
+
 ## What we've done
 
 - The biggest milestone is that we have achieved 100% test coverage for

@@ -11,6 +11,8 @@ always, this roadmap should be read as a guide to what we aim to focus
 on over the coming quarter, rather than a hard commitment of features
 that will be made available on a specific deadline.
 
+<!-- more -->
+
 ## Q2 progress
 
 As with Q1, our focus in Q2 was on Toga testing. This has been a mammoth

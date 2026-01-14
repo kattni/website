@@ -14,6 +14,8 @@ commit/PR/issue/discussion with my mentors about
 [rubicon-objc](/project/utilities/rubicon/) were detailed on the [Issue
 58](https://github.com/beeware/cricket/issues/58).
 
+<!-- more -->
+
 ## "Eating your own dog food"
 
 The best way to show that a product is reliable to the customers is use

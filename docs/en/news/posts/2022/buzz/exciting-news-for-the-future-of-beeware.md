@@ -18,6 +18,8 @@ proof-of-concept demonstration on Web. However, there are still lots of
 features that we'd like to add, and lots of ongoing maintenance that
 needs to be done as operating systems and hardware platforms evolve.
 
+<!-- more -->
+
 Over the years, we've been incredibly fortunate to have the financial
 support of our members. While I'm incredibly grateful for that support,
 it falls a long way short of even one full-time salary. We've also

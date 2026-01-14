@@ -8,6 +8,8 @@ categories:
 ---
 August has been a slow month due to some personal leave, and some unexpected road bumps from GitHub - but BeeWare has still made some notable progress.
 
+<!-- more -->
+
 ## What we've done
 
 - [Python 3.14.0rc2 has been released](https://www.python.org/downloads/release/python-3140rc2/) - including, for the first time, official Android binaries! You can now download official, pre-compiled Android binaries for CPython. This is a major milestone for Android support, as it means BeeWare is able to use official binaries when building Android apps.

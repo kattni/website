@@ -8,6 +8,8 @@ categories:
 ---
 June has been a busy month, with some big improvements to BeeWare's websites and documentation, and some major milestones reached in our work on mobile packaging.
 
+<!-- more -->
+
 ## What we've done
 
 - [cibuildwheel 3.0](https://pypi.org/project/cibuildwheel/3.0.0/) has been released - including iOS support! As a result, we've been able to submit pull requests for [lru-dict](https://github.com/amitdev/lru-dict/pull/73) and [Pillow](https://github.com/python-pillow/Pillow/pull/9030), proposing the addition of iOS support. Work on [adding Android support](https://github.com/pypa/cibuildwheel/pull/2349) is still underway.

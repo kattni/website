@@ -13,6 +13,8 @@ working full time in the Open Source group at Anaconda, on the BeeWare
 suite of tools. Full details of the position [can be found on
 Greenhouse](https://boards.greenhouse.io/anaconda/jobs/4211521).
 
+<!-- more -->
+
 The position calls for an unusual combination of skills. The ideal
 candidate would have experience building GUI applications (especially
 mobile) *and* Python skills. However, because of the existing state of

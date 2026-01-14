@@ -10,6 +10,7 @@ event:
   url: https://pyohio.org/sprints/
   date: 2016-08-01
   end_date: 2016-08-01
+  description: ''
 involvement:
 - type: sprint
   team_members:

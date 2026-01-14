@@ -9,6 +9,8 @@ categories:
 February may be the shortest month - but it's been a month of big
 progress for BeeWare!
 
+<!-- more -->
+
 ## What we've done
 
 - The biggest news for the month is that [it is now possible to upload

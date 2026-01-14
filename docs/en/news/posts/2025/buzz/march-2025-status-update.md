@@ -9,6 +9,8 @@ categories:
 March has seen a big release for Toga, and a number of other notable
 improvements in the BeeWare ecosystem.
 
+<!-- more -->
+
 ## What we've done
 
 - [Toga 0.5.0 has been released](https://pypi.org/project/toga/0.5.0/)!

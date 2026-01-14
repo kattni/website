@@ -10,8 +10,10 @@ Around 4 years ago, I made the first commit to
 [Cricket](/project/applications/cricket/) - the first tool that would
 eventually become part of the BeeWare suite. Since then, the BeeWare
 project has grown to encompass support for mobile platforms, two
-alternate Python implementations, and a cross platform widget set - as
+alternate Python implementations, and a cross-platform widget set - as
 well as the developer tools that started the project originally.
+
+<!-- more -->
 
 For most of this time, BeeWare has been a volunteer effort. Initially,
 it was a solo project; however, over the last year in particular, the

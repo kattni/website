@@ -11,6 +11,8 @@ project. As always, this roadmap should be read as a guide to what we
 aim to focus on over the coming quarter, rather than a hard commitment
 of features that will be made available on a specific deadline.
 
+<!-- more -->
+
 ## Q3 progress
 
 In Q3 the biggest milestone we achieved was the finalisation of Tier 3

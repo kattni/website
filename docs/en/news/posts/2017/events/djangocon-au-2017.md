@@ -9,6 +9,7 @@ categories:
 - Events
 event:
   name: DjangoCon AU 2017
+  url: ''
   date: 2017-08-04
   end_date: 2017-08-04
   description: |-
@@ -32,6 +33,7 @@ involvement:
   team_members:
   - freakboy3742
   title: Red User, Blue User, MyUser, auth.User
+  url: ''
   date: 2017-08-04
   end_date: 2017-08-04
   description: |-

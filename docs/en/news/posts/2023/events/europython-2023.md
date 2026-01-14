@@ -10,6 +10,7 @@ event:
   url: https://ep2023.europython.eu
   date: 2023-07-20
   end_date: 2023-07-22
+  description: ''
 involvement:
 - type: talk
   team_members:

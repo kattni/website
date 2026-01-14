@@ -9,6 +9,8 @@ categories:
 February may be the shortest month, but that doesn't mean we've got any
 less progress to report!
 
+<!-- more -->
+
 ## What we've done
 
 - [PEP 738](https://peps.python.org/pep-0738/), adding official Android

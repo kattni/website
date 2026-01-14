@@ -10,6 +10,8 @@ In November, BeeWare made more good progress on mobile packaging -
 however, that work has revealed a number of upstream tools that need
 modification before we can contribute wheels for mobile platforms.
 
+<!-- more -->
+
 ## What we've done
 
 - We attended [PyCon AU](https://2024.pycon.org.au); video of the talk

@@ -11,6 +11,7 @@ event:
   url: https://2023.everythingopen.au
   date: 2023-03-14
   end_date: 2023-03-14
+  description: ''
 involvement:
 - type: tutorial
   team_members:

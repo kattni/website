@@ -14,6 +14,8 @@ single page affair, with individual projects maintaining their own web
 identity. Over time, the number of contributors has grown, the number of
 subprojects has grown, and the number of core team members has tripled.
 
+<!-- more -->
+
 As the BeeWare project grew in complexity, the old website was no longer
 keeping up with the needs of the project, so the core team took some
 time out from working on BeeWare itself, and rewrote the site.

@@ -13,6 +13,8 @@ community updates. As a result, this is the first (of hopefully many)
 monthly updates letting you know what progress has been made in the
 BeeWare suite.
 
+<!-- more -->
+
 ## What we've done
 
 During April:

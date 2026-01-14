@@ -10,6 +10,7 @@ event:
   url: http://pycaribbean.com/
   date: 2017-02-18
   end_date: 2017-02-18
+  description: ''
 involvement:
 - type: keynote
   team_members:

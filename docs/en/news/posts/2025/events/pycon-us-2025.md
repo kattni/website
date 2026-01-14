@@ -11,6 +11,7 @@ event:
   url: https://us.pycon.org/2025/
   date: 2025-05-15
   end_date: 2025-05-21
+  description: ''
 involvement:
 - type: tutorial
   team_members:

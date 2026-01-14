@@ -11,6 +11,7 @@ event:
   url: https://2023.pycon.org.au
   date: 2023-08-19
   end_date: 2023-08-21
+  description: ''
 involvement:
 - type: talk
   team_members:

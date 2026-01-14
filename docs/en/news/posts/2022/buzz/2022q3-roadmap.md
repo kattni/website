@@ -14,6 +14,8 @@ we're going to start publishing regular updates on our project roadmap
 so the community has a better idea what to expect over the coming
 months.
 
+<!-- more -->
+
 Project estimation is difficult at the best of times; and project
 estimation on a FLOSS project is especially complex. In addition to any
 work that we are planning internally as a team, we need to manage

@@ -12,6 +12,7 @@ event:
   url: https://2017.djangocon.us/
   date: 2019-09-25
   end_date: 2019-09-26
+  description: ''
 involvement:
 - type: talk
   team_members:

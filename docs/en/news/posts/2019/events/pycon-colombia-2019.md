@@ -10,6 +10,7 @@ event:
   url: https://2019.pycon.co/en/
   date: 2019-02-10
   end_date: 2019-02-10
+  description: ''
 involvement:
 - type: keynote
   team_members:

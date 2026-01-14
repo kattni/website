@@ -9,6 +9,8 @@ categories:
 In October, BeeWare saw some important releases, plus more good progress
 on binary packaging for iOS.
 
+<!-- more -->
+
 ## What we've done
 
 - Most importantly, we released [Briefcase

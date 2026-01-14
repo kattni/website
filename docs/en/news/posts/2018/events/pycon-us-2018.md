@@ -12,6 +12,7 @@ event:
   url: https://us.pycon.org/2018/
   date: 2018-05-11
   end_date: 2018-05-14
+  description: ''
 involvement:
 - type: booth
   team_members:

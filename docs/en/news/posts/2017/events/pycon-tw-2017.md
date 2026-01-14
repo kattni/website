@@ -10,6 +10,7 @@ event:
   url: https://tw.pycon.org/2017/
   date: 2017-06-09
   end_date: 2017-06-09
+  description: ''
 involvement:
 - type: keynote
   team_members:

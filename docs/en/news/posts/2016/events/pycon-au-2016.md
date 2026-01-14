@@ -11,6 +11,7 @@ event:
   url: ''
   date: 2016-08-13
   end_date: 2016-08-15
+  description: ''
 involvement:
 - type: keynote
   team_members:

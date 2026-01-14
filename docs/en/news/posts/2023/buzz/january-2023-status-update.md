@@ -9,6 +9,8 @@ categories:
 BeeWare has had an exciting start to the new year, with a couple of
 significant releases
 
+<!-- more -->
+
 ## What we've done
 
 We had two big releases in January.

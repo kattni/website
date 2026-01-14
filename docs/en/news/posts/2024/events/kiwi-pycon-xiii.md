@@ -10,6 +10,7 @@ event:
   url: https://kiwipycon.nz
   date: 2024-08-25
   end_date: 2024-08-25
+  description: ''
 involvement:
 - type: keynote
   team_members:

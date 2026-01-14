@@ -11,6 +11,8 @@ months; preparing for and attending DjangoCon US, plus some well-earned
 holiday leave reduced the amount of time we had to work on new features.
 However, we were able to make a number of significant improvements.
 
+<!-- more -->
+
 ## What we've done
 
 During October:

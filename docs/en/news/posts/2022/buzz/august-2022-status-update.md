@@ -12,6 +12,8 @@ of this work yet, we have significant progress to report for both iOS
 and Android. We've also had a number of other improvements land over the
 course of the month.
 
+<!-- more -->
+
 ## What we've done
 
 During August:

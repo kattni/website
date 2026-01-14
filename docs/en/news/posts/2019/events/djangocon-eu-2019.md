@@ -11,6 +11,7 @@ event:
   url: https://2019.djangocon.eu/
   date: 2019-04-13
   end_date: 2019-04-13
+  description: ''
 involvement:
 - type: sprint
   team_members:

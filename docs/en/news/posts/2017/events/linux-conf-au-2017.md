@@ -11,6 +11,7 @@ event:
   url: https://www.youtube.com/watch?v=_UitFbzmIR0
   date: 2017-01-18
   end_date: 2017-01-18
+  description: ''
 involvement:
 - type: talk
   team_members:

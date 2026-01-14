@@ -13,6 +13,8 @@ categories:
 ---
 Since February, a team of final year students from [Curtin University](https://www.curtin.edu.au) has been collaborating with the BeeWare Project as part of a capstone project for their degrees. This is a summary of the work they have completed.Capstone is the final year project undertaken by students across all computing disciplines at Curtin University, including Computer Science, Software Engineering, Cyber Security, and Information Technology. It allows students the opportunity to work in teams on real-world projects in collaboration with industry partners, gaining practical experience and professional exposure before graduating.
 
+<!-- more -->
+
 This year our team has had the exciting opportunity to contribute to BeeWare for our Capstone project.
 
 Meet the Team:

@@ -25,6 +25,8 @@ however, as a result of joining Anaconda, Malcolm has [released Chaquopy
 as an Open Source
 project](https://chaquo.com/chaquopy/chaquopy-is-now-open-source/)!
 
+<!-- more -->
+
 ## What we've done
 
 During July:

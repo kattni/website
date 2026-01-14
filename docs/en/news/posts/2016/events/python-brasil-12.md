@@ -10,6 +10,7 @@ event:
   url: http://2016.pythonbrasil.org.br/
   date: 2016-10-15
   end_date: 2016-10-18
+  description: ''
 involvement:
 - type: keynote
   team_members:

@@ -9,8 +9,10 @@ categories:
 - Events
 event:
   name: PyCon AU 2017
+  url: ''
   date: 2017-08-05
   end_date: 2017-08-07
+  description: ''
 involvement:
 - type: attending
   team_members:
@@ -23,6 +25,7 @@ involvement:
   team_members:
   - freakboy3742
   title: Covered in Bees! Deploying an app to 6 platforms in 20 minutes
+  url: ''
   date: 2017-08-06
   end_date: 2017-08-06
   description: |-
@@ -43,6 +46,7 @@ involvement:
   team_members:
   - glasnt
   title: How to handle abandoned projects, Take Two
+  url: ''
   date: 2017-08-06
   end_date: 2017-08-06
   description: |-
@@ -62,6 +66,7 @@ involvement:
   - freakboy3742
   - glasnt
   - hawkowl
+  url: ''
   date: 2017-08-07
   end_date: 2017-08-07
 ---

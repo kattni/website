@@ -8,6 +8,8 @@ categories:
 ---
 November has been a busy month, seeing improvements in documentation, a number of improvements to Briefcase, Linux support in Toga, and the first iOS binary wheels written in Rust!
 
+<!-- more -->
+
 ## What we've done
 
 - We made multiple contributions to Maturin and PyO3, including a [fix for iOS wheel naming strategies](https://github.com/PyO3/maturin/pull/2827), adding [support for iOS cross-platform virtual environments](https://github.com/PyO3/maturin/pull/2828), improving the mechanism by which [the build interpreter is detected when building ABI3 wheels](https://github.com/PyO3/maturin/pull/2829), and ensuring [`libpython` is linked into iOS binary wheels](https://github.com/PyO3/pyo3/pull/5605). As a result, we've been able to publish Rust-based iOS wheels for Cryptography to the [BeeWare package repository](https://anaconda.org/beeware/cryptography). Once the changes to Maturin and PyO3 have been formally released, we'll be able to submit PRs adding official iOS builds to Cryptography.

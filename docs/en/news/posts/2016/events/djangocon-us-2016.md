@@ -11,6 +11,7 @@ event:
   url: https://2016.djangocon.us/sprints/
   date: 2016-07-18
   end_date: 2016-07-21
+  description: ''
 involvement:
 - type: attending
   team_members:

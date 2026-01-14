@@ -10,6 +10,7 @@ event:
   url: https://2016.pygotham.org/talks/240/a-tale-of-two-cellphones/
   date: 2016-07-17
   end_date: 2016-07-17
+  description: ''
 involvement:
 - type: talk
   team_members:

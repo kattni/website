@@ -7,6 +7,14 @@ def attendees(authors, team):
         return ", ".join(team["authors"][author]["short_name"] for author in authors[:-1]) + " and " + team["authors"][authors[-1]]["short_name"]
 
 
+def talk_title_punctuation(talk_title):
+    if talk_title.endswith(("!", "?")):
+        return talk_title
+    else:
+        return f"{talk_title}."
+
+
+
 def define_env(env):
     @env.macro
     def fa(*tags):
@@ -30,7 +38,7 @@ def define_env(env):
                 organizing_introduction = dedent(f"""\
                 {attendees(authors, team)} will be organizing [{event.name}]({event.url}), which will happen {event_timeframe}!\n\n
                 """)
-            elif inv["type"] == "attending":
+            elif inv["type"] == "attending" or "attending" not in inv["type"]:
                 attending_introduction = dedent(f"""\
                 {attendees(authors, team)} will be attending [{event.name}]({event.url}) {event_timeframe}!\n\n
                 """)
@@ -41,6 +49,7 @@ def define_env(env):
             content.append(organizing_introduction)
         if attending_introduction:
             content.append(attending_introduction)
+        content.append("\n<!-- more -->\n")
         content.append(f"{event.description}\n\n")
         if find_us:
             content.append(find_us)
@@ -48,25 +57,25 @@ def define_env(env):
         for inv in involvement:
             if inv["type"] == "keynote":
                 keynote = dedent(f"""
-                - {attendees(inv["team_members"], team)} will be keynoting {event.name}, giving a presentation entitled [{inv["title"]}]({inv["url"]}).
+                - {attendees(inv["team_members"], team)} will be keynoting {event.name}, giving a presentation entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
                 \n""")
                 content.append(keynote)
 
             if inv["type"] == "talk":
                 talk = dedent(f"""
-                - {attendees(inv["team_members"], team)} will be giving a talk entitled [{inv["title"]}]({inv["url"]}).
+                - {attendees(inv["team_members"], team)} will be giving a talk entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
                 \n""")
                 content.append(talk)
 
             if inv["type"] == "tutorial":
                 tutorial = dedent(f"""
-                - {attendees(inv["team_members"], team)} will be hosting a tutorial entitled [{inv["title"]}]({inv["url"]}).
+                - {attendees(inv["team_members"], team)} will be hosting a tutorial entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
                 \n""")
                 content.append(tutorial)
 
             if inv["type"] == "sprint":
                 sprint = dedent(f"""
-                - {attendees(inv["team_members"], team)} will be host a [sprint]({inv["url"]}).
+                - {attendees(inv["team_members"], team)} will be hosting a [sprint]({inv["url"]}).
                 \n""")
                 content.append(sprint)
 

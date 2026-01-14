@@ -8,6 +8,8 @@ categories:
 ---
 September has been a busy month for conference travel, but we've also managed to make some important improvements to projects in the BeeWare ecosystem.
 
+<!-- more -->
+
 ## What we've done
 
 - We attended [PyCon AU](https://2025.pycon.org.au), giving a presentation about the process of [creating Android and iOS wheels](https://www.youtube.com/watch?v=ytlbiDF0Ba4).

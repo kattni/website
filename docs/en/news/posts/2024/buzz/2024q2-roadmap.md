@@ -12,6 +12,8 @@ to what we aim to focus on over the coming quarter, rather than a hard
 commitment of features that will be made available on a specific
 deadline.
 
+<!-- more -->
+
 ## Q1 progress
 
 The first quarter of 2024 has seen significant progress towards getting

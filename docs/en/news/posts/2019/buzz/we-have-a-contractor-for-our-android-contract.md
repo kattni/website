@@ -15,6 +15,8 @@ to help us complete this work.
 We're very happy to announce that we've now selected a contractor:
 **Asheesh Laroia**.
 
+<!-- more -->
+
 Asheesh is a [regular speaker at Python
 events](https://pyvideo.org/speaker/asheesh-laroia.html), where he has
 delved into a range of detailed and complex topics. He also impressed us

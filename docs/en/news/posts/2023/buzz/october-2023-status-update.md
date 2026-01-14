@@ -9,6 +9,8 @@ categories:
 In October, we've (finally!) reached a major milestone - but there's
 still lots of work to be done!
 
+<!-- more -->
+
 ## What we've done
 
 - *We finally finished the Toga audit!!*. We now have 100% test coverage

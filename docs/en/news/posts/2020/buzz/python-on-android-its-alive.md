@@ -15,6 +15,8 @@ I've incredibly happy to announce that we've just hit our first major
 milestone: a working pure-Python application, running on an Android
 device!
 
+<!-- more -->
+
 <iframe width="710" height="400" src="https://www.youtube.com/embed/g2B2wbgVq7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This isn't the end of the project - it's just the beginning. There's

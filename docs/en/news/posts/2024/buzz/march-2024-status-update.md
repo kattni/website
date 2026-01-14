@@ -9,6 +9,8 @@ categories:
 This month, we have less to report by raw feature count - but the
 changes we *have* made represent extremely significant progress.
 
+<!-- more -->
+
 ## What we've done
 
 - Our primary focus this month has been making the changes to CPython

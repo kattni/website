@@ -22,6 +22,8 @@ away. Email contact@beeware.org and tell us why you want to bee there!*
 Oregon from May 17 - 25, and it's bound to be another amazing
 conference.
 
+<!-- more -->
+
 For the second year in a row, the [BeeWare team](https://beeware.org)
 will be on site with a [booth in the Exhibit
 Hall](https://twitter.com/PyBeeWare/status/737043373953978368), along

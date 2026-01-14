@@ -11,6 +11,8 @@ of high profile improvements, and some slow progress towards longer term
 goals. These improvements have been primarily in Briefcase and app
 packaging, but there have been some minor Toga improvements as well.
 
+<!-- more -->
+
 ## What we've done
 
 During June:

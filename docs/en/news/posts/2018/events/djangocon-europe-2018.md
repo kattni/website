@@ -11,11 +11,13 @@ event:
   url: https://2018.djangocon.eu/
   date: 2018-05-24
   end_date: 2018-05-26
+  description: ''
 involvement:
 - type: talk
   team_members:
   - freakboy3742
   - glasnt
+  title: ''
   url: https://2018.djangocon.eu/
   date: 2018-05-24
   end_date: 2018-05-24

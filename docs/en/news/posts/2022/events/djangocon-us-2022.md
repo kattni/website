@@ -10,6 +10,7 @@ event:
   url: https://2022.djangocon.us
   date: 2022-10-19
   end_date: 2022-10-20
+  description: ''
 involvement:
 - type: talk
   team_members:

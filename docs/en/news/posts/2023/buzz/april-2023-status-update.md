@@ -9,6 +9,8 @@ categories:
 April was dominated by preparation and attendance at PyCon US 2023 - but
 we've seen some good progress over the month.
 
+<!-- more -->
+
 ## What we've done
 
 PyCon US saw a lot of BeeWare activity:

@@ -9,6 +9,8 @@ categories:
 May has been another month of steady progress - mostly on widget
 testing, but also in some other key areas of the project.
 
+<!-- more -->
+
 ## What we've done
 
 - We've completed the audit of the [TextInput,

@@ -11,6 +11,7 @@ event:
   url: https://us.pycon.org/2024/
   date: 2023-04-21
   end_date: 2023-04-24
+  description: ''
 involvement:
 - type: talk
   team_members:

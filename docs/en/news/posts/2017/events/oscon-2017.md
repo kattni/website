@@ -10,6 +10,7 @@ event:
   url: ''
   date: 2017-05-11
   end_date: 2017-05-11
+  description: ''
 involvement:
 - type: booth
   team_members:

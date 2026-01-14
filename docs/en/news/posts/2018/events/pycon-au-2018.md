@@ -11,6 +11,7 @@ event:
   url: https://2018.pycon-au.org
   date: 2018-08-26
   end_date: 2018-08-27
+  description: ''
 involvement:
 - type: talk
   team_members:

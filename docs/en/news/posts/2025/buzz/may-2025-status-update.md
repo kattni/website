@@ -8,6 +8,8 @@ categories:
 ---
 During May, BeeWare saw a number of major improvements - many of which came as a result of our attendance at PyCon US 2025.
 
+<!-- more -->
+
 ## What we've done
 
 - We attended PyCon US! We gave presentations at the Language Summit and the Packaging Summit, presented a tutorial, presented in the main conference track, and spent time in the Anaconda booth demonstrating BeeWare. After all that, we ran a 3 day sprint, during which 19 new contributors earned their challenge coins, and a bunch of existing contributors returned to contribute as well. Many of the contributions described in this blog post come from PyCon US contributions.

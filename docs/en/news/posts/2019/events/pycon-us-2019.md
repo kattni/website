@@ -13,6 +13,7 @@ event:
   url: https://us.pycon.org/2019/
   date: 2019-05-03
   end_date: 2019-05-06
+  description: ''
 involvement:
 - type: booth
   team_members:

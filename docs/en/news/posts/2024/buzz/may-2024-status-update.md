@@ -11,6 +11,8 @@ PyCon US in Pittsburgh. That event generated a lot of activity in the
 BeeWare project - but we've also added some other significant
 improvements.
 
+<!-- more -->
+
 ## What we've done
 
 - We attended PyCon US. We presented on the [state of mobile support in

@@ -10,6 +10,7 @@ event:
   url: https://www.djangounderthehood.com/
   date: 2016-11-03
   end_date: 2016-11-03
+  description: ''
 involvement:
 - type: attending
   team_members:

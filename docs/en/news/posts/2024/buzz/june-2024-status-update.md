@@ -10,6 +10,8 @@ In June, BeeWare made a lot of progress, landing lots of new features -
 many of which have been the subject of requests and discussions for a
 long time.
 
+<!-- more -->
+
 ## What we've done
 
 - We [added support for packaging console apps to

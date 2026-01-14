@@ -6,13 +6,15 @@ authors:
 categories:
 - Buzz
 ---
-Testing is a skill that is a vital part of every programmers training.
+Testing is a skill that is a vital part of every programmer's training.
 Learning how to write good tests helps you write more robust code, and
 ensures that when you've written code that works, it keeps working long
 into the future. It can also help you write better code in the first
 place. It turns out that well architected code, with high cohesion and
 low coupling, is also easy to test - so writing code that is easy to
 test will almost always result in better overall code quality.
+
+<!-- more -->
 
 An important step in "levelling up" your testing experience is to start
 using a Continuous Integration, or CI service. A CI service is a tool

@@ -10,6 +10,7 @@ event:
   url: http://2016.devworld.com.au/
   date: 2016-08-29
   end_date: 2016-08-29
+  description: ''
 involvement:
 - type: talk
   team_members:

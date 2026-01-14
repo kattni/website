@@ -10,6 +10,7 @@ event:
   url: https://foss4g-perth.org
   date: 2021-10-23
   end_date: 2021-10-23
+  description: ''
 involvement:
 - type: keynote
   team_members:

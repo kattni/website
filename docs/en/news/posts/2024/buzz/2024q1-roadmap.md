@@ -14,6 +14,8 @@ guide to what we aim to focus on over the coming quarter, rather than a
 hard commitment of features that will be made available on a specific
 deadline.
 
+<!-- more -->
+
 ## Q4 progress
 
 During the last quarter of 2023, we finally finished our audit and

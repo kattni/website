@@ -8,6 +8,8 @@ categories:
 ---
 In Q2, BeeWare reached some public milestones in our iOS binary packaging, and saw some unexpected improvements in our documentation and website. As always, this roadmap should be read as a guide to what we aim to focus on over the coming quarter, rather than a hard commitment of features that will be made available on a specific deadline.
 
+<!-- more -->
+
 ## Q2 progress
 
 In Q2, we continued to make progress on the state of binary packaging for iOS and Android. cibuildwheel 3.0 has now been released, incorporating the iOS support that we contributed; as a result, we've been able to start the process of submitting patches to Python projects to add iOS support. We're still waiting on a formal release of meson and meson-python that includes the iOS changes that we provided; once those releases occur, we'll be able to submit patches for even more projects. We also continued to work on supporting Android in cibuildwheel. This work is still in the review phase; we're hoping it will be concluded in the near future.

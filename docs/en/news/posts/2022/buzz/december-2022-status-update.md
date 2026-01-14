@@ -12,6 +12,8 @@ with family and friends over the holiday and new year period. As a
 result, we've got less to report than in past months; however, some
 significant progress and improvements have been made.
 
+<!-- more -->
+
 ## What we've done
 
 During December:

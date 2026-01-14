@@ -17,6 +17,8 @@ where new ideas can be incubated, developed and matured until they
 present compelling alternatives or significant benefits over closed
 source offerings.
 
+<!-- more -->
+
 It's been almost 18 months since I first presented this talk, but the
 issue persists. I haven't been alone in noticing and drawing attention
 to this issue, either. [Nadia Eghbal](https://twitter.com/nayafia) was

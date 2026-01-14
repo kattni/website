@@ -12,6 +12,7 @@ event:
   url: https://2019.th.pycon.org/en/
   date: 2019-06-16
   end_date: 2019-06-16
+  description: ''
 involvement:
 - type: keynote
   team_members:

@@ -10,6 +10,8 @@ Google Summer of Code is coming to an end. I've spent the summer working
 on optimizing the [VOC compiler](/project/attic/voc/), and I’m super
 excited to share the results.
 
+<!-- more -->
+
 ## Results
 
 There are a couple of ways to evaluate the performance improvement from

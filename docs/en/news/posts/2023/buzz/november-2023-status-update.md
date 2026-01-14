@@ -10,6 +10,8 @@ November has been a month of focus on the code that enables us to run
 Python on iOS and Android - but there has still been some other high
 profile developments in other parts of BeeWare.
 
+<!-- more -->
+
 ## What we've done
 
 - [PEP730](https://peps.python.org/pep-0730/), formalizing the

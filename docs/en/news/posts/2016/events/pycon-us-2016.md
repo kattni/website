@@ -12,6 +12,7 @@ event:
   url: https://us.pycon.org/2016/
   date: 2016-06-01
   end_date: 2016-06-03
+  description: ''
 involvement:
 - type: talk
   team_members:

@@ -17,6 +17,8 @@ make it to the end goal (yea, unfortunately I couldn't get
 and what's left that needs to be done in order to achieve the end goal
 (or at least make part of <span class="title-ref">asyncio</span> work).
 
+<!-- more -->
+
 ## Building Foundation
 
 The first error that the transpiler throws when attempting to compile

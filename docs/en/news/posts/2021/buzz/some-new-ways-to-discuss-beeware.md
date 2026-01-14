@@ -12,6 +12,8 @@ our community.
 Firstly, we're going to **move our real-time chat community from Gitter
 to Discord**.
 
+<!-- more -->
+
 When we originally set up Gitter, it was a strong option for a chat
 community - especially one that was focussed on a software project, due
 to its tight integration with GitHub. However, over the years, Gitter

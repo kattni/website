@@ -9,6 +9,8 @@ categories:
 January has seen some long awaited and high profile features added to
 BeeWare.
 
+<!-- more -->
+
 ## What we've done
 
 - [PEP 738](https://peps.python.org/pep-0738/), formalizing the

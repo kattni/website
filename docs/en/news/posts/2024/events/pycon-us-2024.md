@@ -13,6 +13,7 @@ event:
   url: https://us.pycon.org/2024/
   date: 2024-05-16
   end_date: 2024-05-20
+  description: ''
 involvement:
 - type: tutorial
   team_members:

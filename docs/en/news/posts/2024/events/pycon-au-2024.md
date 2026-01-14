@@ -10,6 +10,7 @@ event:
   url: https://2024.pycon.org.au/
   date: 2024-11-23
   end_date: 2024-11-25
+  description: ''
 involvement:
 - type: talk
   team_members:

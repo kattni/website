@@ -9,6 +9,8 @@ categories:
 August has seen an important milestone reached in our Toga work, and
 some exciting new features.
 
+<!-- more -->
+
 ## What we've done
 
 - We attended [PyCon AU 2023](http://2023.pycon.org.au), and presented a

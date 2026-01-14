@@ -9,6 +9,8 @@ categories:
 December has been a short month due to end-of-year holidays, but BeeWare
 has still made some important progress.
 
+<!-- more -->
+
 ## What we've done
 
 - [PEP730](https://peps.python.org/pep-0730/), formalizing the

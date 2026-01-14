@@ -8,6 +8,8 @@ categories:
 ---
 The year rolls on, and so does progress on BeeWare!
 
+<!-- more -->
+
 ## What we've done
 
 - We attended [EuroPython 2023](http://europython.eu), presenting on

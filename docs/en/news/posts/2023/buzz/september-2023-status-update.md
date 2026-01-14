@@ -8,6 +8,8 @@ categories:
 ---
 September has been a month of slow, but significant progress.
 
+<!-- more -->
+
 ## What we've done
 
 - We've resolved the issues around the iOS App Store rejecting BeeWare

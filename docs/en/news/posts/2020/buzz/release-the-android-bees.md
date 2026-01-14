@@ -14,6 +14,8 @@ work](https://beeware.org/news/buzz/we-have-a-contractor-for-our-android-contrac
 Today, we're proud to announce that BeeWare's Android support has
 reached a point where it is ready for mass consumption.
 
+<!-- more -->
+
 [The BeeWare tutorial](https://docs.beeware.org) has been updated to
 include an Android track. The tutorial walks you through the process of
 writing your first app, and deploying it - first as a desktop app, and

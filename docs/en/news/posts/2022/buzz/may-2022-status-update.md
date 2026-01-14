@@ -11,6 +11,8 @@ isn't as obvious as last month - but the changes that have been made are
 an essential part of ensuring we have a stable foundation for future
 work on the BeeWare ecosystem.
 
+<!-- more -->
+
 ## What we've done
 
 During May:

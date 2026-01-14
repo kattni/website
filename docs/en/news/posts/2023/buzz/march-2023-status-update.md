@@ -8,6 +8,8 @@ categories:
 ---
 March has been a month of slow but steady progress for BeeWare.
 
+<!-- more -->
+
 ## What we've done
 
 - Progress on GUI testing in Toga is continuing. We now have 7 widgets

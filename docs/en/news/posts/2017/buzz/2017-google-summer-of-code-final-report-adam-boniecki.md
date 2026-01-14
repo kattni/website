@@ -10,6 +10,8 @@ With Google Summer of Code 2017 program nearing its end, it is time to
 summarize what I got done during the summer working on
 [Batavia](/project/attic/batavia/).
 
+<!-- more -->
+
 Batavia is a part of BeeWare's collection of projects. As it is still in
 its early stage of development, for my part I offered to implement a
 number of features missing from Batavia, ranging from elemental data

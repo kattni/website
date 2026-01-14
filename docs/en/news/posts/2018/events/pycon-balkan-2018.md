@@ -10,6 +10,7 @@ event:
   url: https://pyconbalkan.com
   date: 2018-11-17
   end_date: 2018-11-17
+  description: ''
 involvement:
 - type: keynote
   team_members:
