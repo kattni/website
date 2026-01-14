@@ -2,7 +2,7 @@
 title: 2018 Google Summer of Code - VOC Optimization
 date: 2018-08-14
 authors:
-- patienceshyu
+- patiences
 categories:
 - Buzz
 ---

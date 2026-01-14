@@ -2,7 +2,7 @@
 title: 2017 Google Summer of Code - Batavia improvements
 date: 2017-08-23
 authors:
-- adambonie
+- abonie
 categories:
 - Buzz
 ---

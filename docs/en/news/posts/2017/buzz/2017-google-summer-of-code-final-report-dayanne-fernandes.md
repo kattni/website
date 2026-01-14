@@ -2,7 +2,7 @@
 title: 2017 Google Summer of Code - Port Cricket to use Toga, instead of Tkinter
 date: 2017-08-25
 authors:
-- dayannefernandesc
+- Dayof
 categories:
 - Buzz
 ---

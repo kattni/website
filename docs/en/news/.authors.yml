@@ -3,119 +3,119 @@ authors:
     name: Russell Keith-Magee
     short_name: Russell
     description: Founding Apiarist
-    avatar: https://avatars.githubusercontent.com/u/37345
-    url: https://cloudisland.nz/@freakboy3742
+    avatar: ../about/images/freakboy3742.png
+    url: ../about/team/#russell-keith-magee
   kattni:
     name: Kattni
     short_name: Kattni
     description: Apiarist
-    avatar: https://avatars.githubusercontent.com/u/7865090
-    url: https://kattstodon.com/@kattni
+    avatar: ../about/images/kattni.png
+    url: ../about/team/#kattni
   mhsmith:
     name: Malcolm Smith
     short_name: Malcolm
-    description: Core Developer
-    avatar: https://avatars.githubusercontent.com/u/166954
-    url: https://github.com/mhsmith
+    description: Apiarist
+    avatar: ../about/images/mhsmith.png
+    url: ../about/team/#malcolm-smith
   glasnt:
     name: Katie McLaughlin
     short_name: Katie
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: https://cloudisland.nz/@glasnt
+    description: Senior Apiarist
+    avatar: ../about/images/glasnt.png
+    url: ..about/team/#katie-mclaughlin
   phildini:
-    name: 'TODO: Add.'
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    name: Philip James
+    short_name: Philip
+    description: Senior Apiarist
+    avatar: ../about/images/phildini.png
+    url: ../about/team/#philip-james
   hawkowl:
-    name: 'TODO: Add.'
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    name: Amber Brown
+    short_name: Amber
+    description: Team Member Emeritus
+    avatar: ../about/images/hawkowl.png
+    url: ../about/team/#amber-brown
   danyeaw:
-    name: 'TODO: Add.'
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    name: Dan Yeaw
+    short_name: Dan
+    description: Team Member Emeritus
+    avatar: ../about/images/danyeaw.png
+    url: ../about/team/#dan-yeaw
   rmartin16:
-    name: 'TODO: Add.'
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    name: Russell Martin
+    short_name: Russell M.
+    description: Apiarist
+    avatar: ../about/images/rmartin16.png
+    url: ../about/team/#russell-martin
   swenson:
-    name: 'TODO: Add.'
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    name: Christopher Swenson
+    short_name: Christopher
+    description: Team Member Emeritus
+    avatar: ../about/images/swenson.png
+    url: ../about/team/#christopher-swenson
   BPYap:
     name: Yap Boon Peng
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
-  adambonie:
+    short_name: B. P. Yap
+    description: 2018 Google Summer of Code Student
+    avatar: https://avatars.githubusercontent.com/u/32807097
+    url: https://github.com/BPYap
+  abonie:
     name: Adam Boniecki
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
-  dayannefernandesc:
+    short_name: Adam B.
+    description: 2017 Google Summer of Code Student
+    avatar: https://avatars.githubusercontent.com/u/20281641
+    url: https://github.com/abonie
+  Dayof:
     name: Dayanne Fernandes
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    short_name: Dayanne F.
+    description: 2017 Google Summer of Code Student
+    avatar: https://avatars.githubusercontent.com/u/8198348
+    url: https://github.com/Dayof
   ocupe:
     name: Jonas Schell
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    short_name: Jonas S.
+    description: 2017 Google Summer of Code Student
+    avatar: https://avatars.githubusercontent.com/u/11357413
+    url: https://github.com/ocupe
   kavi2du:
     name: Kavidu Abeykoon Mudiyanselagedara
-    short_name: 'TODO: Add.'
+    short_name: Kavidu M.
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/132393780
     url: https://github.com/kavi2du
   Stringer90:
     name: Callum Horton
-    short_name: 'TODO: Add.'
+    short_name: Callum H.
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/109891554
     url: https://github.com/Stringer90
   cadynn:
     name: Caydn Lee
-    short_name: 'TODO: Add.'
+    short_name: Cadyn L.
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/104604345
     url: https://github.com/caydnn
   JMah007:
     name: Jaeden Mah
-    short_name: 'TODO: Add.'
+    short_name: Jaeden M.
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/107184317
     url: https://github.com/JMah007
   mEp3ii2:
     name: Mitchell Pontague
-    short_name: 'TODO: Add.'
+    short_name: Mitchell P.
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/74845700
     url: https://github.com/mEp3ii2
   vt37:
     name: Veronica Taniputra
-    short_name: 'TODO: Add.'
+    short_name: Veronica T.
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/110211722
     url: https://github.com/vt37
-  patienceshyu:
+  patiences:
     name: Patience Shyu
-    short_name: 'TODO: Add.'
-    description: 'TODO: Add.'
-    avatar: 'TODO: Add.'
-    url: 'TODO: Add.'
+    short_name: Patience S.
+    description: 2018 Google Summer of Code Student
+    avatar: https://avatars.githubusercontent.com/u/14033272
+    url: https://github.com/patiences
