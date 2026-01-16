@@ -1,4 +1,6 @@
+import datetime
 from textwrap import dedent
+import yaml
 
 def attendees(authors, team):
     if len(authors) == 1:
@@ -13,6 +15,9 @@ def talk_title_punctuation(talk_title):
     else:
         return f"{talk_title}."
 
+
+def get_blog_metadata(contents):
+    return next(yaml.load_all(contents, Loader=yaml.SafeLoader))
 
 
 def define_env(env):
@@ -89,3 +94,40 @@ def define_env(env):
         content.append(conclusion)
 
         return "".join(content)
+
+    @env.macro
+    def upcoming_events(files):
+        """Generate upcoming events list for beeware.org homepage sidebar."""
+        this_year = datetime.datetime.now().year
+        next_year = this_year + 1
+        events = []
+        for filename, file_data in files.src_uris.items():
+            if filename.startswith(tuple(f"news/posts/{year}/events/" for year in [this_year, next_year])):
+                metadata = next(yaml.load_all(file_data.content_string, Loader=yaml.SafeLoader))
+                if metadata["event"]["date"] < datetime.date.today():
+                    if metadata["event"]["date"] == metadata["event"]["end_date"]:
+                        event_date = metadata["event"]["date"].strftime("%B %d, %Y")
+                    else:
+                        event_date = f"{metadata["event"]["date"].strftime("%B %d")}-{metadata["event"]["end_date"].strftime("%d, %Y")}"
+                    events.append((metadata["event"]["date"], f"- [{metadata["event"]["name"]}: {event_date}]({file_data.url})"))
+        if events:
+            return "\n".join(item[1] for item in sorted(events)[:5])
+        return "Nothing at the moment..."
+
+    @env.macro
+    def latest_news(files):
+        """Generate "Latest news" latest blog post link for beeware.org homepage sidebar."""
+        this_year = datetime.datetime.now().year
+        last_year = this_year - 1
+        posts = (
+            (get_blog_metadata(file_data.content_string), file_data)
+            for filename, file_data in files.src_uris.items()
+            if filename.startswith(tuple(f"news/posts/{year}/buzz/" for year in [last_year, this_year]))
+        )
+
+        def metadata_date(item):
+            metadata, _ = item
+            return metadata["date"]
+
+        metadata, file_data = max(posts, key=metadata_date)
+        return f"{metadata["date"].strftime("%B %d")}: [{metadata["title"]}]({file_data.url})"

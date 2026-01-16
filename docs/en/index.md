@@ -120,21 +120,46 @@ BeeWare is supported by users like you! Every little bit helps: [click here to c
 
 <div class="index-sidebar" markdown="1">
 
-## Sidebar
+### Gold Member { .index-sidebar-gold-member }
 
-Anaconda: Gold Member
+<img class="anaconda_light_mode" src="images/anaconda-dark.png" alt="Anaconda logo"/>
+<img class="anaconda_dark_mode" src="images/anaconda-light.png" alt="Anaconda logo"/>
 
-#### Latest news
+### Latest news
 
-[News here](news/index.md)
+{{ latest_news(files) }}
 
-#### Upcoming events
+### Upcoming events
 
-None at the moment....
+{{ upcoming_events(files) }}
 
-#### Documentation
+### Documentation
 
-Projects links here!
+<div class="index-docs" markdown="1">
+
+<div class="index-docs-links" markdown="1">
+
+[![Tiberius](../images/toga.png)](https://toga.beeware.org){ .index-docs-logo }
+
+#### [Toga](https://toga.beeware.org) { .index-docs-name }
+
+</div>
+
+A Python native, OS native GUI toolkit.
+
+<div class="index-docs-links" markdown="1">
+
+[![Briefcase](../images/briefcase.png)](https://briefcase.beeware.org){ .index-docs-logo }
+
+#### [Briefcase](https://briefcase.beeware.org) { .index-docs-name }
+
+</div>
+
+Convert a Python project into a standalone native application.
+
+</div>
+
+[...and much more.](docs)
 
 </div>
 </div>

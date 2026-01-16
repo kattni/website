@@ -47,7 +47,7 @@ nav:
       - Sprint guide: contributing/sprint_guide.md
   - News:
       - news/index.md
-  - Donate:
+  - Sponsor:
       - membership/index.md
 
 not_in_nav: |
@@ -79,6 +79,9 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://beeware.org/bee/chat/
       name: BeeWare on Discord
+    - icon: fontawesome/solid/square-rss
+      name: BeeWare blog RSS feed
+      link: https://beeware.org/news/buzz/atom.xml
   github_icon: <i class="fa-github fa-brands" aria-hidden="true"></i>
   generator: false
 
@@ -162,3 +165,17 @@ plugins:
     include_yaml:
         - team: en/news/.authors.yml
   meta: {}
+  rss:
+    feed_title: "BeeWare: The Buzz"
+    feed_description: News and events for the BeeWare project.
+    match_path: "news/posts/.*"
+    use_git: false  # Forces it to read the dates from the frontmatter.
+    date_from_meta:
+      as_creation: "date"
+      datetime_format: "%Y-%m-%d"
+    categories:
+      - categories
+    feeds_filenames:
+      rss_created: news/buzz/atom.xml
+#    image: images/brutus.png  # Update to a Brutus URL
+    abstract_chars_count: -1

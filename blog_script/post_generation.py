@@ -41,11 +41,11 @@ def validate_url(url):
 def request_post_type():
     post_type = None
     while post_type is None:
-        post_type_entry = input("Choose post type (blog or event): ") or "blog"
-        if post_type_entry in ["blog", "event"]:
+        post_type_entry = input("Choose post type (blog, event, or resource): ") or "blog"
+        if post_type_entry in ["blog", "event", "resource"]:
             post_type = post_type_entry
         else:
-            print("Invalid post type. Choose between 'blog' or 'event'.")
+            print("Invalid post type. Choose between 'blog', 'event', or 'resource'.")
     return post_type
 
 
@@ -168,6 +168,62 @@ def request_event_metadata():
                 Description should begin on the line below 'description: |-' with that line left intact.""")
         },
         "involvement": involvements,
+    }
+
+
+def request_resource_metadata():
+    resource_types = {
+        "1": "video",
+        "2": "article",
+        "3": "podcast",
+    }
+    resource_type = None
+    while resource_type is None:
+        for choice, type_option in resource_types.items():
+            print(f"{choice}: {type_option}")
+        choice = input("What type of resource are you adding? Choose a number: ")
+        if choice in resource_types:
+            resource_type = resource_types[choice]
+        else:
+            print("Invalid; you must choose a number from the list.")
+    resource_title = input("Resource title: ")
+    resource_url = None
+    while resource_url is None:
+        resource_url_entry = input("Resource URL: ")
+        if validate_url(resource_url_entry):
+            resource_url = resource_url_entry
+    valid_resource_publication_date = False
+    while not valid_resource_publication_date:
+        try:
+            resource_publication_date_input = input("Resource publication date (e.g. 2026-01-01): ")
+            resource_publication_date = datetime.datetime.strptime(resource_publication_date_input, "%Y-%m-%d").date()
+            valid_resource_publication_date = True
+        except ValueError:
+            print("Invalid date format. Must be YYYY-DD-MM format.")
+    if resource_type == "video":
+        valid_resource_event_date = False
+        while not valid_resource_event_date:
+            try:
+                resource_event_date_input = input("Event end date (e.g. 2026-01-01): ")
+                resource_event_date = datetime.datetime.strptime(resource_event_date_input, "%Y-%m-%d").date()
+                valid_resource_event_date = True
+            except ValueError:
+                print("Invalid date format. Must be YYYY-DD-MM format.")
+    authors = set()
+    resource_authors = input(
+        "Enter GitHub user ID for all team members involved, separated by comma: "
+    )
+    resource_authors_list = sorted(
+        [resource_author.strip() for resource_author in resource_authors.split(",")]
+    )
+    authors.update(resource_authors_list)
+
+    date = datetime.date.today()
+    return {
+        "title": blog_title,
+        "date": date,
+        "authors": [blog_author.strip() for blog_author in blog_authors.split(",")],
+        "categories": ["Buzz"],
     }
 
 
