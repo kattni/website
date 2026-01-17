@@ -1,5 +1,6 @@
 # Branding guidelines
 
+These are the branding guidelines for BeeWare. TODO: Update to include actual guidelines.
 
 ## Short description
 

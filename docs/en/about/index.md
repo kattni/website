@@ -1,35 +1,29 @@
 # About
 
-## Goals
+## BeeWare: The IDEs of Python
+
+This is BeeWare. We're incredibly excited about what the future holds for Python. We hope you'll join us on this journey.
+
+## [What is BeeWare?](overview.md)
+
+A first-timer's [introduction](overview.md) to the BeeWare project.
+
+## [Goals](goals.md)
 
 The [goals](goals.md) of the BeeWare project.
 
-## History
+## [History and philosophy](history.md)
 
-The [history](history.md) of the BeeWare project.
+The [history and philosophy](history.md) of the BeeWare project.
 
-## Team
+## [The Bee Team](team.md)
 
-The [BeeWare Team](team.md).
+The [core team](team.md) behind BeeWare development.
 
-## Contact
+## [Contact](contact.md)
 
 How to get in [contact](contact.md) with the team.
 
-## Meet Brutus
+## [Branding guidelines](branding.md)
 
-![Brutus the Bee](../images/brutus.png)
-
-Brutus the Bee is the mascot of the BeeWare project. He's a busy little
-worker bee.
-
-Fun fact: a person who keeps bees is called an **apiarist** - a name
-that the BeeWare project uses to describe the core team. This also
-reflects the relationship that the core team wishes to have with the
-community - we're shepherds of the community, and we'll provide
-direction, but we know the real work is done by the community as a
-whole.
-
-## Branding guidelines
-
-BeeWare [branding](branding.md).
+Interested in using the BeeWare logo? These are the [branding guidelines](branding.md).
