@@ -24,6 +24,47 @@ def define_env(env):
         return f'<i class="{tags}"></i>'
 
     @env.macro
+    def generate_resource_post(resource):
+        """Generate a resource post from resource template."""
+        content = []
+        if resource["type"] == "video" and resource["embeddable"]:
+            video_url = dedent(f"""\
+            <div class="resource-video">
+            <iframe class="video" src="{resource["url"]})" frameborder="0" allowfullscreen></iframe>
+            </div>
+            """)
+            content.append(video_url)
+        content.append(f"""{resource["description"]}\n""")
+        if resource["type"] in ["article"]:
+            article_url = dedent(f"""\
+
+            [Read the full article here.]({resource["url"]})
+
+            """)
+            content.append(article_url)
+        elif resource["type"] == "podcast":
+            podcast_url = dedent(f"""\
+
+            [Click here to listen.]({resource["url"]})
+
+            """)
+            content.append(podcast_url)
+        elif resource["type"] == "video" and not resource["embeddable"]:
+            video_url = dedent(f"""\
+
+            As seen at [{resource["event_name"]}]({resource["event_url"]}).
+
+            [View the video here.]({resource["url"]})
+
+            """
+            )
+            content.append(video_url)
+        elif resource["type"] == "video" and resource["embeddable"]:
+            content.append(f"\n\nAs seen at [{resource["event_name"]}]({resource["event_url"]}).\n\n")
+        content.append("<!-- more -->")
+        return "".join(content)
+
+    @env.macro
     def generate_event_post(authors, event, involvement, team):
         """Generate an event post from event template."""
         content = []
@@ -94,7 +135,6 @@ def define_env(env):
 
     @env.macro
     def generate_team_page(team, page):
-        breakpoint()
         team_page_header = dedent("""\
         So who are the people behind BeeWare? Well, there's a huge group of contributors, but the project is managed by the Bee Team.
 

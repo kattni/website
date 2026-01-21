@@ -534,9 +534,13 @@ h2.beeware-project ~ p {
     display: none;
 }
 
-.md-typeset .md-author,
+.md-typeset .md-author {
+    font-size: 0.8rem;
+}
+
 .author-name {
     font-size: 0.8rem;
+    margin-left: 0.5rem;
 }
 
 .md-sidebar--primary:is([hidden]) ~ .md-content.md-content--post {
@@ -574,6 +578,18 @@ h2.beeware-project ~ p {
 
     [dir="ltr"] .md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner {
         margin-left: 0.5rem;
+    }
+
+    .md-typeset iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .md-post__content p,
+    .md-post .post-title {
+        max-width: 45rem;
     }
 }
 
