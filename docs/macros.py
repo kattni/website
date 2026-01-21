@@ -163,7 +163,7 @@ def define_env(env):
                     </div>
                     <div class="team-image-details" markdown="1">
 
-                    ![{member_details["name"]}]({member_details["avatar"]})
+                    ![{member_details["name"]}](/{member_details["avatar"]})
 
                     <div class="team-contact-details" markdown="1">
                     <div class="team-github-handle">{fa("github", "lg", "brands")} {github_id}</div>
