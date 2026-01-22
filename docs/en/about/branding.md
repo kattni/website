@@ -6,15 +6,11 @@ TODO: @freakboy3742 - please update this with formal guidelines.
 
 ## Short description
 
-BeeWare is a collection of tools and libraries to aid in writing
-application user interfaces in Python.
+BeeWare is a collection of tools and libraries to aid in writing application user interfaces in Python.
 
 ## Long description
 
-BeeWare is a collection of tools and libraries to aid in writing
-application user interfaces in Python. It enables developers to write
-applications for iPhone, Android, Linux, macOS and Windows that are
-indistinguishable from natively written applications.
+BeeWare is a collection of tools and libraries to aid in writing application user interfaces in Python. It enables developers to write applications for iPhone, Android, Linux, macOS and Windows that are indistinguishable from natively written applications.
 
 ## Logos
 

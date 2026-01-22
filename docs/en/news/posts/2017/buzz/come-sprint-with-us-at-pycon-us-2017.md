@@ -6,28 +6,21 @@ authors:
 categories:
 - Buzz
 ---
-**The tickets for PyCon US 2017 have been given away. We look forward to
-seeing everyone who can make it to the conference at Booth 103!**
+**The tickets for PyCon US 2017 have been given away. We look forward to seeing everyone who can make it to the conference at Booth 103!**
 
 -------------------------------------------------------------------------
 
-*Want to to go @PyCon, can’t afford it? @PyBeeWare has 2 tickets to give
-away. Email contact@beeware.org and tell us why you want to bee there!*
+*Want to to go @PyCon, can’t afford it? @PyBeeWare has 2 tickets to give away. Email contact@beeware.org and tell us why you want to bee there!*
 
 — PyBee (@PyBeeWare) January 30, 2017
 
 -------------------------------------------------------------------------
 
-[PyCon US 2017](https://us.pycon.org/2017/) is running in Portland,
-Oregon from May 17 - 25, and it's bound to be another amazing
-conference.
+[PyCon US 2017](https://us.pycon.org/2017/) is running in Portland, Oregon from May 17 - 25, and it's bound to be another amazing conference.
 
 <!-- more -->
 
-For the second year in a row, the [BeeWare team](https://beeware.org)
-will be on site with a [booth in the Exhibit
-Hall](https://twitter.com/PyBeeWare/status/737043373953978368), along
-with other Open Source projects from the Python world.
+For the second year in a row, the [BeeWare team](https://beeware.org) will be on site with a [booth in the Exhibit Hall](https://twitter.com/PyBeeWare/status/737043373953978368), along with other Open Source projects from the Python world.
 
 With this booth, we get two tickets to the conference. This includes:
 
@@ -36,50 +29,32 @@ With this booth, we get two tickets to the conference. This includes:
 - breakfasts, breaks, lunches, and
 - swag bag
 
-Thing is, both [Russell](https://twitter.com/freakboy3742) and I have
-already registered.
+Thing is, both [Russell](https://twitter.com/freakboy3742) and I have already registered.
 
 So, we want to give you the ticket.
 
 Yes, **you.**
 
-If you can get yourself to Portland on the conference days, we want to
-give you our free ticket.
+If you can get yourself to Portland on the conference days, we want to give you our free ticket.
 
 What do we want in return?
 
 Just a little bit of your time.
 
-The [Bee Team](https://beeware.org/about/team/) will be helping to staff
-our booth, but we'd also like to see (and give!) talks, so helping us
-out by running the booth would be lovely. (Plus, and I'm sure Russell
-would agree, just helping out on the booth earns you a
-[coin](https://beeware.org/contributing/challenge-coins/))
+The [Bee Team](https://beeware.org/about/team/) will be helping to staff our booth, but we'd also like to see (and give!) talks, so helping us out by running the booth would be lovely. (Plus, and I'm sure Russell would agree, just helping out on the booth earns you a [coin](https://beeware.org/contributing/challenge-coins/))
 
-Plus, we'd love for you to stick around for the famous coding Sprints.
-These are held in the four days after the event, while people are still
-in town. We get coffee, lunch, and a room full of tables, chairs and
-copious amount of power points, and we code on projects. We'll be
-running a [BeeWare
-sprint](https://twitter.com/PyBeeWare/status/738400648614449152) where
-we will be mentoring and helping first time contributors earn their
-shiny [challenge
-coin](https://twitter.com/PyBeeWare/status/738425474754314240)
+Plus, we'd love for you to stick around for the famous coding Sprints. These are held in the four days after the event, while people are still in town. We get coffee, lunch, and a room full of tables, chairs and copious amount of power points, and we code on projects. We'll be running a [BeeWare sprint](https://twitter.com/PyBeeWare/status/738400648614449152) where we will be mentoring and helping first time contributors earn their shiny [challenge coin](https://twitter.com/PyBeeWare/status/738425474754314240)
 
 Does this sound like something you'd be interested in?
 
 Please, [email us!](mailto:contact@beeware.org)
 
-Tell us about yourself! Who you are, what you do, why you want to go to
-PyCon and what makes you interested in Python.
+Tell us about yourself! Who you are, what you do, why you want to go to PyCon and what makes you interested in Python.
 
-We need to allocate our tickets early, so please email us **by February
-12, 2017**
+We need to allocate our tickets early, so please email us **by February 12, 2017**
 
-If you have any questions, just ask [myself](https://twitter.com/glasnt)
-or [Russell](https://twitter.com/freakboy3742)!
+If you have any questions, just ask [myself](https://twitter.com/glasnt) or [Russell](https://twitter.com/freakboy3742)!
 
 We'd love to see you there! ✨
 
-\[This article has been cross-posted on
-[glasnt.com/blog](http://glasnt.com/blog/2017/02/01/come-sprint-with-beeware.html)\]
+\[This article has been cross-posted on [glasnt.com/blog](http://glasnt.com/blog/2017/02/01/come-sprint-with-beeware.html)\]

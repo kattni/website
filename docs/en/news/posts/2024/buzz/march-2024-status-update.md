@@ -6,116 +6,52 @@ authors:
 categories:
 - Buzz
 ---
-This month, we have less to report by raw feature count - but the
-changes we *have* made represent extremely significant progress.
+This month, we have less to report by raw feature count - but the changes we *have* made represent extremely significant progress.
 
 <!-- more -->
 
 ## What we've done
 
-- Our primary focus this month has been making the changes to CPython
-  needed to add support for
-  [iOS](https://github.com/python/cpython/issues/114099) and
-  [Android](https://github.com/python/cpython/issues/116622). We've made
-  major progress towards this goal: all the patches required for iOS
-  have been merged; a large number of patches have been submitted for
-  Android, with only a small number still required. This month, we have:
-  - [Added test exclusions to support running the test suite on
-    Android](https://github.com/python/cpython/pull/115918)
-  - [Fixed some issues with the process of building an Android
-    libPython](https://github.com/python/cpython/pull/115955)
-  - [Modified sys.platform identification for Android so it returns
-    "android" not
-    "linux"](https://github.com/python/cpython/pull/116215)
-  - [Added an API to get device and OS information on
-    Android](https://github.com/python/cpython/pull/116674)
-  - [Modified ctypes so it can load libraries on
-    Android](https://github.com/python/cpython/pull/116379)
-  - [Modified a signals test to make it more reliable on more
-    platforms](https://github.com/python/cpython/pull/116423)
-  - [Added a build script and instructions for Android
-    builds](https://github.com/python/cpython/pull/116426)
-  - [Added a custom module loader so that iOS apps can load binary
-    modules from
-    Frameworks](https://github.com/python/cpython/pull/116454)
-  - [Modified test\_doctest to support platforms that don't support
-    subprocesses](https://github.com/python/cpython/pull/116758)
-  - [Modified the standard library to support
-    iOS](https://github.com/python/cpython/pull/117052)
-  - [Added documentation for the iOS
-    platform](https://github.com/python/cpython/pull/117057)
-  - [Corrected some additional test failures introduced on
-    Android](https://github.com/python/cpython/pull/117299)
-- [PEP 738](https://peps.python.org/pep-0738/), adding official Android
-  support to CPython, has been formally approved by the Python Steering
-  Council.
-- We [updated the CPython Developer Guide to describe the iOS
-  development process](https://github.com/python/devguide/pull/1296).
-- We [improved Briefcase's handling of stdout for some
-  tools](https://github.com/beeware/briefcase/pull/1687). We're hoping
-  this will fix - or at least make it easier to diagnose - a mode of
-  failure we've had reported for the Android emulator on Windows.
-- We added [color to Android's log
-  output](https://github.com/beeware/briefcase/pull/1676).
-- We [corrected the handling of key shortcuts on Window and
-  GTK](https://github.com/beeware/toga/pull/2415), adding a lot of key
-  combinations that weren't previously possible to represent.
-- We [restructured the Toga documentation landing
-  page](https://github.com/beeware/toga/pull/2463), making it easier to
-  find the documentation you're likely to need.
-- We landed the [MapView
-  widget](https://github.com/beeware/toga/pull/2379), and have completed
-  most of the work on a new [Geolocation
-  service](https://github.com/beeware/toga/pull/2462).
+- Our primary focus this month has been making the changes to CPython needed to add support for [iOS](https://github.com/python/cpython/issues/114099) and [Android](https://github.com/python/cpython/issues/116622). We've made major progress towards this goal: all the patches required for iOS have been merged; a large number of patches have been submitted for Android, with only a small number still required. This month, we have:
+  - [Added test exclusions to support running the test suite on Android](https://github.com/python/cpython/pull/115918)
+  - [Fixed some issues with the process of building an Android libPython](https://github.com/python/cpython/pull/115955)
+  - [Modified sys.platform identification for Android so it returns "android" not "linux"](https://github.com/python/cpython/pull/116215)
+  - [Added an API to get device and OS information on Android](https://github.com/python/cpython/pull/116674)
+  - [Modified ctypes so it can load libraries on Android](https://github.com/python/cpython/pull/116379)
+  - [Modified a signals test to make it more reliable on more platforms](https://github.com/python/cpython/pull/116423)
+  - [Added a build script and instructions for Android builds](https://github.com/python/cpython/pull/116426)
+  - [Added a custom module loader so that iOS apps can load binary modules from Frameworks](https://github.com/python/cpython/pull/116454)
+  - [Modified test\_doctest to support platforms that don't support subprocesses](https://github.com/python/cpython/pull/116758)
+  - [Modified the standard library to support iOS](https://github.com/python/cpython/pull/117052)
+  - [Added documentation for the iOS platform](https://github.com/python/cpython/pull/117057)
+  - [Corrected some additional test failures introduced on Android](https://github.com/python/cpython/pull/117299)
+- [PEP 738](https://peps.python.org/pep-0738/), adding official Android support to CPython, has been formally approved by the Python Steering Council.
+- We [updated the CPython Developer Guide to describe the iOS development process](https://github.com/python/devguide/pull/1296).
+- We [improved Briefcase's handling of stdout for some tools](https://github.com/beeware/briefcase/pull/1687). We're hoping this will fix - or at least make it easier to diagnose - a mode of failure we've had reported for the Android emulator on Windows.
+- We added [color to Android's log output](https://github.com/beeware/briefcase/pull/1676).
+- We [corrected the handling of key shortcuts on Window and GTK](https://github.com/beeware/toga/pull/2415), adding a lot of key combinations that weren't previously possible to represent.
+- We [restructured the Toga documentation landing page](https://github.com/beeware/toga/pull/2463), making it easier to find the documentation you're likely to need.
+- We landed the [MapView widget](https://github.com/beeware/toga/pull/2379), and have completed most of the work on a new [Geolocation service](https://github.com/beeware/toga/pull/2462).
 
 ## What's next?
 
-In April, we're hoping to wrap up the work on iOS and Android patches
-for CPython, and add buildbots for those platforms. With the buildbots
-in place, iOS and Android will officially be Tier 3 supported CPython
-platforms. We also plan to revisit the BeeWare tutorial, adding some
-more steps in preparation for a [tutorial presentation at PyCon
-US](https://us.pycon.org/2024/schedule/presentation/41/) in May. If
-you're coming to Pittsburgh and you'd like to attend that tutorial
-session, [ticket sales are
-open!](https://us.pycon.org/2024/attend/information/)
+In April, we're hoping to wrap up the work on iOS and Android patches for CPython, and add buildbots for those platforms. With the buildbots in place, iOS and Android will officially be Tier 3 supported CPython platforms. We also plan to revisit the BeeWare tutorial, adding some more steps in preparation for a [tutorial presentation at PyCon US](https://us.pycon.org/2024/schedule/presentation/41/) in May. If you're coming to Pittsburgh and you'd like to attend that tutorial session, [ticket sales are open!](https://us.pycon.org/2024/attend/information/)
 
 ## Want to get involved?
 
-Want to get involved? Here are some open issues that would be a great
-place to get started with contributing to a BeeWare project. They're all
-relatively minor changes, but would provide a big improvement to the
-lives of BeeWare users:
+Want to get involved? Here are some open issues that would be a great place to get started with contributing to a BeeWare project. They're all relatively minor changes, but would provide a big improvement to the lives of BeeWare users:
 
-1.  [Update the Toga testbed test suite to use Pixel 7 Pro device
-    sizes](https://github.com/beeware/toga/issues/2251)
-2.  [Filter out a message generated after Xcode
-    updates](https://github.com/beeware/briefcase/issues/780)
-3.  [Add the ability to configure the ABIs built by an Android
-    project](https://github.com/beeware/briefcase/issues/808)
-4.  [Rationalise the application of adhoc signing on
-    macOS](https://github.com/beeware/briefcase/issues/1099)
-5.  [Add support for custom PyPI
-    repositories](https://github.com/beeware/briefcase/issues/1270)
-6.  [Document how to debug an application in popular
-    IDEs](https://github.com/beeware/briefcase/issues/1393)
-7.  [Correctly handle incomplete project
-    deletions](https://github.com/beeware/briefcase/issues/394)
-8.  [Add an option to select the Android base image when creating new
-    emulators](https://github.com/beeware/briefcase/issues/737)
-9.  [Print notarisation log failures when building macOS
-    apps](https://github.com/beeware/briefcase/issues/1472)
-10. [Add an API to replace a child of a
-    widget](https://github.com/beeware/toga/issues/2301)
-11. [Add an API to entirely replace the style of a
-    widget](https://github.com/beeware/toga/issues/2305)
-12. [Add the ability to define content when creating a
-    window](https://github.com/beeware/toga/issues/2307)
+1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
+2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
+3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
+4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+5. [Add support for custom PyPI repositories](https://github.com/beeware/briefcase/issues/1270)
+6. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
+7. [Correctly handle incomplete project deletions](https://github.com/beeware/briefcase/issues/394)
+8. [Add an option to select the Android base image when creating new emulators](https://github.com/beeware/briefcase/issues/737)
+9. [Print notarisation log failures when building macOS apps](https://github.com/beeware/briefcase/issues/1472)
+10. [Add an API to replace a child of a widget](https://github.com/beeware/toga/issues/2301)
+11. [Add an API to entirely replace the style of a widget](https://github.com/beeware/toga/issues/2305)
+12. [Add the ability to define content when creating a window](https://github.com/beeware/toga/issues/2307)
 
-Pick one of these tickets, drop a comment on the ticket to let others
-know you're looking at it, and try your hand at a PR! We have a [guide
-on setting up a Briefcase development
-environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html);
-but if you need any additional assistance or guidance, you can ask on
-the ticket, or join us on the [BeeWare Discord
-server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

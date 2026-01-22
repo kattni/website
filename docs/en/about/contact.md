@@ -29,26 +29,18 @@ Want to receive updates, hints, tips, and announcements related to BeeWare? [Sig
 
 Need help with your commercial BeeWare project?
 
-Although BeeWare is an open source project, there are companies and
-individuals who can provide paid support, training, and consulting.
+Although BeeWare is an open source project, there are companies and individuals who can provide paid support, training, and consulting.
 
-Note that the core team will *not* provide free support or debugging
-help for commercial projects. If you're not able to post your question
-on a public forum due to the content being commercially sensitive, you'll need to seek out someone willing to provide
-commercial support to meet for your needs.
+Note that the core team will *not* provide free support or debugging help for commercial projects. If you're not able to post your question on a public forum due to the content being commercially sensitive, you'll need to seek out someone willing to provide commercial support to meet for your needs.
 
 Contact <consulting@beeware.org> for any inquiries about these services.
 
 ## Reporting security issues
 
-If you want to report a security problem with one of the BeeWare tools,
-please contact the [Core Team](team.md).
+If you want to report a security problem with one of the BeeWare tools, please contact the [Core Team](team.md).
 
 ## Reporting Code of Conduct issues
-If you have had an uncomfortable experience in a BeeWare community space, or want
-to report a behavior problem with someone who is a member of the
-BeeWare community, the [Core Team](team.md) will be happy to manage
-your report in accordance with our [Code of Conduct reporting guide](../community/code-of-conduct.md).
+If you have had an uncomfortable experience in a BeeWare community space, or want to report a behavior problem with someone who is a member of the BeeWare community, the [Core Team](team.md) will be happy to manage your report in accordance with our [Code of Conduct reporting guide](../community/code-of-conduct.md).
 
 ## Other enquiries
 

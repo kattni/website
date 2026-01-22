@@ -1,5 +1,1 @@
-Philip writes code for computers and for humans. His first computing
-love is Python, but is too often forced to write JavaScript and Swift.
-When he's not writing code for money or for Open Source or for his own
-crazy projects, he gives talks at conferences. Philip lives in Alameda,
-California with his wife and her cat. Philip believes in the web.
+Philip writes code for computers and for humans. His first computing love is Python, but is too often forced to write JavaScript and Swift. When he's not writing code for money or for Open Source or for his own crazy projects, he gives talks at conferences. Philip lives in Alameda, California with his wife and her cat. Philip believes in the web.

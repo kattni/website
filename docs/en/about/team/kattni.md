@@ -1,7 +1,1 @@
-Kattni is a creator, community leader, programmer, technical writer, maker,
-photographer, intermittent chef, classically trained vocalist, air plant
-cultivator, and fledgling synth nerd. She is passionate about building
-communities, learning, mentoring, and sharing her knowledge in an approachable
-way. She will always have a special place in her heart for making things
-blinky and bright. She is tolerated by a cat and three kittens who continue
-to let her live with them.
+Kattni is a creator, community leader, programmer, technical writer, maker, photographer, intermittent chef, classically trained vocalist, air plant cultivator, and fledgling synth nerd. She is passionate about building communities, learning, mentoring, and sharing her knowledge in an approachable way. She will always have a special place in her heart for making things blinky and bright. She is tolerated by a cat and three kittens who continue to let her live with them.

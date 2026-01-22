@@ -8,14 +8,8 @@ categories:
 ---
 At PyCon US 2016, Philip James became a Core Contributor to BeeWare!
 
-He wrote up some of his thoughts about the process in his article [Tips
-for Becoming a Core
-Contributor](https://phildini.dev/tips-becoming-core-contributor).
+He wrote up some of his thoughts about the process in his article [Tips for Becoming a Core Contributor](https://phildini.dev/tips-becoming-core-contributor).
 
-Katie McLaughlin, who got her commit bit at DjangoCon Europe 2016,
-followed up with a post of her own, describing her path to [becoming a
-core
-contributor](https://glasnt.com/blog/on-becoming-a-core-contributor/).
+Katie McLaughlin, who got her commit bit at DjangoCon Europe 2016, followed up with a post of her own, describing her path to [becoming a core contributor](https://glasnt.com/blog/on-becoming-a-core-contributor/).
 
-For those who aspire to become contributors to open source projects,
-it's helpful to hear how others got there.
+For those who aspire to become contributors to open source projects, it's helpful to hear how others got there.

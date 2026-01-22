@@ -112,8 +112,7 @@ BeeWare is supported by users like you! Every little bit helps: [click here to c
 
 ### Gold Member { .index-sidebar-gold-member }
 
-<img class="anaconda_light_mode" src="images/anaconda-dark.png" alt="Anaconda logo"/>
-<img class="anaconda_dark_mode" src="images/anaconda-light.png" alt="Anaconda logo"/>
+<img class="anaconda_light_mode" src="images/anaconda-dark.png" alt="Anaconda logo"/> <img class="anaconda_dark_mode" src="images/anaconda-light.png" alt="Anaconda logo"/>
 
 ### Latest news
 

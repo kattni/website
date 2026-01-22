@@ -1,4 +1,1 @@
-Russell is a tinkerer and aspiring creator. He fell in love with python
-years ago and wants to see apps built with it everywhere. If he isn't
-writing code, he's probably falling down a Wikipedia rabbit hole or
-playing sysadmin to his bloated home lab.
+Russell is a tinkerer and aspiring creator. He fell in love with python years ago and wants to see apps built with it everywhere. If he isn't writing code, he's probably falling down a Wikipedia rabbit hole or playing sysadmin to his bloated home lab.

@@ -8,41 +8,16 @@ categories:
 ---
 Welcome to the BeeWare project's new website!
 
-The original BeeWare website was written a couple of years ago, when
-BeeWare was still a highly experimental project. The old website was a
-single page affair, with individual projects maintaining their own web
-identity. Over time, the number of contributors has grown, the number of
-subprojects has grown, and the number of core team members has tripled.
+The original BeeWare website was written a couple of years ago, when BeeWare was still a highly experimental project. The old website was a single page affair, with individual projects maintaining their own web identity. Over time, the number of contributors has grown, the number of subprojects has grown, and the number of core team members has tripled.
 
 <!-- more -->
 
-As the BeeWare project grew in complexity, the old website was no longer
-keeping up with the needs of the project, so the core team took some
-time out from working on BeeWare itself, and rewrote the site.
+As the BeeWare project grew in complexity, the old website was no longer keeping up with the needs of the project, so the core team took some time out from working on BeeWare itself, and rewrote the site.
 
-The new website uses [Lektor](https://www.getlektor.com), a static site
-generator tool written by well known Pythonista [Armin
-Ronacher](http://lucumr.pocoo.org/). This allows us to continue hosting
-the website using GitHub Pages, but gives us the flexibility to define a
-light database for the many types of content we need to manage.
+The new website uses [Lektor](https://www.getlektor.com), a static site generator tool written by well known Pythonista [Armin Ronacher](http://lucumr.pocoo.org/). This allows us to continue hosting the website using GitHub Pages, but gives us the flexibility to define a light database for the many types of content we need to manage.
 
-Although we're launching the site today, it's not complete. There's
-still content that needs to be written, and styling that needs to be
-fixed. However, we think that the new site is better than the old one,
-and therefore it's not worth delaying the launch any longer.
+Although we're launching the site today, it's not complete. There's still content that needs to be written, and styling that needs to be fixed. However, we think that the new site is better than the old one, and therefore it's not worth delaying the launch any longer.
 
-This also gives you - the BeeWare community - a great opportunity to
-contribute. If you find something that is missing from the site, or
-something that you think could be expressed better, or designed better,
-the entire site is [available on
-GitHub](https://github.com/beeware/beeware.github.io/tree/lektor). Fork
-the repository, make the change you think that is needed, and submit a
-pull request (against the <span class="title-ref">Lektor</span> branch -
-not <span class="title-ref">master</span>). All contributions are
-welcome, and as with all BeeWare contributions, website contributions
-make the submitter all eligible to receive an exclusive [BeeWare
-Challenge Coin](/contributing/challenge-coins.md).
+This also gives you - the BeeWare community - a great opportunity to contribute. If you find something that is missing from the site, or something that you think could be expressed better, or designed better, the entire site is [available on GitHub](https://github.com/beeware/beeware.github.io/tree/lektor). Fork the repository, make the change you think that is needed, and submit a pull request (against the <span class="title-ref">Lektor</span> branch - not <span class="title-ref">master</span>). All contributions are welcome, and as with all BeeWare contributions, website contributions make the submitter all eligible to receive an exclusive [BeeWare Challenge Coin](/contributing/challenge-coins.md).
 
-We hope you enjoy the new site; if you've got any feedback, let us know
-[with a ticket](https://github.com/beeware/beeware.github.io/issues/) or
-[on our Discord server](https://beeware.org/bee/chat/).
+We hope you enjoy the new site; if you've got any feedback, let us know [with a ticket](https://github.com/beeware/beeware.github.io/issues/) or [on our Discord server](https://beeware.org/bee/chat/).

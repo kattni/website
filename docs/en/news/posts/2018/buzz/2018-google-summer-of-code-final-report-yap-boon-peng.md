@@ -6,186 +6,79 @@ authors:
 categories:
 - Buzz
 ---
-In the blink of an eye, Google Summer of Code (GSoC) 2018 has come to an
-end. During the three months long coding period, I have contributed
-several patches in VOC repository of BeeWare, all working towards the
-ultimate end goal of running <span class="title-ref">asyncio</span>
-module in VOC. In this blog post (which is my first actual blog post by
-the way 😄), I will document what I have done so far, why I couldn't
-make it to the end goal (yea, unfortunately I couldn't get
-<span class="title-ref">asyncio</span> to work at the end of GSoC 2018),
-and what's left that needs to be done in order to achieve the end goal
-(or at least make part of <span class="title-ref">asyncio</span> work).
+In the blink of an eye, Google Summer of Code (GSoC) 2018 has come to an end. During the three months long coding period, I have contributed several patches in VOC repository of BeeWare, all working towards the ultimate end goal of running <span class="title-ref">asyncio</span> module in VOC. In this blog post (which is my first actual blog post by the way 😄), I will document what I have done so far, why I couldn't make it to the end goal (yea, unfortunately I couldn't get <span class="title-ref">asyncio</span> to work at the end of GSoC 2018), and what's left that needs to be done in order to achieve the end goal (or at least make part of <span class="title-ref">asyncio</span> work).
 
 <!-- more -->
 
 ## Building Foundation
 
-The first error that the transpiler throws when attempting to compile
-<span class="title-ref">asyncio</span> module was "No handler for
-<span class="title-ref">YieldFrom</span>", so it makes sense to start
-from this issue first.
+The first error that the transpiler throws when attempting to compile <span class="title-ref">asyncio</span> module was "No handler for <span class="title-ref">YieldFrom</span>", so it makes sense to start from this issue first.
 
-Another feature related to generator was
-<span class="title-ref">Yield</span> expression. Before GSoC 2018,
-<span class="title-ref">Yield</span> statement in VOC was just a
-statement, meaning <span class="title-ref">yield</span> could not be
-used as expression. Generator methods such as
-<span class="title-ref">generator.send</span>,
-<span class="title-ref">generator.throw</span> and
-<span class="title-ref">generator.close</span> were not supported as
-well. Those features are what make asynchronous programming with
-generator possible, so I spent a few weeks to extend generator
-functionality in VOC, laying down the path to
-<span class="title-ref">asyncio</span> module.
+Another feature related to generator was <span class="title-ref">Yield</span> expression. Before GSoC 2018, <span class="title-ref">Yield</span> statement in VOC was just a statement, meaning <span class="title-ref">yield</span> could not be used as expression. Generator methods such as <span class="title-ref">generator.send</span>, <span class="title-ref">generator.throw</span> and <span class="title-ref">generator.close</span> were not supported as well. Those features are what make asynchronous programming with generator possible, so I spent a few weeks to extend generator functionality in VOC, laying down the path to <span class="title-ref">asyncio</span> module.
 
 PRs related to generator are listed below:
 
-- [PR \#821](https://github.com/beeware/voc/pull/821) : Added support
-  for Yield from statement (merged)
-- [PR \#823](https://github.com/beeware/voc/pull/823) : Added generator
-  send method (merged)
-- [PR \#831](https://github.com/beeware/voc/pull/831) : Support
-  exceptions handling in generator (merged)
+- [PR \#821](https://github.com/beeware/voc/pull/821) : Added support for Yield from statement (merged)
+- [PR \#823](https://github.com/beeware/voc/pull/823) : Added generator send method (merged)
+- [PR \#831](https://github.com/beeware/voc/pull/831) : Support exceptions handling in generator (merged)
 
 ## Nonlocal Statement
 
-<span class="title-ref">Nonlocal</span> statement was another syntax not
-supported by VOC. After completion of generator's features, implementing
-this is the next step towards compiling
-<span class="title-ref">asyncio</span> module.
+<span class="title-ref">Nonlocal</span> statement was another syntax not supported by VOC. After completion of generator's features, implementing this is the next step towards compiling <span class="title-ref">asyncio</span> module.
 
-Implementing this feature took about 3 ~ 4 weeks as this is not as
-trivial as it seems. I took several approaches on this, while some of
-them do work, the code is not pretty and
-<span class="title-ref">hacky</span>, which could come back to bite
-me/other contributors in the long run. After many discussions with
-Russell, I refactored the closure mechanism in VOC and took a much
-cleaner approach in <span class="title-ref">nonlocal</span>
-implementations. I must admit that I took some short-cuts for the sake
-of "making nonlocal works" in the process of implementing
-<span class="title-ref">nonlocal</span> statement, resulting in poor
-design and messy codes. Many thanks to Russell, who helped me to improve
-my coding style and told me not to be discouraged when I'm stuck. 😄
+Implementing this feature took about 3 ~ 4 weeks as this is not as trivial as it seems. I took several approaches on this, while some of them do work, the code is not pretty and <span class="title-ref">hacky</span>, which could come back to bite me/other contributors in the long run. After many discussions with Russell, I refactored the closure mechanism in VOC and took a much cleaner approach in <span class="title-ref">nonlocal</span> implementations. I must admit that I took some short-cuts for the sake of "making nonlocal works" in the process of implementing <span class="title-ref">nonlocal</span> statement, resulting in poor design and messy codes. Many thanks to Russell, who helped me to improve my coding style and told me not to be discouraged when I'm stuck. 😄
 
 Related PRs:
 
-- [PR \#854](https://github.com/beeware/voc/pull/854) : Nonlocal
-  statement support (merged)
-- [PR \#873](https://github.com/beeware/voc/pull/873) : Added closure
-  related test cases (merged)
+- [PR \#854](https://github.com/beeware/voc/pull/854) : Nonlocal statement support (merged)
+- [PR \#873](https://github.com/beeware/voc/pull/873) : Added closure related test cases (merged)
 
 ## The Collections Module
 
-Next item on my hit list was pure Java implementations of the
-<span class="title-ref">collections</span> module.
-<span class="title-ref">asyncio</span> module depends on 3 data
-structures from <span class="title-ref">collections</span>, namely
-<span class="title-ref">defauldict</span>,
-<span class="title-ref">Deque</span> and
-<span class="title-ref">OrderedDict</span>. Two of them
-(<span class="title-ref">defaultdict</span> and
-<span class="title-ref">Deque</span>) are implemented in C in CPython,
-plus they have good analog in Java, so it makes senses to implement the
-module in Java. Porting <span class="title-ref">defauldict</span>,
-<span class="title-ref">Deque</span> and
-<span class="title-ref">OrderedDict</span> to Java in VOC is relatively
-straight-forward, taking about 1.5 weeks to complete.
+Next item on my hit list was pure Java implementations of the <span class="title-ref">collections</span> module. <span class="title-ref">asyncio</span> module depends on 3 data structures from <span class="title-ref">collections</span>, namely <span class="title-ref">defauldict</span>, <span class="title-ref">Deque</span> and <span class="title-ref">OrderedDict</span>. Two of them (<span class="title-ref">defaultdict</span> and <span class="title-ref">Deque</span>) are implemented in C in CPython, plus they have good analog in Java, so it makes senses to implement the module in Java. Porting <span class="title-ref">defauldict</span>, <span class="title-ref">Deque</span> and <span class="title-ref">OrderedDict</span> to Java in VOC is relatively straight-forward, taking about 1.5 weeks to complete.
 
 Related PRs:
 
-- [PR \#874](https://github.com/beeware/voc/pull/874) : Implement
-  collections.defauldict (merged)
-- [PR \#896](https://github.com/beeware/voc/pull/896) : Implements
-  collections.Deque (merged)
-- [PR \#897](https://github.com/beeware/voc/pull/897) : Implements
-  collections.OrderedDict\` (merged)
+- [PR \#874](https://github.com/beeware/voc/pull/874) : Implement collections.defauldict (merged)
+- [PR \#896](https://github.com/beeware/voc/pull/896) : Implements collections.Deque (merged)
+- [PR \#897](https://github.com/beeware/voc/pull/897) : Implements collections.OrderedDict\` (merged)
 
 ## Other PRs submitted during GSoC 2018
 
-- [PR \#817](https://github.com/beeware/voc/pull/817) : Added coroutine
-  related exception class \[WIP\] (closed due to not needed)
-- [PR \#836](https://github.com/beeware/voc/pull/836) : Changed Bool
-  construction to use getBool instead (merged)
-- [PR \#847](https://github.com/beeware/voc/pull/847) : Add custom
-  exceptions test cases (closed due to more comprehensive handling in
-  [PR \#844](https://github.com/beeware/voc/pull/844))
-- [PR \#849](https://github.com/beeware/voc/pull/849) : Fixed Unknown
-  constant type &lt;class 'frozenset'&gt; in function definition
-  (merged)
-- [PR \#858](https://github.com/beeware/voc/pull/858) : Added test case
-  for [Issue \#857](https://github.com/beeware/voc/issues/857) (merged)
-- [PR \#860](https://github.com/beeware/voc/pull/860) : Added test case
-  for [Issue \#859](https://github.com/beeware/voc/issues/859) (merged)
-- [PR \#862](https://github.com/beeware/voc/pull/862) : Added test case
-  for [Issue \#861](https://github.com/beeware/voc/issues/861) (merged)
-- [PR \#867](https://github.com/beeware/voc/pull/867) : Fixed [Issue
-  \#866](https://github.com/beeware/voc/issues/866) RunTimeError when
-  generator is nested in more than 1 level of function definition
-  (merged)
-- [PR \#868](https://github.com/beeware/voc/pull/868) : Fixed [Issue
-  \#861](https://github.com/beeware/voc/issues/861) Redefining nested
-  function from other function overrides original nested function
-  (merged)
-- [PR \#879](https://github.com/beeware/voc/pull/879) : Fixed
-  Incompatible Stack Height caused by expression statement (merged)
-- [PR \#901](https://github.com/beeware/voc/pull/901) : Added test case
-  for [Issue \#900](https://github.com/beeware/voc/issues/900) (merged)
-- [PR \#788](https://github.com/beeware/voc/pull/788) : Implements
-  asyncio.coroutines \[WIP\] (open, the dream 😎)
+- [PR \#817](https://github.com/beeware/voc/pull/817) : Added coroutine related exception class \[WIP\] (closed due to not needed)
+- [PR \#836](https://github.com/beeware/voc/pull/836) : Changed Bool construction to use getBool instead (merged)
+- [PR \#847](https://github.com/beeware/voc/pull/847) : Add custom exceptions test cases (closed due to more comprehensive handling in [PR \#844](https://github.com/beeware/voc/pull/844))
+- [PR \#849](https://github.com/beeware/voc/pull/849) : Fixed Unknown constant type &lt;class 'frozenset'&gt; in function definition (merged)
+- [PR \#858](https://github.com/beeware/voc/pull/858) : Added test case for [Issue \#857](https://github.com/beeware/voc/issues/857) (merged)
+- [PR \#860](https://github.com/beeware/voc/pull/860) : Added test case for [Issue \#859](https://github.com/beeware/voc/issues/859) (merged)
+- [PR \#862](https://github.com/beeware/voc/pull/862) : Added test case for [Issue \#861](https://github.com/beeware/voc/issues/861) (merged)
+- [PR \#867](https://github.com/beeware/voc/pull/867) : Fixed [Issue \#866](https://github.com/beeware/voc/issues/866) RunTimeError when generator is nested in more than 1 level of function definition (merged)
+- [PR \#868](https://github.com/beeware/voc/pull/868) : Fixed [Issue \#861](https://github.com/beeware/voc/issues/861) Redefining nested function from other function overrides original nested function (merged)
+- [PR \#879](https://github.com/beeware/voc/pull/879) : Fixed Incompatible Stack Height caused by expression statement (merged)
+- [PR \#901](https://github.com/beeware/voc/pull/901) : Added test case for [Issue \#900](https://github.com/beeware/voc/issues/900) (merged)
+- [PR \#788](https://github.com/beeware/voc/pull/788) : Implements asyncio.coroutines \[WIP\] (open, the dream 😎)
 
 ## Issues submitted during GSoC 2018
 
-- [Issue \#861](https://github.com/beeware/voc/issues/861) : Redefining
-  nested function from other function overrides original nested function
-  (fixed in [PR \#868](https://github.com/beeware/voc/pull/868))
-- [Issue \#866](https://github.com/beeware/voc/issues/866) :
-  RunTimeError when generator is nested in more than 1 level of function
-  definition (fixed in [PR
-  \#867](https://github.com/beeware/voc/pull/867))
-- [Issue \#828](https://github.com/beeware/voc/issues/828) : Finally
-  block of generator is not executed during garbage collection (open)
-- [Issue \#857](https://github.com/beeware/voc/issues/857) : Complex
-  datatype in set cause java.lang.StackOverflowError (open)
-- [Issue \#859](https://github.com/beeware/voc/issues/859) : Duplicated
-  values of equivalent but different data types in set (open)
-- [Issue \#900](https://github.com/beeware/voc/issues/900) : Exception
-  in nested try-catch suite is 'leaked' to another enclosing try-catch
-  suite (open)
-- [Issue \#827](https://github.com/beeware/voc/issues/827) : Maps
-  reserved Java keywords to Python built-in function/method call
-  (closed)
+- [Issue \#861](https://github.com/beeware/voc/issues/861) : Redefining nested function from other function overrides original nested function (fixed in [PR \#868](https://github.com/beeware/voc/pull/868))
+- [Issue \#866](https://github.com/beeware/voc/issues/866) : RunTimeError when generator is nested in more than 1 level of function definition (fixed in [PR \#867](https://github.com/beeware/voc/pull/867))
+- [Issue \#828](https://github.com/beeware/voc/issues/828) : Finally block of generator is not executed during garbage collection (open)
+- [Issue \#857](https://github.com/beeware/voc/issues/857) : Complex datatype in set cause java.lang.StackOverflowError (open)
+- [Issue \#859](https://github.com/beeware/voc/issues/859) : Duplicated values of equivalent but different data types in set (open)
+- [Issue \#900](https://github.com/beeware/voc/issues/900) : Exception in nested try-catch suite is 'leaked' to another enclosing try-catch suite (open)
+- [Issue \#827](https://github.com/beeware/voc/issues/827) : Maps reserved Java keywords to Python built-in function/method call (closed)
 
 ## Towards The Ultimate End Goal
 
-Unfortunately, three months of GSoC coding period was not enough for me
-to bring <span class="title-ref">asyncio</span> module to VOC. The
-nonlocal statement implementation was the biggest blocker for me mainly
-because I didn't think thoroughly before writing code. If I were to plan
-carefully and lay out a general coding direction, I would've completed
-it in much shorter time and have time for other implementations. An
-advice for the aspiring and upcoming GSoC-er, don't rush your code, make
-sure you know 100% about what you're doing before diving into the codes.
+Unfortunately, three months of GSoC coding period was not enough for me to bring <span class="title-ref">asyncio</span> module to VOC. The nonlocal statement implementation was the biggest blocker for me mainly because I didn't think thoroughly before writing code. If I were to plan carefully and lay out a general coding direction, I would've completed it in much shorter time and have time for other implementations. An advice for the aspiring and upcoming GSoC-er, don't rush your code, make sure you know 100% about what you're doing before diving into the codes.
 
-With that said, following are the list of modules to be
-implemented/ported to Java before <span class="title-ref">asyncio</span>
-will work in VOC:
+With that said, following are the list of modules to be implemented/ported to Java before <span class="title-ref">asyncio</span> will work in VOC:
 
-- <span class="title-ref">socket</span> module (a bit tricky since Java
-  doesn't support Unix domain socket natively)
-- <span class="title-ref">selectors</span> module (high level I/O
-  operations)
-- <span class="title-ref">threading</span> module (might be easier to
-  implement this first since threading in Python is an emulation of
-  Java's Thread)
-- <span class="title-ref">time</span> module (partially implemented in
-  VOC)
+- <span class="title-ref">socket</span> module (a bit tricky since Java doesn't support Unix domain socket natively)
+- <span class="title-ref">selectors</span> module (high level I/O operations)
+- <span class="title-ref">threading</span> module (might be easier to implement this first since threading in Python is an emulation of Java's Thread)
+- <span class="title-ref">time</span> module (partially implemented in VOC)
 
 ## Final Thoughts
 
-Huge thanks to my mentor, Russell Keith-Magee for accepting my proposal,
-providing guidance and encouraging me when things didn't go as intended.
-It is truly an honor to be a part of the BeeWare community. I had a
-blast contributing to BeeWare project, and I'm sure I will stick around
-as a regular contributor. Also shout out to the BeeWare community for
-answering my queries and reviewing my pull requests. 😄
+Huge thanks to my mentor, Russell Keith-Magee for accepting my proposal, providing guidance and encouraging me when things didn't go as intended. It is truly an honor to be a part of the BeeWare community. I had a blast contributing to BeeWare project, and I'm sure I will stick around as a regular contributor. Also shout out to the BeeWare community for answering my queries and reviewing my pull requests. 😄

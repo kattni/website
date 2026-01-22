@@ -6,56 +6,24 @@ authors:
 categories:
 - Buzz
 ---
-Today, the BeeWare project is making 2 changes to the way we organize
-our community.
+Today, the BeeWare project is making 2 changes to the way we organize our community.
 
-Firstly, we're going to **move our real-time chat community from Gitter
-to Discord**.
+Firstly, we're going to **move our real-time chat community from Gitter to Discord**.
 
 <!-- more -->
 
-When we originally set up Gitter, it was a strong option for a chat
-community - especially one that was focussed on a software project, due
-to its tight integration with GitHub. However, over the years, Gitter
-has undergone multiple changes of ownership, but has remained
-essentially unchanged - in some cases, it's gotten appreciably worse
-(their native iOS and Android clients are effectively deprecated). In
-the meantime, Discord has emerged as a dominant player for community
-chat. It has a robust mobile client, and really good tools for community
-moderation, as well as the option of hosting video and voice chats -
-something we hope to be able to use for coordinating virtual sprints.
+When we originally set up Gitter, it was a strong option for a chat community - especially one that was focussed on a software project, due to its tight integration with GitHub. However, over the years, Gitter has undergone multiple changes of ownership, but has remained essentially unchanged - in some cases, it's gotten appreciably worse (their native iOS and Android clients are effectively deprecated). In the meantime, Discord has emerged as a dominant player for community chat. It has a robust mobile client, and really good tools for community moderation, as well as the option of hosting video and voice chats - something we hope to be able to use for coordinating virtual sprints.
 
 To join the new BeeWare Discord server, [visit this link](https://beeware.org/bee/chat/).
 
 Secondly, we're going to **start using GitHub Discussions**.
 
-For many years, we've tried to use GitHub Issues as a pseudo-forum.
-There's a lot of similarity between how a forum works and how GitHub
-displays and manages issues. Each "issue" is effectively a forum thread,
-and each comment is a message in that thread. However, there are also
-some important differences. Issues get closed when they're resolved;
-forum threads, however, don't necessarily have a resolution. Most
-importantly, "closing" an issue can look like someone is trying to kill
-discussion - when all they're really trying to do is keep the list of
-issues manageable.
+For many years, we've tried to use GitHub Issues as a pseudo-forum. There's a lot of similarity between how a forum works and how GitHub displays and manages issues. Each "issue" is effectively a forum thread, and each comment is a message in that thread. However, there are also some important differences. Issues get closed when they're resolved; forum threads, however, don't necessarily have a resolution. Most importantly, "closing" an issue can look like someone is trying to kill discussion - when all they're really trying to do is keep the list of issues manageable.
 
-The good news is that GitHub has noticed the similarity too, and has
-launched GitHub Discussions. Discussions offers a familiar "forum"
-interface, but with the familiar GitHub message interface, and tight
-integration with GitHub Issues and pull requests.
+The good news is that GitHub has noticed the similarity too, and has launched GitHub Discussions. Discussions offers a familiar "forum" interface, but with the familiar GitHub message interface, and tight integration with GitHub Issues and pull requests.
 
-We've enabled Discussions on all the key BeeWare projects -
-[Toga](https://github.com/beeware/toga/discussions),
-[Briefcase](https://github.com/beeware/briefcase/discussions), [Rubicon
-ObjC](https://github.com/beeware/rubicon-objc/discussions), [Rubicon
-Java](https://github.com/beeware/rubicon-java/discussions),
-[Colosseum](https://github.com/beeware/colosseum/discussions),
-[Travertino](https://github.com/beeware/travertino/discussions) and
-[Podium](https://github.com/beeware/podium/discussions).
+We've enabled Discussions on all the key BeeWare projects - [Toga](https://github.com/beeware/toga/discussions), [Briefcase](https://github.com/beeware/briefcase/discussions), [Rubicon ObjC](https://github.com/beeware/rubicon-objc/discussions), [Rubicon Java](https://github.com/beeware/rubicon-java/discussions), [Colosseum](https://github.com/beeware/colosseum/discussions), [Travertino](https://github.com/beeware/travertino/discussions) and [Podium](https://github.com/beeware/podium/discussions).
 
-Naturally, all of these new community spaces - along with all existing
-BeeWare spaces - are subject to the [BeeWare Community Code of
-Conduct](/community/code-of-conduct.md).
+Naturally, all of these new community spaces - along with all existing BeeWare spaces - are subject to the [BeeWare Community Code of Conduct](/community/code-of-conduct.md).
 
-We hope these two changes will make it easier to participate in the
-BeeWare community. See you there!
+We hope these two changes will make it easier to participate in the BeeWare community. See you there!

@@ -6,201 +6,98 @@ authors:
 categories:
 - Buzz
 ---
-After almost 4 months of work on [Google Summer of
-Code](https://developers.google.com/open-source/gsoc/) 2017, finally I'm
-completing my proposal. Every widget migration and every
-commit/PR/issue/discussion with my mentors about
-[Cricket](https://github.com/beeware/cricket) , [Toga](/docs/index.md#toga) and
-[rubicon-objc](/docs/index.md#rubicon-objective-c) were detailed on the [Issue
-58](https://github.com/beeware/cricket/issues/58).
+After almost 4 months of work on [Google Summer of Code](https://developers.google.com/open-source/gsoc/) 2017, finally I'm completing my proposal. Every widget migration and every commit/PR/issue/discussion with my mentors about [Cricket](https://github.com/beeware/cricket) , [Toga](/docs/index.md#toga) and [rubicon-objc](/docs/index.md#rubicon-objective-c) were detailed on the [Issue 58](https://github.com/beeware/cricket/issues/58).
 
 <!-- more -->
 
 ## "Eating your own dog food"
 
-The best way to show that a product is reliable to the customers is use
-it. So, the way to show that [Toga](/docs/index.md#toga) is an effective tool
-to build a GUI is to build a complete application using it.
+The best way to show that a product is reliable to the customers is use it. So, the way to show that [Toga](/docs/index.md#toga) is an effective tool to build a GUI is to build a complete application using it.
 
-[Cricket](https://github.com/beeware/cricket) is a graphical tool that helps
-you run your test suites. Its current version is implemented using
-[Tkinter](https://docs.python.org/2/library/tkinter.html) as the main
-GUI framework. So, why not test [Toga](/docs/index.md#toga) inside of another
-product from [BeeWare](https://beeware.org)? That's what I have
-accomplished during my GSoC work.
+[Cricket](https://github.com/beeware/cricket) is a graphical tool that helps you run your test suites. Its current version is implemented using [Tkinter](https://docs.python.org/2/library/tkinter.html) as the main GUI framework. So, why not test [Toga](/docs/index.md#toga) inside of another product from [BeeWare](https://beeware.org)? That's what I have accomplished during my GSoC work.
 
 ## Results
 
-The proposal focus not only on the port of
-[Tkinter](https://docs.python.org/2/library/tkinter.html) to
-[Toga](/docs/index.md#toga), but on mapping the necessary widgets for a real
-application using [Toga](/docs/index.md#toga) framework. To help me to map
-this I studied more about
-[Tkinter](https://docs.python.org/2/library/tkinter.html),
-[Toga](/docs/index.md#toga), [Colosseum](https://github.com/beeware/colosseum),
-[rubicon-objc](/docs/index.md#rubicon-objective-c),
-[Objective-C](https://developer.apple.com/documentation/objectivec),
-[Cocoa](http://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html)
-and [CSS](https://www.w3.org/Style/CSS/).
+The proposal focus not only on the port of [Tkinter](https://docs.python.org/2/library/tkinter.html) to [Toga](/docs/index.md#toga), but on mapping the necessary widgets for a real application using [Toga](/docs/index.md#toga) framework. To help me to map this I studied more about [Tkinter](https://docs.python.org/2/library/tkinter.html), [Toga](/docs/index.md#toga), [Colosseum](https://github.com/beeware/colosseum), [rubicon-objc](/docs/index.md#rubicon-objective-c), [Objective-C](https://developer.apple.com/documentation/objectivec), [Cocoa](http://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html) and [CSS](https://www.w3.org/Style/CSS/).
 
-The work I did during GSoC were sent through the [PR
-65](https://github.com/beeware/cricket/pull/65), reported on the [Issue
-58](https://github.com/beeware/cricket/issues/58) and the final
-demonstration of the work can be seen in this
-[link](https://youtu.be/5kz_CmQYFYE). There were widgets used on
-[Cricket](https://github.com/beeware/cricket) that weren't ready yet on
-[Toga](/docs/index.md#toga), so some improvements were necessary on
-[Toga](/docs/index.md#toga) so that I could use them on
-[Cricket](https://github.com/beeware/cricket). In summary here are some PRs
-and issues that I contributed to get my work done in
-[Cricket](https://github.com/beeware/cricket):
+The work I did during GSoC were sent through the [PR 65](https://github.com/beeware/cricket/pull/65), reported on the [Issue 58](https://github.com/beeware/cricket/issues/58) and the final demonstration of the work can be seen in this [link](https://youtu.be/5kz_CmQYFYE). There were widgets used on [Cricket](https://github.com/beeware/cricket) that weren't ready yet on [Toga](/docs/index.md#toga), so some improvements were necessary on [Toga](/docs/index.md#toga) so that I could use them on [Cricket](https://github.com/beeware/cricket). In summary here are some PRs and issues that I contributed to get my work done in [Cricket](https://github.com/beeware/cricket):
 
 Open PR that I sent to [Toga](/docs/index.md#toga):
 
-- [PR 201](https://github.com/beeware/toga/pull/201) : \[Core\]\[Cocoa\]
-  Refactoring of the Tree widget
+- [PR 201](https://github.com/beeware/toga/pull/201) : \[Core\]\[Cocoa\] Refactoring of the Tree widget
 
 Merged PRs that I sent to [Toga](/docs/index.md#toga):
 
-- [PR 112](https://github.com/beeware/toga/pull/112) : \[Core\]\[Cocoa\]
-  Enable/disable state for buttons, solved [Issue
-  91](https://github.com/beeware/toga/issues/91)
-- [PR 170](https://github.com/beeware/toga/pull/170) : \[Cocoa\] Content
-  and retry status for stack trace dialog
-- [PR 172](https://github.com/beeware/toga/pull/172) : \[Cocoa\] Window
-  resize
-- [PR 173](https://github.com/beeware/toga/pull/173) : \[Core\]\[Cocoa\]
-  Button color
-- [PR 174](https://github.com/beeware/toga/pull/174) : \[Doc\] Examples
-  folder and button features example
-- [PR 178](https://github.com/beeware/toga/pull/178) : \[Doc\] Fix
-  tutorial 2 setup
-- [PR 180](https://github.com/beeware/toga/pull/180) : \[Doc\] Update
-  [Toga](/docs/index.md#toga) widgets roadmap
-- [PR 182](https://github.com/beeware/toga/pull/182) : \[Cocoa\] Update
-  the label of the Stack trace button for critical dialog
-- [PR 184](https://github.com/beeware/toga/pull/184) : \[Core\]\[Cocoa\]
-  Hide/show boxes widget
-- [PR 188](https://github.com/beeware/toga/pull/188) : \[Cocoa\] Fix
-  error on MultilineTextInput widget, solved [Issue
-  187](https://github.com/beeware/toga/issues/187)
-- [PR 204](https://github.com/beeware/toga/pull/204) : \[Core\]\[Cocoa\]
-  Clear method to MultilineTextInput widget, solved [Issue
-  203](https://github.com/beeware/toga/issues/203)
-- [PR 206](https://github.com/beeware/toga/pull/206) : \[Core\]\[Cocoa\]
-  Readonly and placeholder for MultilineTextInput widget
-- [PR 208](https://github.com/beeware/toga/pull/208) : \[Cocoa\] Fix
-  apply style to a SplitContainer widget, solved [Issue
-  207](https://github.com/beeware/toga/issues/207)
+- [PR 112](https://github.com/beeware/toga/pull/112) : \[Core\]\[Cocoa\] Enable/disable state for buttons, solved [Issue 91](https://github.com/beeware/toga/issues/91)
+- [PR 170](https://github.com/beeware/toga/pull/170) : \[Cocoa\] Content and retry status for stack trace dialog
+- [PR 172](https://github.com/beeware/toga/pull/172) : \[Cocoa\] Window resize
+- [PR 173](https://github.com/beeware/toga/pull/173) : \[Core\]\[Cocoa\] Button color
+- [PR 174](https://github.com/beeware/toga/pull/174) : \[Doc\] Examples folder and button features example
+- [PR 178](https://github.com/beeware/toga/pull/178) : \[Doc\] Fix tutorial 2 setup
+- [PR 180](https://github.com/beeware/toga/pull/180) : \[Doc\] Update [Toga](/docs/index.md#toga) widgets roadmap
+- [PR 182](https://github.com/beeware/toga/pull/182) : \[Cocoa\] Update the label of the Stack trace button for critical dialog
+- [PR 184](https://github.com/beeware/toga/pull/184) : \[Core\]\[Cocoa\] Hide/show boxes widget
+- [PR 188](https://github.com/beeware/toga/pull/188) : \[Cocoa\] Fix error on MultilineTextInput widget, solved [Issue 187](https://github.com/beeware/toga/issues/187)
+- [PR 204](https://github.com/beeware/toga/pull/204) : \[Core\]\[Cocoa\] Clear method to MultilineTextInput widget, solved [Issue 203](https://github.com/beeware/toga/issues/203)
+- [PR 206](https://github.com/beeware/toga/pull/206) : \[Core\]\[Cocoa\] Readonly and placeholder for MultilineTextInput widget
+- [PR 208](https://github.com/beeware/toga/pull/208) : \[Cocoa\] Fix apply style to a SplitContainer widget, solved [Issue 207](https://github.com/beeware/toga/issues/207)
 
 Merged PR that I sent to [Cricket](https://github.com/beeware/cricket):
 
-- [PR 60](https://github.com/beeware/cricket/pull/60) : Fix test
-  coverage, solved [Issue
-  59](https://github.com/beeware/cricket/issues/59)
+- [PR 60](https://github.com/beeware/cricket/pull/60) : Fix test coverage, solved [Issue 59](https://github.com/beeware/cricket/issues/59)
 
 Merged PR that I sent to [rubicon-objc](/docs/index.md#rubicon-objective-c):
 
-- [PR 34](https://github.com/beeware/rubicon-objc/pull/34) : \[Doc\] Add
-  reference to NSObject
+- [PR 34](https://github.com/beeware/rubicon-objc/pull/34) : \[Doc\] Add reference to NSObject
 
 Open issues that I sent to [Toga](/docs/index.md#toga):
 
-- [Issue 175](https://github.com/beeware/toga/issues/175) : \[Core\] Add
-  more properties for Label and Font widgets
-- [Issue 176](https://github.com/beeware/toga/issues/176) : \[Core\] Add
-  "rehint()" on the background of the widget after changing font size
-- [Issue 186](https://github.com/beeware/toga/issues/186) : \[Core\] Set
-  initial position of the divisor of a SplitContainer
-- [Issue 197](https://github.com/beeware/toga/issues/197) : \[Core\] Get
-  the id of the selected Tab View on the OptionContainer
+- [Issue 175](https://github.com/beeware/toga/issues/175) : \[Core\] Add more properties for Label and Font widgets
+- [Issue 176](https://github.com/beeware/toga/issues/176) : \[Core\] Add "rehint()" on the background of the widget after changing font size
+- [Issue 186](https://github.com/beeware/toga/issues/186) : \[Core\] Set initial position of the divisor of a SplitContainer
+- [Issue 197](https://github.com/beeware/toga/issues/197) : \[Core\] Get the id of the selected Tab View on the OptionContainer
 
 Closed issues that I reported to [Toga](/docs/index.md#toga):
 
-- [Issue 167](https://github.com/beeware/toga/issues/167) : \[Cocoa\]
-  Addition of a SplitContainer on a Box doesn't show the SplitContainer,
-  was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 168](https://github.com/beeware/toga/issues/168) : \[Cocoa\]
-  Addition of 2 boxes on an OptionContainer emits Rubicon's error, was
-  fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 169](https://github.com/beeware/toga/issues/169) : \[Cocoa\]
-  Addition of 2 empty boxes on an OptionContainer emits error from
-  [Toga](/docs/index.md#toga) Cocoa platform, was fixed by [Russell
-  Keith-Magee](https://github.com/freakboy3742)
-- [Issue 181](https://github.com/beeware/toga/issues/181) :
-  \[Core\]\[Cocoa\] "Hide" option for widgets, was solved by me
-- [Issue 187](https://github.com/beeware/toga/issues/187) : \[Cocoa\]
-  Errors on MultilineTextInput, was fixed by me
-- [Issue 189](https://github.com/beeware/toga/issues/189) : \[Cocoa\]
-  ProgressBar doesn't appears in a Box, was fixed by [Jonas
-  Schell](https://github.com/Ocupe)
-- [Issue 194](https://github.com/beeware/toga/issues/194) : \[Cocoa\]
-  The frame of the MultilineTextInput doesn't appear, was fixed by
-  [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 195](https://github.com/beeware/toga/issues/195) : \[Cocoa\]
-  ProgressBar doesn't appear inside of a Box oriented by row, was fixed
-  by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 196](https://github.com/beeware/toga/issues/196) : \[Cocoa\]
-  Set max value and value on a ProgressBar doesn't make any effect on
-  the layout, was fixed by [Russell
-  Keith-Magee](https://github.com/freakboy3742)
-- [Issue 203](https://github.com/beeware/toga/issues/203) :
-  \[Core\]\[Cocoa\] Clear text on MultilineTextInput widget, was solved
-  by me
-- [Issue 207](https://github.com/beeware/toga/issues/207) : \[Cocoa\]
-  Set SplitContainer height doesn't update its size, was solved by me
+- [Issue 167](https://github.com/beeware/toga/issues/167) : \[Cocoa\] Addition of a SplitContainer on a Box doesn't show the SplitContainer, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 168](https://github.com/beeware/toga/issues/168) : \[Cocoa\] Addition of 2 boxes on an OptionContainer emits Rubicon's error, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 169](https://github.com/beeware/toga/issues/169) : \[Cocoa\] Addition of 2 empty boxes on an OptionContainer emits error from [Toga](/docs/index.md#toga) Cocoa platform, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 181](https://github.com/beeware/toga/issues/181) : \[Core\]\[Cocoa\] "Hide" option for widgets, was solved by me
+- [Issue 187](https://github.com/beeware/toga/issues/187) : \[Cocoa\] Errors on MultilineTextInput, was fixed by me
+- [Issue 189](https://github.com/beeware/toga/issues/189) : \[Cocoa\] ProgressBar doesn't appears in a Box, was fixed by [Jonas Schell](https://github.com/Ocupe)
+- [Issue 194](https://github.com/beeware/toga/issues/194) : \[Cocoa\] The frame of the MultilineTextInput doesn't appear, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 195](https://github.com/beeware/toga/issues/195) : \[Cocoa\] ProgressBar doesn't appear inside of a Box oriented by row, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 196](https://github.com/beeware/toga/issues/196) : \[Cocoa\] Set max value and value on a ProgressBar doesn't make any effect on the layout, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 203](https://github.com/beeware/toga/issues/203) : \[Core\]\[Cocoa\] Clear text on MultilineTextInput widget, was solved by me
+- [Issue 207](https://github.com/beeware/toga/issues/207) : \[Cocoa\] Set SplitContainer height doesn't update its size, was solved by me
 
-Closed issues that I didn't reported but I solved on
-[Toga](/docs/index.md#toga):
+Closed issues that I didn't reported but I solved on [Toga](/docs/index.md#toga):
 
-- [Issue 91](https://github.com/beeware/toga/issues/91) : API to disable
-  buttons?
-- [Issue 205](https://github.com/beeware/toga/issues/205) : adding
-  MultiviewTextInput results in TypeError
+- [Issue 91](https://github.com/beeware/toga/issues/91) : API to disable buttons?
+- [Issue 205](https://github.com/beeware/toga/issues/205) : adding MultiviewTextInput results in TypeError
 
-Closed issue that I reported to
-[Cricket](https://github.com/beeware/cricket):
+Closed issue that I reported to [Cricket](https://github.com/beeware/cricket):
 
-- [Issue 59](https://github.com/beeware/cricket/issues/59) : Run
-  selected doesn't count/ runs every test selected in a test module, was
-  fixed by me
+- [Issue 59](https://github.com/beeware/cricket/issues/59) : Run selected doesn't count/ runs every test selected in a test module, was fixed by me
 
-Open issue that I reported to
-[rubicon-objc](/docs/index.md#rubicon-objective-c) [Jonas
-Obrist](https://github.com/ojii) repository:
+Open issue that I reported to [rubicon-objc](/docs/index.md#rubicon-objective-c) [Jonas Obrist](https://github.com/ojii) repository:
 
-- [Issue 1](https://github.com/ojii/rubicon-objc/issues/1) : Seg Fault
-  when iterate through a NSIndexSet using block notation
+- [Issue 1](https://github.com/ojii/rubicon-objc/issues/1) : Seg Fault when iterate through a NSIndexSet using block notation
 
 ## Future Plans
 
-There are some features on [Cricket](https://github.com/beeware/cricket)
-that I want to help develop in a near future, for example:
+There are some features on [Cricket](https://github.com/beeware/cricket) that I want to help develop in a near future, for example:
 
 - A button to refresh all the tests tree
 - Cricket settings
 
-Also, there are some issues remained after this migration to
-[Toga](/docs/index.md#toga). These issues will be fixed on
-[Toga](/docs/index.md#toga) widgets in a near future too, for example:
+Also, there are some issues remained after this migration to [Toga](/docs/index.md#toga). These issues will be fixed on [Toga](/docs/index.md#toga) widgets in a near future too, for example:
 
-- A gap between the output and error boxes when there is no output
-  message
+- A gap between the output and error boxes when there is no output message
 - Run a test if the user click on it
 
-I truly believe that [Toga](/docs/index.md#toga) will be the official
-framework on Python to build GUI for multiplatforms applications, so
-I'll continue to contribute to this project because I want to use in
-every application that I would need a GUI.
+I truly believe that [Toga](/docs/index.md#toga) will be the official framework on Python to build GUI for multiplatforms applications, so I'll continue to contribute to this project because I want to use in every application that I would need a GUI.
 
 ## Final Considerations
 
-I would like to truly thank my mentors [Russell
-Keith-Magee](https://github.com/freakboy3742) and [Elias
-Dorneles](https://github.com/eliasdorneles) for guide and help me so
-much during this period. The opportunity to be part of this community
-was a great honor to me, thank you so much to accept me in this program
-[Russell Keith-Magee](https://github.com/freakboy3742). Also, I want to
-thank [Philip James](https://github.com/phildini) that made some reviews
-in my PRs and [Jonas Schell](https://github.com/Ocupe) that fixed one
-issue that I sent to [Toga](/docs/index.md#toga).
+I would like to truly thank my mentors [Russell Keith-Magee](https://github.com/freakboy3742) and [Elias Dorneles](https://github.com/eliasdorneles) for guide and help me so much during this period. The opportunity to be part of this community was a great honor to me, thank you so much to accept me in this program [Russell Keith-Magee](https://github.com/freakboy3742). Also, I want to thank [Philip James](https://github.com/phildini) that made some reviews in my PRs and [Jonas Schell](https://github.com/Ocupe) that fixed one issue that I sent to [Toga](/docs/index.md#toga).
