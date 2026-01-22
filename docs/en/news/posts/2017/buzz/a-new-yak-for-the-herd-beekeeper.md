@@ -34,8 +34,8 @@ capacity upgrades at various times.
 However, the BeeWare has had an interesting relationship with commercial
 CI services. This is for two reasons.
 
-Firstly, our test suites - especially for [VOC](/project/attic/voc) and
-[Batavia](/project/attic/batavia) - take a long time to run. These two
+Firstly, our test suites - especially for [VOC](https://github.com/beeware/voc) and
+[Batavia](https://github.com/beeware/batavia) - take a long time to run. These two
 projects require tests that repeatedly start and shut down virtual
 machines (for Java and JavaScript, respectively), and no matter how much
 you optimize the code being tested, the startup and shutdown time of a
@@ -114,7 +114,7 @@ notifications, and start Docker containers in response.
 
 At the start of July, I found myself between jobs, and uttered the
 fateful question "How hard could it be?" And so, today, I'm announcing
-[BeeKeeper](/project/attic/beekeeper) - BeeWare's own CI service.
+[BeeKeeper](https://github.com/beeware/beekeeper) - BeeWare's own CI service.
 
 BeeKeeper deploys as a Heroku website, written using Django. After
 configuring it with GitHub and AWS credentials, it listens for GitHub
@@ -133,7 +133,7 @@ allowed to sit idle before being shut down again? How many machines
 should be sitting in the pool permanently? And what is the upper limit
 on machines that will be started?
 
-A companion tool to BeeKeeper is [Waggle](/project/attic/waggle). Waggle
+A companion tool to BeeKeeper is [Waggle](https://github.com/beeware/beekeeper). Waggle
 is a tool that prepares a local definition of a task so it can be used
 by BeeKeeper - it compiles the Docker image, and uploads it into ECS so
 that it can be referenced by tasks. (It's called "Waggle" because when
@@ -146,7 +146,7 @@ We've also provided a repository called
 place bees store all the nectar they find) that defines the task
 configurations that a BeeKeeper instance can use. We've provided some
 simple definitions as part of the base Comb repository; each BeeKeeper
-deployment should have one of these repositories of it's own.
+deployment should have one of these repositories of its own.
 
 There's still a lot of work to do, but we're already using BeeKeeper to
 Batavia and VOC, and the upcoming PyCon AU sprints will be our first
@@ -167,6 +167,6 @@ the tools and libraries like BeeKeeper and Waggle that could be built to
 support the software development process - all that is missing is the
 resources needed to develop those tools. If you'd like to see more tools
 like BeeKeeper in the world, please consider [joining the BeeWare
-project as a financial member](/membership/). Every little
+project as a financial member](/membership/index.md). Every little
 bit helps, and if we can reach a critical mass of supporters, I'll be
 able to start working on BeeWare full time.

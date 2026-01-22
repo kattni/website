@@ -7,7 +7,7 @@ categories:
 - Buzz
 ---
 Around 4 years ago, I made the first commit to
-[Cricket](/project/applications/cricket/) - the first tool that would
+[Cricket](https://github.com/beeware/cricket) - the first tool that would
 eventually become part of the BeeWare suite. Since then, the BeeWare
 project has grown to encompass support for mobile platforms, two
 alternate Python implementations, and a cross-platform widget set - as
@@ -20,9 +20,9 @@ it was a solo project; however, over the last year in particular, the
 number of people who have contributed to BeeWare has grown rapidly. Over
 300 people have now made contributions to the various BeeWare tools and
 libraries - due, at least in part, to the [Challenge
-Coins](/contributing/challenge-coins/) we've been offering at sprints.
+Coins](/contributing/challenge-coins.md) we've been offering at sprints.
 
-Of particular note is the [team of 7 people](/about/team/) who have
+Of particular note is the [team of 7 people](/about/team.md) who have
 joined the project as apiarists, helping share the load of project
 maintenance. I can't thank these people enough - without their
 assistance, I wouldn't have made anywhere near as much progress over the
@@ -64,7 +64,7 @@ would like to write applications in Python that have completely native
 user interfaces - **I need your help**.
 
 For just **US$10 a month** - you can [join the BeeWare project as a
-member](/membership/), and help make this dream become a
+member](/membership/index.md), and help make this dream become a
 reality. If I can find 1000 people in the Python community who want
 these these tools and are willing to support their development
 financially, I can start working on BeeWare full time. Of course, this

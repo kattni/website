@@ -4,6 +4,7 @@ from textwrap import dedent
 import yaml
 
 def attendees(authors, team):
+    """Generates string identifying attendees of an event, based on whether there is one, or more."""
     if len(authors) == 1:
         return team["authors"][authors[-1]]["short_name"]
     else:
@@ -11,6 +12,7 @@ def attendees(authors, team):
 
 
 def talk_title_punctuation(talk_title):
+    """Preserves talk title punctuation when talk is provided at the end of a sentence."""
     if talk_title.endswith(("!", "?")):
         return talk_title
     else:
@@ -20,6 +22,7 @@ def talk_title_punctuation(talk_title):
 def define_env(env):
     @env.macro
     def fa(*tags):
+        """Generates the fontawesome HTML i element."""
         tags = " ".join(f"fa-{tag}" for tag in tags)
         return f'<i class="{tags}"></i>'
 
@@ -27,6 +30,7 @@ def define_env(env):
     def generate_resource_post(resource):
         """Generate a resource post from resource template."""
         content = []
+
         if resource["type"] == "video" and resource["embeddable"]:
             video_url = dedent(f"""\
             <div class="resource-video">
@@ -34,7 +38,9 @@ def define_env(env):
             </div>
             """)
             content.append(video_url)
+
         content.append(f"""{resource["description"]}\n""")
+
         if resource["type"] in ["article"]:
             article_url = dedent(f"""\
 
@@ -42,6 +48,7 @@ def define_env(env):
 
             """)
             content.append(article_url)
+
         elif resource["type"] == "podcast":
             podcast_url = dedent(f"""\
 
@@ -49,6 +56,7 @@ def define_env(env):
 
             """)
             content.append(podcast_url)
+
         elif resource["type"] == "video" and not resource["embeddable"]:
             video_url = dedent(f"""\
 
@@ -59,9 +67,12 @@ def define_env(env):
             """
             )
             content.append(video_url)
+
         elif resource["type"] == "video" and resource["embeddable"]:
             content.append(f"\n\nAs seen at [{resource["event_name"]}]({resource["event_url"]}).\n\n")
+
         content.append("<!-- more -->")
+
         return "".join(content)
 
     @env.macro
@@ -135,6 +146,7 @@ def define_env(env):
 
     @env.macro
     def generate_team_page(team, page):
+        """Generate the team page from the .authors.yml file metadata."""
         team_page_header = dedent("""\
         So who are the people behind BeeWare? Well, there's a huge group of contributors, but the project is managed by the Bee Team.
 
@@ -142,6 +154,7 @@ def define_env(env):
 
         """)
         emeritus_team_header = """## Emeritus team members\n"""
+
         team_member_content = []
         emeritus_team_member_content = []
         for github_id, member_details in team["authors"].items():
@@ -153,12 +166,15 @@ def define_env(env):
 
                     ### {member_details["name"]} {{ #{github_id} }}
                     """)
+
                     member_bio = (Path(page.file.src_dir) / f"about/team/{github_id}.md").read_text()
+
                     try:
                         mastodon = member_details["mastodon"].split("@")
                         member_image_details_mastodon = f"""<div class="team-mastodon-handle" markdown="1">{fa("mastodon", "lg", "brands")} [{member_details["mastodon"]}](https://{mastodon[2]}/@{mastodon[1]})</div>"""
                     except KeyError:
                         member_image_details_mastodon = ""
+
                     member_image_details = dedent(
                         f"""\
                     </div>
@@ -173,7 +189,9 @@ def define_env(env):
                     </div>
                     </div>
                     </div>""")
+
                     team_member = member_title + member_bio + member_image_details
+
                     if "emeritus_date" in member_details:
                         emeritus_team_member_content.append((member_details["emeritus_date"], team_member))
                     else:
@@ -191,16 +209,20 @@ def define_env(env):
         """Generate upcoming events list for beeware.org homepage sidebar."""
         this_year = datetime.datetime.now().year
         next_year = this_year + 1
+
         events = []
         for filename, file_data in files.src_uris.items():
             if filename.startswith(tuple(f"news/posts/{year}/events/" for year in [this_year, next_year])):
                 metadata = get_metadata(file_data.content_string)
+
                 if metadata["event"]["date"] < datetime.date.today():
                     if metadata["event"]["date"] == metadata["event"]["end_date"]:
                         event_date = metadata["event"]["date"].strftime("%B %d, %Y")
                     else:
                         event_date = f"{metadata["event"]["date"].strftime("%B %d")}-{metadata["event"]["end_date"].strftime("%d, %Y")}"
+
                     events.append((metadata["event"]["date"], f"- [{metadata["event"]["name"]}: {event_date}]({file_data.src_path})"))
+
         if events:
             return "\n".join(item[1] for item in sorted(events)[:5])
         return "Nothing at the moment..."
@@ -216,6 +238,7 @@ def define_env(env):
         for filename, file_data in files.src_uris.items():
             if filename.startswith(tuple(f"news/posts/{year}/buzz/" for year in [last_year, this_year])):
                 metadata = get_metadata(file_data.content_string)
+
                 if latest_post is None or latest_post[0]["date"] < metadata["date"]:
                     latest_post = (metadata, file_data)
 

@@ -84,7 +84,7 @@ quarter:
 
 ## Longer term goals
 
-Our longer term goals are also [largely unchanged](../2022q4-roadmap).
+Our longer term goals are also [largely unchanged](../../2022/buzz/2022q4-roadmap.md).
 Upstreaming, Toga 1.0, and a forge for mobile packages are all important
 goals for the BeeWare ecosystem. However, we don't expect to make any
 significant progress on most of these goals until we have solidified

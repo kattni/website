@@ -7,7 +7,7 @@ categories:
 - Buzz
 ---
 One of the benefits of [having the support of an organization like
-Anaconda](../exciting-news-for-the-future-of-beeware) is that we now
+Anaconda](exciting-news-for-the-future-of-beeware.md) is that we now
 have the time to perform little housekeeping tasks like publishing
 community updates. As a result, this is the first (of hopefully many)
 monthly updates letting you know what progress has been made in the

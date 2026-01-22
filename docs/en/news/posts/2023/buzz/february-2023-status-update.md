@@ -120,4 +120,4 @@ know you're looking at it, and try your hand at a PR! We have a [guide
 on setting up a Briefcase development
 environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html);
 but if you need any additional assistance or guidance, you can ask on
-the ticket, or join us on the [BeeWare Discord server](/bee/chat/).
+the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

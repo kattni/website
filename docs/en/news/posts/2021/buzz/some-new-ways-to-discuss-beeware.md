@@ -25,7 +25,7 @@ chat. It has a robust mobile client, and really good tools for community
 moderation, as well as the option of hosting video and voice chats -
 something we hope to be able to use for coordinating virtual sprints.
 
-To join the new BeeWare Discord server, [visit this link](/bee/chat/).
+To join the new BeeWare Discord server, [visit this link](https://beeware.org/bee/chat/).
 
 Secondly, we're going to **start using GitHub Discussions**.
 
@@ -55,7 +55,7 @@ Java](https://github.com/beeware/rubicon-java/discussions),
 
 Naturally, all of these new community spaces - along with all existing
 BeeWare spaces - are subject to the [BeeWare Community Code of
-Conduct](/community/behavior/).
+Conduct](/community/code-of-conduct.md).
 
 We hope these two changes will make it easier to participate in the
 BeeWare community. See you there!

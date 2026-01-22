@@ -1,6 +1,6 @@
 # Governance
 
-Those busy bees on the [Core Team](../about/team.md) have a number of
+Those busy bees on the [Core Team](/about/team.md) have a number of
 responsibilities to keep the hive that is BeeWare moving. This is an
 evolving project, so this page is subject to change.
 
@@ -22,7 +22,7 @@ Bee, or Worker Bee:
   work merged by a team member with the rights to do so.
 
 Apiarist:
-- A bee who has been recognised as a trusted contributor. These bees
+- A bee who has been recognized as a trusted contributor. These bees
   have demonstrated ability in relation to a specific part of the
   BeeWare project over a period of time. This could be on a technical
   level (JavaScript, Python, Objective-C expertise; GTK+, macOS
@@ -35,12 +35,12 @@ Senior Apiarists:
   responsibility to oversee the project as a whole. They are able to
   make architectural decisions, but ultimately answer to the BDFN.
 
-Founding Apiarist: [Russell Keith-Magee](/about/team#russell-keith-magee)
+Founding Apiarist: [Russell Keith-Magee](/about/team.md#freakboy3742)
 - The man that first stood on a hill and spied a yak that needed shaving
 - This role never changes, and continues ad infinitum
 - This role is different to the BDFN role
 
-Bee-nevolent Dictator for Now (BDFN): [Russell Keith-Magee](/about/team#russell-keith-magee)
+Bee-nevolent Dictator for Now (BDFN): [Russell Keith-Magee](/about/team.md#freakboy3742)
 - A take on [Benevolent Dictator for
   Life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life),
   responsibility for the direction and decisions of the project
@@ -95,7 +95,7 @@ ask to be given permission to commit to the project.
 
 All new apiarists will be 'inducted' (for lack of a better word) in the
 core values and guidelines of the project. A summary of the core values
-can be found [on the About page](../about/index.md). Anyone who joins the
+can be found [on the About page](/about/index.md). Anyone who joins the
 team will be expected to uphold those values, and contribute to
 discussions about evolving those values over time.
 

@@ -4,4 +4,4 @@ forward to expanding that mission to all desktop and mobile platforms.
 
 Malcolm is a Senior Software Engineer in the Open Source group at
 [Anaconda](https://www.anaconda.com/) [(a BeeWare Gold
-sponsor)](/community/members/anaconda/).
+sponsor)](/membership/index.md#gold-members).

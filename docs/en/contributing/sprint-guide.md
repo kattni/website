@@ -20,7 +20,7 @@ contributing during the sprint that you'll go home and keep
 contributing!
 
 [It doesn't matter how much experience you've
-got](/contributing/first-time/imposter-syndrome/). At past sprints,
+got](first-time-contributors.md). At past sprints,
 we've merged contributions from people at all levels of experience -
 high-school students, recent bootcamp graduates, people who don't
 consider themselves programmers, and seasoned developers. No matter your
@@ -160,9 +160,9 @@ Once you've found an issue, you'll need to set up your development
 environment so you can work on a fix. Each BeeWare project has its own
 contribution guide:
 
-- [Briefcase](https://briefcase.readthedocs.io/en/latest/how-to/contribute/index.html)
-- [Toga](https://toga.readthedocs.io/en/latest/how-to/contribute/index.html)
-- [Rubicon ObjC](https://rubicon-objc.readthedocs.io/en/latest/how-to/contribute/index.html)
+- [Briefcase](https://briefcase.beeware.org/en/latest/how-to/contribute/index.html)
+- [Toga](https://toga.beeware.org/en/latest/how-to/contribute/index.html)
+- [Rubicon ObjC](https://rubicon-objc.beeware.org/en/latest/how-to/contribute/index.html)
 
 If the project isn't on this list, check the project README for details
 on how to get set up. If any of the instructions don't make sense (or
@@ -188,7 +188,7 @@ even the core team - gets PRs 100% correct on the first try.
 Once the PR passes review, your reviewer will merge the PR - and you're
 done! Congratulations - you've contributed to BeeWare! If this is your
 very first BeeWare contribution, you've also earned your [BeeWare
-Challenge Coin](/contributing/challenge-coins) - find a member of the
+Challenge Coin](challenge-coins.md) - find a member of the
 core team, and they will give you a coin!
 
 ## Help! I'm stuck!

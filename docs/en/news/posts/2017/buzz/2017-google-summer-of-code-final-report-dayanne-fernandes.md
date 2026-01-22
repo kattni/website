@@ -10,8 +10,8 @@ After almost 4 months of work on [Google Summer of
 Code](https://developers.google.com/open-source/gsoc/) 2017, finally I'm
 completing my proposal. Every widget migration and every
 commit/PR/issue/discussion with my mentors about
-[Cricket](/project/applications/cricket/) , [Toga](/project/toga/) and
-[rubicon-objc](/project/utilities/rubicon/) were detailed on the [Issue
+[Cricket](https://github.com/beeware/cricket) , [Toga](/docs/index.md#toga) and
+[rubicon-objc](/docs/index.md#rubicon-objective-c) were detailed on the [Issue
 58](https://github.com/beeware/cricket/issues/58).
 
 <!-- more -->
@@ -19,13 +19,13 @@ commit/PR/issue/discussion with my mentors about
 ## "Eating your own dog food"
 
 The best way to show that a product is reliable to the customers is use
-it. So, the way to show that [Toga](/project/toga/) is an effective tool
+it. So, the way to show that [Toga](/docs/index.md#toga) is an effective tool
 to build a GUI is to build a complete application using it.
 
-[Cricket](/project/applications/cricket/) is a graphical tool that helps
+[Cricket](https://github.com/beeware/cricket) is a graphical tool that helps
 you run your test suites. Its current version is implemented using
 [Tkinter](https://docs.python.org/2/library/tkinter.html) as the main
-GUI framework. So, why not test [Toga](/project/toga/) inside of another
+GUI framework. So, why not test [Toga](/docs/index.md#toga) inside of another
 product from [BeeWare](https://beeware.org)? That's what I have
 accomplished during my GSoC work.
 
@@ -33,12 +33,12 @@ accomplished during my GSoC work.
 
 The proposal focus not only on the port of
 [Tkinter](https://docs.python.org/2/library/tkinter.html) to
-[Toga](/project/toga/), but on mapping the necessary widgets for a real
-application using [Toga](/project/toga/) framework. To help me to map
+[Toga](/docs/index.md#toga), but on mapping the necessary widgets for a real
+application using [Toga](/docs/index.md#toga) framework. To help me to map
 this I studied more about
 [Tkinter](https://docs.python.org/2/library/tkinter.html),
-[Toga](/project/toga/), [Colosseum](/project/utilities/colosseum/),
-[rubicon-objc](/project/utilities/rubicon/),
+[Toga](/docs/index.md#toga), [Colosseum](https://github.com/beeware/colosseum),
+[rubicon-objc](/docs/index.md#rubicon-objective-c),
 [Objective-C](https://developer.apple.com/documentation/objectivec),
 [Cocoa](http://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html)
 and [CSS](https://www.w3.org/Style/CSS/).
@@ -48,19 +48,19 @@ The work I did during GSoC were sent through the [PR
 58](https://github.com/beeware/cricket/issues/58) and the final
 demonstration of the work can be seen in this
 [link](https://youtu.be/5kz_CmQYFYE). There were widgets used on
-[Cricket](/project/applications/cricket/) that weren't ready yet on
-[Toga](/project/toga/), so some improvements were necessary on
-[Toga](/project/toga/) so that I could use them on
-[Cricket](/project/applications/cricket/). In summary here are some PRs
+[Cricket](https://github.com/beeware/cricket) that weren't ready yet on
+[Toga](/docs/index.md#toga), so some improvements were necessary on
+[Toga](/docs/index.md#toga) so that I could use them on
+[Cricket](https://github.com/beeware/cricket). In summary here are some PRs
 and issues that I contributed to get my work done in
-[Cricket](/project/applications/cricket/):
+[Cricket](https://github.com/beeware/cricket):
 
-Open PR that I sent to [Toga](/project/toga/):
+Open PR that I sent to [Toga](/docs/index.md#toga):
 
 - [PR 201](https://github.com/beeware/toga/pull/201) : \[Core\]\[Cocoa\]
   Refactoring of the Tree widget
 
-Merged PRs that I sent to [Toga](/project/toga/):
+Merged PRs that I sent to [Toga](/docs/index.md#toga):
 
 - [PR 112](https://github.com/beeware/toga/pull/112) : \[Core\]\[Cocoa\]
   Enable/disable state for buttons, solved [Issue
@@ -76,7 +76,7 @@ Merged PRs that I sent to [Toga](/project/toga/):
 - [PR 178](https://github.com/beeware/toga/pull/178) : \[Doc\] Fix
   tutorial 2 setup
 - [PR 180](https://github.com/beeware/toga/pull/180) : \[Doc\] Update
-  [Toga](/project/toga/) widgets roadmap
+  [Toga](/docs/index.md#toga) widgets roadmap
 - [PR 182](https://github.com/beeware/toga/pull/182) : \[Cocoa\] Update
   the label of the Stack trace button for critical dialog
 - [PR 184](https://github.com/beeware/toga/pull/184) : \[Core\]\[Cocoa\]
@@ -93,18 +93,18 @@ Merged PRs that I sent to [Toga](/project/toga/):
   apply style to a SplitContainer widget, solved [Issue
   207](https://github.com/beeware/toga/issues/207)
 
-Merged PR that I sent to [Cricket](/project/applications/cricket/):
+Merged PR that I sent to [Cricket](https://github.com/beeware/cricket):
 
 - [PR 60](https://github.com/beeware/cricket/pull/60) : Fix test
   coverage, solved [Issue
   59](https://github.com/beeware/cricket/issues/59)
 
-Merged PR that I sent to [rubicon-objc](/project/utilities/rubicon/):
+Merged PR that I sent to [rubicon-objc](/docs/index.md#rubicon-objective-c):
 
 - [PR 34](https://github.com/beeware/rubicon-objc/pull/34) : \[Doc\] Add
   reference to NSObject
 
-Open issues that I sent to [Toga](/project/toga/):
+Open issues that I sent to [Toga](/docs/index.md#toga):
 
 - [Issue 175](https://github.com/beeware/toga/issues/175) : \[Core\] Add
   more properties for Label and Font widgets
@@ -115,7 +115,7 @@ Open issues that I sent to [Toga](/project/toga/):
 - [Issue 197](https://github.com/beeware/toga/issues/197) : \[Core\] Get
   the id of the selected Tab View on the OptionContainer
 
-Closed issues that I reported to [Toga](/project/toga/):
+Closed issues that I reported to [Toga](/docs/index.md#toga):
 
 - [Issue 167](https://github.com/beeware/toga/issues/167) : \[Cocoa\]
   Addition of a SplitContainer on a Box doesn't show the SplitContainer,
@@ -125,7 +125,7 @@ Closed issues that I reported to [Toga](/project/toga/):
   fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
 - [Issue 169](https://github.com/beeware/toga/issues/169) : \[Cocoa\]
   Addition of 2 empty boxes on an OptionContainer emits error from
-  [Toga](/project/toga/) Cocoa platform, was fixed by [Russell
+  [Toga](/docs/index.md#toga) Cocoa platform, was fixed by [Russell
   Keith-Magee](https://github.com/freakboy3742)
 - [Issue 181](https://github.com/beeware/toga/issues/181) :
   \[Core\]\[Cocoa\] "Hide" option for widgets, was solved by me
@@ -151,7 +151,7 @@ Closed issues that I reported to [Toga](/project/toga/):
   Set SplitContainer height doesn't update its size, was solved by me
 
 Closed issues that I didn't reported but I solved on
-[Toga](/project/toga/):
+[Toga](/docs/index.md#toga):
 
 - [Issue 91](https://github.com/beeware/toga/issues/91) : API to disable
   buttons?
@@ -159,14 +159,14 @@ Closed issues that I didn't reported but I solved on
   MultiviewTextInput results in TypeError
 
 Closed issue that I reported to
-[Cricket](/project/applications/cricket/):
+[Cricket](https://github.com/beeware/cricket):
 
 - [Issue 59](https://github.com/beeware/cricket/issues/59) : Run
   selected doesn't count/ runs every test selected in a test module, was
   fixed by me
 
 Open issue that I reported to
-[rubicon-objc](/project/utilities/rubicon/) [Jonas
+[rubicon-objc](/docs/index.md#rubicon-objective-c) [Jonas
 Obrist](https://github.com/ojii) repository:
 
 - [Issue 1](https://github.com/ojii/rubicon-objc/issues/1) : Seg Fault
@@ -174,21 +174,21 @@ Obrist](https://github.com/ojii) repository:
 
 ## Future Plans
 
-There are some features on [Cricket](/project/applications/cricket/)
+There are some features on [Cricket](https://github.com/beeware/cricket)
 that I want to help develop in a near future, for example:
 
 - A button to refresh all the tests tree
 - Cricket settings
 
 Also, there are some issues remained after this migration to
-[Toga](/project/toga/). These issues will be fixed on
-[Toga](/project/toga/) widgets in a near future too, for example:
+[Toga](/docs/index.md#toga). These issues will be fixed on
+[Toga](/docs/index.md#toga) widgets in a near future too, for example:
 
 - A gap between the output and error boxes when there is no output
   message
 - Run a test if the user click on it
 
-I truly believe that [Toga](/project/toga/) will be the official
+I truly believe that [Toga](/docs/index.md#toga) will be the official
 framework on Python to build GUI for multiplatforms applications, so
 I'll continue to contribute to this project because I want to use in
 every application that I would need a GUI.
@@ -203,4 +203,4 @@ was a great honor to me, thank you so much to accept me in this program
 [Russell Keith-Magee](https://github.com/freakboy3742). Also, I want to
 thank [Philip James](https://github.com/phildini) that made some reviews
 in my PRs and [Jonas Schell](https://github.com/Ocupe) that fixed one
-issue that I sent to [Toga](/project/toga/).
+issue that I sent to [Toga](/docs/index.md#toga).

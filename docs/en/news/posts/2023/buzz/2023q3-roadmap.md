@@ -57,7 +57,7 @@ Our Q3 goals are:
 
 ## Longer term goals
 
-Our longer term goals are also [largely unchanged](../2022q4-roadmap).
+Our longer term goals are also [largely unchanged](../../2022/buzz/2022q4-roadmap.md).
 Toga 1.0 remains an important goal; once we're at 100% test coverage, we
 will be in much better place to provide estimates about Toga 1.0.
 Upstreaming is an area where we have some good news - as a result of

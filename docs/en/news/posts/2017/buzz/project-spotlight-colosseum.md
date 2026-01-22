@@ -8,7 +8,7 @@ categories:
 ---
 *This article was originally published on the BeeWare Enthusiasts
 mailing list. If you'd like to receive regular updates about the BeeWare
-project, why not* [subscribe](/community/keep-informed/)?
+project, why not* [subscribe](/about/contact.md#newsletter)?
 
 <!-- more -->
 
@@ -21,7 +21,7 @@ complex layout needs - or when you have layouts that need to adapt to
 different screen sizes.
 
 Instead of inventing a new grid or box model, the
-[Toga](https://toga.readthedocs.io) widget toolkit takes a different
+[Toga](https://toga.beeware.org) widget toolkit takes a different
 approach, using a well known scheme for laying out content: [Cascading
 Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), or
 CSS. Although CSS is best known for specifying layout in web pages,

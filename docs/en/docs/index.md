@@ -125,15 +125,15 @@ BeeWare is more than a suite of tools for building amazing apps. It's also an am
 
 ### BeeWare Community Code of Conduct
 
-Everyone participating in the BeeWare community, in any way, is required to adhere to the guidelines in the [BeeWare Community Code of Conduct](../community/code-of-conduct.md).
+Everyone participating in the BeeWare community, in any way, is required to adhere to the guidelines in the [BeeWare Community Code of Conduct](/community/code-of-conduct.md).
 
 ### About the project
 
-Learn more [about the history and goals of the BeeWare project](../about/index.md).
+Learn more [about the history and goals of the BeeWare project](/about/index.md).
 
 ### Get help using BeeWare
 
-Need help using BeeWare? We've got [lots of community resources](../community/resources.md) that might help. If you need to ask a more specific question, here's [how you can find someone that might be able to help](../community/getting-help.md). We can also help you [find commercial support](../community/commercial.md).
+Need help using BeeWare? We've got [lots of community resources](/news/resources.md) that might help. If you need to ask a more specific question, here's [how you can find someone that might be able to help](/about/contact.md#looking-for-help). We can also help you [find commercial support](../about/contact.md#commercial-support).
 
 ### Contributing to the BeeWare project
 

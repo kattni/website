@@ -41,8 +41,8 @@ pull request (against the <span class="title-ref">Lektor</span> branch -
 not <span class="title-ref">master</span>). All contributions are
 welcome, and as with all BeeWare contributions, website contributions
 make the submitter all eligible to receive an exclusive [BeeWare
-Challenge Coin](/contributing/challenge-coins/).
+Challenge Coin](/contributing/challenge-coins.md).
 
 We hope you enjoy the new site; if you've got any feedback, let us know
 [with a ticket](https://github.com/beeware/beeware.github.io/issues/) or
-[on our Discord server](/bee/chat).
+[on our Discord server](https://beeware.org/bee/chat/).

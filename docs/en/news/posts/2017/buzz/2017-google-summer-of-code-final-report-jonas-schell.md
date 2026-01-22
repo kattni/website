@@ -71,7 +71,7 @@ of all the parts that make up Toga. The following is list:
   during GSoC:
   - [Rubicon-ObjC](https://github.com/beeware/rubicon-objc) to talk to
     the iOS and macOS backends.
-  - [Colosseum](/project/utilities/colosseum/) to understand and fix
+  - [Colosseum](https://github.com/beeware/colosseum) to understand and fix
     layout problems.
   - [AST](https://docs.python.org/3.6/library/ast.html) module to
     perform the implementation tests.

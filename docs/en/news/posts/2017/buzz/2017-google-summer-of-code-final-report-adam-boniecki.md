@@ -8,7 +8,7 @@ categories:
 ---
 With Google Summer of Code 2017 program nearing its end, it is time to
 summarize what I got done during the summer working on
-[Batavia](/project/attic/batavia/).
+[Batavia](https://github.com/beeware/batavia).
 
 <!-- more -->
 

@@ -5,4 +5,4 @@ team since May 2024.
 
 Russell is a Principal Software Engineer in the Open Source group at
 [Anaconda](https://www.anaconda.com/) [(a BeeWare Gold
-sponsor)](/community/members/anaconda/).
+sponsor)](/membership/index.md#gold-members).
