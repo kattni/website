@@ -8,6 +8,8 @@ The guidelines within and enforcement of the [BeeWare Community Code of Conduct]
 
 ## Where is the BeeWare community?
 
+TODO: @freakboy3742 please vet the following text.
+
 We're a globally distributed online community of primarily volunteers. While some of the core team are paid to work on BeeWare, the project is independent.
 
 The primary place to find us is on our online forums: [Discord](https://beeware.org/bee/chat) and [GitHub](https://github.com/beeware). If you're looking for an informal way of keeping up to date, we are on [Mastodon](https://fosstodon.org/@beeware) and have a [mailing list](https://eepurl.com/b2Xb4z).
