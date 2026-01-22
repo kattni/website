@@ -24,9 +24,9 @@ If you'd like to talk to someone about other branding or membership opportunitie
 
 ### Gold Members
 
-<img class="anaconda_light_mode" src="../../images/anaconda-dark.png" alt="Anaconda logo"/>
+<img class="anaconda_light_mode" src="../images/anaconda-dark.png" alt="Anaconda logo"/>
 
-<img class="anaconda_dark_mode" src="../../images/anaconda-light.png" alt="Anaconda logo"/>
+<img class="anaconda_dark_mode" src="../images/anaconda-light.png" alt="Anaconda logo"/>
 
 With more than 45 million users, [Anaconda](https://anaconda.com/) is the most popular operating system for AI providing access to the foundational open-source Python packages used in modern AI, data science and machine learning through a seamless platform. Anaconda pioneered the use of Python for data science, championed its vibrant community, and continues to steward open-source projects that make tomorrow’s innovations possible. Their enterprise-grade solutions enable corporate, research, and academic institutions around the world to harness the power of open-source for competitive advantage, groundbreaking research, and a better world.
 
