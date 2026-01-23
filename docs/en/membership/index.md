@@ -1,6 +1,4 @@
-# Membership
-
-## We need your help!
+# We need your help!
 
 Although the contributions of volunteers of are gratefully accepted, some things take money.
 
@@ -20,7 +18,7 @@ TODO: Fill out sponsorship levels.
 
 If you'd like to talk to someone about other branding or membership opportunities, or you'd like other payment options for your membership, please direct enquiries to [Russell Keith-Magee](mailto:russell@beeware.org).
 
-## Members
+## Current Members
 
 ### Gold Members
 

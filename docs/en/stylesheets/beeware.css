@@ -104,13 +104,7 @@ h1.index-intro-title a.headerlink,
     display: none;
 }
 
-.behaving-index {
-    display: flex;
-    justify-content: center;
-}
-
 .index-page-content {
-    max-width: 49rem;
     padding: 0 2rem 0 0;
 }
 
@@ -526,6 +520,10 @@ h2.beeware-project ~ p {
 }
 
 /* Blog */
+h1 .news {
+    margin-top: 1.8rem;
+}
+
 .md-sidebar--primary,
 .md-sidebar--post {
     width: 13rem;

@@ -1,3 +1,3 @@
-# Contributing to {{ formal_name }}
+# Contribution guide
 
 {% extends "contribute/index.md" %}

@@ -10,9 +10,9 @@ It's not just about code. A successful software project requires documentation, 
 
 Is this your first time contributing to an open source project? We're here to help! We have [advice for first-time contributors](first-time-contributors.md) to help with getting past any initial fears and concerns.
 
-## [Contribution guide](contribution_guide/index.md)
+## [Contribution guide](guide/index.md)
 
-There are plenty of ways to contribute to BeeWare. The [contribution guide](contribution_guide/index.md) covers everything you need to know to provide your contribution.
+There are plenty of ways to contribute to BeeWare. The [contribution guide](guide/index.md) covers everything you need to know to provide your contribution.
 
 ## [Sprints](sprint-guide.md) { #sprints }
 

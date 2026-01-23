@@ -19,32 +19,32 @@ nav:
       - contributing/index.md
       - First-time contributors: contributing/first-time-contributors.md
       - Contribution guide:
-          - contributing/contribution_guide/index.md
-          - Fix an issue: contributing/contribution_guide/what/fix-issue.md
-          - Implement a new feature: contributing/contribution_guide/what/implement-feature.md
-          - Write documentation: contributing/contribution_guide/what/write-docs.md
-          - Triage an issue: contributing/contribution_guide/what/triage.md
-          - Review a pull request: contributing/contribution_guide/what/review-pr.md
-          - Propose a new feature: contributing/contribution_guide/what/propose-feature.md
-          - Translate content: contributing/contribution_guide/what/translate.md
-          - Use the tools: contributing/contribution_guide/what/use-tools.md
-          - Setting up a development environment: contributing/contribution_guide/how/dev-environment.md
-          - Reproducing an issue: contributing/contribution_guide/how/reproduce-issue.md
-          - Working from a branch: contributing/contribution_guide/how/branches.md
-          - Avoiding scope creep: contributing/contribution_guide/how/scope-creep.md
-          - Writing, running, and testing code: contributing/contribution_guide/how/write-code.md
-          - Building documentation: contributing/contribution_guide/how/build-docs.md
-          - Writing documentation: contributing/contribution_guide/how/write-docs.md
-          - Adding a change note: contributing/contribution_guide/how/change-note.md
-          - Submitting a pull request: contributing/contribution_guide/how/submit-pr.md
-          - Providing a review: contributing/contribution_guide/how/review-pr.md
-          - Submitting a new issue: contributing/contribution_guide/how/new-issue.md
-          - Proposing a new feature: contributing/contribution_guide/how/propose-feature.md
-          - Translating content: contributing/contribution_guide/how/translate.md
-          - Pull request review process: contributing/contribution_guide/next/pr-review.md
-          - Release process: contributing/contribution_guide/next/release.md
-          - Code style guide: contributing/contribution_guide/style/code-style-guide.md
-          - Documentation style guide: contributing/contribution_guide/style/docs-style-guide.md
+          - contributing/guide/index.md
+          - Fix an issue: contributing/guide/what/fix-issue.md
+          - Implement a new feature: contributing/guide/what/implement-feature.md
+          - Write documentation: contributing/guide/what/write-docs.md
+          - Triage an issue: contributing/guide/what/triage.md
+          - Review a pull request: contributing/guide/what/review-pr.md
+          - Propose a new feature: contributing/guide/what/propose-feature.md
+          - Translate content: contributing/guide/what/translate.md
+          - Use the tools: contributing/guide/what/use-tools.md
+          - Setting up a development environment: contributing/guide/how/dev-environment.md
+          - Reproducing an issue: contributing/guide/how/reproduce-issue.md
+          - Working from a branch: contributing/guide/how/branches.md
+          - Avoiding scope creep: contributing/guide/how/scope-creep.md
+          - Writing, running, and testing code: contributing/guide/how/write-code.md
+          - Building documentation: contributing/guide/how/build-docs.md
+          - Writing documentation: contributing/guide/how/write-docs.md
+          - Adding a change note: contributing/guide/how/change-note.md
+          - Submitting a pull request: contributing/guide/how/submit-pr.md
+          - Providing a review: contributing/guide/how/review-pr.md
+          - Submitting a new issue: contributing/guide/how/new-issue.md
+          - Proposing a new feature: contributing/guide/how/propose-feature.md
+          - Translating content: contributing/guide/how/translate.md
+          - Pull request review process: contributing/guide/next/pr-review.md
+          - Release process: contributing/guide/next/release.md
+          - Code style guide: contributing/guide/style/code-style-guide.md
+          - Documentation style guide: contributing/guide/style/docs-style-guide.md
       - Sprint guide: contributing/sprint-guide.md
       - Challenge coins: contributing/challenge-coins.md
   - News:

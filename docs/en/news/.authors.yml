@@ -2,6 +2,7 @@ authors:
   freakboy3742:
     name: Russell Keith-Magee
     short_name: Russell
+    pronoun: he
     description: Founding Apiarist
     avatar: about/images/freakboy3742.png
     url: about/team/#freakboy3742
@@ -11,6 +12,7 @@ authors:
   kattni:
     name: Kattni
     short_name: Kattni
+    pronoun: she
     description: Apiarist
     avatar: about/images/kattni.png
     url: about/team/#kattni
@@ -20,6 +22,7 @@ authors:
   mhsmith:
     name: Malcolm Smith
     short_name: Malcolm
+    pronoun: he
     description: Apiarist
     avatar: about/images/mhsmith.png
     url: about/team/#mhsmith
@@ -28,6 +31,7 @@ authors:
   glasnt:
     name: Katie McLaughlin
     short_name: Katie
+    pronoun: they
     description: Senior Apiarist
     avatar: about/images/glasnt.png
     url: ..about/team/#glasnt
@@ -37,6 +41,7 @@ authors:
   phildini:
     name: Philip James
     short_name: Philip
+    pronoun: he
     description: Senior Apiarist
     avatar: about/images/phildini.png
     url: about/team/#phildini
@@ -46,6 +51,7 @@ authors:
   hawkowl:
     name: Amber Brown
     short_name: Amber
+    pronoun: she
     description: Team Member Emeritus
     avatar: about/images/hawkowl.png
     url: about/team/#hawkowl
@@ -55,6 +61,7 @@ authors:
   danyeaw:
     name: Dan Yeaw
     short_name: Dan
+    pronoun: he
     description: Team Member Emeritus
     avatar: about/images/danyeaw.png
     url: about/team/#danyeaw
@@ -65,6 +72,7 @@ authors:
   rmartin16:
     name: Russell Martin
     short_name: Russell M.
+    pronoun: he
     description: Apiarist
     avatar: about/images/rmartin16.png
     url: about/team/#rmartin16
@@ -73,6 +81,7 @@ authors:
   swenson:
     name: Christopher Swenson
     short_name: Christopher
+    pronoun: they
     description: Team Member Emeritus
     avatar: about/images/swenson.png
     url: about/team/#swenson
@@ -83,6 +92,7 @@ authors:
   halfwhitt:
     name: Charles Whittington
     short_name: Charles
+    pronoun: they
     description: Apiarist
     avatar: about/images/halfwhitt.png
     url: about/team/#halfwhitt
@@ -91,6 +101,7 @@ authors:
   cflee:
     name: Chiang Fong Lee
     short_name: Chiang Fong
+    pronoun: she
     description: Team Member Emeritus
     avatar: about/images/cflee.png
     url: about/team/#cflee
