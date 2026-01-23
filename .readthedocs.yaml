@@ -21,5 +21,5 @@ build:
       - python -m tox -e docs-lint
     build:
       html:
-        # TODO: Remove build-with-warnings for final.
+        # TODO: Remove --build-with-warnings before going live.
         - python -m tox -e docs-$READTHEDOCS_LANGUAGE -- --build-with-warnings --output=$READTHEDOCS_OUTPUT/html/
