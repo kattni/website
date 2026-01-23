@@ -71,7 +71,7 @@ authors:
     email: dan@yeaw.me
   rmartin16:
     name: Russell Martin
-    short_name: Russell M.
+    short_name: Russell
     pronoun: he
     description: Apiarist
     avatar: about/images/rmartin16.png
@@ -80,7 +80,7 @@ authors:
     email: rmartin16@gmail.com
   swenson:
     name: Christopher Swenson
-    short_name: Christopher
+    short_name: Swenson
     pronoun: they
     description: Team Member Emeritus
     avatar: about/images/swenson.png
@@ -152,7 +152,7 @@ authors:
     emeritus_date: 2025-12-15
   saroad2:
     name: Sagi Shadur
-    short_name: Sagi Shadur
+    short_name: Sagi
     pronoun: he
     description: Team Member Emeritus
     avatar: about/images/saroad2.png
@@ -162,67 +162,67 @@ authors:
     emeritus_date: 2025-12-15
   BPYap:
     name: Yap Boon Peng
-    short_name: B. P. Yap
+    short_name: Boon Peng
     description: 2018 Google Summer of Code Student
     avatar: https://avatars.githubusercontent.com/u/32807097
     url: https://github.com/BPYap
   abonie:
     name: Adam Boniecki
-    short_name: Adam B.
+    short_name: Adam
     description: 2017 Google Summer of Code Student
     avatar: https://avatars.githubusercontent.com/u/20281641
     url: https://github.com/abonie
   Dayof:
     name: Dayanne Fernandes
-    short_name: Dayanne F.
+    short_name: Dayanne
     description: 2017 Google Summer of Code Student
     avatar: https://avatars.githubusercontent.com/u/8198348
     url: https://github.com/Dayof
   ocupe:
     name: Jonas Schell
-    short_name: Jonas S.
+    short_name: Jonas
     description: 2017 Google Summer of Code Student
     avatar: https://avatars.githubusercontent.com/u/11357413
     url: https://github.com/ocupe
   kavi2du:
     name: Kavidu Abeykoon Mudiyanselagedara
-    short_name: Kavidu M.
+    short_name: Kavidu
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/132393780
     url: https://github.com/kavi2du
   Stringer90:
     name: Callum Horton
-    short_name: Callum H.
+    short_name: Callum
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/109891554
     url: https://github.com/Stringer90
   cadynn:
     name: Caydn Lee
-    short_name: Cadyn L.
+    short_name: Cadyn
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/104604345
     url: https://github.com/caydnn
   JMah007:
     name: Jaeden Mah
-    short_name: Jaeden M.
+    short_name: Jaeden
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/107184317
     url: https://github.com/JMah007
   mEp3ii2:
     name: Mitchell Pontague
-    short_name: Mitchell P.
+    short_name: Mitchell
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/74845700
     url: https://github.com/mEp3ii2
   vt37:
     name: Veronica Taniputra
-    short_name: Veronica T.
+    short_name: Veronica
     description: Curtin Capstone Team
     avatar: https://avatars.githubusercontent.com/u/110211722
     url: https://github.com/vt37
   patiences:
     name: Patience Shyu
-    short_name: Patience S.
+    short_name: Patience
     description: 2018 Google Summer of Code Student
     avatar: https://avatars.githubusercontent.com/u/14033272
     url: https://github.com/patiences
