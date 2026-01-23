@@ -194,6 +194,12 @@ def define_env(env):
                     except KeyError:
                         member_image_details_mastodon = ""
 
+                    pronoun_logo, pronoun_text = {
+                        "she": ("venus", "she/her"),
+                        "he": ("mars", "he/him"),
+                        "they": ("non-binary", "they/them"),
+                    }[member_details["pronoun"]]
+
                     member_image_details = dedent(
                         f"""\
                         </div>
@@ -202,6 +208,7 @@ def define_env(env):
                         ![{member_details["name"]}](/{member_details["avatar"]})
 
                         <div class="team-contact-details" markdown="1">
+                        <div class="team-pronouns" markdown="1">{fa("regular", pronoun_logo)} {pronoun_text}</div>
                         <div class="team-github-handle" markdown="1">{fa("github", "lg", "brands")} [{github_id}](https://github.com/{github_id})</div>
                         {member_image_details_mastodon}
                         <div class="team-email" markdown="1">{fa("envelope", "lg", "solid")} <{member_details["email"]}></div>
