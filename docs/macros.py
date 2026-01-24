@@ -18,6 +18,15 @@ def attendees(authors, team):
         )
 
 
+def pronouns(pronoun):
+    expanded_pronouns = {
+        "she": ("venus", "she", "her"),
+        "he": ("mars", "he", "him"),
+        "they": ("non-binary", "they", "them"),
+    }
+    return expanded_pronouns[pronoun]
+
+
 def talk_title_punctuation(talk_title):
     """Preserves talk title punctuation when talk is provided at the end of a
     sentence.
@@ -97,6 +106,14 @@ def define_env(env):
                 f"- {event.end_date.strftime('%B %d, %Y')}"
             )
 
+        for inv in involvement:
+            if inv["type"] == "keynote":
+                content.append(dedent(f"""
+                    {attendees(inv["team_members"], team)} will be keynoting {event.name}, giving a presentation entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
+
+                    <!-- more -->\n\n
+                    """))
+
         inv_types = {inv["type"] for inv in involvement}
 
         if "organizing" in inv_types:
@@ -105,59 +122,74 @@ def define_env(env):
                     {attendees(authors, team)} will be organizing [{event.name}]({event.url}), which will happen {event_timeframe}!\n\n
                 """)
             )
-        else:
+        elif inv_types != {"keynote"}:
             content.append(
                 dedent(f"""\
-                    {attendees(authors, team)} will be attending [{event.name}]({event.url}) {event_timeframe}!\n\n
+                    {attendees(authors, team)} will be attending [{event.name}]({event.url}) {event_timeframe}!
+
+                    <!-- more -->\n\n
                 """)
             )
 
-        content.append("\n<!-- more -->\n")
         content.append(f"{event.description}\n\n")
 
-        if inv_types != {"attending"} and inv_types != {"organizing"}:
-            content.append(f"You can find us throughout {event.name}:\n\n")
+        _, first_pronoun, second_pronoun = pronouns(team["authors"][authors[-1]]["pronoun"])
+
+        if inv_types != {"attending"} and inv_types != {"organizing"} and inv_types != {"keynote"}:
+            if len(authors) > 1:
+                content.append(f"You can find us throughout {event.name}:\n\n")
+            else:
+                content.append(f"You can find {second_pronoun} throughout {event.name}:\n\n")
 
         for inv in involvement:
-            if inv["type"] == "keynote":
-                keynote = dedent(f"""
-                    - {attendees(inv["team_members"], team)} will be keynoting {event.name}, giving a presentation entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
+            if len(authors) > 1:
+                team_members = attendees(inv["team_members"], team)
+            else:
+                team_members = first_pronoun.capitalize()
 
-                    """)
-                content.append(keynote)
-
-            elif inv["type"] == "talk":
+            if inv["type"] == "talk":
                 talk = dedent(f"""
-                    - {attendees(inv["team_members"], team)} will be giving a talk entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
+                    - {team_members} will be giving a talk entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
 
                     """)
                 content.append(talk)
 
             elif inv["type"] == "tutorial":
                 tutorial = dedent(f"""
-                    - {attendees(inv["team_members"], team)} will be hosting a tutorial entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
+                    - {team_members} will be hosting a tutorial entitled [{talk_title_punctuation(inv["title"])}]({inv["url"]})
 
                     """)
                 content.append(tutorial)
 
             elif inv["type"] == "sprint":
                 sprint = dedent(f"""
-                    - {attendees(inv["team_members"], team)} will be hosting a [sprint]({inv["url"]}).
+                    - {team_members} will be hosting a [sprint]({inv["url"]}).
 
                     """)
                 content.append(sprint)
 
             elif inv["type"] == "booth":
                 booth = dedent(f"""
-                    - {attendees(inv["team_members"], team)} will be hosting a [booth]({inv["url"]}).
+                    - {team_members} will be hosting a [booth]({inv["url"]}).
 
                     """)
                 content.append(booth)
 
-        content.append(
-            "Please come say hello, we'd love to meet you. "
-            "We're looking forward to seeing you there!"
-        )
+        if len(authors) > 1:
+            content.append(
+                "Please come say hello, we'd love to meet you. "
+                "We're looking forward to seeing you there!"
+            )
+        else:
+            content.append(
+                f"Please come say hello, {first_pronoun}'d love to meet you. "
+            )
+            if first_pronoun == "he":
+                content.append(f"He's looking forward to seeing you there!")
+            elif first_pronoun == "she":
+                content.append(f"She's looking forward to seeing you there!")
+            elif first_pronoun == "they":
+                content.append(f"They're looking forward to seeing you there!")
 
         return "".join(content)
 
@@ -194,11 +226,7 @@ def define_env(env):
                     except KeyError:
                         member_image_details_mastodon = ""
 
-                    pronoun_logo, pronoun_text = {
-                        "she": ("venus", "she/her"),
-                        "he": ("mars", "he/him"),
-                        "they": ("non-binary", "they/them"),
-                    }[member_details["pronoun"]]
+                    pronoun_logo, first_pronoun, second_pronoun = pronouns(member_details["pronoun"])
 
                     member_image_details = dedent(
                         f"""\
@@ -208,7 +236,7 @@ def define_env(env):
                         ![{member_details["name"]}](/{member_details["avatar"]})
 
                         <div class="team-contact-details" markdown="1">
-                        <div class="team-pronouns" markdown="1">{fa("regular", pronoun_logo)} {pronoun_text}</div>
+                        <div class="team-pronouns" markdown="1">{fa("regular", pronoun_logo)} {first_pronoun}/{second_pronoun}</div>
                         <div class="team-github-handle" markdown="1">{fa("github", "lg", "brands")} [{github_id}](https://github.com/{github_id})</div>
                         {member_image_details_mastodon}
                         <div class="team-email" markdown="1">{fa("envelope", "lg", "solid")} <{member_details["email"]}></div>

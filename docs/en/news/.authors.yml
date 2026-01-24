@@ -34,7 +34,7 @@ authors:
     pronoun: they
     description: Senior Apiarist
     avatar: about/images/glasnt.png
-    url: ..about/team/#glasnt
+    url: about/team/#glasnt
     join_date: 2016-04-02
     mastodon: "@glasnt@cloudisland.nz"
     email: katie@beeware.org
@@ -71,7 +71,7 @@ authors:
     email: dan@yeaw.me
   rmartin16:
     name: Russell Martin
-    short_name: Russell
+    short_name: Russell M
     pronoun: he
     description: Apiarist
     avatar: about/images/rmartin16.png

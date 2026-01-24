@@ -15,7 +15,7 @@ involvement:
 - type: keynote
   team_members:
   - freakboy3742
-  title: Future of Pythobn
+  title: Future of Python
   url: https://2019.pycon.co/en/
   date: 2019-02-10
   end_date: 2019-02-10
