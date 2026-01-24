@@ -20,7 +20,7 @@ To get you started, we're going to ask a few questions so we can gauge your inte
 
 1. **Have you used BeeWare before?**
 
-    If you haven't, start by working through the [BeeWare Tutorial](https://docs.beeware.org/en/latest/). It will give you an introduction for what the BeeWare project is, and how the pieces of the project fit together. If you hit any problems doing the tutorial, take notes - because ensuring nobody else has the same problem is a great topic for a first contribution!
+    If you haven't, start by working through the [BeeWare Tutorial](https://tutorial.beeware.org). It will give you an introduction for what the BeeWare project is, and how the pieces of the project fit together. If you hit any problems doing the tutorial, take notes - because ensuring nobody else has the same problem is a great topic for a first contribution!
 
     Once you've finished the tutorial up to at least step 4, move on to the next question.
 

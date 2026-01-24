@@ -52,6 +52,7 @@ With more than 45 million users, [Anaconda](https://anaconda.com/) is the most p
 
 ### Professional Members
 
+<nospell>
 <div class="pro-members" markdown="1">
 <div class="pro-member-avatar" markdown="1">![Lincoln Loop logo](images/lincolnloop.png)</div> <div class="pro-member-name">Lincoln Loop</div>
 </div>
@@ -61,9 +62,11 @@ With more than 45 million users, [Anaconda](https://anaconda.com/) is the most p
 <div class="pro-members" markdown="1">
 <div class="pro-member-avatar" markdown="1">![Matthias Kestenholz](images/mkestenholz.png)</div> <div class="pro-member-name">Matthias Kestenholz</div>
 </div>
+</nospell>
 
 ### Enthusiasts
 
+<nospell>
 - Timothy Bell
 - Wes Broadway
 - Gerard Blais
@@ -72,9 +75,12 @@ With more than 45 million users, [Anaconda](https://anaconda.com/) is the most p
 - Eric Froemling
 - Michal Sladek
 - Stefane Fermigier
-<!-- Github Sponsors -->
+</nospell>
+<!-- GitHub Sponsors -->
+<nospell>
 - Katie McLaughlin
 - Emil Lerner
 - Hassan Hashmi
 - Greg Turner
 - David Cramer
+</nospell>

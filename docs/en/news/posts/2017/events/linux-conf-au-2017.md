@@ -49,7 +49,7 @@ involvement:
 - type: talk
   team_members:
   - glasnt
-  title: Javascript is Awe-ful
+  title: Javascript is <nospell>Awe-ful</nospell>
   url: https://www.youtube.com/watch?v=k3brfCZSFiQ
   date: 2017-01-18
   end_date: 2017-01-18

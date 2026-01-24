@@ -53,11 +53,11 @@ Applications maintained by the BeeWare team that are built using BeeWare's tools
 
 <div class="other-tools-package" markdown="1">
 
-[![Podium](../images/podium.png)](https://podium.beeware.org){ .other-tools-logo }
+[![Podium](../images/podium.png)](https://github.com/beeware/podium){ .other-tools-logo }
 
 <div class="other-tools-info" markdown="1">
 
-#### [Podium](https://podium.beeware.org) { .podium-name }
+#### [Podium](https://github.com/beeware/podium) { .podium-name }
 
 <div class="podium-info" markdown="1">
 
@@ -90,11 +90,11 @@ A library for bridging between Python and the Objective-C language runtimes.
 
 <div class="other-tools-package" markdown="1">
 
-[![Brutus the Bee](../images/brutus.png)](https://python-apple-support.beeware.org){ .other-tools-logo }
+[![Brutus the Bee](../images/brutus.png)](https://github.com/beeware/python-apple-support){ .other-tools-logo }
 
 <div class="other-tools-info" markdown="1">
 
-#### [Python Apple Support](https://python-apple-support.beeware.org) { .python-apple-name }
+#### [Python Apple Support](https://github.com/beeware/python-apple-support) { .python-apple-name }
 
 <div class="python-apple-info" markdown="1">
 

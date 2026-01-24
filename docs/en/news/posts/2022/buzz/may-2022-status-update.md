@@ -32,7 +32,7 @@ Many of these changes either began as, or are entirely the work of community mem
 In June, we'll be focussing on:
 
 - Publishing our roadmap for Q3 and beyond! Now that we have reliable development resources, we're in a position to make public commitments on the future direction of the project.
-- Completing the hiring process for another engineer to work on BeeWare full time. This hiring process is underway, but it's not too late to apply if you're interested. Full details of the position [can be found on Greenhouse](https://boards.greenhouse.io/anaconda/jobs/4211521).
+- Completing the hiring process for another engineer to work on BeeWare full time. This hiring process is underway, but it's not too late to apply if you're interested. Full details of the position can be found on Greenhouse.
 - App Notarization on macOS. This is becoming an increasingly required part of macOS app publishing, as Apple cranks up their security requirements.
 - Improving Windows packaging. This includes improving the way the running app presents to the Task Manager, improving log capture, and app signing.
 - Improving Linux packaging. This includes addressing some issues with packaging binary dependencies.

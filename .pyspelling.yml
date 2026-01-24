@@ -17,6 +17,7 @@ matrix:
       - pymdownx.blocks.admonition
       - pymdownx.blocks.caption
       - pymdownx.blocks.tab
+      - pymdownx.details
   - pyspelling.filters.html:
       comments: true
       attributes:
@@ -25,24 +26,30 @@ matrix:
       ignores:
         - 'code'
         - 'pre'
+        - 'div'
+        - 'a'
         - 'nospell'
   - pyspelling.filters.context:
-      context_visible_first: true
-      escapes: '\\[\\`~]'
+#      escapes: '\\[\\`~]'
       delimiters:
         # Ignore the Jinja directives
-        - open: '{%'
-          content: '[\d\D]*'
-          close: '%}'
+        - open: '{% '
+          close: ' %}'
         # Ignores the autorefs link targets
         - open: '\]\['
           content: '[\d\D]*'
           close: '\]'
         # Ignore the single line Snippets syntax
-        - open: '-8<\-'
+        - open: '-8<- '
           content: '[\d\D]*'
           close: '\n'
         # Ignore the multiline Snippets syntax
-        - open: '-8<\-\n'
-          content: '[\d\D]*'
-          close: '-8<-\n'
+        - open: '-8<-\n'
+          close: '-8<-'
+        # Ignore the multiline Snippets syntax
+        - open: '-8<-\n\n'
+          content: '[.\n]*?'
+          close: '-8<-'
+        # Ignore urls in frontmatter
+        - open: '  url: https?:'
+          close: '/$'

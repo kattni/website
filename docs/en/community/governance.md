@@ -23,7 +23,7 @@ Founding Apiarist: [Russell Keith-Magee](/about/team.md#freakboy3742)
 - This role is different to the BDFN role
 
 Bee-nevolent Dictator for Now (BDFN): [Russell Keith-Magee](/about/team.md#freakboy3742)
-- A take on [Benevolent Dictator for Life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), responsibility for the direction and decisions of the project ultimately lies with the BFDN. The use of "For Now" as opposed to "For Life" is reference to the Django theme of not subjecting the responsibilities of core maintainer for a person's entire natural life. Life exists outside open source, and code/life balance and general well-being is a very important thing to keep in mind.
+- A take on [Benevolent Dictator for Life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), responsibility for the direction and decisions of the project ultimately lies with the BDFN. The use of "For Now" as opposed to "For Life" is reference to the Django theme of not subjecting the responsibilities of core maintainer for a person's entire natural life. Life exists outside open source, and code/life balance and general well-being is a very important thing to keep in mind.
 
 ## Guidelines (not actual rules)
 

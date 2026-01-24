@@ -7,17 +7,17 @@ categories:
 - Buzz
 ---
 
-At PyCon AU 2015, and again at DjangoCon US 2015, I gave a talk entitled "Money Money Money: Writing software, in a rich (wo)man's world". The talk was a summary of the issues around one of the biggest problems that I see facing the open source community: how to provide the resources that are needed to develop and maintain the software that we, as a community depend upon. This means providing maintenance and support for established projects, large and small; but also providing an ecosystem where new ideas can be incubated, developed and matured until they present compelling alternatives or significant benefits over closed source offerings.
+At PyCon AU 2015, and again at DjangoCon US 2015, I gave a talk entitled <nospell>"Money Money Money: Writing software, in a rich (wo)man's world"</nospell>. The talk was a summary of the issues around one of the biggest problems that I see facing the open source community: how to provide the resources that are needed to develop and maintain the software that we, as a community depend upon. This means providing maintenance and support for established projects, large and small; but also providing an ecosystem where new ideas can be incubated, developed and matured until they present compelling alternatives or significant benefits over closed source offerings.
 
 <!-- more -->
 
-It's been almost 18 months since I first presented this talk, but the issue persists. I haven't been alone in noticing and drawing attention to this issue, either. [Nadia Eghbal](https://twitter.com/nayafia) was commissioned to write a white paper for the Ford Foundation entitled [Roads and Bridges](http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure) highlighting the chronic need for resources to support the basic infrastructure that underpins large parts of the modern economy. Eric Holscher (maintainer of [Read the Docs](https://readthedocs.com)) [blogged about the problems he's had raising funds](http://ericholscher.com/blog/2016/aug/31/funding-oss-marketing-money/), despite the fact that the service he delivers is a widely used - arguably indispensable - part of the Python ecosystem.
+It's been almost 18 months since I first presented this talk, but the issue persists. I haven't been alone in noticing and drawing attention to this issue, either. [Nadia Eghbal](https://twitter.com/nayafia) was commissioned to write a white paper for the Ford Foundation entitled [Roads and Bridges](http://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure) highlighting the chronic need for resources to support the basic infrastructure that underpins large parts of the modern economy. <nospell>Eric Holscher</nospell> (maintainer of [Read the Docs](https://readthedocs.com)) [blogged about the problems he's had raising funds](http://ericholscher.com/blog/2016/aug/31/funding-oss-marketing-money/), despite the fact that the service he delivers is a widely used - arguably indispensable - part of the Python ecosystem.
 
 However, despite this attention, it *still* doesn't get anywhere near as much attention as it should. And it's an issue that is of pressing importance to me, as the BeeWare project is looking for ways to fund the development needed to take us from "interesting technical demo" to "compelling technical solution".
 
 A few months back, it was suggested that I should publish a blog post to accompany the video presentation. I dragged my feet on doing this, until industrious BeeWare contributor and all-around nice guy [Elias Dorneles](http://eliasdorneles.github.io) offered to take my speakers notes and convert it into a transcript.
 
-So - here it is. Money Money Money: Writing software, in a rich (wo)man's world. If you've got any questions, disagreements, requests to present this at your conference, or just a generic offer of a bag of cash, you can reach me at <russell@keith-magee.com>.
+So - here it is. Money Money Money: Writing software, in a rich <nospell>(wo)man's</nospell> world. If you've got any questions, disagreements, requests to present this at your conference, or just a generic offer of a bag of cash, you can reach me at <russell@keith-magee.com>.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jw6wnIopVVg" frameborder="0" allowfullscreen></iframe>
 
@@ -31,7 +31,7 @@ My day job is as CTO and co-founder of TradesCloud. We’re a Software as a Serv
 
 I've also got a declared interest in GUI/UI issues, especially as they relate to development tools. I've got grand visions of what I'd *like* to do with this project, and I've received some great contributions from the community, but it's still largely my own work. But my startup would be able to make great use of these tools if they were mature.
 
-I've also a maintainer of some smaller projects, like the Python wrapper to the Xero API. I started the project because I had an itch; and my itch has been scratched. But now I've open sourced that project, which means I've inherited a maintenance task. I've accepted help from a couple of people - most notably Matthew Schinkel and Aidan Lister, who have done great work. But if I'm honest, the maintenance burden of PyXero well exceeds the time I can reasonably dedicate to it.
+I've also a maintainer of some smaller projects, like the Python wrapper to the Xero API. I started the project because I had an itch; and my itch has been scratched. But now I've open sourced that project, which means I've inherited a maintenance task. I've accepted help from a couple of people - most notably <nospell>Matthew Schinkel and Aidan Lister</nospell>, who have done great work. But if I'm honest, the maintenance burden of PyXero well exceeds the time I can reasonably dedicate to it.
 
 So - I've got vested interests in free software. I've got an interest as a producer of a successful project with a high profile; as the producer of a small project with lots of users but little personal incentive; and as a producer of smaller projects with almost no profile but grand plans. These projects all have different resourcing needs, reflecting their maturity as projects.
 
@@ -53,13 +53,13 @@ Talk to any prominent free software developer, and amongst the success stories, 
 
 OpenSSL is the software that drives pretty much every "secure" connection on the internet - and yet it took until the discovery of Heartbleed - a critical vulnerability that sent the internet into a tailspin - before it could find funding to pay for maintainers.
 
-Another example - GnuPG - Werner Koch almost went bankrupt trying to support GPG - a project that many others depends upon for trust in their release process. He was rescued, at deaths door, by the Linux Foundation's Core Infrastructure initiative.
+Another example - GnuPG - <nospell>Werner Koch</nospell> almost went bankrupt trying to support GPG - a project that many others depends upon for trust in their release process. He was rescued, at deaths door, by the Linux Foundation's Core Infrastructure initiative.
 
 Those are both examples that ended with funding; but it's not all happy endings.
 
-Take the example of Capistrano. Hugely popular configuration management tool around 2007-8, maintained by Jamis Buck. In 2008, citing burnout and maintenance overhead, he famously withdrew support for Windows, saying "Windows may be the 800 pounds gorilla in the room, but it's not my gorilla, and it's not in my room". This was an incredibly unpopular move; but even with that scale down, Jamis burned out in 2009, abandoning Capistrano, and a number of other projects, without maintainers.
+Take the example of Capistrano. Hugely popular configuration management tool around 2007-8, maintained by <nospell>Jamis Buck</nospell>. In 2008, citing burnout and maintenance overhead, he famously withdrew support for Windows, saying "Windows may be the 800 pounds gorilla in the room, but it's not my gorilla, and it's not in my room". This was an incredibly unpopular move; but even with that scale down, Jamis burned out in 2009, abandoning Capistrano, and a number of other projects, without maintainers.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Hi I&#39;m an engineer at a well-funded company and we need this feature can someone implement it for free?&quot; -- Every FOSS mailing list.</p>&mdash; Christophe (@Xof) <a href="https://twitter.com/Xof/status/622113231218192384">July 17, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Hi I&#39;m an engineer at a well-funded company and we need this feature can someone implement it for free?&quot; -- Every FOSS mailing list.</p>&mdash; <nospell>Christophe (@Xof) <a href="https://twitter.com/Xof/status/622113231218192384">July 17, 2015</a></nospell></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The thing is - that this is a community that has lots of cash. In the
@@ -160,7 +160,7 @@ maintained well, we need to find a way to fund it's maintenance.
 
 18 years ago, Eric S Raymond published an essay entitled "Cathedral and
 the Bazaar". This essay catalyzed the start of the open source
-movement - a redefinition of "free software" to make it clear that the openness, not price, was the important property. What isn't as well remembered is that "Cathedral and the Bazaar" isn't the only essay Raymond wrote at that time. He published 2 other essays shortly after CatB - "Homesteading the Noosphere", about the social organization and motivations behind free software projects, and The Magic Cauldron, about the *economics* of Free software.
+movement - a redefinition of "free software" to make it clear that the openness, not price, was the important property. What isn't as well remembered is that "Cathedral and the Bazaar" isn't the only essay Raymond wrote at that time. He published 2 other essays shortly after <nospell>CatB - "Homesteading the Noosphere",</nospell> about the social organization and motivations behind free software projects, and The Magic Cauldron, about the *economics* of Free software.
 
 One of the key distinctions that Raymond highlights in that essay is the difference between Use value and Sale value.
 
@@ -184,17 +184,17 @@ One area that *does* pay well is selling training. Employers are willing to pay 
 
 You can productize your offering. The source code remains free, but a simple, easy-to-use installer costs money. This works really great when when what you have is a clearly identifiable product - like an IDE.
 
-One specific model of productization is SaaS - give the code away for free, but pay for the convenience of having someone else administer it for you. Any open source web software is a good example of this - you can install the software on your own servers, but honestly, unless you've got a reason, you use someone elses hosted solution and let them take care of it for you.
+One specific model of productization is SaaS - give the code away for free, but pay for the convenience of having someone else administer it for you. Any open source web software is a good example of this - you can install the software on your own servers, but honestly, unless you've got a reason, you use someone else's hosted solution and let them take care of it for you.
 
 But, SaaS is only viable if you can deliver *as a service* - which means it's really only viable for web. And, as technologies like docker commodify deployment, it's possible that even this revenue stream might evaporate.
 
 So what else can you sell?
 
-You can sell access to the developers. If you're the maintainer of a project, you're in the best position to provide support, or debug complex problems - which means you're in a prime position to sell support and consulting. <span class="title-ref">Honza Král &lt;https://twitter.com/honzakral&gt;</span> from ElasticSearch calls this the "Ghostbusters" business model - "Who you gonna call?"
+You can sell access to the developers. If you're the maintainer of a project, you're in the best position to provide support, or debug complex problems - which means you're in a prime position to sell support and consulting. <span class="title-ref"><nospell>Honza Král &lt;https://twitter.com/honzakral&gt;</nospell></span> from ElasticSearch calls this the "Ghostbusters" business model - "Who you gonna call?"
 
 You can sell access to the software. Trolltech did this with Qt; Riverbank still does with the PyQt bindings. The library itself is GPL - but if you want to use it on a closed source project, you can, for a hefty fee. This has the advantage that it forces commercial interests to pay for what they're using; but it also discourages small scale commercial tinkering - if I'm writing a new tool, and I'm forced to choose between open sourcing my tool or a $1000 price tag, I'll probably choose a different toolkit.
 
-You can also get into the business of providing certifications and guarantees - auditing code to ensure quality or compatibility, providing guarantees about fixing bugs, and certifying that individuals are skilled in the use of the product. This is a big part of RedHat's business model - auditing packages, making sure they all interoperate as expected, ensuring that security updates are available and meet the same standards, and certifying system administrators.
+You can also get into the business of providing certifications and guarantees - auditing code to ensure quality or compatibility, providing guarantees about fixing bugs, and certifying that individuals are skilled in the use of the product. This is a big part of Red Hat's business model - auditing packages, making sure they all interoperate as expected, ensuring that security updates are available and meet the same standards, and certifying system administrators.
 
 This is a set of products that appeals to the "enterprise" high end of town - and that's is a lucrative end of the market. But those customers also tend to only want these guarantees for certain types of software - broadly speaking, "Boring fuddy-duddy" software. Your operating system, your database - these are pieces of software that need to be rock solid in an enterprise setting. Your debug toolbar - not so much, unless maybe they've being wrapped as part of a suite of tools.
 
@@ -210,7 +210,7 @@ If you have a project mailing list, where the community answers questions for fr
 
 If your software is well designed, and modular, and those interfaces are well documented, and I need a modification - why wouldn't I just write the mod myself?
 
-Now, Ok - I'm exaggerating. There are legitimate reasons to pay for support or to bring in a consultant even if the interfaces are clean and well documented. But my point is that the better you do a job as a free software engineer, it becomes harder to make the business case for your revenue stream, because the value proposition becomes less obvious.
+Now, OK - I'm exaggerating. There are legitimate reasons to pay for support or to bring in a consultant even if the interfaces are clean and well documented. But my point is that the better you do a job as a free software engineer, it becomes harder to make the business case for your revenue stream, because the value proposition becomes less obvious.
 
 And if it isn't directly undermining your value proposition, it can still undermine you indirectly, because the more time you spend earning money, the less you spend doing what the money pays for. Administering a certification program takes time. Writing and delivering training courses takes time. Consulting can be lucrative, but developing a sales pipeline takes time. And if you're consulting, you need to make sure that sales pipeline is full, which means you're going to err on the side of taking on more work than less... which means you've just closed the door on the the time you have available to work on open source.
 
@@ -228,9 +228,9 @@ It's also important to realize that not all products are afforded all these oppo
 
 ### Do you have to sell something?
 
-Ok - but can we do this without selling anything at all?
+OK - but can we do this without selling anything at all?
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;How to make money from open source&quot; is like &quot;How to make money from clean water&quot; or public education or science.</p>&mdash; Pieter Hintjens (@hintjens) <a href="https://twitter.com/hintjens/status/603446810183610368">May 27, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;How to make money from open source&quot; is like &quot;How to make money from clean water&quot; or public education or science.</p>&mdash; <nospell>Pieter Hintjens (@hintjens) <a href="https://twitter.com/hintjens/status/603446810183610368">May 27, 2015</a></nospell></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Free software stems from a moral imperative - so can we fund development
@@ -245,14 +245,14 @@ people to pitch in and contribute to a goal.
 
 The Django community has a couple of examples of very successful
 crowdfunding projects, each raising tens of thousands of dollars (Django
-Migrations, Multiple Template engines, django.contrib.postgres, Django
+Migrations, Multiple Template engines, <nospell>django.contrib.postgres</nospell>, Django
 Rest Framework). But - if you survey the people who did these projects,
 they didn't make money on these projects. The amount of engineering time
 that went into them well exceeded the money raised.
 
 Another idea that gets floated regularly is the idea of bug bounties -
 placing a price on specific bugs. This is really just another form of
-crowdfunding - You want a specific bug fixied or feature added?
+crowdfunding - You want a specific bug fixed or feature added?
 Contribute money. You *really* want it - contribute more. And eventually
 someone will take the bait and fix the bug or implement the feature.
 
@@ -277,7 +277,7 @@ scarce community resources.
 
 #### Grants, Fellowships, Patreon
 
-Ok - so if you want longer term income, you need to look at longer term
+OK - so if you want longer term income, you need to look at longer term
 engagements. That means that you stop looking at funding specific
 projects, and start looking at funding the person, with grants and
 fellowship positions.
@@ -312,12 +312,12 @@ commercial. Commercial interests have the money, so why shouldn't they
 pay for it? This can be very successful under certain circumstances -
 but you have to be able to make a business case for the corporate owner.
 
-OpenStack is a great example of this. Why are Rackspace, HP, Redhat,
+OpenStack is a great example of this. Why are Rackspace, HP, Red Hat,
 Ubuntu all interested in OpenStack? Because they sell products that
 benefit from commodifying the hosting environment. By making it cheap
 and easy to control cloud deployments, they increase the size of the
 market for cloud hosting, which means more money for their core
-business - either directly (like Rackspace), or indirectly (like RedHat,
+business - either directly (like Rackspace), or indirectly (like Red Hat,
 because cloud servers still need operating systems).
 
 Node.js is funded by Joyent for similar reasons - Joyent is making a
@@ -359,7 +359,7 @@ And sadly, just as with charities - many companies don't donate at all. And I'm 
 
 Most importantly, we don't have a mechanism in place to make it easy to spend money, and easy to receive money. The current state of affairs clearly demonstrates that it's not enough that there is a lot of money in a community - you have to make the mechanism for donating that money as obvious and seamless as possible, and you have to have someone to direct that money towards.
 
-One model community that I think does this really well is the Wordpress community. Wordpress is GPL'd software. There are books, videos, blogs on how to write wordpress plugins and themes - the same as there would be for any open source software community. But critically, there are also books, videos and blogs on how to make a *business* writing Wordpress plugins and themes. Wordpress is GPL. And therefore, so are all the plugins. They've got a store where you can buy plugins (and get free ones), and easily install them in your Wordpress instance.
+One model community that I think does this really well is the Wordpress community. Wordpress is GPL'd software. There are books, videos, blogs on how to write Wordpress plugins and themes - the same as there would be for any open source software community. But critically, there are also books, videos and blogs on how to make a *business* writing Wordpress plugins and themes. Wordpress is GPL. And therefore, so are all the plugins. They've got a store where you can buy plugins (and get free ones), and easily install them in your Wordpress instance.
 
 The Wordpress ecosystem has fundamentally embraced the fact that money needs to be part of the equation, and by doing so, they've created an industry that is self-funding - and this, I'd argue, is one big reason for the success of Wordpress as a platform.
 
@@ -371,7 +371,7 @@ What if [PyPI](https://pypi.python.org/pypi) was a revenue stream? What if, when
 
 If PyPI stats are to be believed, Django is downloaded from PyPI more than 1 million times per month. If there was a 10c toll on each download, that would raise $100,000 per month - enough to pay for 10 full-time well paid developers, or a metric buttload of diversity, outreach, DjangoGirls, and community support.
 
-You could also leverage PyPi dependency information to pay it forward - if you're writing a project that depends on another, you could opt to pass some of your revenue upstream. Or, request that downstreams provide a tithe.
+You could also leverage PyPI dependency information to pay it forward - if you're writing a project that depends on another, you could opt to pass some of your revenue upstream. Or, request that downstreams provide a tithe.
 
 And then there's the biggest dependencies of all - PyPI and Python itself. If PyPI took a small cut of the revenue raised, that could help pay for the development and maintenance of PyPI - and potentially Python as well.
 

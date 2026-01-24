@@ -41,4 +41,4 @@ Want to get involved? Here are some open issues that would be a great place to g
 6. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 7. [Switch Toga's Android backend to use native Chaquopy syntax](https://github.com/beeware/toga/issues/1980)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
