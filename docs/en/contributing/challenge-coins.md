@@ -1,3 +1,5 @@
+# Challenge coins
+
 Challenge Coins are a military tradition, which is said to originate at the start of last century. They were distributed based on merit in events or for other reasons, and hold deep personal value.
 
 To find out more about Challenge Coins, you can listen to the [99% Invisible](http://99percentinvisible.org/episode/coin-check/) podcast about them, or read up about them on [Wikipedia](https://en.wikipedia.org/wiki/Challenge_coin).

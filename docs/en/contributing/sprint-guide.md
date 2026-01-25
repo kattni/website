@@ -60,7 +60,7 @@ To filter a GitHub issue list by the "[good first issue](https://github.com/sear
 
 1. Click on the "Labels" button above the list of issues to activate the drop-down menu.
 2. Type the word "good" into the search box at the top of the drop-down menu.
-3.  Click on "good first issue" in the filtered list.
+3. Click on "good first issue" in the filtered list.
 
 ![Filtering GitHub issues by label](images/github-good-first-issue-filter.png)
 

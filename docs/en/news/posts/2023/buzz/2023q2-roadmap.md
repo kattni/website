@@ -21,7 +21,7 @@ We have also been able to release Toga v0.3.0. This release was almost 5 years i
 
 Q1 saw some unexpected improvements to Briefcase. We've had persistent problems supporting AppImage and Flatpak as packaging formats; during Q1, we couldn't avoid these problems any longer, so we introduced a System packaging backend, and made this the new default for Linux apps. We're now able to produce native system packages for Briefcase apps, supporting almost every Debian, Red Hat or Arch derived distribution. These packages are already proving more stable: we had no major issues during a recent tutorial at Everything Open 2023, despite a wide variety of Linux distributions in the room - something that we've never been able to say about AppImage.
 
-However, once again, that means there's a lot left on the Q1 TODO list. Toga documentation is being slowly updated as we audit each widget; however, we haven't made any changes to the example apps; we haven't been able to do any substantial Toga planning; and we haven't been able to add any native cross-platform hardware support.
+However, once again, that means there's a lot left on the Q1 TODO list. Toga documentation is being slowly updated as we audit each widget; however, we haven't made any changes to the example apps; we haven't been able to do any substantial Toga planning; and we haven't been able to add any native cross-platform hardware support. <!-- rumdl-disable-line MD061 -->
 
 ## Q2 priorities
 

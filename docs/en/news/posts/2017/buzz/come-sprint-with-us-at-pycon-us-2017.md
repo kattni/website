@@ -11,7 +11,7 @@ categories:
 
 -------------------------------------------------------------------------
 
-*Want to to go @PyCon, can’t afford it? @PyBeeWare has 2 tickets to give away. Email contact@beeware.org and tell us why you want to bee there!*
+*Want to go @PyCon, can’t afford it? @PyBeeWare has 2 tickets to give away. Email <contact@beeware.org> and tell us why you want to bee there!*
 
 — PyBee (@PyBeeWare) January 30, 2017
 
@@ -58,4 +58,4 @@ If you have any questions, just ask [myself](https://twitter.com/glasnt) or [Rus
 
 We'd love to see you there! ✨
 
-\[This article has been cross-posted on [glasnt.com/blog](http://glasnt.com/blog/2017/02/01/come-sprint-with-beeware.html)\]
+[This article has been cross-posted on [glasnt.com/blog](http://glasnt.com/blog/2017/02/01/come-sprint-with-beeware.html)]

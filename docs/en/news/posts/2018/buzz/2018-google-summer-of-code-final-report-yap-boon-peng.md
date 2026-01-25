@@ -19,9 +19,9 @@ Another feature related to generator was <span class="title-ref">Yield</span> ex
 
 PRs related to generator are listed below:
 
-- [PR \#821](https://github.com/beeware/voc/pull/821) : Added support for Yield from statement (merged)
-- [PR \#823](https://github.com/beeware/voc/pull/823) : Added generator send method (merged)
-- [PR \#831](https://github.com/beeware/voc/pull/831) : Support exceptions handling in generator (merged)
+- [PR #821](https://github.com/beeware/voc/pull/821) : Added support for Yield from statement (merged)
+- [PR #823](https://github.com/beeware/voc/pull/823) : Added generator send method (merged)
+- [PR #831](https://github.com/beeware/voc/pull/831) : Support exceptions handling in generator (merged)
 
 ## Nonlocal Statement
 
@@ -31,8 +31,8 @@ Implementing this feature took about 3 ~ 4 weeks as this is not as trivial as it
 
 Related PRs:
 
-- [PR \#854](https://github.com/beeware/voc/pull/854) : Nonlocal statement support (merged)
-- [PR \#873](https://github.com/beeware/voc/pull/873) : Added closure related test cases (merged)
+- [PR #854](https://github.com/beeware/voc/pull/854) : Nonlocal statement support (merged)
+- [PR #873](https://github.com/beeware/voc/pull/873) : Added closure related test cases (merged)
 
 ## The Collections Module
 
@@ -40,34 +40,34 @@ Next item on my hit list was pure Java implementations of the <span class="title
 
 Related PRs:
 
-- [PR \#874](https://github.com/beeware/voc/pull/874) : Implement collections.defauldict (merged)
-- [PR \#896](https://github.com/beeware/voc/pull/896) : Implements collections.Deque (merged)
-- [PR \#897](https://github.com/beeware/voc/pull/897) : Implements collections.OrderedDict\` (merged)
+- [PR #874](https://github.com/beeware/voc/pull/874) : Implement collections.defauldict (merged)
+- [PR #896](https://github.com/beeware/voc/pull/896) : Implements collections.Deque (merged)
+- [PR #897](https://github.com/beeware/voc/pull/897) : Implements collections.OrderedDict\` (merged)
 
 ## Other PRs submitted during GSoC 2018
 
-- [PR \#817](https://github.com/beeware/voc/pull/817) : Added coroutine related exception class \[WIP\] (closed due to not needed)
-- [PR \#836](https://github.com/beeware/voc/pull/836) : Changed Bool construction to use getBool instead (merged)
-- [PR \#847](https://github.com/beeware/voc/pull/847) : Add custom exceptions test cases (closed due to more comprehensive handling in [PR \#844](https://github.com/beeware/voc/pull/844))
-- [PR \#849](https://github.com/beeware/voc/pull/849) : Fixed Unknown constant type &lt;class 'frozenset'&gt; in function definition (merged)
-- [PR \#858](https://github.com/beeware/voc/pull/858) : Added test case for [Issue \#857](https://github.com/beeware/voc/issues/857) (merged)
-- [PR \#860](https://github.com/beeware/voc/pull/860) : Added test case for [Issue \#859](https://github.com/beeware/voc/issues/859) (merged)
-- [PR \#862](https://github.com/beeware/voc/pull/862) : Added test case for [Issue \#861](https://github.com/beeware/voc/issues/861) (merged)
-- [PR \#867](https://github.com/beeware/voc/pull/867) : Fixed [Issue \#866](https://github.com/beeware/voc/issues/866) RunTimeError when generator is nested in more than 1 level of function definition (merged)
-- [PR \#868](https://github.com/beeware/voc/pull/868) : Fixed [Issue \#861](https://github.com/beeware/voc/issues/861) Redefining nested function from other function overrides original nested function (merged)
-- [PR \#879](https://github.com/beeware/voc/pull/879) : Fixed Incompatible Stack Height caused by expression statement (merged)
-- [PR \#901](https://github.com/beeware/voc/pull/901) : Added test case for [Issue \#900](https://github.com/beeware/voc/issues/900) (merged)
-- [PR \#788](https://github.com/beeware/voc/pull/788) : Implements asyncio.coroutines \[WIP\] (open, the dream 😎)
+- [PR #817](https://github.com/beeware/voc/pull/817) : Added coroutine related exception class [WIP] (closed due to not needed)
+- [PR #836](https://github.com/beeware/voc/pull/836) : Changed Bool construction to use getBool instead (merged)
+- [PR #847](https://github.com/beeware/voc/pull/847) : Add custom exceptions test cases (closed due to more comprehensive handling in [PR #844](https://github.com/beeware/voc/pull/844))
+- [PR #849](https://github.com/beeware/voc/pull/849) : Fixed Unknown constant type &lt;class 'frozenset'&gt; in function definition (merged)
+- [PR #858](https://github.com/beeware/voc/pull/858) : Added test case for [Issue #857](https://github.com/beeware/voc/issues/857) (merged)
+- [PR #860](https://github.com/beeware/voc/pull/860) : Added test case for [Issue #859](https://github.com/beeware/voc/issues/859) (merged)
+- [PR #862](https://github.com/beeware/voc/pull/862) : Added test case for [Issue #861](https://github.com/beeware/voc/issues/861) (merged)
+- [PR #867](https://github.com/beeware/voc/pull/867) : Fixed [Issue #866](https://github.com/beeware/voc/issues/866) RunTimeError when generator is nested in more than 1 level of function definition (merged)
+- [PR #868](https://github.com/beeware/voc/pull/868) : Fixed [Issue #861](https://github.com/beeware/voc/issues/861) Redefining nested function from other function overrides original nested function (merged)
+- [PR #879](https://github.com/beeware/voc/pull/879) : Fixed Incompatible Stack Height caused by expression statement (merged)
+- [PR #901](https://github.com/beeware/voc/pull/901) : Added test case for [Issue #900](https://github.com/beeware/voc/issues/900) (merged)
+- [PR #788](https://github.com/beeware/voc/pull/788) : Implements asyncio.coroutines [WIP] (open, the dream 😎)
 
 ## Issues submitted during GSoC 2018
 
-- [Issue \#861](https://github.com/beeware/voc/issues/861) : Redefining nested function from other function overrides original nested function (fixed in [PR \#868](https://github.com/beeware/voc/pull/868))
-- [Issue \#866](https://github.com/beeware/voc/issues/866) : RunTimeError when generator is nested in more than 1 level of function definition (fixed in [PR \#867](https://github.com/beeware/voc/pull/867))
-- [Issue \#828](https://github.com/beeware/voc/issues/828) : Finally block of generator is not executed during garbage collection (open)
-- [Issue \#857](https://github.com/beeware/voc/issues/857) : Complex datatype in set cause java.lang.StackOverflowError (open)
-- [Issue \#859](https://github.com/beeware/voc/issues/859) : Duplicated values of equivalent but different data types in set (open)
-- [Issue \#900](https://github.com/beeware/voc/issues/900) : Exception in nested try-catch suite is 'leaked' to another enclosing try-catch suite (open)
-- [Issue \#827](https://github.com/beeware/voc/issues/827) : Maps reserved Java keywords to Python built-in function/method call (closed)
+- [Issue #861](https://github.com/beeware/voc/issues/861) : Redefining nested function from other function overrides original nested function (fixed in [PR #868](https://github.com/beeware/voc/pull/868))
+- [Issue #866](https://github.com/beeware/voc/issues/866) : RunTimeError when generator is nested in more than 1 level of function definition (fixed in [PR #867](https://github.com/beeware/voc/pull/867))
+- [Issue #828](https://github.com/beeware/voc/issues/828) : Finally block of generator is not executed during garbage collection (open)
+- [Issue #857](https://github.com/beeware/voc/issues/857) : Complex datatype in set cause java.lang.StackOverflowError (open)
+- [Issue #859](https://github.com/beeware/voc/issues/859) : Duplicated values of equivalent but different data types in set (open)
+- [Issue #900](https://github.com/beeware/voc/issues/900) : Exception in nested try-catch suite is 'leaked' to another enclosing try-catch suite (open)
+- [Issue #827](https://github.com/beeware/voc/issues/827) : Maps reserved Java keywords to Python built-in function/method call (closed)
 
 ## Towards The Ultimate End Goal
 

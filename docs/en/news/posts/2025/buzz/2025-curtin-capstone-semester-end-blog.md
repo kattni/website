@@ -24,12 +24,12 @@ This year our team has had the exciting opportunity to contribute to BeeWare for
 
 Meet the Team:
 
- - Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
- - Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
- - Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
- - Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
- - Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
- - Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
+- Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
+- Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
+- Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
+- Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
+- Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
+- Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
 
 ## What We’ve Worked On
 
@@ -82,7 +82,6 @@ During Mitchell’s development of the DateInput Web Widget, we discovered some 
 We’re proposing to shift ownership of these dependencies to Toga and other toolkits, enabling them to define their own configurations and inserts while keeping Briefcase focused purely on packaging. This would allow for clearer version control, better modularity, and easier maintenance across the ecosystem. This approach builds on prior work ([briefcase#1285](https://github.com/beeware/briefcase/pull/1285), [toga#1945](https://github.com/beeware/toga/pull/1945) and [briefcase-web-static-template#9](https://github.com/beeware/briefcase-web-static-template/pull/9)) and introduces a mechanism for toolkit-managed inserts and configuration. We plan on reviving parts of these to allow for Toga to specify PyScript versioning.
 
 More technical details and discussion can be found in our [Discussion Post](https://github.com/beeware/briefcase/discussions/2283) on Briefcase and the associated [Issue Ticket](https://github.com/beeware/briefcase/issues/2337).
-
 
 ### Briefcase Web Development Optimisations
 

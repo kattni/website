@@ -27,7 +27,7 @@ The idea is that the benchmarking suite is not to be run as part of the full tes
 
 May 10th, 2018:
 
-```
+```console
 $ python setup.py test -s tests.test\_pystone test\_pystone
 (tests.test\_pystone.PystoneTest) ... Pystone(1.2) time for 50000
 passes = 101.833 This machine benchmarks at 490.998 pystones/second
@@ -43,7 +43,7 @@ passes = 102.247 This machine benchmarks at 489.014 pystones/second
 
 On current master (Aug 14th, 2018):
 
-```
+```console
 $ python setup.py test -s tests.test\_pystone test\_pystone
 (tests.test\_pystone.PystoneTest) ... Pystone(1.2) time for 50000
 passes = 11.2300 This machine benchmarks at 4452.37 pystones/second

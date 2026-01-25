@@ -25,7 +25,7 @@ Using this new testing capability, we've started building a GUI test suite for T
 
 Our plans to release Toga v0.3 final have also been delayed. The process of adding SCM-based versioning to the repository (part of the housekeeping task) revealed a bug that prevented code running on Android; fixing that bug became a blocker on the release of Toga v0.3. We've now resolved that problem, so we should be able to release Toga v0.3 final as soon as the fix has been released into the BeeWare's Android tooling.
 
-Unfortunately, that leaves a lot on the Q4 TODO list. We haven't made any changes to the example apps; Toga documentation is mostly unchanged; we haven't been able to do any substantial Toga planning; and we haven't been able to add any native cross-platform hardware support.
+Unfortunately, that leaves a lot on the Q4 TODO list. We haven't made any changes to the example apps; Toga documentation is mostly unchanged; we haven't been able to do any substantial Toga planning; and we haven't been able to add any native cross-platform hardware support. <!-- rumdl-disable-line MD061 -->
 
 ## Q1 priorities
 

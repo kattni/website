@@ -21,27 +21,27 @@ The best way to show that a product is reliable to the customers is use it. So, 
 
 The proposal focus not only on the port of [Tkinter](https://docs.python.org/2/library/tkinter.html) to [Toga](/docs/index.md#toga), but on mapping the necessary widgets for a real application using [Toga](/docs/index.md#toga) framework. To help me to map this I studied more about [Tkinter](https://docs.python.org/2/library/tkinter.html), [Toga](/docs/index.md#toga), [Colosseum](https://github.com/beeware/colosseum), [rubicon-objc](/docs/index.md#rubicon-objective-c), [Objective-C](https://developer.apple.com/documentation/objectivec), [Cocoa](http://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html) and [CSS](https://www.w3.org/Style/CSS/).
 
-The work I did during GSoC were sent through the [PR 65](https://github.com/beeware/cricket/pull/65), reported on the [Issue 58](https://github.com/beeware/cricket/issues/58) and the final demonstration of the work can be seen in this [link](https://youtu.be/5kz_CmQYFYE). There were widgets used on [Cricket](https://github.com/beeware/cricket) that weren't ready yet on [Toga](/docs/index.md#toga), so some improvements were necessary on [Toga](/docs/index.md#toga) so that I could use them on [Cricket](https://github.com/beeware/cricket). In summary here are some PRs and issues that I contributed to get my work done in [Cricket](https://github.com/beeware/cricket):
+The work I did during GSoC were sent through the [PR 65](https://github.com/beeware/cricket/pull/65), reported on the [Issue 58](https://github.com/beeware/cricket/issues/58) and the final demonstration of the work [can be seen in this link](https://youtu.be/5kz_CmQYFYE). There were widgets used on [Cricket](https://github.com/beeware/cricket) that weren't ready yet on [Toga](/docs/index.md#toga), so some improvements were necessary on [Toga](/docs/index.md#toga) so that I could use them on [Cricket](https://github.com/beeware/cricket). In summary here are some PRs and issues that I contributed to get my work done in [Cricket](https://github.com/beeware/cricket):
 
 Open PR that I sent to [Toga](/docs/index.md#toga):
 
-- [PR 201](https://github.com/beeware/toga/pull/201) : \[Core\]\[Cocoa\] Refactoring of the Tree widget
+- [PR 201](https://github.com/beeware/toga/pull/201) : [Core][Cocoa] Refactoring of the Tree widget
 
 Merged PRs that I sent to [Toga](/docs/index.md#toga):
 
-- [PR 112](https://github.com/beeware/toga/pull/112) : \[Core\]\[Cocoa\] Enable/disable state for buttons, solved [Issue 91](https://github.com/beeware/toga/issues/91)
-- [PR 170](https://github.com/beeware/toga/pull/170) : \[Cocoa\] Content and retry status for stack trace dialog
-- [PR 172](https://github.com/beeware/toga/pull/172) : \[Cocoa\] Window resize
-- [PR 173](https://github.com/beeware/toga/pull/173) : \[Core\]\[Cocoa\] Button color
-- [PR 174](https://github.com/beeware/toga/pull/174) : \[Doc\] Examples folder and button features example
-- [PR 178](https://github.com/beeware/toga/pull/178) : \[Doc\] Fix tutorial 2 setup
-- [PR 180](https://github.com/beeware/toga/pull/180) : \[Doc\] Update [Toga](/docs/index.md#toga) widgets roadmap
-- [PR 182](https://github.com/beeware/toga/pull/182) : \[Cocoa\] Update the label of the Stack trace button for critical dialog
-- [PR 184](https://github.com/beeware/toga/pull/184) : \[Core\]\[Cocoa\] Hide/show boxes widget
-- [PR 188](https://github.com/beeware/toga/pull/188) : \[Cocoa\] Fix error on MultilineTextInput widget, solved [Issue 187](https://github.com/beeware/toga/issues/187)
-- [PR 204](https://github.com/beeware/toga/pull/204) : \[Core\]\[Cocoa\] Clear method to MultilineTextInput widget, solved [Issue 203](https://github.com/beeware/toga/issues/203)
-- [PR 206](https://github.com/beeware/toga/pull/206) : \[Core\]\[Cocoa\] Readonly and placeholder for MultilineTextInput widget
-- [PR 208](https://github.com/beeware/toga/pull/208) : \[Cocoa\] Fix apply style to a SplitContainer widget, solved [Issue 207](https://github.com/beeware/toga/issues/207)
+- [PR 112](https://github.com/beeware/toga/pull/112) : [Core][Cocoa] Enable/disable state for buttons, solved [Issue 91](https://github.com/beeware/toga/issues/91)
+- [PR 170](https://github.com/beeware/toga/pull/170) : [Cocoa] Content and retry status for stack trace dialog
+- [PR 172](https://github.com/beeware/toga/pull/172) : [Cocoa] Window resize
+- [PR 173](https://github.com/beeware/toga/pull/173) : [Core][Cocoa] Button color
+- [PR 174](https://github.com/beeware/toga/pull/174) : [Doc] Examples folder and button features example
+- [PR 178](https://github.com/beeware/toga/pull/178) : [Doc] Fix tutorial 2 setup
+- [PR 180](https://github.com/beeware/toga/pull/180) : [Doc] Update [Toga](/docs/index.md#toga) widgets roadmap
+- [PR 182](https://github.com/beeware/toga/pull/182) : [Cocoa] Update the label of the Stack trace button for critical dialog
+- [PR 184](https://github.com/beeware/toga/pull/184) : [Core][Cocoa] Hide/show boxes widget
+- [PR 188](https://github.com/beeware/toga/pull/188) : [Cocoa] Fix error on MultilineTextInput widget, solved [Issue 187](https://github.com/beeware/toga/issues/187)
+- [PR 204](https://github.com/beeware/toga/pull/204) : [Core][Cocoa] Clear method to MultilineTextInput widget, solved [Issue 203](https://github.com/beeware/toga/issues/203)
+- [PR 206](https://github.com/beeware/toga/pull/206) : [Core][Cocoa] Readonly and placeholder for MultilineTextInput widget
+- [PR 208](https://github.com/beeware/toga/pull/208) : [Cocoa] Fix apply style to a SplitContainer widget, solved [Issue 207](https://github.com/beeware/toga/issues/207)
 
 Merged PR that I sent to [Cricket](https://github.com/beeware/cricket):
 
@@ -49,28 +49,28 @@ Merged PR that I sent to [Cricket](https://github.com/beeware/cricket):
 
 Merged PR that I sent to [rubicon-objc](/docs/index.md#rubicon-objective-c):
 
-- [PR 34](https://github.com/beeware/rubicon-objc/pull/34) : \[Doc\] Add reference to NSObject
+- [PR 34](https://github.com/beeware/rubicon-objc/pull/34) : [Doc] Add reference to NSObject
 
 Open issues that I sent to [Toga](/docs/index.md#toga):
 
-- [Issue 175](https://github.com/beeware/toga/issues/175) : \[Core\] Add more properties for Label and Font widgets
-- [Issue 176](https://github.com/beeware/toga/issues/176) : \[Core\] Add "rehint()" on the background of the widget after changing font size
-- [Issue 186](https://github.com/beeware/toga/issues/186) : \[Core\] Set initial position of the divisor of a SplitContainer
-- [Issue 197](https://github.com/beeware/toga/issues/197) : \[Core\] Get the id of the selected Tab View on the OptionContainer
+- [Issue 175](https://github.com/beeware/toga/issues/175) : [Core] Add more properties for Label and Font widgets
+- [Issue 176](https://github.com/beeware/toga/issues/176) : [Core] Add "rehint()" on the background of the widget after changing font size
+- [Issue 186](https://github.com/beeware/toga/issues/186) : [Core] Set initial position of the divisor of a SplitContainer
+- [Issue 197](https://github.com/beeware/toga/issues/197) : [Core] Get the id of the selected Tab View on the OptionContainer
 
 Closed issues that I reported to [Toga](/docs/index.md#toga):
 
-- [Issue 167](https://github.com/beeware/toga/issues/167) : \[Cocoa\] Addition of a SplitContainer on a Box doesn't show the SplitContainer, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 168](https://github.com/beeware/toga/issues/168) : \[Cocoa\] Addition of 2 boxes on an OptionContainer emits Rubicon's error, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 169](https://github.com/beeware/toga/issues/169) : \[Cocoa\] Addition of 2 empty boxes on an OptionContainer emits error from [Toga](/docs/index.md#toga) Cocoa platform, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 181](https://github.com/beeware/toga/issues/181) : \[Core\]\[Cocoa\] "Hide" option for widgets, was solved by me
-- [Issue 187](https://github.com/beeware/toga/issues/187) : \[Cocoa\] Errors on MultilineTextInput, was fixed by me
-- [Issue 189](https://github.com/beeware/toga/issues/189) : \[Cocoa\] ProgressBar doesn't appears in a Box, was fixed by [Jonas Schell](https://github.com/Ocupe)
-- [Issue 194](https://github.com/beeware/toga/issues/194) : \[Cocoa\] The frame of the MultilineTextInput doesn't appear, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 195](https://github.com/beeware/toga/issues/195) : \[Cocoa\] ProgressBar doesn't appear inside of a Box oriented by row, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 196](https://github.com/beeware/toga/issues/196) : \[Cocoa\] Set max value and value on a ProgressBar doesn't make any effect on the layout, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
-- [Issue 203](https://github.com/beeware/toga/issues/203) : \[Core\]\[Cocoa\] Clear text on MultilineTextInput widget, was solved by me
-- [Issue 207](https://github.com/beeware/toga/issues/207) : \[Cocoa\] Set SplitContainer height doesn't update its size, was solved by me
+- [Issue 167](https://github.com/beeware/toga/issues/167) : [Cocoa] Addition of a SplitContainer on a Box doesn't show the SplitContainer, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 168](https://github.com/beeware/toga/issues/168) : [Cocoa] Addition of 2 boxes on an OptionContainer emits Rubicon's error, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 169](https://github.com/beeware/toga/issues/169) : [Cocoa] Addition of 2 empty boxes on an OptionContainer emits error from [Toga](/docs/index.md#toga) Cocoa platform, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 181](https://github.com/beeware/toga/issues/181) : [Core][Cocoa] "Hide" option for widgets, was solved by me
+- [Issue 187](https://github.com/beeware/toga/issues/187) : [Cocoa] Errors on MultilineTextInput, was fixed by me
+- [Issue 189](https://github.com/beeware/toga/issues/189) : [Cocoa] ProgressBar doesn't appears in a Box, was fixed by [Jonas Schell](https://github.com/Ocupe)
+- [Issue 194](https://github.com/beeware/toga/issues/194) : [Cocoa] The frame of the MultilineTextInput doesn't appear, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 195](https://github.com/beeware/toga/issues/195) : [Cocoa] ProgressBar doesn't appear inside of a Box oriented by row, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 196](https://github.com/beeware/toga/issues/196) : [Cocoa] Set max value and value on a ProgressBar doesn't make any effect on the layout, was fixed by [Russell Keith-Magee](https://github.com/freakboy3742)
+- [Issue 203](https://github.com/beeware/toga/issues/203) : [Core][Cocoa] Clear text on MultilineTextInput widget, was solved by me
+- [Issue 207](https://github.com/beeware/toga/issues/207) : [Cocoa] Set SplitContainer height doesn't update its size, was solved by me
 
 Closed issues that I didn't reported but I solved on [Toga](/docs/index.md#toga):
 

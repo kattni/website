@@ -40,4 +40,4 @@ It's still early days for BeeWare. Financial support means faster progress. More
 
 I'm excited for what the future holds for BeeWare. I hope you'll join me on this journey.
 
-(And if you’re contemplating signing up, and you’re coming to PyCon US in Portland this May, let me drop a gentle hint… sign up now. It will be worth it \#cryptic)
+(And if you’re contemplating signing up, and you’re coming to PyCon US in Portland this May, let me drop a gentle hint… sign up now. It will be worth it #cryptic)

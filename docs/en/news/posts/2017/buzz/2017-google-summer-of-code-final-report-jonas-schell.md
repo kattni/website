@@ -23,7 +23,7 @@ With the new goals and a fresh branch I started the journey to restructure the T
 
 After hacking around and testing different things on a [separate branch](https://github.com/Ocupe/restruc_toga). I identified that the intertwined platform dependencies are the main problem. To separate the Toga-Core module form its backend implementations we decided to use the factory pattern instead of the inheritance model that we had before. Now every backend has its own factory that produces the right widgets for the platform it is running on. This way we have a clear separation between Toga-Core and the implementation level. Platform dependencies are now enclosed in the implementation level.
 
-After the new structure was clear I ported Toga-Core as well as the backends for cocoa, iOS and GTK. I did this in the Toga branch [(The Big Restructure of Toga \[WIP\] \#185)](https://github.com/beeware/toga/pull/185). In practice this meant that I had to manually touch almost every widget of all backends to port them to the new factory pattern.
+After the new structure was clear I ported Toga-Core as well as the backends for cocoa, iOS and GTK. I did this in the Toga branch [(The Big Restructure of Toga [WIP] #185)](https://github.com/beeware/toga/pull/185). In practice this meant that I had to manually touch almost every widget of all backends to port them to the new factory pattern.
 
 ## Challenges
 
@@ -41,7 +41,7 @@ Toga talks to native GUI frameworks, hence I had to get a good understanding abo
 
 ## Other work I did
 
-- PR: Translated part of the beeware.org webpage into german. [(PR \#173)](https://github.com/beeware/beeware.github.io/pull/173)
+- PR: Translated part of the beeware.org webpage into german. [(PR #173)](https://github.com/beeware/beeware.github.io/pull/173)
 - Helped newcomers on Gitter and GitHub.
 - Tested if Toga would profit from static typing [(toga/static\_typing)](https://github.com/Ocupe/toga/tree/static_typing).
 - Created an implementation test suite based on the AST module.
@@ -49,15 +49,15 @@ Toga talks to native GUI frameworks, hence I had to get a good understanding abo
 - Updated and extended documentation on Toga-Core as well as the macOS and iOS Backend.
 - Created a toga-dummy backend.
 - First draft of the Settings API and working backend implementation for macOS.
-- Many small and big fixes on Toga-Core, cocoa, iOS, and GTK backends. All in the main PR [beeware/toga The Big Restructure of Toga \[WIP\]](https://github.com/beeware/toga/pull/185)
+- Many small and big fixes on Toga-Core, cocoa, iOS, and GTK backends. All in the main PR [beeware/toga The Big Restructure of Toga [WIP]](https://github.com/beeware/toga/pull/185)
 - PR: [beeware/toga fix for getting the length of the filenames array](https://github.com/beeware/toga/pull/171)
-- PR: [beeware/toga Fixed \#189 cocoa.progressbar with rehint](https://github.com/beeware/toga/pull/193)
-- PR: [beeware/briefcase-template Fix for spaces in app name. Issue \#2](https://github.com/beeware/briefcase-template/pull/3)
-- PR: [beeware/toga Toga Settings API \[WIP\]](https://github.com/beeware/toga/pull/222)
+- PR: [beeware/toga Fixed #189 cocoa.progressbar with rehint](https://github.com/beeware/toga/pull/193)
+- PR: [beeware/briefcase-template Fix for spaces in app name. Issue #2](https://github.com/beeware/briefcase-template/pull/3)
+- PR: [beeware/toga Toga Settings API [WIP]](https://github.com/beeware/toga/pull/222)
 
 ## Future Work to be Done
 
-- All my work sits in the PR [“The Big Restructure of Toga \[WIP\]”](https://github.com/beeware/toga/pull/185). After the missing backends, namely Windows and Android, are ported, everything can be merged into master. We have to wait for the missing backends, because the new is incompatible with the old versions and they can’t coexist.
+- All my work sits in the PR [“The Big Restructure of Toga [WIP]”](https://github.com/beeware/toga/pull/185). After the missing backends, namely Windows and Android, are ported, everything can be merged into master. We have to wait for the missing backends, because the new is incompatible with the old versions and they can’t coexist.
 - The Settings API from my original proposal is not finished because of the above mentioned reasons. I have a first working draft and I will continue working on it after GSoC in [this PR](https://github.com/beeware/toga/pull/222).
 
 ## Shoutout

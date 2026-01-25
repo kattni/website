@@ -190,7 +190,7 @@ But, SaaS is only viable if you can deliver *as a service* - which means it's re
 
 So what else can you sell?
 
-You can sell access to the developers. If you're the maintainer of a project, you're in the best position to provide support, or debug complex problems - which means you're in a prime position to sell support and consulting. <span class="title-ref">Honza Král &lt;https://twitter.com/honzakral&gt;</span> from ElasticSearch calls this the "Ghostbusters" business model - "Who you gonna call?"
+You can sell access to the developers. If you're the maintainer of a project, you're in the best position to provide support, or debug complex problems - which means you're in a prime position to sell support and consulting. <span class="title-ref">Honza Král <https://twitter.com/honzakral></span> from ElasticSearch calls this the "Ghostbusters" business model - "Who you gonna call?"
 
 You can sell access to the software. Trolltech did this with Qt; Riverbank still does with the PyQt bindings. The library itself is GPL - but if you want to use it on a closed source project, you can, for a hefty fee. This has the advantage that it forces commercial interests to pay for what they're using; but it also discourages small scale commercial tinkering - if I'm writing a new tool, and I'm forced to choose between open sourcing my tool or a $1000 price tag, I'll probably choose a different toolkit.
 

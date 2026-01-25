@@ -22,8 +22,7 @@ Although there haven't been a lot of new BeeWare features developed in February,
 - We [corrected an issue with the Briefcase Web backend](https://github.com/beeware/briefcase/pull/1113) that would cause intermittent errors when loading a web app.
 - We updated our CI infrastructure to make better use of shared task definitions. BeeWare has a lot of GitHub repositories, and a lot of common tasks (such as rolling out an app across multiple Python and operating system versions). Previously, each GitHub repository had an independent set of CI task definitions; we've now got a central collection of task definitions that is used by all repositories.
 - We cleaned up the [table in Toga's documentation describing the state of support of each widget](https://github.com/beeware/toga/pull/1762). This allows us to differentiate between widgets that we've fully tested, and widgets that exist, but haven't been tested.
-- Thanks to a community contribution, we've been able to [publish a backlog of iOS binary packages for Python 3.8-3.11](https://github.com/freakboy3742/chaquopy/pull/4). For the packages we currently support (including Numpy, Pandas, Pillow and more), we're now able to offer an iOS binary wheel for every published version for which there is a corresponding macOS wheel, going back to
-2019.
+- Thanks to a community contribution, we've been able to [publish a backlog of iOS binary packages for Python 3.8-3.11](https://github.com/freakboy3742/chaquopy/pull/4). For the packages we currently support (including Numpy, Pandas, Pillow and more), we're now able to offer an iOS binary wheel for every published version for which there is a corresponding macOS wheel, going back to 2019.
 
 ## What's next?
 
@@ -34,7 +33,6 @@ We'll also be presenting at [Everything Open 2023](https://2023.everythingopen.a
 ## Want to get involved?
 
 Want to get involved? Here are some open issues that would be a great place to get started with contributing to a BeeWare project. They're all relatively minor changes, but would provide a big improvement to the lives of BeeWare users:
-
 
 1. [Modify the handling of app signing options](https://github.com/beeware/briefcase/issues/865)
 
