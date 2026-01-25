@@ -1,6 +1,6 @@
 [dependency-groups]
 pre-commit = [
-    "pre-commit == 4.3.0",
+    "pre-commit == 4.5.1",
 ]
 
 redirects = [
@@ -8,7 +8,7 @@ redirects = [
 ]
 
 tox-uv = [
-    "tox-uv == 1.28.0",
+    "tox-uv == 1.29.0",
 ]
 
 dev = [
