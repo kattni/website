@@ -3,6 +3,7 @@ title: We'll be at PyCon AU 2024!
 date: 2024-11-23
 authors:
 - freakboy3742
+- glasnt
 categories:
 - Events
 event:
