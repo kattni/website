@@ -6,24 +6,31 @@ These include, but aren't limited to, responding to issues, reviewing and mergin
 
 There are people we trust to make code decisions; there are people we trust to make code and organizational decisions; and there is a person who guides the vision of the whole organization, and is entrusted to make a final decision if the community cannot arrive at a consensus.
 
-These levels can be described as follows:
+## Team seniority
 
-Bee, or Worker Bee:
-- Any member of the BeeWare community. Given we work in the open on GitHub, anyone can suggest changes to the code and have their code merged. The only limit to your ability to contribute is having your work merged by a team member with the rights to do so.
+The different levels of seniority in the BeeWare project are:
 
-Apiarist:
-- A bee who has been recognized as a trusted contributor. These bees have demonstrated ability in relation to a specific part of the BeeWare project over a period of time. This could be on a technical level (JavaScript, Python, Objective-C expertise; GTK+, macOS knowledge), or on another level (community management, code review). Apiarists may also have the commit bit for the project where their expertise is recognized.
+### Bee, or Worker Bee
 
-Senior Apiarists:
-- Apiarists with elevated access in GitHub, and also an added level of responsibility to oversee the project as a whole. They are able to make architectural decisions, but ultimately answer to the BDFN.
+Any member of the BeeWare community. Given we work in the open on GitHub, anyone can suggest changes to the code and have their code merged. The only limit to your ability to contribute is having your work merged by a team member with the rights to do so.
 
-Founding Apiarist: [Russell Keith-Magee](/about/team.md#freakboy3742)
-- The man that first stood on a hill and spied a yak that needed shaving
-- This role never changes, and continues ad infinitum
-- This role is different to the BDFN role
+### Apiarist
 
-Bee-nevolent Dictator for Now (BDFN): [Russell Keith-Magee](/about/team.md#freakboy3742)
-- A take on [Benevolent Dictator for Life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), responsibility for the direction and decisions of the project ultimately lies with the BDFN. The use of "For Now" as opposed to "For Life" is reference to the Django theme of not subjecting the responsibilities of core maintainer for a person's entire natural life. Life exists outside open source, and code/life balance and general well-being is a very important thing to keep in mind.
+A bee who has been recognized as a trusted contributor. These bees have demonstrated ability in relation to a specific part of the BeeWare project over a period of time. This could be on a technical level (JavaScript, Python, Objective-C expertise; GTK+, macOS knowledge), or on another level (community management, code review). Apiarists may also have the commit bit for the project where their expertise is recognized.
+
+### Senior Apiarists
+
+Apiarists with elevated access in GitHub, and also an added level of responsibility to oversee the project as a whole. They are able to make architectural decisions, but ultimately answer to the BDFN.
+
+### Bee-nevolent Dictator for Now (BDFN)
+
+A take on [Benevolent Dictator for Life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), responsibility for the direction and decisions of the project ultimately lies with the BDFN. The use of "For Now" as opposed to "For Life" is reference to the Django theme of not subjecting the responsibilities of core maintainer for a person's entire natural life. Life exists outside open source, and code/life balance and general well-being is a very important thing to keep in mind.
+
+The BDFN of BeeWare is [Russell Keith-Magee](/about/team.md#freakboy3742).
+
+### Founding Apiarist
+
+The man that first stood on a hill and spied a yak that needed shaving. This role never changes, and continues ad infinitum; however, it doesn't inherently transfer any additional power in the organization. At present, the Founding Apiarist is also the BDFN; but this may change over time.
 
 ## Guidelines (not actual rules)
 

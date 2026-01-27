@@ -7,15 +7,15 @@ categories:
 - Buzz
 ---
 
-In the blink of an eye, Google Summer of Code (GSoC) 2018 has come to an end. During the three months long coding period, I have contributed several patches in VOC repository of BeeWare, all working towards the ultimate end goal of running  `asyncio` module in VOC. In this blog post (which is my first actual blog post by the way 😄), I will document what I have done so far, why I couldn't make it to the end goal (yea, unfortunately I couldn't get  `asyncio` to work at the end of GSoC 2018), and what's left that needs to be done in order to achieve the end goal (or at least make part of  `asyncio` work).
+In the blink of an eye, Google Summer of Code (GSoC) 2018 has come to an end. During the three months long coding period, I have contributed several patches in VOC repository of BeeWare, all working towards the ultimate end goal of running `asyncio` module in VOC. In this blog post (which is my first actual blog post by the way 😄), I will document what I have done so far, why I couldn't make it to the end goal (yea, unfortunately I couldn't get `asyncio` to work at the end of GSoC 2018), and what's left that needs to be done in order to achieve the end goal (or at least make part of `asyncio` work).
 
 <!-- more -->
 
 ## Building Foundation
 
-The first error that the transpiler throws when attempting to compile  `asyncio` module was "No handler for  `YieldFrom`", so it makes sense to start from this issue first.
+The first error that the transpiler throws when attempting to compile `asyncio` module was "No handler for `YieldFrom`", so it makes sense to start from this issue first.
 
-Another feature related to generator was  `Yield` expression. Before GSoC 2018,  `Yield` statement in VOC was just a statement, meaning  `yield` could not be used as expression. Generator methods such as `generator.send`, `generator.throw` and `generator.close` were not supported as well. Those features are what make asynchronous programming with generator possible, so I spent a few weeks to extend generator functionality in VOC, laying down the path to  `asyncio` module.
+Another feature related to generator was `Yield` expression. Before GSoC 2018, `Yield` statement in VOC was just a statement, meaning `yield` could not be used as expression. Generator methods such as `generator.send`, `generator.throw` and `generator.close` were not supported as well. Those features are what make asynchronous programming with generator possible, so I spent a few weeks to extend generator functionality in VOC, laying down the path to `asyncio` module.
 
 PRs related to generator are listed below:
 
@@ -25,9 +25,9 @@ PRs related to generator are listed below:
 
 ## `Nonlocal` Statement
 
- `Nonlocal` statement was another syntax not supported by VOC. After completion of generator's features, implementing this is the next step towards compiling  `asyncio` module.
+ `Nonlocal` statement was another syntax not supported by VOC. After completion of generator's features, implementing this is the next step towards compiling `asyncio` module.
 
-Implementing this feature took about 3 ~ 4 weeks as this is not as trivial as it seems. I took several approaches on this, while some of them do work, the code is not pretty and  `hacky`, which could come back to bite me/other contributors in the long run. After many discussions with Russell, I refactored the closure mechanism in VOC and took a much cleaner approach in  `nonlocal` implementations. I must admit that I took some short-cuts for the sake of "making `nonlocal` works" in the process of implementing  `nonlocal` statement, resulting in poor design and messy codes. Many thanks to Russell, who helped me to improve my coding style and told me not to be discouraged when I'm stuck. 😄
+Implementing this feature took about 3 ~ 4 weeks as this is not as trivial as it seems. I took several approaches on this, while some of them do work, the code is not pretty and `hacky`, which could come back to bite me/other contributors in the long run. After many discussions with Russell, I refactored the closure mechanism in VOC and took a much cleaner approach in `nonlocal` implementations. I must admit that I took some short-cuts for the sake of "making `nonlocal` works" in the process of implementing `nonlocal` statement, resulting in poor design and messy codes. Many thanks to Russell, who helped me to improve my coding style and told me not to be discouraged when I'm stuck. 😄
 
 Related PRs:
 
@@ -36,7 +36,7 @@ Related PRs:
 
 ## The Collections Module
 
-Next item on my hit list was pure Java implementations of the  `collections` module.  `asyncio` module depends on 3 data structures from  `collections`, namely  `defauldict`,  `Deque` and  `OrderedDict`. Two of them ( `defaultdict` and  `Deque`) are implemented in C in CPython, plus they have good analog in Java, so it makes senses to implement the module in Java. Porting  `defauldict`,  `Deque` and  `OrderedDict` to Java in VOC is relatively straight-forward, taking about 1.5 weeks to complete.
+Next item on my hit list was pure Java implementations of the `collections` module. `asyncio` module depends on 3 data structures from `collections`, namely `defauldict`, `Deque` and `OrderedDict`. Two of them ( `defaultdict` and `Deque`) are implemented in C in CPython, plus they have good analog in Java, so it makes senses to implement the module in Java. Porting `defauldict`, `Deque` and `OrderedDict` to Java in VOC is relatively straight-forward, taking about 1.5 weeks to complete.
 
 Related PRs:
 
@@ -71,14 +71,14 @@ Related PRs:
 
 ## Towards The Ultimate End Goal
 
-Unfortunately, three months of GSoC coding period was not enough for me to bring  `asyncio` module to VOC. The `nonlocal` statement implementation was the biggest blocker for me mainly because I didn't think thoroughly before writing code. If I were to plan carefully and lay out a general coding direction, I would've completed it in much shorter time and have time for other implementations. An advice for the aspiring and upcoming GSoC-er, don't rush your code, make sure you know 100% about what you're doing before diving into the codes.
+Unfortunately, three months of GSoC coding period was not enough for me to bring `asyncio` module to VOC. The `nonlocal` statement implementation was the biggest blocker for me mainly because I didn't think thoroughly before writing code. If I were to plan carefully and lay out a general coding direction, I would've completed it in much shorter time and have time for other implementations. An advice for the aspiring and upcoming GSoC-er, don't rush your code, make sure you know 100% about what you're doing before diving into the codes.
 
-With that said, following are the list of modules to be implemented/ported to Java before  `asyncio` will work in VOC:
+With that said, following are the list of modules to be implemented/ported to Java before `asyncio` will work in VOC:
 
--  `socket` module (a bit tricky since Java doesn't support Unix domain socket natively)
--  `selectors` module (high level I/O operations)
--  `threading` module (might be easier to implement this first since threading in Python is an emulation of Java's Thread)
--  `time` module (partially implemented in VOC)
+- `socket` module (a bit tricky since Java doesn't support Unix domain socket natively)
+- `selectors` module (high level I/O operations)
+- `threading` module (might be easier to implement this first since threading in Python is an emulation of Java's Thread)
+- `time` module (partially implemented in VOC)
 
 ## Final Thoughts
 

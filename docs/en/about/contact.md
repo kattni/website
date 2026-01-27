@@ -5,6 +5,7 @@
 The [core team](team.md) are always happy to answer questions and provide assistance with BeeWare. Be aware that we work in public, both with BeeWare development and the community. Asking your questions in a public forum ensures that as many people as possible are able to benefit from any answer that is give. The fact is, if you're having a problem, it's highly likely that someone else is too, or certainly will at some point in time.
 
 ## Where can you find us? { #where-can-you-find-us }
+
 You can engage with the BeeWare community in several different ways.
 
 ### Discord { #discord }
@@ -40,6 +41,7 @@ Contact <consulting@beeware.org> for any inquiries about these services.
 If you want to report a security problem with one of the BeeWare tools, please contact the [Core Team](team.md).
 
 ## Reporting Code of Conduct issues { #reporting-code-of-conduct-issues }
+
 If you have had an uncomfortable experience in a BeeWare community space, or want to report a behavior problem with someone who is a member of the BeeWare community, the [Code of Conduct Response Team](/community/code-of-conduct.md#reporting-an-issue) will be happy to manage your report in accordance with our [Code of Conduct](/community/code-of-conduct.md).
 
 ## Other enquiries { #other-enquiries }

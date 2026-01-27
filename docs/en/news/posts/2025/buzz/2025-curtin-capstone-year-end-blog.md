@@ -21,12 +21,12 @@ This year our team has had the exciting opportunity to contribute to BeeWare for
 Meet the Team:
 
 <nospell>
- - Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
- - Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
- - Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
- - Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
- - Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
- - Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
+- Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
+- Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
+- Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
+- Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
+- Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
+- Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
 </nospell>
 
 In the first semester, our team gained exposure to the BeeWare ecosystem through tackling a variety of small bug fixes within Briefcase and Toga, creating widgets for the web backend in Toga and completing small research tasks into the mechanisms within the BeeWare tools. More details about our first semester contributions can be found [in our first semester report](https://beeware.org/news/buzz/2025-curtin-capstone-semester-end-blog). After this, the team split off into pairs to plan out larger deliverable contributions that would add or changes features within BeeWare.
@@ -51,7 +51,7 @@ Lastly, we worked on redesigning the Briefcase static web build pipeline to impl
 
 This year with BeeWare has marked many valuable lessons taught outside of the class environment. Each of us have now made significant contributions to an Open Source project while meeting deadlines and attending weekly stand-up meetings. This process has allowed us to develop our skills in numerous ways. Below each of us will comment our individual lessons.
 
-### <nospell>Kavidu</nospell>:
+### <nospell>Kavidu</nospell>
 
 Working with BeeWare was my first professional experience outside of university. This was a huge opportunity for me to have hands-on exposure to real-world software development work within Open Source environments. I gained experience working with large community-based codebases through issue tracking and pull request management while teaming up with developers who used different time zones and technical expertise.
 
@@ -59,7 +59,7 @@ The experience helped me develop better abilities to work with others while impr
 
 Moreover, working with BeeWare provided me with essential knowledge about Open Source software engineering through its combination of technical and collaborative aspects. Throughout the process, I learned that the development of good software requires designers to create intentional systems while they must communicate effectively to build tools which enable others to continue improving the project after their contribution ends.
 
-### Mitchell:
+### Mitchell
 
 One of the most valuable lessons from BeeWare came while implementing a virtual environment context manager for Briefcase.
 
@@ -73,7 +73,7 @@ When someone needs virtual environment management six months from now in a compl
 
 Ultimately, the best code is not the code that works today but rather the code that's still working unchanged a year from now.
 
-### Veronica:
+### Veronica
 
 As this was my first experience contributing to a large, Open Source project, I learned how the workflow fits together—navigating existing code, writing clear issues and PRs, and contributing changes with clear commits and messages. I also learned to keep my work visible, pushing incremental changes, even when not fully finished, with clear notes on status and next steps so reviewers can follow my progress. That was a shift for me, as I used to wait for “finished” work before committing.
 
@@ -81,11 +81,11 @@ Regular stand-ups, shared planning, and pairing on tasks taught me how to work e
 
 I've improved my Python skills and gained real experience with `pytest` and Playwright while working on the Toga Web Testing prototype. Most importantly, I learned how to design a cross-process system that bridges a `pytest` test runner to an app running in the browser, which gave me a much deeper understanding of both testing frameworks and web automation.
 
-### <nospell>Jaeden</nospell>:
+### <nospell>Jaeden</nospell>
 
 Beginning with limited Python knowledge increased the learning curve for me however by reflecting at the end of this journey I can see the difference in skills I have gained. I am more confident and familiar now working on a project alongside other software engineers discussing ideas whilst maintaining professional communication practices via weekly stand-up calls and email. Working on Briefcase has taught me to simplify my code more. After regular code reviews from Russell, I realized my code was always more complicated than necessary and could often be simplified either by using in built Python functions or functions already defined somewhere in the codebase that I wasn't aware of.
 
-### <nospell>Callum</nospell>:
+### <nospell>Callum</nospell>
 
 Throughout this project, I learned that effective communication is one of the most important aspects of collaborative software development. Working on the same codebase as others required constant coordination to prevent overlap and ensure our work aligned technically and conceptually. Regular discussions and updates helped us avoid duplicated effort and made it easier to maintain a shared understanding of the project’s direction.
 
@@ -93,7 +93,7 @@ I learned that transparency, even when work is still in progress, is far more va
 
 Finally, I learned the importance of handover reports and how essential they are for communicating the current state and future direction of a project. A well-written handover report provides clarity on what has been implemented, what has not worked as intended, and what areas require further development or refactoring. It also serves as a bridge for future contributors, ensuring that knowledge is not lost and that others can continue the work without repeating past mistakes. Through this process, I came to appreciate that clear documentation at the end of a project is just as valuable as the technical work itself, as it enables continuity and long-term maintainability.
 
-### <nospell>Caydn</nospell>:
+### <nospell>Caydn</nospell>
 
 This year has taught me how to work effectively within both a small team and a large Open Source project. It's been very eye opening navigating the expectations and workflows that come with contributing to a community-driven codebase. During the first semester, I found that I didn't know how much to push or when to create a PR. This meant that Russell couldn't perceive work being completed and that I could not receive help in situations where I was stuck. With our semester 2 work, especially as we were working in pairs, I made it a goal to commit and push any slight change. This drastically improved our collaboration efforts.
 

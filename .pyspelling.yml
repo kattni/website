@@ -30,7 +30,7 @@ matrix:
       - pymdownx.blocks.tab
       - pymdownx.details
   - pyspelling.filters.html:
-      comments: true
+      comments: false
       attributes:
         - title
         - alt
@@ -43,7 +43,6 @@ matrix:
         - 'script'
   - pyspelling.filters.context:
       context_visible_first: true
-#      escapes: '\\[\\`~]'
       delimiters:
         # Ignore the Jinja directives
         - open: '{% '

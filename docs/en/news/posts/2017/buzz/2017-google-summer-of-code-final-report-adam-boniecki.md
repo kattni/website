@@ -13,7 +13,7 @@ With Google Summer of Code 2017 program nearing its end, it is time to summarize
 
 Batavia is a part of BeeWare's collection of projects. As it is still in its early stage of development, for my part I offered to implement a number of features missing from Batavia, ranging from elemental data types, through JSON manipulation and language constructs such as generators. I posted my proposal in [this GitHub thread](https://github.com/beeware/batavia/issues/483) and kept it updated with my progress on a weekly basis.
 
-Note that by the end of GSoC, we have decided to diverge from the proposal and forgo implementation of  `contextlib` in favor of support for Python 3.6 2-byte wide opcodes.
+Note that by the end of GSoC, we have decided to diverge from the proposal and forgo implementation of `contextlib` in favor of support for Python 3.6 2-byte wide opcodes.
 
 Overall it was great learning experience and fun. Big thanks to my mentors Russell Keith-Magee and Katie McLaughlin, and the whole BeeWare community.
 
@@ -37,7 +37,7 @@ Overall it was great learning experience and fun. Big thanks to my mentors Russe
 - [Support for yield from in Python 3.5+](https://github.com/beeware/batavia/pull/599)
 - [Bug fix for yield from and Python 3.6+](https://github.com/beeware/batavia/pull/646)
 
-###  `with` statement
+### `with` statement
 
 - [SETUP\_WITH and WITH\_CLEANUP opcodes](https://github.com/beeware/batavia/pull/594)
 - [WITH\_CLEANUP\_START and WITH\_CLEANUP\_FINISH for Python 3.5+](https://github.com/beeware/batavia/pull/620)

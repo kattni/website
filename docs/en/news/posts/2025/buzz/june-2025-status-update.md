@@ -38,7 +38,7 @@ With the public release of `cibuildwheel` 3.0, we've been able to start submitti
 
 We're also hoping to start the process of integrating the production of iOS and Android binary artefacts into Python releases. This will hopefully also involve integrating iOS and Android into CPython's pre-merge CI tooling, which will hopefully limit the incidence of changes that are landed into CPython that break iOS and Android.
 
-We'll also be attending EuroPython, where we will be [giving a tutorial](https://ep2025.europython.eu/session/building-a-cross-platform-app-with-beeware), attending the [WebAssembly summit](https://ep2025.europython.eu/session/webassembly-summit), and [running a BeeWare sprint](https://ep2025.europython.eu/sprints/). If you can make it  to Prague in July, [tickets are still available](https://ep2025.europython.eu/tickets/) - we hope to see you there!
+We'll also be attending EuroPython, where we will be [giving a tutorial](https://ep2025.europython.eu/session/building-a-cross-platform-app-with-beeware), attending the [WebAssembly summit](https://ep2025.europython.eu/session/webassembly-summit), and [running a BeeWare sprint](https://ep2025.europython.eu/sprints/). If you can make it to Prague in July, [tickets are still available](https://ep2025.europython.eu/tickets/) - we hope to see you there!
 
 ## Want to get involved?
 

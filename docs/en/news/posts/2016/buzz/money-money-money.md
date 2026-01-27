@@ -62,99 +62,44 @@ Take the example of Capistrano. Hugely popular configuration management tool aro
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;Hi I&#39;m an engineer at a well-funded company and we need this feature can someone implement it for free?&quot; -- Every FOSS mailing list.</p>&mdash; <nospell>Christophe (@Xof) <a href="https://twitter.com/Xof/status/622113231218192384">July 17, 2015</a></nospell></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The thing is - that this is a community that has lots of cash. In the
-grand scheme of things, software development is a well funded industry.
-If companies can find money for foosball tables and meditative ball
-pits, they should be able to find resources to help maintain the
-software on which they've based their success. And if you're on the
-receiving end of the problem - a developer of free software - that can
-be really frustrating.
+The thing is - that this is a community that has lots of cash. In the grand scheme of things, software development is a well funded industry. If companies can find money for foosball tables and meditative ball pits, they should be able to find resources to help maintain the software on which they've based their success. And if you're on the receiving end of the problem - a developer of free software - that can be really frustrating.
 
-For me, this is the great unanswered question of the free software
-movement - how to reconcile the discrepancy between the clear demand for
-a software product, and the ability to convert that demand into the time
-and resources needed to service that demand.
+For me, this is the great unanswered question of the free software movement - how to reconcile the discrepancy between the clear demand for a software product, and the ability to convert that demand into the time and resources needed to service that demand.
 
 ### Free software: Dream vs Reality
 
-Although the theory says that anyone can contribute to a free software
-project, in reality, every single project of any significance has
-leaders. At the most basic level, it's whoever has the commit bit. And
-you need that leadership, especially when anything to do with design is
-involved. The running gag is that a camel is a horse designed by
-committee. The worst APIs we deal with on a daily basis are the ones
-that were designed by committee. You need someone with taste running the
-show.
+Although the theory says that anyone can contribute to a free software project, in reality, every single project of any significance has leaders. At the most basic level, it's whoever has the commit bit. And you need that leadership, especially when anything to do with design is involved. The running gag is that a camel is a horse designed by committee. The worst APIs we deal with on a daily basis are the ones that were designed by committee. You need someone with taste running the show.
 
-But there's a bigger problem - there's the extent of the engagement that
-users have with a project. Here's a though experiment to prove my point.
-We're in a room full of Python users. Django is a free software project.
+But there's a bigger problem - there's the extent of the engagement that users have with a project. Here's a though experiment to prove my point. We're in a room full of Python users. Django is a free software project.
 
-- Who in this room has found a bug in Django, or has a niggling thing
-  they'd like to see fixed Django API?
+- Who in this room has found a bug in Django, or has a niggling thing they'd like to see fixed Django API?
 - Who has turned that niggle into a bug report to Django?
 - Who has submitted a patch to Django for that niggle?
 - Of those, who have had that patch committed?
 
-Note
+/// note | Note
 
-When this is done in front of a live audience, at each question, there
-are fewer people raising their hands
+When this is done in front of a live audience, at each question, there are fewer people raising their hands.
+
+///
 
 ### Products vs Projects
 
-So what's going on here? Well, it reflects 2 different ways of looking
-at a piece of software - Projects and Products. And it's a matter of
-personal perspective - my project can be your product, and vice versa.
+So what's going on here? Well, it reflects 2 different ways of looking at a piece of software - Projects and Products. And it's a matter of personal perspective - my project can be your product, and vice versa.
 
-When I view some code as a project, it's a body of code where I'm
-contributing to a larger goal. I'm willing to spend resources focussing
-on other people's needs in the hope that their needs will help make the
-project as a whole better. I'm willing to do this because I get some
-personal gain, like an enhanced public profile; or if the tool is really
-close to my work coalface; or where I know I can make a substantive
-contribution.
+When I view some code as a project, it's a body of code where I'm contributing to a larger goal. I'm willing to spend resources focussing on other people's needs in the hope that their needs will help make the project as a whole better. I'm willing to do this because I get some personal gain, like an enhanced public profile; or if the tool is really close to my work coalface; or where I know I can make a substantive contribution.
 
-But the further I get away from my coalface, and the harder it is to
-make a contribution, the less inclined I am to even *want* to contribute
-to the project. Most of the time, it's a product that I'm using, warts
-and all. If a product has bugs, I'll work around them, or find an
-alternative, rather than navigating the contribution process and
-contributing a patch back upstream.
+But the further I get away from my coalface, and the harder it is to make a contribution, the less inclined I am to even *want* to contribute to the project. Most of the time, it's a product that I'm using, warts and all. If a product has bugs, I'll work around them, or find an alternative, rather than navigating the contribution process and contributing a patch back upstream.
 
-In the case of a product, the freedoms afforded by Free software are a
-bit like freedom of speech - it's a freedom I definitely want, it's
-comforting to know it's there, but I don't spend every day making sure
-that I fully exploit the extents of those freedoms. There are people who
-do - protestors, advocates for controversial social positions - and one
-day, given the right circumstances, I might join in and help them. But
-most of the time, I just want to be pragmatic, and get on with living.
+In the case of a product, the freedoms afforded by Free software are a bit like freedom of speech - it's a freedom I definitely want, it's comforting to know it's there, but I don't spend every day making sure that I fully exploit the extents of those freedoms. There are people who do - protestors, advocates for controversial social positions - and one day, given the right circumstances, I might join in and help them. But most of the time, I just want to be pragmatic, and get on with living.
 
-This dichotomy between the theory and practice is also the reason why
-comments like "Patches Welcome" get made in Free software mailing lists.
-On the one hand, it's completely correct. Anyone *can* contribute, and
-on most projects *patches* are welcome. But most people don't look at a
-new open source project as an opportunity to engage and contribute. Most
-people just want to use the damn software.
+This dichotomy between the theory and practice is also the reason why comments like "Patches Welcome" get made in Free software mailing lists. On the one hand, it's completely correct. Anyone *can* contribute, and on most projects *patches* are welcome. But most people don't look at a new open source project as an opportunity to engage and contribute. Most people just want to use the damn software.
 
-And you can argue it's because people are focussing on the wrong
-interpretation of "free", and haven't "captured the spirit of free
-software". Which is 100% true, but utterly counterproductive as a
-position. Anyone who has done any UX work knows that if users are
-consistently making a mistake, blaming the user gets you nowhere. You
-were in charge of what the user experienced, and they made the "error"
-because of a fundamental cognitive disconnect.
+And you can argue it's because people are focussing on the wrong interpretation of "free", and haven't "captured the spirit of free software". Which is 100% true, but utterly counterproductive as a position. Anyone who has done any UX work knows that if users are consistently making a mistake, blaming the user gets you nowhere. You were in charge of what the user experienced, and they made the "error" because of a fundamental cognitive disconnect.
 
-And even if everyone *did* get the right message - let's be realistic -
-it wouldn't work anyway. The mythical man month showed us that you don't
-deliver a project faster or better by throwing more people at it. 9
-women can't make a baby in 1 month - a project doesn't just need
-resources - it needs the *right* resources, in the right quantities. And
-ultimately, that means projects finding a way to get the resources they
-need to be self-sustaining.
+And even if everyone *did* get the right message - let's be realistic - it wouldn't work anyway. The mythical man month showed us that you don't deliver a project faster or better by throwing more people at it. 9 women can't make a baby in 1 month - a project doesn't just need resources - it needs the *right* resources, in the right quantities. And ultimately, that means projects finding a way to get the resources they need to be self-sustaining.
 
-So, that means that if we want free software to be maintained, and
-maintained well, we need to find a way to fund it's maintenance.
+So, that means that if we want free software to be maintained, and maintained well, we need to find a way to fund it's maintenance.
 
 ### Use value vs Sale value
 
@@ -188,7 +133,7 @@ But, SaaS is only viable if you can deliver *as a service* - which means it's re
 
 So what else can you sell?
 
-You can sell access to the developers. If you're the maintainer of a project, you're in the best position to provide support, or debug complex problems - which means you're in a prime position to sell support and consulting. <nospell>Honza Král &lt;https://twitter.com/honzakral&gt;</nospell> from ElasticSearch calls this the "Ghostbusters" business model - "Who you gonna call?"
+You can sell access to the developers. If you're the maintainer of a project, you're in the best position to provide support, or debug complex problems - which means you're in a prime position to sell support and consulting. <nospell>Honza Král <https://twitter.com/honzakral></nospell> from ElasticSearch calls this the "Ghostbusters" business model - "Who you gonna call?"
 
 You can sell access to the software. Trolltech did this with Qt; Riverbank still does with the PyQt bindings. The library itself is GPL - but if you want to use it on a closed source project, you can, for a hefty fee. This has the advantage that it forces commercial interests to pay for what they're using; but it also discourages small scale commercial tinkering - if I'm writing a new tool, and I'm forced to choose between open sourcing my tool or a $1000 price tag, I'll probably choose a different toolkit.
 
@@ -231,105 +176,49 @@ OK - but can we do this without selling anything at all?
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;How to make money from open source&quot; is like &quot;How to make money from clean water&quot; or public education or science.</p>&mdash; <nospell>Pieter Hintjens (@hintjens) <a href="https://twitter.com/hintjens/status/603446810183610368">May 27, 2015</a></nospell></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Free software stems from a moral imperative - so can we fund development
-through altruism and patronage? Well, it's harder, but there's evidence
-that it can be done.
+Free software stems from a moral imperative - so can we fund development through altruism and patronage? Well, it's harder, but there's evidence that it can be done.
 
 #### Crowdfunding and Bug Bounties
 
-One option that has seen a lot of activity recently is crowdfunding.
-Platforms like Kickstarter and Indiegogo provide a way to a group of
-people to pitch in and contribute to a goal.
+One option that has seen a lot of activity recently is crowdfunding. Platforms like Kickstarter and Indiegogo provide a way to a group of people to pitch in and contribute to a goal.
 
-The Django community has a couple of examples of very successful
-crowdfunding projects, each raising tens of thousands of dollars (Django
-Migrations, Multiple Template engines, <nospell>django.contrib.postgres</nospell>, Django
-Rest Framework). But - if you survey the people who did these projects,
-they didn't make money on these projects. The amount of engineering time
-that went into them well exceeded the money raised.
+The Django community has a couple of examples of very successful crowdfunding projects, each raising tens of thousands of dollars (Django Migrations, Multiple Template engines, <nospell>django.contrib.postgres</nospell>, Django Rest Framework). But - if you survey the people who did these projects, they didn't make money on these projects. The amount of engineering time that went into them well exceeded the money raised.
 
-Another idea that gets floated regularly is the idea of bug bounties -
-placing a price on specific bugs. This is really just another form of
-crowdfunding - You want a specific bug fixed or feature added?
-Contribute money. You *really* want it - contribute more. And eventually
-someone will take the bait and fix the bug or implement the feature.
+Another idea that gets floated regularly is the idea of bug bounties - placing a price on specific bugs. This is really just another form of crowdfunding - You want a specific bug fixed or feature added? Contribute money. You *really* want it - contribute more. And eventually someone will take the bait and fix the bug or implement the feature.
 
-It's an attractive model - but it also has problems - most notably, Who
-gets paid. Do you pay by lines of code written? That ignores the
-contribution of reviewers. How much more important than writing code is
-reviewing code or triaging a bug?
+It's an attractive model - but it also has problems - most notably, Who gets paid. Do you pay by lines of code written? That ignores the contribution of reviewers. How much more important than writing code is reviewing code or triaging a bug?
 
-But the biggest problem I see with crowdfunding approaches is that they
-are in conflict with establishing a working income. If you're hiring
-yourself out, the shorter the engagement, the higher your hourly rate.
-This is a hedge against unemployment at the end of the contract. If
-you're doing a Kickstarter, you're best served by having a small,
-clearly described, clearly achievable goal. So - a month or two of work.
+But the biggest problem I see with crowdfunding approaches is that they are in conflict with establishing a working income. If you're hiring yourself out, the shorter the engagement, the higher your hourly rate. This is a hedge against unemployment at the end of the contract. If you're doing a Kickstarter, you're best served by having a small, clearly described, clearly achievable goal. So - a month or two of work.
 
-That means you need to charge your short term rate in order to guarantee
-long term income. But it's also in your interest to have a low
-fundraising target, so that the campaign actually tips. If it's too
-high, it could scare off potential bidders. It also means the community
-pays a premium for any new feature, which isn't the best use of already
-scarce community resources.
+That means you need to charge your short term rate in order to guarantee long term income. But it's also in your interest to have a low fundraising target, so that the campaign actually tips. If it's too high, it could scare off potential bidders. It also means the community pays a premium for any new feature, which isn't the best use of already scarce community resources.
 
 #### Grants, Fellowships, Patreon
 
-OK - so if you want longer term income, you need to look at longer term
-engagements. That means that you stop looking at funding specific
-projects, and start looking at funding the person, with grants and
-fellowship positions.
+OK - so if you want longer term income, you need to look at longer term engagements. That means that you stop looking at funding specific projects, and start looking at funding the person, with grants and fellowship positions.
 
-I'm including Patreon in that list because it's effectively
-"crowdsourced patronage". You're not paying for a specific thing - it's
-"keep doing what you're doing" money.
+I'm including Patreon in that list because it's effectively "crowdsourced patronage". You're not paying for a specific thing - it's "keep doing what you're doing" money.
 
-Over the last 10 months, Django has been using this model. We hired a
-fellow at the end of last year. The fellow - whose name is Tim Graham -
-is responsible for keeping the project wheels greased.
+Over the last 10 months, Django has been using this model. We hired a fellow at the end of last year. The fellow - whose name is Tim Graham - is responsible for keeping the project wheels greased.
 
-From a technical perspective, this has been a roaring success. Tim's
-made great inroads into our ticket backlog, and response times on ticket
-reviews are lower than they've ever been.
+From a technical perspective, this has been a roaring success. Tim's made great inroads into our ticket backlog, and response times on ticket reviews are lower than they've ever been.
 
 The hard part has been raising the money to pay him.
 
-We did a fundraiser at the start of the year specifically to fund the
-Fellow; that campaign has raised just over $50k US. That's no small
-chunk of change - but it's also not a lot when you're talking about a
-full time employee. We're going to need to do another fundraiser really
-soon if the Fellowship is going to continue.
+We did a fundraiser at the start of the year specifically to fund the Fellow; that campaign has raised just over $50k US. That's no small chunk of change - but it's also not a lot when you're talking about a full time employee. We're going to need to do another fundraiser really soon if the Fellowship is going to continue.
 
-Almost everyone agrees it's been money well spent, but converting that
-into donations has been hard work.
+Almost everyone agrees it's been money well spent, but converting that into donations has been hard work.
 
 #### Corporate sponsorship
 
-Another other approach for raising money is to embrace the devil, and go
-commercial. Commercial interests have the money, so why shouldn't they
-pay for it? This can be very successful under certain circumstances -
-but you have to be able to make a business case for the corporate owner.
+Another other approach for raising money is to embrace the devil, and go commercial. Commercial interests have the money, so why shouldn't they pay for it? This can be very successful under certain circumstances - but you have to be able to make a business case for the corporate owner.
 
-OpenStack is a great example of this. Why are Rackspace, HP, Red Hat,
-Ubuntu all interested in OpenStack? Because they sell products that
-benefit from commodifying the hosting environment. By making it cheap
-and easy to control cloud deployments, they increase the size of the
-market for cloud hosting, which means more money for their core
-business - either directly (like Rackspace), or indirectly (like Red Hat,
-because cloud servers still need operating systems).
+OpenStack is a great example of this. Why are Rackspace, HP, Red Hat, Ubuntu all interested in OpenStack? Because they sell products that benefit from commodifying the hosting environment. By making it cheap and easy to control cloud deployments, they increase the size of the market for cloud hosting, which means more money for their core business - either directly (like Rackspace), or indirectly (like Red Hat, because cloud servers still need operating systems).
 
-<nospell>Node.js</nospell> is funded by <nospell>Joyent</nospell> for similar reasons - <nospell>Joyent</nospell> is making a
-long play that if it's easier to develop web software, more people will
-write web software, increasing the market for <nospell>Joyent's</nospell> services.
+<nospell>Node.js</nospell> is funded by <nospell>Joyent</nospell> for similar reasons - <nospell>Joyent</nospell> is making a long play that if it's easier to develop web software, more people will write web software, increasing the market for <nospell>Joyent's</nospell> services.
 
-However, <nospell>Node.js</nospell> is also a cautionary tale about corporate interests -
-what happens when the community and the corporate sponsor disagree about
-the direction of the project? Well, you get project splits, like the
-<nospell>io.js</nospell> split. Corporate money can corrupt. You need to be careful that
-project governance is independent of the funding source.
+However, <nospell>Node.js</nospell> is also a cautionary tale about corporate interests - what happens when the community and the corporate sponsor disagree about the direction of the project? Well, you get project splits, like the <nospell>io.js</nospell> split. Corporate money can corrupt. You need to be careful that project governance is independent of the funding source.
 
-Having a single corporate master also puts the project the risk if that
-corporate master loses interest. Django was originally under the wing of the World Company. Eventually, that interest waned, and the corporate support dried up, too.
+Having a single corporate master also puts the project the risk if that corporate master loses interest. Django was originally under the wing of the World Company. Eventually, that interest waned, and the corporate support dried up, too.
 
 #### Venture funding
 

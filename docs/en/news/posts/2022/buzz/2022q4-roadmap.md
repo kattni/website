@@ -32,7 +32,7 @@ In Q4, we're planning to focus on:
 
 The primary focus for Q4 will be Toga. There are a number of pieces of work involved with this:
 
-- **Housekeeping** - Basic repository maintenance tasks, like enabling  `black`, introducing pre-commit hooks, `towncrier`, and automating release infrastructure.
+- **Housekeeping** - Basic repository maintenance tasks, like enabling `black`, introducing pre-commit hooks, `towncrier`, and automating release infrastructure.
 - **Example consolidation** - Toga's examples folder has become a sprawling collection of code that is part documentation, part testbed. We need to start consolidating these examples into 2 apps - one that is a user-facing demonstrator of Toga features, and one that can be used as a functional test of Toga features.
 - **Testing** - Modernizing and cleaning up the existing test suite, and working out how to automate GUI tests
 - **Documentation** - Toga's documentation has lagged behind an acceptable standard for a long time,
