@@ -25,7 +25,7 @@ We also use GitHub Discussions as a forum to discuss projects. If you have a que
 
 Want to receive updates, hints, tips, and announcements related to BeeWare? [Sign up for the BeeWare Enthusiasts mailing list](https://eepurl.com/b2Xb4z).
 
-## Commercial support
+## Commercial support { #commercial-support }
 
 Need help with your commercial BeeWare project?
 

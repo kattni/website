@@ -19,8 +19,8 @@ dev = [
 docs = [
     # TODO: Restore to beeware/beeware-docs-tools before going live.
     # "beeware-docs-tools @ git+https://github.com/beeware/beeware-docs-tools",
-    "beeware-docs-tools @ git+https://github.com/kattni/beeware-docs-tools@tooling/website-mkdocs-migration",
-#     "beeware-docs-tools @ file://../beeware-docs-tools",
+#    "beeware-docs-tools @ git+https://github.com/kattni/beeware-docs-tools@tooling/website-mkdocs-migration",
+     "beeware-docs-tools @ file://../beeware-docs-tools",
     {include-group = "redirects"},
 ]
 

@@ -90,6 +90,52 @@ extra:
       link: https://beeware.org/news/buzz/atom.xml
   github_icon: <i class="fa-github fa-brands" aria-hidden="true"></i>
   generator: false
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Arabic
+      link: /ar/
+      lang: ar
+    - name: Czech
+      link: /cs/
+      lang: cs
+    - name: Danish
+      link: /da/
+      lang: da
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Español
+      link: /es/
+      lang: es
+    - name: Farsi
+      link: /fa/
+      lang: fa
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Italiano
+      link: /it/
+      lang: it
+    - name: Korean
+      link: /ko/
+      lang: ko
+    - name: Polish
+      link: /pl/
+      lang: pl
+    - name: Portuguese
+      link: /pt/
+      lang: pt
+    - name: Turkish
+      link: /tr/
+      lang: tr
+    - name: Chinese (Traditional)
+      link: /zh_CN/
+      lang: zh_CN
+    - name: Chinese (Taiwanese)
+      link: /zh_TW/
+      lang: zh_TW
 
 
 extra_css:
@@ -157,7 +203,8 @@ plugins:
   search: {}
   blog:
     blog_dir: news
-    post_url_format: "{categories}/{slug}"
+    post_url_date_format: yyyy
+    post_url_format: "{categories}/{date}/{slug}"
     post_url_max_categories: 1
     categories_url_format: "{slug}"
     categories_allowed:

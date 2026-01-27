@@ -1,15 +1,16 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-26 21:50-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-05-27 20:44+EST\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 3.17.5\n"
 
 #: docs/en/about/branding.md:1
@@ -31,22 +32,32 @@ msgid "Short description"
 msgstr ""
 
 #: docs/en/about/branding.md:9
+#, fuzzy
 msgid ""
 "BeeWare is a collection of tools and libraries to aid in writing application "
 "user interfaces in Python."
 msgstr ""
+"BeeWare는 Python으로 애플리케이션 사용자 인터페이스를 작성하는 데 도움이 "
+"되는 도구 및 라이브러리 모음입니다. 애플리케이션 사용자 인터페이스를 "
+"작성하는 데 도움이 되는 도구 및 라이브러리 모음입니다."
 
 #: docs/en/about/branding.md:11
 msgid "Long description"
 msgstr ""
 
 #: docs/en/about/branding.md:13
+#, fuzzy
 msgid ""
 "BeeWare is a collection of tools and libraries to aid in writing application "
 "user interfaces in Python. It enables developers to write applications for "
 "iPhone, Android, Linux, macOS and Windows that are indistinguishable from "
 "natively written applications."
 msgstr ""
+"BeeWare는 Python으로 애플리케이션 사용자 인터페이스를 작성하는 데 도움이 "
+"되는 도구 및 라이브러리 모음입니다. 애플리케이션 사용자 인터페이스를 "
+"작성하는 데 도움이 되는 도구 및 라이브러리 모음입니다. 개발자는 이를 통해 "
+"iPhone, Android, Linux, macOS 및 Windows용 애플리케이션을 작성할 수 "
+"있습니다. 기본적으로 작성된 애플리케이션과 구별할 수 없습니다."
 
 #: docs/en/about/branding.md:15
 msgid "Logos"
@@ -126,8 +137,9 @@ msgid "[X-large]{1}"
 msgstr ""
 
 #: docs/en/about/contact.md:1
+#, fuzzy
 msgid "Contact"
-msgstr ""
+msgstr "연락처"
 
 #: docs/en/about/contact.md:3
 msgid "Looking for help?"
@@ -213,10 +225,13 @@ msgid "Need help with your commercial BeeWare project?"
 msgstr ""
 
 #: docs/en/about/contact.md:32
+#, fuzzy
 msgid ""
 "Although BeeWare is an open source project, there are companies and "
 "individuals who can provide paid support, training, and consulting."
 msgstr ""
+"BeeWare는 오픈 소스 프로젝트이지만, 유료 지원 및 컨설팅을 제공할 수 있는 "
+"기업과 유료 지원, 교육 및 컨설팅을 제공할 수 있습니다."
 
 #: docs/en/about/contact.md:34
 msgid ""
@@ -270,19 +285,24 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/history.md:1
+#, fuzzy
 msgid "History and Philosophy"
-msgstr ""
+msgstr "역사와 철학"
 
 #: docs/en/about/history.md:3
 msgid "History"
 msgstr ""
 
 #: docs/en/about/history.md:5
+#, fuzzy
 msgid ""
 "The BeeWare project started with a simple question: Why aren't the tools "
 "that we use as Python developers improving at the same rate as the rest of "
 "the technology we use on a daily basis?"
 msgstr ""
+"BeeWare 프로젝트는 간단한 질문에서 시작되었습니다: 왜 우리가 파이썬 "
+"개발자로서 사용하는 도구들이 우리가 파이썬 개발자로서 매일 사용하는 다른 "
+"기술들과 같은 속도로 같은 속도로 개선되지 않는 이유는 무엇일까요?"
 
 #: docs/en/about/history.md:7
 msgid ""
@@ -307,24 +327,34 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/history.md:11
+#, fuzzy
 msgid ""
 "And, yes, there are IDEs (Integrated Development Environments) that provide "
 "a native application experience for writing code. But those tools require "
 "you to adopt, wholesale, the IDE's way of looking at a project. They often "
 "introduce as many headaches to the development process as they solve."
 msgstr ""
+"그리고 예, 코드 작성 시 네이티브 애플리케이션 환경을 제공하는 코드 작성을 "
+"위한 기본 애플리케이션 환경을 제공합니다. 하지만 이러한 도구를 사용하려면 "
+"IDE가 프로젝트를 바라보는 방식을 프로젝트. 이러한 도구는 종종 개발 "
+"프로세스에 많은 골칫거리를 가져다주기도 합니다. 프로세스에 많은 문제를 "
+"야기하기도 합니다."
 
 #: docs/en/about/history.md:13
+#, fuzzy
 msgid ""
 "And so, we're left with an interesting schism, between the \"old way\" of "
 "Unix development in a console window, and the \"new way\" of all-in-one IDEs."
 msgstr ""
+"그래서 우리는 콘솔 창을 통한 \"오래된 방식\"인 콘솔 창에서의 유닉스 개발과 "
+"새로운 방식의 올인원 IDE."
 
 #: docs/en/about/history.md:15
 msgid "The Unix Philosophy"
 msgstr ""
 
 #: docs/en/about/history.md:17
+#, fuzzy
 msgid ""
 "However, it doesn't have to be that way. The core tenet of the Unix "
 "Philosophy is that \"each tool does one thing, well\". This is a very "
@@ -332,53 +362,83 @@ msgid ""
 "toolchains by putting together a suite of extremely focussed, independent "
 "tools."
 msgstr ""
+"하지만 꼭 그럴 필요는 없습니다. Unix 철학의 핵심 신조는 \"각 도구는 한 가지 "
+"일만 잘한다\"는 것입니다. 이것은 매우 매우 강력한 철학이며, 이를 통해 매우 "
+"강력한 강력한 도구 체인을 구성할 수 있습니다, 매우 강력한 도구 체인을 구성할 "
+"수 있습니다."
 
 #: docs/en/about/history.md:19
+#, fuzzy
 msgid ""
 "Unfortunately, most UNIX tools have convolved this to also mean \"all tools "
 "must use a console interface\". However, there's nothing in the UNIX "
 "philosophy that says that tools have to use a console interface - it's just "
 "turned out that way."
 msgstr ""
+"안타깝게도 대부분의 UNIX 도구는 이를 \"모든 도구는 콘솔 인터페이스를 "
+"사용해야 한다\"는 의미로 해석하고 있습니다. 도구는 콘솔 인터페이스를 "
+"사용해야 한다\"는 의미로 해석하고 있습니다. 하지만 도구가 반드시 콘솔 "
+"인터페이스를 사용해야 한다는 UNIX 철학은 없습니다. 그냥 그렇게 되어 버렸을 "
+"뿐입니다."
 
 #: docs/en/about/history.md:21
+#, fuzzy
 msgid ""
 "The BeeWare project started with the premise we can have the best of both "
 "worlds. We can have a chain of composable tools that each do one thing, "
 "well. But those tools can also expose their functionality using a rich "
 "graphical user interface."
 msgstr ""
+"BeeWare 프로젝트는 두 가지 장점을 모두 가질 수 있다는 전제에서 "
+"시작되었습니다. 두 가지 장점을 모두 가질 수 있다는 전제에서 시작되었습니다. "
+"각각 한 가지 기능을 수행하는 일련의 구성 가능한 도구가 한 가지 일을 할 수 "
+"있습니다. 하지만 이러한 도구는 풍부한 그래픽 사용자 인터페이스를 사용하여 "
+"풍부한 그래픽 사용자 인터페이스를 사용할 수도 있습니다."
 
 #: docs/en/about/history.md:23
 msgid "More than just code"
 msgstr ""
 
 #: docs/en/about/history.md:25
+#, fuzzy
 msgid ""
 "It's about more than just code, though. A successful software project "
 "requires documentation, design skills, feedback and bug reports. The BeeWare "
 "community acknowledges that *all* contributions are important - not just the "
 "ones that come as a pull request on GitHub."
 msgstr ""
+"하지만 이는 단순한 코드 그 이상입니다. 성공적인 소프트웨어 프로젝트에는 "
+"문서화, 디자인 기술, 피드백 및 버그 보고서가 필요합니다. 그리고 BeeWare "
+"커뮤니티는 모든 기여가 중요하다는 것을 인정합니다. GitHub에서 풀 리퀘스트로 "
+"제공되는 것뿐만 아니라 모든 기여가 중요하다는 것을 인정합니다."
 
 #: docs/en/about/history.md:27
+#, fuzzy
 msgid ""
 "Even then, it's easy to think of a project in a vacuum, as the sum of all "
 "contributions. But that's never the case. An open source project is about "
 "community."
 msgstr ""
+"그럼에도 불구하고 프로젝트를 진공 상태에서 모든 기여의 합계로 생각하기 "
+"쉽습니다. 모든 기여의 합으로 생각하기 쉽습니다. 하지만 결코 그렇지 않습니다. "
+"오픈소스 프로젝트는 커뮤니티에 관한 것입니다."
 
 #: docs/en/about/history.md:29
 msgid "Diversity and inclusion"
 msgstr ""
 
 #: docs/en/about/history.md:31
+#, fuzzy
 msgid ""
 "A diverse community is a strong community. This means accepting people of "
 "all levels of experience, from all backgrounds, of all races, creeds, "
 "orientations and expressions. The BeeWare project is committed to developing "
 "and maintaining a inclusive, diverse and welcoming community."
 msgstr ""
+"다양한 커뮤니티는 강력한 커뮤니티입니다. 이는 다양한 배경과 모든 수준의 "
+"경험, 모든 배경, 모든 인종, 신념, 성향과 표현 방식. BeeWare 프로젝트는 "
+"다음을 위해 최선을 다하고 있습니다. 포용적이고 다양하며 환영하는 커뮤니티를 "
+"개발하고 유지하기 위해 최선을 다하고 있습니다."
 
 #: docs/en/about/history.md:33
 msgid ""
@@ -393,6 +453,7 @@ msgid "Healthy and sustainable"
 msgstr ""
 
 #: docs/en/about/history.md:37
+#, fuzzy
 msgid ""
 "It's also important to make sure that the community is accessible and "
 "sustainable. It's unfortunately become an accepted part of Open Source "
@@ -401,8 +462,15 @@ msgid ""
 "people able to spend their free time volunteering are those that *have* free "
 "time."
 msgstr ""
+"커뮤니티의 접근성을 확보하고 지속 가능한지 확인하는 것도 중요합니다. "
+"안타깝게도 오픈소스의 일부로 받아들여지고 있습니다. \"진정한\" 오픈소스 "
+"프로젝트는 전적으로 자원 봉사자들에 의해 전적으로 자원 봉사자들에 의해 "
+"개발되어야 합니다. 이는 많은 그룹에게 진입 장벽으로 작용합니다. 자유 시간을 "
+"자원봉사에 할애할 수 있는 사람은 오직 다음과 같은 사람들뿐입니다. *자유 "
+"시간이 있는 사람."
 
 #: docs/en/about/history.md:39
+#, fuzzy
 msgid ""
 "It also frequently leads to burnout and other mental health issues amongst "
 "contributors. The fact that depression, anxiety, and burnout are so common "
@@ -412,8 +480,16 @@ msgid ""
 "software bug would be addressed - with immediate workarounds, and long term "
 "plans to remove the systemic cause of the problem."
 msgstr ""
+"또한 기여자들 사이에서 번아웃과 기타 정신 건강 문제로 을 유발하기도 합니다. "
+"우울증, 불안, 번아웃이 소프트웨어 개발 커뮤니티에서 소프트웨어 개발 "
+"커뮤니티에서 매우 흔하다는 사실은 명예의 훈장이나 개발팀이 얼마나 "
+"헌신적인지를 보여주는 보여줄 수는 없습니다. 이는 정면으로 맞서서 해결해야 "
+"하는 문제입니다. 소프트웨어 버그가 해결되는 것과 같은 방식으로 즉각적인 해결 "
+"방법, 문제의 시스템적 원인을 제거하기 위한 장기적인 계획 등 문제를 해결해야 "
+"합니다."
 
 #: docs/en/about/history.md:41
+#, fuzzy
 msgid ""
 "While we place incredible value on the contributions of volunteers, we also "
 "know that volunteer efforts alone aren't the way to develop a healthy and "
@@ -425,6 +501,16 @@ msgid ""
 "meaningful ways, and wherever possible, compensate people for their work - "
 "without compromising the ideals of Open Source development."
 msgstr ""
+"우리는 자원 봉사자의 기여에 엄청난 가치를 부여하지만, 또한 또한 자원봉사자의 "
+"노력만으로는 건강하고 지속 가능한 커뮤니티를 건강하고 지속 가능한 커뮤니티를 "
+"발전시킬 수 있는 방법은 아닙니다. 그렇기 때문에 재정적 지속 가능성은 BeeWare "
+"프로젝트 운영의 핵심 고려 사항입니다. 프로젝트 운영의 핵심 고려사항입니다. "
+"커뮤니티로서 우리는 돈이 해야 할 역할을 무시하지 않습니다. 사람들이 "
+"프로젝트를 시작하고 지속적으로 기여할 수 있는 기여합니다. 우리는 "
+"커뮤니티로서 개인이 자신의 작업으로 수익을 창출할 수 있도록 개인이 의미 있는 "
+"방식으로 자신의 작업으로 수익을 창출할 수 있도록 하고, 가능한 경우 가능한 "
+"경우, 오픈소스 개발의 이상을 훼손하지 않으면서도 오픈 소스 개발의 이상을 "
+"훼손하지 않고."
 
 #: docs/en/about/history.md:43
 msgid "The goal"
@@ -432,6 +518,7 @@ msgstr ""
 
 #: docs/en/about/history.md:45
 #: docs/en/about/overview.md:15
+#, fuzzy
 msgid ""
 "The end goal of the BeeWare project: To be able to do for mobile and desktop "
 "user-facing software the same thing that Django has done for web software - "
@@ -439,6 +526,11 @@ msgid ""
 "them to develop rich, native user interfaces, and deploy them to their "
 "devices. This includes:"
 msgstr ""
+"BeeWare 프로젝트의 최종 목표: 모바일 및 데스크톱 사용자 대면 소프트웨어에서 "
+"Django가 웹 소프트웨어에서 했던 것과 동일한 작업을 모바일 및 데스크톱 사용자 "
+"대면 소프트웨어에서도 할 수 있도록 하는 것입니다. 풍부한 네이티브 사용자 "
+"인터페이스를 개발할 수 있는 도구와 라이브러리 세트를 배포할 수 있는 도구와 "
+"라이브러리 세트를 사용자에게 제공합니다. 여기에는 다음이 포함됩니다:"
 
 #: docs/en/about/history.md:47
 #: docs/en/about/overview.md:17
@@ -459,13 +551,18 @@ msgid "Tools to help develop, debug, analyze and these projects."
 msgstr ""
 
 #: docs/en/about/history.md:52
+#, fuzzy
 msgid ""
 "This aim is that this set of tools will be easy enough to use for complete "
 "newcomers to use in a Django Girls-like setting; but powerful enough that "
 "they could be used to drive the next Instagram, Pinterest or Disqus."
 msgstr ""
+"이 도구 세트의 목표는 이 도구가 다음과 같은 초보자도 쉽게 사용할 수 있도록 "
+"장고 걸즈와 같은 환경에서 완전히 초보자가 사용할 수 있을 만큼 쉬우면서도 "
+"다음 Instagram, Pinterest 또는 Disqus."
 
 #: docs/en/about/history.md:54
+#, fuzzy
 msgid ""
 "Most importantly, it aims to do all this as an Open Source community. The "
 "Open Source development process has proven itself to be the most reliable "
@@ -473,12 +570,19 @@ msgid ""
 "access the software means that everyone can start with the same set of "
 "excellent tools, be they expert or enthusiastic amateur."
 msgstr ""
+"가장 중요한 것은 이 모든 것을 오픈 소스 커뮤니티로 하는 것을 목표로 한다는 "
+"점입니다. 오픈소스 개발 프로세스는 강력하고 신뢰할 수 있는 소프트웨어를 "
+"개발하는 가장 강력하고 신뢰할 수 있는 소프트웨어를 개발할 수 있는 가장 "
+"신뢰할 수 있는 방법이며 누구나 소프트웨어에 액세스할 수 있다는 것은 모든 "
+"사람들이 전문가든 열정적인 아마추어든 누구나 동일한 훌륭한 도구 세트로 "
+"시작할 수 있습니다."
 
 #: docs/en/about/history.md:56
 msgid "Python everywhere"
 msgstr ""
 
 #: docs/en/about/history.md:58
+#, fuzzy
 msgid ""
 "A modern computing project can't ignore the biggest development in computing "
 "of the last 10 years. Python prides itself on being a cross-platform "
@@ -488,20 +592,33 @@ msgid ""
 "programming on mobile platforms, and cross-platform mobile coding is still "
 "elusive."
 msgstr ""
+"최신 컴퓨팅 프로젝트는 지난 10년간 컴퓨팅 분야에서 가장 큰 발전을 지난 "
+"10년간의 컴퓨팅 발전을 무시할 수 없습니다. 파이썬은 크로스 플랫폼 언어라는 "
+"크로스 플랫폼 언어입니다. 10년 전만 해도 크로스 플랫폼이라는 것은 윈도우, "
+"맥OS, 리눅스 모두에서 Windows, macOS, Linux에서 사용 가능했습니다. 요즘에는 "
+"모바일 컴퓨팅이 훨씬 더 중요해졌습니다. 그럼에도 불구하고, 모바일 "
+"플랫폼에서의 파이썬 프로그래밍과 모바일 플랫폼에서의 Python 프로그래밍과 "
+"크로스 플랫폼 모바일 코딩은 는 여전히 어렵습니다."
 
 #: docs/en/about/history.md:60
+#, fuzzy
 msgid ""
 "BeeWare embraces mobile and other emerging platforms (like watches and set-"
 "top-boxes) as a first class citizen of the computing ecosystem - because if "
 "people have these devices, why shouldn't they be able to write software for "
 "them in Python."
 msgstr ""
+"BeeWare는 모바일 및 기타 신흥 플랫폼(예: 시계 및 셋톱박스 등)을 컴퓨팅 "
+"생태계의 일등 시민으로 받아들입니다. 왜냐하면 사람들이 이러한 기기를 가지고 "
+"있다면, 왜 파이썬으로 소프트웨어를 파이썬으로 소프트웨어를 작성할 수 있어야 "
+"합니다."
 
 #: docs/en/about/history.md:62
 msgid "Native everywhere"
 msgstr ""
 
 #: docs/en/about/history.md:64
+#, fuzzy
 msgid ""
 "It's easy to use themes to achieve cross-platform. However, it's easy to "
 "spot apps that have been built using themes - they're the ones that don't "
@@ -509,16 +626,26 @@ msgid ""
 "there's a menu bar on a window in an OS X app. Themes can get quite close - "
 "but there are always telltale signs."
 msgstr ""
+"테마를 사용하여 크로스 플랫폼을 달성하는 것은 쉽습니다. 하지만 테마를 "
+"사용하여 빌드된 앱은 다른 앱처럼 다른 앱처럼 작동하지 않습니다. 위젯이 "
+"'제대로' 보이지 않거나, 또는 OS X 앱의 창에 메뉴 막대가 있습니다. 테마가 "
+"상당히 하지만 항상 분명한 징후가 있습니다."
 
 #: docs/en/about/history.md:66
+#, fuzzy
 msgid ""
 "On top of that, native widgets are always faster than a themed generic "
 "widget. After all, you're using native system capability that has been tuned "
 "and optimized, not a drawing engine that's been layered on top of a generic "
 "widget."
 msgstr ""
+"게다가 기본 위젯은 테마가 있는 일반 위젯보다 항상 더 빠릅니다. 위젯보다 항상 "
+"빠릅니다. 결국, 드로잉 엔진 위에 겹겹이 쌓아 올린 위젯이 아니라 튜닝되고 "
+"최적화된 네이티브 시스템 기능을 사용하고 있는 것이지 일반 위젯 위에 계층화된 "
+"드로잉 엔진이 아닙니다."
 
 #: docs/en/about/history.md:68
+#, fuzzy
 msgid ""
 "Themes also miss many of the accessibility benefits of native platforms. "
 "Modern OS authors spend a lot of time tuning affordances for people with "
@@ -526,12 +653,21 @@ msgid ""
 "usually get these affordances for free. If you reimplement widgets with a "
 "theme, you also have to re-implement the affordances."
 msgstr ""
+"또한 테마는 기본 플랫폼의 접근성 이점을 많이 놓치고 있습니다. 최신 OS "
+"개발자는 이동성, 시각 또는 인지 장애가 있는 사람들을 위해 어포던스 조정에 "
+"많은 시간을 할애합니다. 어포던스를 조정하는 데 많은 시간을 할애합니다. "
+"네이티브 위젯을 사용하는 경우 일반적으로 이러한 어포던스를 무료로 얻을 수 "
+"있습니다. 테마를 사용하여 위젯을 다시 구현하는 경우 테마로 위젯을 다시 "
+"구현하는 경우에는 어포던스도 다시 구현해야 합니다."
 
 #: docs/en/about/history.md:70
+#, fuzzy
 msgid ""
 "BeeWare uses native widgets and native functionality, rather than using a "
 "theme-based approach to application development."
 msgstr ""
+"BeeWare는 기본 위젯과 기본 기능을 사용합니다. 테마 기반 접근 방식을 사용하지 "
+"않습니다."
 
 #: docs/en/about/history.md:72
 msgid "Python native"
@@ -551,16 +687,18 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/history.md:76
+#, fuzzy
 msgid ""
 "We're also looking to the future - this means that we support Python 3 "
 "exclusively."
-msgstr ""
+msgstr "또한 미래를 내다보고 있습니다. 즉, Python 3을 를 독점적으로 지원합니다."
 
 #: docs/en/about/history.md:78
 msgid "Native experience"
 msgstr ""
 
 #: docs/en/about/history.md:80
+#, fuzzy
 msgid ""
 "The experience of using any tool starts with the installation process. Part "
 "of BeeWare's \"Native everywhere\" philosophy is adopting appropriate native "
@@ -570,6 +708,13 @@ msgid ""
 "or a simple executable package. End users shouldn't know that you've written "
 "the application in Python."
 msgstr ""
+"모든 도구의 사용 경험은 설치 과정에서 시작됩니다. BeeWare의 \"모든 곳에서 "
+"네이티브\" 철학의 일부는 적절한 네이티브 메커니즘을 채택하는 것입니다. 기본 "
+"메커니즘을 채택하는 것입니다. 사용자 공간 도구를 사용하는 경우, 다른 도구를 "
+"설치할 때와 동일한 방식으로 다른 도구를 설치할 때와 동일한 방식으로 패키지로 "
+"제공해야 합니다. 스토어, 인스톨러 또는 간단한 실행 패키지 등 다른 도구를 "
+"설치할 때와 동일한 방식으로 패키지로 제공해야 합니다. 최종 사용자는 "
+"파이썬으로 애플리케이션을 작성했다는 사실을 알면 안 됩니다."
 
 #: docs/en/about/index.md:1
 msgid "About"
@@ -580,10 +725,13 @@ msgid "BeeWare: The IDEs of Python"
 msgstr ""
 
 #: docs/en/about/index.md:5
+#, fuzzy
 msgid ""
 "This is BeeWare. We're incredibly excited about what the future holds for "
 "Python. We hope you'll join us on this journey."
 msgstr ""
+"비웨어입니다. 저희는 파이썬의 미래에 대해 매우 기대가 큽니다. 매우 기대가 "
+"됩니다. 여러분도 이 여정에 함께 해주시길 바랍니다."
 
 #: docs/en/about/index.md:7
 msgid "[What is BeeWare?]{1}"
@@ -627,20 +775,23 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/overview.md:1
+#, fuzzy
 msgid "What is BeeWare?"
-msgstr ""
+msgstr "BeeWare란 무엇인가요?"
 
 #: docs/en/about/overview.md:3
 msgid "Meet Brutus"
 msgstr ""
 
 #: docs/en/about/overview.md:7
+#, fuzzy
 msgid ""
 "Brutus the Bee is the mascot of the BeeWare project. He's a busy little "
 "worker bee."
-msgstr ""
+msgstr "꿀벌 브루투스는 비웨어 프로젝트의 마스코트입니다. 그는 바쁜 작은 일벌입니다."
 
 #: docs/en/about/overview.md:9
+#, fuzzy
 msgid ""
 "Fun fact: a person who keeps bees is called an **apiarist** - a name that "
 "the BeeWare project uses to describe the core team. This also reflects the "
@@ -648,18 +799,28 @@ msgid ""
 "shepherds of the community, and we'll provide direction, but we know the "
 "real work is done by the community as a whole."
 msgstr ""
+"재미있는 사실: 꿀벌을 키우는 사람을 **양봉가**라고 합니다. 라고 부르는데, "
+"BeeWare 프로젝트에서 핵심 팀을 설명하는 데 사용합니다. 이것은 또한 핵심 팀이 "
+"커뮤니티와 맺고 싶어하는 관계를 반영합니다. 커뮤니티 - 우리는 커뮤니티의 "
+"목자입니다. 방향을 제시하지만, 실제 작업은 커뮤니티 전체가 수행합니다. 전체"
 
 #: docs/en/about/overview.md:11
 msgid "A first-timer's introduction to BeeWare"
 msgstr ""
 
 #: docs/en/about/overview.md:13
+#, fuzzy
 msgid ""
 "Python has proven itself as a highly capable language - approachable for "
 "newcomers, but powerful in the hands of experts. The BeeWare Project aims to "
 "take the power of Python as a language, and use it to enable users of all "
 "skill levels to develop applications with native user interfaces."
 msgstr ""
+"파이썬은 초보자도 쉽게 접근할 수 있는 언어이지만 초보자도 쉽게 접근할 수 "
+"있지만 전문가에게는 강력한 언어입니다. BeeWare 프로젝트 의 목표는 파이썬의 "
+"강력한 기능을 언어로서 활용하여 모든 기술 수준의 사용자가 네이티브 사용자 "
+"인터페이스를 사용하여 애플리케이션 개발 인터페이스로 애플리케이션을 개발할 "
+"수 있도록 하는 것을 목표로 합니다."
 
 #: docs/en/about/overview.md:18
 msgid "Tools to package a Python project, so it can run on those devices,"
@@ -670,13 +831,17 @@ msgid "Tools to help develop, debug, analyze and deploy these projects."
 msgstr ""
 
 #: docs/en/about/overview.md:22
+#, fuzzy
 msgid ""
 "The aim is that this set of tools will be easy enough to use for complete "
 "newcomers to use in a Django Girls-like setting; but powerful enough that "
 "they could be used to drive the next Instagram, Pinterest or Disqus."
 msgstr ""
+"이 도구 세트의 목표는 초보자도 쉽게 사용할 수 있으면서도 장고 걸즈와 같은 "
+"환경에서 사용하기에 충분히 쉬우면서도 다음 Instagram, Pinterest 또는 Disqus."
 
 #: docs/en/about/overview.md:24
+#, fuzzy
 msgid ""
 "We're not just about software, though. We also aim to be a project with a "
 "social conscience. We aim to develop and maintain a diverse and inclusive "
@@ -686,6 +851,14 @@ msgid ""
 "resources for people to start engaging, and continue to engage with the "
 "community."
 msgstr ""
+"하지만 저희는 소프트웨어에만 국한되지 않습니다. 우리는 또한 사회적 양심을 "
+"가진 사회적 양심을 가진 프로젝트가 되고자 합니다. 다양하고 포용적인 "
+"커뮤니티를 개발하고 유지하는 것을 목표로 하며 포용적인 커뮤니티를 개발하고 "
+"유지하는 것을 목표로 하고 있으며, 엄격하게 시행되는 시행하고 있습니다. 또한 "
+"건강하고 지속 가능한 커뮤니티를 개발하고자 합니다. 건강하고 지속 가능한 "
+"커뮤니티 - 참여자의 정신 건강 문제를 인식하고 사람들이 참여를 시작할 수 "
+"있도록 리소스를 제공합니다, 커뮤니티와 지속적으로 소통할 수 있도록 "
+"지원합니다."
 
 #: docs/en/about/overview.md:26
 msgid "Where to from here?"
@@ -708,65 +881,96 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team.md:1
+#, fuzzy
 msgid "The Bee Team"
-msgstr ""
+msgstr "꿀벌 팀"
 
 #: docs/en/about/team.md:3
 msgid "{{ generate_team_page(team, page) }}"
 msgstr ""
 
 #: docs/en/about/team/cflee.md:1
+#, fuzzy
 msgid ""
 "Chiang Fong has been pretending to be a systems administrator since the "
 "Mandriva Linux days, and has recently moved into acting like he knows how to "
 "write software."
 msgstr ""
+"치앙 퐁은 만드리바 리눅스 시절부터 시스템 관리자인 척 해왔습니다. 만드리바 "
+"리눅스 시절부터 시스템 관리자 행세를 해왔으며, 최근에는 소프트웨어 작성법을 "
+"아는 것처럼 소프트웨어 작성법을 아는 것처럼 행동하고 있습니다."
 
 #: docs/en/about/team/cflee.md:3
+#, fuzzy
 msgid ""
 "When not poking at code to de-stress, he spends his time fiddling with "
 "fountain pens and mechanical keyboards. He has yet to learn the lesson of "
 "not mixing inky fingers with pretty keycaps."
 msgstr ""
+"스트레스를 풀기 위해 코드를 찔러보지 않을 때는 주로 만년필과 기계식 키보드를 "
+"만지작거리며 시간을 보냅니다. 그는 아직 교훈을 얻지 못했습니다. 잉크가 묻은 "
+"손가락과 예쁜 키캡을 섞으면 안 된다는 교훈을 아직 배우지 못했습니다."
 
 #: docs/en/about/team/danyeaw.md:1
+#, fuzzy
 msgid ""
 "Dan leads teams to design safety in to complex automotive and mobility "
 "systems, and dreams of using BeeWare tools to help model these systems."
 msgstr ""
+"Dan은 복잡한 자동차 및 모빌리티 시스템에 안전을 설계하는 팀을 이끌며 "
+"시스템을 설계하는 팀을 이끌고 있으며, 이러한 시스템을 모델링하는 데 BeeWare "
+"툴을 사용하는 것을 꿈꿉니다."
 
 #: docs/en/about/team/danyeaw.md:3
+#, fuzzy
 msgid ""
 "When not hacking on open source projects, Dan likes to hang with his kids, "
 "brew beer, and play soccer."
 msgstr ""
+"오픈소스 프로젝트를 해킹하지 않을 때는 댄은 아이들과 어울리고 아이들과 "
+"어울리고, 맥주를 만들고, 축구를 하는 것을 좋아합니다."
 
 #: docs/en/about/team/eliasdorneles.md:1
+#, fuzzy
 msgid ""
 "Elias is a certified yak-shaver. He likes to fiddle with Python and open "
 "source stuff. At home, he likes to read, cook and to play Beatles songs on "
 "his guitar."
 msgstr ""
+"Elias는 공인된 야크 면도사입니다. 그는 파이썬과 오픈 소스를 다루는 것을 "
+"좋아합니다. 오픈소스를 좋아합니다. 집에서는 독서와 요리를 좋아하고 기타로 "
+"비틀즈 노래를 기타를 치는 것을 좋아합니다."
 
 #: docs/en/about/team/eliasdorneles.md:3
+#, fuzzy
 msgid "Elias gets by with a little help from his friends."
-msgstr ""
+msgstr "엘리아스는 친구들의 도움을 조금만 받습니다."
 
 #: docs/en/about/team/flowerncsu.md:1
+#, fuzzy
 msgid ""
 "Charlotte has been coding for more years than she likes to admit, and has a "
 "passion for building cool things and helping other people learn how to build "
 "cool things. She is among the organizers of PyLadies RDU, and can often be "
 "found making things out of yarn when not making things out of code."
 msgstr ""
+"샬롯은 인정하고 싶은 것보다 더 오랫동안 코딩을 해왔으며 멋진 것을 만들고 "
+"다른 사람들이 멋진 것을 만드는 방법을 멋진 것을 만드는 방법에 대한 열정을 "
+"가지고 있습니다. 그녀는 PyLadies RDU의 주최자 중 한 명입니다, 코딩을 하지 "
+"않을 때는 실로 무언가를 만드는 모습을 종종 볼 수 있습니다. 실로 무언가를 "
+"만들곤 합니다."
 
 #: docs/en/about/team/freakboy3742.md:1
+#, fuzzy
 msgid ""
 "Dr Russell Keith-Magee is the founder of the BeeWare project. He joined the "
 "Django core team in 2006, and for 5 years, was President of the Django "
 "Software Foundation. He has been a member of the CPython core team since May "
 "2024."
 msgstr ""
+"러셀 키스-마기 박사는 BeeWare 프로젝트의 창립자입니다. 그는 2006년에 장고 "
+"핵심 팀에 합류했으며, 5년 동안 장고 소프트웨어 재단의 장고 소프트웨어 재단의 "
+"회장을 역임했습니다. 그는 2024년 5월부터 CPython 핵심 팀의 일원이 되었습니다."
 
 #: docs/en/about/team/freakboy3742.md:3
 msgid ""
@@ -788,6 +992,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/halfwhitt.md:1
+#, fuzzy
 msgid ""
 "As a comic artist, machinist, welder, carpenter, and programmer, Charles has "
 "worn many hats (but more commonly sticks to a bandana). If they're not "
@@ -795,18 +1000,29 @@ msgid ""
 "Toga and Travertino, they're probably building yet another shelving or other "
 "storage unit in their house."
 msgstr ""
+"만화가, 기계공, 용접공, 목수, 프로그래머로 활동한 찰스 는 많은 모자를 썼지만 "
+"두건을 즐겨 썼습니다. 만약 생계를 위해 극장 세트를 짓거나 야크를 쫓아 "
+"내려오지 않는다면 토가와 트라베르티노를 통해 야크를 쫓고 있지 않다면, 아마도 "
+"또 하나의 선반이나 기타 저장 장치를 만들고 있을 것입니다."
 
 #: docs/en/about/team/hawkowl.md:1
+#, fuzzy
 msgid ""
 "Amber Brown pretends to be an owl on the internet. When she's not releasing "
 "or working on Twisted, she works on software for various commercial and non-"
 "profit companies. She's so good at talking endlessly about Twisted that "
 "Russell even once invited her to keynote on it."
 msgstr ""
+"앰버 브라운은 인터넷에서 올빼미인 척합니다. Twisted를 출시하거나 작업하지 "
+"않을 때는 Twisted를 출시하거나 작업하지 않을 때는 다양한 영리 및 비영리 "
+"기업의 다양한 영리 및 비영리 기업에서 소프트웨어를 개발하고 있습니다. 그녀는 "
+"트위스티드에 대해 끝없이 이야기하는 데 러셀이 트위스티드에 대한 기조연설에 "
+"그녀를 초대하기도 했습니다."
 
 #: docs/en/about/team/hawkowl.md:3
+#, fuzzy
 msgid "Also, she likes people tweeting pictures of owls at her."
-msgstr ""
+msgstr "또한 부엉이 사진을 트윗하는 사람들을 좋아합니다."
 
 #: docs/en/about/team/kattni.md:1
 msgid ""
@@ -820,11 +1036,15 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/mhsmith.md:1
+#, fuzzy
 msgid ""
 "Malcolm is the creator of Chaquopy, which aims to make it as easy as "
 "possible to use Python in Android apps. With BeeWare, he's now looking "
 "forward to expanding that mission to all desktop and mobile platforms."
 msgstr ""
+"Malcolm은 최대한 쉽게 파이썬을 사용할 수 있도록 가능한 한 쉽게 파이썬을 "
+"사용하는 것을 목표로 합니다. 이제 그는 BeeWare를 통해 그 사명을 모든 "
+"데스크톱 및 모바일 플랫폼으로 그 사명을 확장하고자 합니다."
 
 #: docs/en/about/team/mhsmith.md:3
 msgid ""
@@ -833,16 +1053,21 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/obulat.md:1
+#, fuzzy
 msgid ""
 "Olga is a python and BeeWare enthusiast, also interested in NLP, geography "
 "and languages."
 msgstr ""
+"올가는 파이썬과 BeeWare 애호가이며 NLP에도 관심이 많습니다, 지리 및 언어에도 "
+"관심이 많습니다."
 
 #: docs/en/about/team/obulat.md:3
+#, fuzzy
 msgid "She also enjoys hanging out with kids."
-msgstr ""
+msgstr "또한 아이들과 어울리는 것을 즐깁니다."
 
 #: docs/en/about/team/phildini.md:1
+#, fuzzy
 msgid ""
 "Philip writes code for computers and for humans. His first computing love is "
 "Python, but is too often forced to write JavaScript and Swift. When he's not "
@@ -850,6 +1075,12 @@ msgid ""
 "gives talks at conferences. Philip lives in Alameda, California with his "
 "wife and her cat. Philip believes in the web."
 msgstr ""
+"필립은 컴퓨터와 인간을 위한 코드를 작성합니다. 그의 첫 번째 컴퓨팅 파이썬을 "
+"좋아하지만, 자바스크립트와 스위프트도 자주 쓰게 됩니다. 돈이나 오픈 소스 "
+"또는 자신의 미친 프로젝트를 위해 코드를 작성하지 않을 때는 코드를 작성하지 "
+"않을 때는 컨퍼런스에서 강연을 합니다. Philip은 캘리포니아 알라메다에 살고 "
+"있습니다, 캘리포니아 알라메다에서 아내와 고양이와 함께 살고 있습니다. "
+"Philip은 웹을 믿습니다."
 
 #: docs/en/about/team/rmartin16.md:1
 msgid ""
@@ -860,22 +1091,34 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/samschott.md:1
+#, fuzzy
 msgid ""
 "Sam is a physicist and a software engineer. He got introduced to Python "
 "while automating data acquisition in the lab and soon realised that he "
 "enjoyed writing and sharing code. When away from a computer, you will find "
 "him hiking or sailing along the English coast."
 msgstr ""
+"Sam은 물리학자이자 소프트웨어 엔지니어입니다. 그는 실험실에서 데이터 수집을 "
+"자동화하던 중 실험실에서 데이터 수집을 자동화하던 중 파이썬을 접하게 되었고, "
+"곧 자신이 코드를 작성하고 공유하는 것을 즐겼습니다. 컴퓨터를 사용하지 않을 "
+"때는 영국 해안을 따라 하이킹이나 세일링을 즐기고 있습니다."
 
 #: docs/en/about/team/saroad2.md:1
+#, fuzzy
 msgid ""
 "Sagi Shadur is a software engineer and a mathematician. He has a B.Sc. in "
 "mathematics and these days he's on his way for a second B.Sc. in physics. "
 "He's also a poet who published two books in Hebrew, \"Mountains and "
 "Valleys\" and \"The Emissary\"."
 msgstr ""
+"사기 샤두르는 소프트웨어 엔지니어이자 수학자입니다. 그는 수학 학사 학위를 "
+"수학 학사 학위를 받았으며, 요즘은 두 번째 학사 학위를 받기 위해 물리학. "
+"히브리어로 \"산과 계곡\"과 \"산과 계곡\"이라는 두 권의 책을 출간한 "
+"시인이기도 합니다. 그리고 계곡\"과 \"사절단\"이라는 두 권의 책을 출간한 "
+"시인이기도 합니다."
 
 #: docs/en/about/team/swenson.md:1
+#, fuzzy
 msgid ""
 "Dr. Christopher Swenson is a software engineer, computer scientist, and "
 "occasional mathematician. Swenson has been working with Python since about "
@@ -885,6 +1128,13 @@ msgid ""
 "and small, such as Simple, Google, and the US Government, and wrote a book "
 "on cryptography. Swenson is an organizer of PyDX. Swenson is a cupcake."
 msgstr ""
+"크리스토퍼 스웬슨 박사는 소프트웨어 엔지니어이자 컴퓨터 과학자이며 가끔 "
+"수학자이기도 합니다. 스웬슨은 2004년부터 파이썬을 사용해 왔으며 2004년부터 "
+"파이썬을 사용해 왔으며, 오픈소스가 무엇인지 알기 이전부터 오픈소스에 "
+"참여했습니다. 오픈소스에 참여했습니다. Swenson은 정렬을 매우 좋아하며, 오픈 "
+"소스인 오픈 소스 고성능 C 정렬 라이브러리를 유지 관리하고 있습니다. "
+"Swenson은 자신의 노동력을 판매했습니다. Simple, Google, 그리고 미국 정부, "
+"그리고 암호화에 관한 책을 썼습니다. Swenson은 PyDX. 스웬슨은 컵케이크입니다."
 
 #: docs/en/community/code-of-conduct.md:2
 #: docs/en/community/code-of-conduct.md:6
@@ -909,23 +1159,32 @@ msgid ""
 msgstr ""
 
 #: docs/en/community/governance.md:5
+#, fuzzy
 msgid ""
 "These include, but aren't limited to, responding to issues, reviewing and "
 "merging code, mentoring new contributors, and architecture of the BeeWare "
 "project as a whole."
 msgstr ""
+"여기에는 이슈에 대한 대응, 코드 검토 및 및 코드 병합, 새로운 기여자 멘토링, "
+"BeeWare 프로젝트 전체의 BeeWare 프로젝트 전반."
 
 #: docs/en/community/governance.md:7
+#, fuzzy
 msgid ""
 "There are people we trust to make code decisions; there are people we trust "
 "to make code and organizational decisions; and there is a person who guides "
 "the vision of the whole organization, and is entrusted to make a final "
 "decision if the community cannot arrive at a consensus."
 msgstr ""
+"코드 결정을 내릴 때 신뢰하는 사람이 있고, 코드 및 조직 결정을 내릴 때 "
+"신뢰하는 사람이 있습니다. 코드 및 조직 결정을 내릴 수 있도록 신뢰하는 사람이 "
+"있습니다. 전체 조직의 비전을 이끌고, 커뮤니티가 합의에 도달하지 못하면 "
+"커뮤니티가 합의에 도달할 수 없는 경우 최종 결정을 내릴 수 있습니다."
 
 #: docs/en/community/governance.md:9
+#, fuzzy
 msgid "These levels can be described as follows:"
-msgstr ""
+msgstr "이러한 레벨은 다음과 같이 설명할 수 있습니다:"
 
 #: docs/en/community/governance.md:11
 msgid "Bee, or Worker Bee:"
@@ -999,10 +1258,13 @@ msgid "Guidelines (not actual rules)"
 msgstr ""
 
 #: docs/en/community/governance.md:30
+#, fuzzy
 msgid ""
 "As with any project with more than one person with commit rights, there are "
 "a number of general guidelines that the team should follow:"
 msgstr ""
+"커밋 권한을 가진 사람이 한 명 이상인 프로젝트와 마찬가지로 팀이 따라야 할 몇 "
+"가지 일반적인 지침이 있습니다:"
 
 #: docs/en/community/governance.md:32
 msgid "**Be a good representation of the project to the wider community**"
@@ -1087,6 +1349,7 @@ msgid "Becoming an Apiarist"
 msgstr ""
 
 #: docs/en/community/governance.md:52
+#, fuzzy
 msgid ""
 "Introduction of a new Apiarist into the team is at the sole discretion of "
 "the existing Core Team. While there are not currently any solid rules to "
@@ -1098,6 +1361,15 @@ msgid ""
 "in the project in general may ask to be given permission to commit to the "
 "project."
 msgstr ""
+"새로운 아피어리스트를 팀에 영입하는 것은 기존 코어 팀의 단독 재량으로 재량에 "
+"따라 결정됩니다. 현재 이에 대한 명확한 규칙은 없지만 에 대한 확실한 규칙은 "
+"없지만, 일반적으로 누군가가 비웨어 프로젝트의 BeeWare 프로젝트에 기여한 "
+"공로를 입증한 경우 프로젝트에 대한 기여를 입증한 경우 초대됩니다. 또한 특정 "
+"도메인에 대한 지식이 있는 사람에게도 적용될 수 있습니다. 특정 도메인에 대한 "
+"지식(예: iOS/macOS)이 있는 사람으로 확장될 수도 있습니다. 기존 팀. 또한 "
+"커밋을 기반으로 할 필요도 없습니다. 다음과 같은 사람이라면 누구나 프로젝트 "
+"전반에 대한 기득권을 증명할 수 있는 사람은 누구나 프로젝트에 커밋할 수 있는 "
+"권한을 요청할 수 있습니다."
 
 #: docs/en/community/governance.md:54
 msgid ""
@@ -1109,17 +1381,22 @@ msgid ""
 msgstr ""
 
 #: docs/en/community/governance.md:56
+#, fuzzy
 msgid ""
 "Any Apiarist, new or old, isn't expected to be the sole maintainer of any "
 "one thing. There are many apiarists, and many more beside who can offer "
 "help, advice and mentorship."
 msgstr ""
+"신규 또는 기존 아피어리스트를 막론하고 어떤 아피어리스트라도 단독 관리자가 "
+"될 수는 없습니다. 많은 양봉가가 있고, 그 옆에는 도움과 조언, 멘토링을 제공할 "
+"수 있는 도움과 조언, 멘토링을 제공할 수 있습니다."
 
 #: docs/en/community/governance.md:58
 msgid "\"Commit bit\"?"
 msgstr ""
 
 #: docs/en/community/governance.md:60
+#, fuzzy
 msgid ""
 "In Unix systems, a single bit in a file is used to denote permission to "
 "execute a file. In source control systems, a similar bit exists to denote "
@@ -1127,10 +1404,18 @@ msgid ""
 "have write-access to a code base. In GitHub terms, this means they have the "
 "ability to merge Pull Requests and commit code directly to the project."
 msgstr ""
+"유닉스 시스템에서 파일의 단일 비트는 파일 실행 권한을 나타내는 데 "
+"사용됩니다. 권한을 나타내는 데 사용됩니다. 소스 제어 시스템에서도 비슷한 "
+"비트가 존재합니다. 코드 병합 기능을 나타냅니다. 누군가 \"커밋 비트\"를 "
+"가지고 있다고 말하는 것은 가 있다는 것은 코드 베이스에 대한 쓰기 권한이 "
+"있다는 뜻입니다. GitHub 용어로 이는 다음을 의미합니다. 풀 리퀘스트를 "
+"병합하고 프로젝트에 직접 코드를 커밋할 수 있는 프로젝트에 직접 커밋할 수 "
+"있다는 뜻입니다."
 
 #: docs/en/community/index.md:1
+#, fuzzy
 msgid "Community"
-msgstr ""
+msgstr "커뮤니티"
 
 #: docs/en/community/index.md:3
 msgid "[BeeWare Community Code of Conduct]{1} { #beeware-code-of-conduct }"
@@ -1188,11 +1473,15 @@ msgid "What is the core team, and [what do they do]{1}?"
 msgstr ""
 
 #: docs/en/contributing/challenge-coins.md:1
+#, fuzzy
 msgid ""
 "Challenge Coins are a military tradition, which is said to originate at the "
 "start of last century. They were distributed based on merit in events or for "
 "other reasons, and hold deep personal value."
 msgstr ""
+"챌린지 코인은 군대의 전통으로, 세기 초에 시작된 것으로 알려져 있습니다. 지난 "
+"세기 초에 시작되었다고 합니다. 이벤트나 기타 이유로 공로를 인정받아 이벤트 "
+"또는 기타 이유로 배포되었으며 개인적인 가치를 지니고 있습니다."
 
 #: docs/en/contributing/challenge-coins.md:3
 msgid ""
@@ -1223,26 +1512,36 @@ msgid "///"
 msgstr ""
 
 #: docs/en/contributing/challenge-coins.md:13
+#, fuzzy
 msgid ""
 "The BeeWare Challenge Coins are die cast, 4.5cm (1 3/4\") in diameter, and "
 "are made of a nickel/zinc alloy with enamel highlights."
 msgstr ""
+"비웨어 챌린지 코인은 직경 4.5cm(1 3/4\")의 다이캐스트 주화입니다, 에나멜 "
+"하이라이트가 있는 니켈/아연 합금으로 제작되었습니다."
 
 #: docs/en/contributing/challenge-coins.md:15
+#, fuzzy
 msgid "Any contribution to the BeeWare project earns you a coin."
-msgstr ""
+msgstr "BeeWare 프로젝트에 기여하면 코인을 받을 수 있습니다."
 
 #: docs/en/contributing/challenge-coins.md:17
+#, fuzzy
 msgid ""
 "It doesn't have to be a code contribution: a documentation update counts. A "
 "blog post. Helping someone during a sprint with their contribution."
 msgstr ""
+"코드 기여일 필요는 없습니다. 문서 업데이트도 가 중요합니다. 블로그 게시물. "
+"스프린트 중에 다른 사람을 돕는 것 기여."
 
 #: docs/en/contributing/challenge-coins.md:19
+#, fuzzy
 msgid ""
 "And as an additional incentive, for those people who help others get their "
 "challenge coins, we have a second coin: the Yak Herder"
 msgstr ""
+"그리고 추가 인센티브로, 다른 사람들의 챌린지 코인 획득을 도와주는 사람들을 "
+"위해 두 번째 코인인 야크 허더가 있습니다."
 
 #: docs/en/contributing/challenge-coins.md:21
 msgid "![BeeWare Yak Herder Challenge Coin]{1}{ width=300px }"
@@ -1280,8 +1579,9 @@ msgid "One happy BeeWare coin recipient. Photo by @atomimages"
 msgstr ""
 
 #: docs/en/contributing/first-time-contributors.md:1
+#, fuzzy
 msgid "First-time contributors"
-msgstr ""
+msgstr "첫 번째 기여자"
 
 #: docs/en/contributing/first-time-contributors.md:3
 msgid "{% extends \"contribute/first-time-contributors.md\" %}"
@@ -1594,8 +1894,9 @@ msgid "{% extends \"contribute/what/write-docs.md\" %}"
 msgstr ""
 
 #: docs/en/contributing/index.md:1
+#, fuzzy
 msgid "Contributing"
-msgstr ""
+msgstr "기여"
 
 #: docs/en/contributing/index.md:3
 msgid ""
@@ -1620,12 +1921,17 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/index.md:9
+#, fuzzy
 msgid ""
 "It's not just about code. A successful software project requires "
 "documentation, design skills, feedback and bug reports. The BeeWare "
 "community acknowledges that all contributions are important - not just the "
 "ones that come as a pull request on GitHub."
 msgstr ""
+"코드만 중요한 것이 아닙니다. 성공적인 소프트웨어 프로젝트에는 다음이 "
+"필요합니다. 문서화, 디자인 기술, 피드백 및 버그 보고가 필요합니다. BeeWare "
+"커뮤니티는 모든 기여가 중요하다는 것을 인정합니다. 모든 기여가 중요하다는 "
+"것을 인정합니다."
 
 #: docs/en/contributing/index.md:11
 msgid ""
@@ -1673,25 +1979,31 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:1
+#, fuzzy
 msgid "Sprint Guide"
-msgstr ""
+msgstr "스프린트 가이드"
 
 #: docs/en/contributing/sprint-guide.md:3
 msgid "Welcome to the BeeWare Sprints!"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:5
+#, fuzzy
 msgid ""
 "Welcome! We're so excited you've decided to join us! If you haven't already "
 "introduced yourself to one of the Bee Team, please do so. Once you've done "
 "that, head back here to get started."
 msgstr ""
+"환영합니다! 저희와 함께하기로 결정해 주셔서 정말 기쁩니다! 아직 소개를 하지 "
+"않으셨다면 아직 꿀벌 팀원 중 한 명에게 자신을 소개하지 않으셨다면, 지금 바로 "
+"소개해 주세요. 일단 여기로 돌아와서 시작하세요."
 
 #: docs/en/contributing/sprint-guide.md:7
 msgid "What is a sprint?"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:9
+#, fuzzy
 msgid ""
 "A sprint is an unstructured opportunity to spend a few hours or days working "
 "collaboratively on an Open Source project. They're often tied to a "
@@ -1699,13 +2011,23 @@ msgid ""
 "energy, enthusiasm and interest that a conference has generated into "
 "improvements in the software we use on a daily basis."
 msgstr ""
+"스프린트는 몇 시간 또는 며칠 동안 오픈소스 프로젝트에 대해 오픈 소스 "
+"프로젝트에서 협업할 수 있는 정형화된 기회입니다. 스프린트는 종종 컨퍼런스; "
+"컨퍼런스 후 스프린트는 다음과 같은 기회를 제공합니다. 컨퍼런스에서 생성된 "
+"에너지, 열정, 관심을 우리가 사용하는 소프트웨어의 개선에 우리가 매일 "
+"사용하는 소프트웨어의 개선으로 전환할 수 있는 기회를 제공합니다."
 
 #: docs/en/contributing/sprint-guide.md:11
+#, fuzzy
 msgid ""
 "Sprints are also an opportunity to introduce people to the process of "
 "contributing to the project. Our hope is that you'll have so much fun "
 "contributing during the sprint that you'll go home and keep contributing!"
 msgstr ""
+"스프린트는 사람들에게 프로젝트에 기여하는 과정을 소개할 수 있는 기회이기도 "
+"합니다. 프로젝트에 기여할 수 있는 기회이기도 합니다. 저희의 바람은 여러분이 "
+"스프린트 기간 동안 너무 재미있어서 스프린트 기간 동안 너무 재미있어서 집에 "
+"돌아가서도 계속 계속 기여해 주셨으면 합니다!"
 
 #: docs/en/contributing/sprint-guide.md:13
 msgid ""
@@ -1717,6 +2039,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:15
+#, fuzzy
 msgid ""
 "Code isn't the only way you can contribute, either. A project like BeeWare "
 "is much more than just the code - we need people to write, proof-read and "
@@ -1724,12 +2047,18 @@ msgid ""
 "even the process of going through bugs that were reported years ago and "
 "determining that they've been fixed along the way is a valuable contribution."
 msgstr ""
+"코드만이 기여를 할 수 있는 유일한 방법은 아닙니다. 다음과 같은 프로젝트 "
+"BeeWare와 같은 프로젝트는 단순한 코드 그 이상의 의미를 갖습니다, 문서 교정 "
+"및 번역, 웹 페이지의 디자인을 개선하고 웹 페이지의 디자인, 심지어 몇 년 전에 "
+"보고된 버그를 검토하여 수년 전에 보고된 버그를 검토하고 그 과정에서 버그가 "
+"수정되었는지 확인하는 과정도 귀중한 기여입니다."
 
 #: docs/en/contributing/sprint-guide.md:17
 msgid "The Initial Questions"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:19
+#, fuzzy
 msgid ""
 "To get you started, we're going to ask a few questions so we can gauge your "
 "interests and experience. This will help us find the best way for you to "
@@ -1738,6 +2067,12 @@ msgid ""
 "being asked - don't worry about that! Let us know what you do know, and "
 "we'll work together to figure it out from there."
 msgstr ""
+"시작하기 전에 몇 가지 질문을 통해 관심사와 경험을 파악할 수 있도록 몇 가지 "
+"질문을 드리겠습니다. 이를 통해 가장 적합한 방법을 찾는 데 도움이 될 "
+"것입니다. 가장 좋은 방법을 찾는 데 도움이 될 것입니다. 질문을 살펴보고 "
+"메모한 다음, 꿀벌 팀원을 찾아서 꿀벌 팀원을 찾아 답변을 공유하세요. 질문을 "
+"이해하지 못하더라도 이해하지 못하더라도 걱정하지 마세요! 알고 있는 내용을 "
+"알려주세요. 알려주시면 함께 해결해 나가도록 노력하겠습니다."
 
 #: docs/en/contributing/sprint-guide.md:21
 msgid "**Have you used BeeWare before?**"
@@ -1834,11 +2169,14 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:51
+#, fuzzy
 msgid ""
 "Now, find a member of the Bee Team to share your answers. They might ask "
 "some follow up questions; but then they'll point you in the direction of a "
 "area where you should be able to make a contribution."
 msgstr ""
+"이제 꿀벌 팀원을 찾아 답을 공유하세요. 그들은 몇 가지 후속 질문을 몇 가지 "
+"후속 질문을 할 수도 있습니다. 여러분이 기여할 수 있는 분야를 알려줄 것입니다."
 
 #: docs/en/contributing/sprint-guide.md:53
 msgid "Find Your Issue"
@@ -1854,6 +2192,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:57
+#, fuzzy
 msgid ""
 "GitHub provides a list of issues that allows BeeWare (and other projects) to "
 "keep track of all the problems that have been reported - that includes "
@@ -1866,6 +2205,15 @@ msgid ""
 "underlying cause. These issues are tagged \"good first issue\" to make them "
 "easier to find."
 msgstr ""
+"GitHub는 BeeWare(및 기타 프로젝트)가 보고된 모든 문제를 추적할 수 있는 이슈 "
+"목록을 제공합니다. 여기에는 명시적인 버그, 버그일 수 있는 예기치 않은 동작이 "
+"포함됩니다, 새로운 기능에 대한 요청, 더 많은 문서 요청 - 모든 것이 "
+"포함됩니다. BeeWare를 개선할 수 있는 모든 것을 포함합니다. 새로운 이슈가 "
+"보고되면 보고되면, Bee 팀은 그 중 일부를 처음 기여하는 사용자에게 첫 번째 "
+"기여자에게 적합한 이슈 - 즉각적인 수정이 필요하지 않지만 *즉각적인* 수정이 "
+"필요하지 않지만, 잘 정의되어 있거나 재현하기 쉽고, 아마도 근본적인 원인에 "
+"대한 좋은 단서를 가지고 있습니다. 이러한 이슈에는 \"좋은 첫 번째 이슈\"라는 "
+"태그를 붙여 쉽게 찾을 수 있도록 합니다."
 
 #: docs/en/contributing/sprint-guide.md:59
 msgid ""
@@ -1897,6 +2245,7 @@ msgid "Filtering GitHub issues by the \"good first issue\" label."
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:73
+#, fuzzy
 msgid ""
 "Once you've found an issue that looks interesting, read through any comments "
 "on the post, and post a comment in the discussion saying that you're looking "
@@ -1906,23 +2255,36 @@ msgid ""
 "end up with two people working on the same issue - leaving a comment is a "
 "light-weight way to coordinate between contributors."
 msgstr ""
+"흥미로워 보이는 이슈를 찾았다면 해당 게시물의 모든 게시물의 댓글을 읽고 "
+"토론에 댓글을 달아주세요. 해당 이슈를 조사하고 있음을 알리는 댓글(예: "
+"\"파이콘 US에서 이 문제를 조사 중입니다. 2025 스프린트에서 이 문제를 "
+"살펴보고 있습니다.\"). BeeWare는 명시적으로 문제를 \"할당\"하지 않습니다. "
+"기여를 받습니다. 하지만 스프린트 상황에서는 다음과 같이 해야 합니다. 두 "
+"사람이 같은 이슈에 대해 작업하는 일이 없도록 해야 합니다. 두 사람이 같은 "
+"이슈를 작업하는 일이 없도록 해야 합니다. 코멘트를 남기는 것은"
 
 #: docs/en/contributing/sprint-guide.md:75
+#, fuzzy
 msgid ""
 "If you still can't find anything you'd like to do, find a Bee Team member "
 "and they'll help you narrow down to a specific issue."
 msgstr ""
+"그래도 하고 싶은 일을 찾지 못하셨다면 Bee 팀 멤버에게 문의하면 특정 이슈로 "
+"범위를 좁히는 데 도움을 받을 수 있습니다."
 
 #: docs/en/contributing/sprint-guide.md:77
 msgid "Set up a development environment"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:79
+#, fuzzy
 msgid ""
 "Once you've found an issue, you'll need to set up your development "
 "environment so you can work on a fix. Each BeeWare project has its own "
 "contribution guide:"
 msgstr ""
+"문제를 발견한 후에는 개발 환경을 설정해야 합니다. 환경을 설정해야 수정 "
+"작업을 할 수 있습니다. 각 BeeWare 프로젝트에는 고유한 기여 가이드가 있습니다:"
 
 #: docs/en/contributing/sprint-guide.md:81
 msgid "[Briefcase]{1}"
@@ -1937,6 +2299,7 @@ msgid "[Rubicon ObjC]{1}"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:85
+#, fuzzy
 msgid ""
 "If the project isn't on this list, check the project README for details on "
 "how to get set up. If any of the instructions don't make sense (or you can't "
@@ -1945,29 +2308,44 @@ msgid ""
 "won't hit the same problem, improving the contribution guide is a valuable "
 "contribution!"
 msgstr ""
+"프로젝트가 이 목록에 없는 경우 프로젝트 README에서 자세한 내용을 확인하세요. "
+"에서 설정 방법을 확인하세요. 설명 중 이해가 되지 않는 부분이 있으면(또는 "
+"해당 지침을 찾을 수 없는 경우) Bee 팀원을 찾으면 도움을 받으실 수 있습니다. "
+"그리고 - 다른 사람들이 지침을 개선하여 다른 사람들이 같은 문제에 부딪히지 "
+"않도록 개선할 수 있다면 가이드 개선은 귀중한 기여입니다!"
 
 #: docs/en/contributing/sprint-guide.md:87
+#, fuzzy
 msgid "Now you can start working on your issue!"
-msgstr ""
+msgstr "이제 문제 해결을 시작할 수 있습니다!"
 
 #: docs/en/contributing/sprint-guide.md:89
 msgid "What happens after I submit my PR?"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:91
+#, fuzzy
 msgid ""
 "Once you've submitted your pull request, and the pull request is passing all "
 "the automated checks, you're ready for a review. Let one of the core team "
 "know that you've got a PR ready for review, and they'll take a look."
 msgstr ""
+"풀 리퀘스트를 제출하고 풀 리퀘스트가 모든 자동화된 검사를 통과하면 모든 "
+"자동화된 검사를 통과하면 검토할 준비가 된 것입니다. 핵심 팀 중 한 명에게 팀 "
+"중 한 명에게 PR을 검토할 준비가 되었다는 사실을 알려주면 살펴볼 것입니다."
 
 #: docs/en/contributing/sprint-guide.md:93
+#, fuzzy
 msgid ""
 "If this is your first PR, it's quite likely the review will find some "
 "problems. That might be an edge case you didn't consider, or a code "
 "convention that you haven't followed. Don't be discouraged! Nobody - not "
 "even the core team - gets PRs 100% correct on the first try."
 msgstr ""
+"첫 번째 PR인 경우 검토에서 몇 가지 문제가 발견될 가능성이 높습니다. 문제가 "
+"발견될 가능성이 높습니다. 미처 고려하지 못한 엣지 케이스이거나 코드 규칙을 "
+"준수하지 않았을 수도 있습니다. 낙담하지 마세요! 아무도, 심지어 심지어 핵심 "
+"팀조차도 첫 번째 시도에서 100% 정확한 PR을 얻을 수는 없습니다."
 
 #: docs/en/contributing/sprint-guide.md:95
 msgid ""
@@ -1982,6 +2360,7 @@ msgid "Help! I'm stuck!"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:99
+#, fuzzy
 msgid ""
 "If you get stuck at any point along the way, find a member of the Bee Team. "
 "Don't be afraid to ask *any* question. If you're stuck, we want to get you "
@@ -1989,6 +2368,11 @@ msgid ""
 "haven't explained it well enough. We're eager to help - and we want to make "
 "sure you have a successful sprint."
 msgstr ""
+"도중에 어느 지점에서든 막히면 꿀벌 팀원을 찾아주세요. 팀원을 찾으세요. "
+"무엇이든 질문하는 것을 두려워하지 마세요. 막힌 부분이 있다면, 저희는 "
+"도와드리겠습니다. 혼란스러우신다면 주제가 주제가 복잡하고 저희가 충분히 "
+"설명하지 않았기 때문입니다. 저희는 기꺼이 도와드리고 싶고, 성공적인 "
+"스프린트가 될 수 있도록 최선을 다하고 있습니다."
 
 #: docs/en/contributing/sprint-guide.md:101
 msgid "What if I don't complete my contribution during the sprint?"
@@ -2015,11 +2399,15 @@ msgid "Improving this guide"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:109
+#, fuzzy
 msgid ""
 "If you've got any suggestions on how to improve this sprint guide, let us "
 "know. What worked for you? What didn't? What can we do better? And remember: "
 "fixing a problem with this Sprint Guide counts as a contribution to BeeWare!"
 msgstr ""
+"이 스프린트 가이드를 개선할 방법에 대한 제안이 있으면 알려주세요. 어떤 점이 "
+"도움이 되었나요? 어떤 점이 도움이 되지 않았나요? 무엇을 개선하면 좋을까요? "
+"그리고 기억하세요. 문제를 해결하면 BeeWare에 기여한 것으로 간주됩니다!"
 
 #: docs/en/docs/index.md:1
 msgid "Documentation { .documentation }"
@@ -2051,8 +2439,9 @@ msgstr ""
 
 #: docs/en/docs/index.md:27
 #: docs/en/index.md:131
+#, fuzzy
 msgid "A Python native, OS native GUI toolkit."
-msgstr ""
+msgstr "Python 네이티브, OS 네이티브 GUI 툴킷입니다."
 
 #: docs/en/docs/index.md:33
 msgid "[![Briefcase]{1}]{2}{ .featured-logo }"
@@ -2064,8 +2453,9 @@ msgstr ""
 
 #: docs/en/docs/index.md:37
 #: docs/en/index.md:141
+#, fuzzy
 msgid "Convert a Python project into a standalone native application."
-msgstr ""
+msgstr "Python 프로젝트를 독립형 네이티브 애플리케이션으로 변환하세요."
 
 #: docs/en/docs/index.md:42
 msgid "Other tools { .other-tools }"
@@ -2098,8 +2488,9 @@ msgid "A markup-based slide presentation tool."
 msgstr ""
 
 #: docs/en/docs/index.md:67
+#, fuzzy
 msgid "Utilities"
-msgstr ""
+msgstr "유틸리티"
 
 #: docs/en/docs/index.md:69
 msgid "Pieces used by other BeeWare tools that can be useful on their own."
@@ -2114,9 +2505,10 @@ msgid "[Rubicon Objective-C]{1} { .rubicon-name }"
 msgstr ""
 
 #: docs/en/docs/index.md:81
+#, fuzzy
 msgid ""
 "A library for bridging between Python and the Objective-C language runtimes."
-msgstr ""
+msgstr "파이썬과 Objective-C 언어 사이의 브리징을 위한 라이브러리 런타임."
 
 #: docs/en/docs/index.md:89
 msgid "[![Brutus the Bee]{1}]{2}{ .other-tools-logo }"
@@ -2128,10 +2520,13 @@ msgstr ""
 
 #: docs/en/docs/index.md:97
 #: docs/en/docs/index.md:113
+#, fuzzy
 msgid ""
 "A meta-package for building a version of Python that can be embedded into a "
 "macOS, iOS, tvOS or watchOS project."
 msgstr ""
+"macOS, iOS, watchOS 프로젝트에 임베드할 수 있는 파이썬 버전을 구축하기 위한 "
+"를 빌드하기 위한 메타 패키지입니다."
 
 #: docs/en/docs/index.md:105
 msgid "[![Chaquopy]{1}]{2}{ .other-tools-logo }"
@@ -2245,11 +2640,15 @@ msgid "One codebase. Multiple apps."
 msgstr ""
 
 #: docs/en/index.md:37
+#, fuzzy
 msgid ""
 "BeeWare allows you to write your app in Python and release it on multiple "
 "platforms. No need to rewrite the app in multiple programming languages. It "
 "means **no issues** with build tools, environments, compatibility, etc."
 msgstr ""
+"BeeWare를 사용하면 Python으로 앱을 작성하여 여러 플랫폼에 출시할 수 "
+"있습니다. 여러 프로그래밍 언어로 앱을 다시 작성할 필요가 없습니다. 빌드 "
+"도구, 환경, 호환성 등에 문제가 없다는 뜻입니다."
 
 #: docs/en/index.md:39
 msgid "Python native tools..."
@@ -2260,6 +2659,7 @@ msgid "![Python logo]{1}{ .index-main-python-logo }"
 msgstr ""
 
 #: docs/en/index.md:43
+#, fuzzy
 msgid ""
 "Python has proven itself as a highly capable language - approachable for "
 "newcomers, but powerful in the hands of experts. Why shouldn't you be able "
@@ -2267,6 +2667,11 @@ msgid ""
 "something? And shouldn't your tools **exploit all the capabilities of "
 "Python** as a language, not just the bits that map nicely to a C binding?"
 msgstr ""
+"Python은 초보자도 쉽게 접근할 수 있지만 전문가가 사용하면 강력한 성능을 "
+"발휘하는 매우 유능한 언어임이 입증되었습니다. 컴퓨터에게 무언가를 하라고 "
+"지시해야 하는 모든 곳에서 Python을 **사용할 수 있어야 하지 않을까요? 그리고 "
+"도구가 C 바인딩에 잘 매핑되는 비트뿐만 아니라 언어로서 Python의 모든 기능을 "
+"**활용**해야 하지 않을까요?"
 
 #: docs/en/index.md:45
 msgid "...on mobile & desktop..."
@@ -2277,12 +2682,17 @@ msgid "![Cross-platform]{1}{ .index-main-cross-platform-logo }"
 msgstr ""
 
 #: docs/en/index.md:49
+#, fuzzy
 msgid ""
 "Modern computing doesn't happen in an 80x25 console window. It happens on "
 "**phones, tablets, and desktop machines** with rich user interfaces. "
 "Shouldn't you be able to use Python in all those locations, and **exploit "
 "the unique capabilities of those platforms**?"
 msgstr ""
+"최신 컴퓨팅은 80x25 콘솔 창에서 이루어지지 않습니다. 풍부한 사용자 "
+"인터페이스를 갖춘 스마트폰, 태블릿, 데스크톱 컴퓨터**에서 이루어집니다. "
+"이러한 모든 위치에서 Python을 사용할 수 있어야 하며, 이러한 플랫폼의 고유한 "
+"기능을 **활용**할 수 있어야 하지 않을까요?"
 
 #: docs/en/index.md:51
 msgid "...behaving natively. { .behaving-index }"
@@ -2293,6 +2703,7 @@ msgid "![Native]{1}{ .index-main-native-logo }"
 msgstr ""
 
 #: docs/en/index.md:55
+#, fuzzy
 msgid ""
 "End users shouldn't have to care what language their tools are written in. "
 "And that starts with looking and behaving **like completely native tools**. "
@@ -2300,6 +2711,10 @@ msgid ""
 "delivered. Why shouldn't your Python tools fit in just as well as a native "
 "tool?"
 msgstr ""
+"최종 사용자는 도구가 어떤 언어로 작성되었는지 신경 쓸 필요가 없어야 합니다. "
+"그 시작은 **완전히 네이티브 도구처럼** 보이고 작동하는 것에서 시작됩니다. "
+"네이티브 앱이 제공하는 방식으로 제공되는 네이티브 모양, 네이티브 동작. "
+"Python 도구가 네이티브 도구와 똑같이 잘 어울리지 않을 이유가 있을까요?"
 
 #: docs/en/index.md:57
 msgid "This is BeeWare."
@@ -2310,12 +2725,17 @@ msgid "![Brutus the Bee]{1}{ .index-main-brutus-logo }"
 msgstr ""
 
 #: docs/en/index.md:61
+#, fuzzy
 msgid ""
 "This is what BeeWare provides. Tools to help you write Python code with a "
 "rich, **native user interface**; and the libraries and support code "
 "necessary to get that code running on **iOS, Android, macOS, Linux, Windows, "
 "tvOS, and more**."
 msgstr ""
+"이것이 바로 BeeWare가 제공하는 것입니다. 풍부한 **네이티브 사용자 "
+"인터페이스**로 Python 코드를 작성하는 데 도움이 되는 도구와 해당 코드를 "
+"**iOS, Android, macOS, Linux, Windows, tvOS 등에서 실행하는 데 필요한 "
+"라이브러리 및 지원 코드가 제공됩니다."
 
 #: docs/en/index.md:63
 msgid "Open source"
@@ -2342,12 +2762,17 @@ msgid "![Hands]{1}{ .index-main-hands-logo }"
 msgstr ""
 
 #: docs/en/index.md:73
+#, fuzzy
 msgid ""
 "But it's not just about code. A successful software project requires "
 "documentation, design skills, feedback and bug reports. The BeeWare "
 "community acknowledges that **all contributions are important** — not just "
 "the ones that come as a pull request on GitHub."
 msgstr ""
+"하지만 코드만 중요한 것이 아닙니다. 성공적인 소프트웨어 프로젝트에는 문서화, "
+"디자인 기술, 피드백 및 버그 보고서가 필요합니다. BeeWare 커뮤니티는 GitHub에 "
+"풀 리퀘스트로 들어오는 기여뿐만 아니라 모든 기여가 중요하다는 것을 "
+"인정합니다."
 
 #: docs/en/index.md:75
 msgid "From diversity comes strength"
@@ -2368,8 +2793,9 @@ msgid ""
 msgstr ""
 
 #: docs/en/index.md:81
+#, fuzzy
 msgid "Contribute!"
-msgstr ""
+msgstr "기여하세요!"
 
 #: docs/en/index.md:83
 msgid ""
@@ -2397,8 +2823,9 @@ msgid "[Keep in touch!]{1}{ .index-main-keep-in-touch-button }"
 msgstr ""
 
 #: docs/en/index.md:101
+#, fuzzy
 msgid "Members"
-msgstr ""
+msgstr "회원"
 
 #: docs/en/index.md:103
 msgid ""
@@ -2662,3 +3089,7 @@ msgstr ""
 #: docs/en/membership/index.md:80
 msgid "David Cramer"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Commercial support"
+#~ msgstr "상업적 지원"

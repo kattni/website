@@ -1,15 +1,17 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-26 21:50-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-11-03 17:51+0000\n"
+"Last-Translator: John <johnzhou721@gmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/beeware/website/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 3.17.5\n"
 
 #: docs/en/about/branding.md:1
@@ -34,7 +36,7 @@ msgstr ""
 msgid ""
 "BeeWare is a collection of tools and libraries to aid in writing application "
 "user interfaces in Python."
-msgstr ""
+msgstr "BeeWare 是一组工具和库，用于帮助使用 Python 编写应用程序用户界面。"
 
 #: docs/en/about/branding.md:11
 msgid "Long description"
@@ -47,6 +49,9 @@ msgid ""
 "iPhone, Android, Linux, macOS and Windows that are indistinguishable from "
 "natively written applications."
 msgstr ""
+"BeeWare 是一组工具和库，用于帮助使用 Python 编写应用程序用户界面。它使开发人"
+"员能够为 iPhone、Android、Linux、macOS 和 Windows 编写应用程序，成品无异于使"
+"用原生方式编写的应用程序。"
 
 #: docs/en/about/branding.md:15
 msgid "Logos"
@@ -127,7 +132,7 @@ msgstr ""
 
 #: docs/en/about/contact.md:1
 msgid "Contact"
-msgstr ""
+msgstr "联系方式"
 
 #: docs/en/about/contact.md:3
 msgid "Looking for help?"
@@ -193,6 +198,8 @@ msgid ""
 "question about how to use a BeeWare tool, open a discussion thread in the "
 "repository for that tool."
 msgstr ""
+"我们还将 GitHub Discussions 用作讨论项目的论坛。如果您有关于如何使用 BeeWare "
+"工具的问题，请在该工具的代码库中开设讨论主题。"
 
 #: docs/en/about/contact.md:24
 msgid "Newsletter"
@@ -217,6 +224,8 @@ msgid ""
 "Although BeeWare is an open source project, there are companies and "
 "individuals who can provide paid support, training, and consulting."
 msgstr ""
+"虽然 BeeWare 是一个开源项目，但也有一些公司和个人可以提供有偿支持、培训和咨询"
+"。"
 
 #: docs/en/about/contact.md:34
 msgid ""
@@ -271,7 +280,7 @@ msgstr ""
 
 #: docs/en/about/history.md:1
 msgid "History and Philosophy"
-msgstr ""
+msgstr "历史与理念"
 
 #: docs/en/about/history.md:3
 msgid "History"
@@ -283,6 +292,8 @@ msgid ""
 "that we use as Python developers improving at the same rate as the rest of "
 "the technology we use on a daily basis?"
 msgstr ""
+"BeeWare 项目始于一个简单的问题：为什么我们作为 Python 开发人员使用的工具没有"
+"像我们日常使用的其他技术一样不断改进？"
 
 #: docs/en/about/history.md:7
 msgid ""
@@ -313,12 +324,17 @@ msgid ""
 "you to adopt, wholesale, the IDE's way of looking at a project. They often "
 "introduce as many headaches to the development process as they solve."
 msgstr ""
+"是的，有一些集成开发环境（IDE）可以为编写代码提供原生应用程序体验。但这些工具"
+"要求你全盘采用集成开发环境的方式来看待项目。它们给开发过程带来的麻烦和解决的"
+"问题一样多的麻烦。"
 
 #: docs/en/about/history.md:13
 msgid ""
 "And so, we're left with an interesting schism, between the \"old way\" of "
 "Unix development in a console window, and the \"new way\" of all-in-one IDEs."
 msgstr ""
+"因此，我们面临一个有趣的分歧：在控制台窗口中进行 Unix 开发的“旧方式”和一体化 "
+"IDE 的“新方式”。"
 
 #: docs/en/about/history.md:15
 msgid "The Unix Philosophy"
@@ -332,6 +348,8 @@ msgid ""
 "toolchains by putting together a suite of extremely focussed, independent "
 "tools."
 msgstr ""
+"然而，事实并非如此。Unix 哲学的核心原则是“每个工具只做好一件事”。它通过将一套"
+"极为专注、独立的工具组合在一起，从而形成了极为强大的工具链。"
 
 #: docs/en/about/history.md:19
 msgid ""
@@ -340,6 +358,8 @@ msgid ""
 "philosophy that says that tools have to use a console interface - it's just "
 "turned out that way."
 msgstr ""
+"不幸的是，大多数 UNIX 工具都将此理解为“所有工具都必须使用控制台界面”。然而，"
+"在 UNIX 理念中并没有规定工具必须使用控制台界面，只是后来变成了这样。"
 
 #: docs/en/about/history.md:21
 msgid ""
@@ -348,6 +368,9 @@ msgid ""
 "well. But those tools can also expose their functionality using a rich "
 "graphical user interface."
 msgstr ""
+"BeeWare 项目的出发点是，我们可以两全其美。我们可以拥有一连串可组合的工具，每"
+"种工具都能做一件件事。但这些工具也可以使用丰富的图形用户界面来展示它们的功能"
+"。"
 
 #: docs/en/about/history.md:23
 msgid "More than just code"
@@ -360,6 +383,9 @@ msgid ""
 "community acknowledges that *all* contributions are important - not just the "
 "ones that come as a pull request on GitHub."
 msgstr ""
+"但这不仅仅是代码的问题。一个成功的软件项目需要文档、设计技巧、反馈和错误报告"
+"。BeeWare 社区认为，**所有的**贡献都是重要的，而不仅仅是在 GitHub 上提出的拉"
+"取请求。"
 
 #: docs/en/about/history.md:27
 msgid ""
@@ -367,6 +393,8 @@ msgid ""
 "contributions. But that's never the case. An open source project is about "
 "community."
 msgstr ""
+"即便如此，我们还是很容易把项目看作是真空中的项目，看作是所有贡献的总和。但事"
+"实并非如此。一个开源项目是关于社区的。"
 
 #: docs/en/about/history.md:29
 msgid "Diversity and inclusion"
@@ -379,6 +407,9 @@ msgid ""
 "orientations and expressions. The BeeWare project is committed to developing "
 "and maintaining a inclusive, diverse and welcoming community."
 msgstr ""
+"一个多元化的社区是一个强大的社区。这意味着接纳来自不同背景、不同种族、不同信"
+"仰、不同取向和不同表达方式、不同经验水平的人们。BeeWare 项目致力于发展和维护"
+"一个多元化、热情好客的社区。"
 
 #: docs/en/about/history.md:33
 msgid ""
@@ -401,6 +432,9 @@ msgid ""
 "people able to spend their free time volunteering are those that *have* free "
 "time."
 msgstr ""
+"同样重要的是，要确保社区的可达性和可持续性。不幸的是，“真正的”开源项目必须完"
+"全由志愿者开发，这已经成为开源文化的一部分。这对许多团体来说是一个准入门槛--"
+"只有那些*有*空闲时间的人才能把空闲时间花在志愿服务上。"
 
 #: docs/en/about/history.md:39
 msgid ""
@@ -412,6 +446,10 @@ msgid ""
 "software bug would be addressed - with immediate workarounds, and long term "
 "plans to remove the systemic cause of the problem."
 msgstr ""
+"它还经常导致贡献者产生职业倦怠和其他心理健康问题。抑郁、焦虑和职业倦怠在软件"
+"开发社区中如此普遍的事实，不应被视为一种荣誉徽章，或证明开发团队有多么尽职尽"
+"责。这是一个需要正视和解决的问题，就像解决软件错误一样--立即解决方法，并制定"
+"长期计划，消除造成问题的系统性原因。"
 
 #: docs/en/about/history.md:41
 msgid ""
@@ -425,6 +463,12 @@ msgid ""
 "meaningful ways, and wherever possible, compensate people for their work - "
 "without compromising the ideals of Open Source development."
 msgstr ""
+"虽然我们非常重视志愿者的贡献，但我们也知道，仅靠志愿者的努力并不能建立一个健"
+"康和可持续发展的社区。因此，资金的可持续性是 BeeWare 项目运作的一个重要考虑因"
+"素。作为一个社区，我们不会忽视资金在提供资源，使人们能够开始并继续做出贡献方"
+"面所起的作用。作为一个社区，我们将为个人提供可接受的机制，以有意义的方式使他"
+"们的工作货币化，并在可能的情况下，为人们的工作提供补偿，而不损害开源开发的理"
+"想。"
 
 #: docs/en/about/history.md:43
 msgid "The goal"
@@ -439,6 +483,9 @@ msgid ""
 "them to develop rich, native user interfaces, and deploy them to their "
 "devices. This includes:"
 msgstr ""
+"BeeWare 项目的最终目标：像 Django 为网络软件所做的一样，为移动和用户面对的软"
+"件这样做：为用户提供一套工具和库让他们能够开发丰富的原生用户界面，并将其部署"
+"到他们的设备上。这包括："
 
 #: docs/en/about/history.md:47
 #: docs/en/about/overview.md:17
@@ -464,6 +511,8 @@ msgid ""
 "newcomers to use in a Django Girls-like setting; but powerful enough that "
 "they could be used to drive the next Instagram, Pinterest or Disqus."
 msgstr ""
+"我们的目标是，这套工具将足够简单易用，适合新手在类似 Django Girls 的环境中使"
+"用；但又足够强大，强大到可以用来推动下一个 Instagram、Pinterest 或 Disqus。"
 
 #: docs/en/about/history.md:54
 msgid ""
@@ -473,6 +522,9 @@ msgid ""
 "access the software means that everyone can start with the same set of "
 "excellent tools, be they expert or enthusiastic amateur."
 msgstr ""
+"最重要的是，它的目标是作为一个开源社区完成所有这些工作。开放源代码开发流程已"
+"被证明是开发稳健可靠软件的最可靠方式，而且任何人都可以访问该软件意味着每个人"
+"都可以从同一套优秀的工具开始，无论是专家还是热心的业余爱好者。"
 
 #: docs/en/about/history.md:56
 msgid "Python everywhere"
@@ -488,6 +540,10 @@ msgid ""
 "programming on mobile platforms, and cross-platform mobile coding is still "
 "elusive."
 msgstr ""
+"一个现代计算项目不能忽视过去 10 年中计算领域的最大发展。Python 以自己是一门跨"
+"平台编程语言而自豪。10 年前，跨平台意味着可用于 Windows、macOS 和 Linux。如今"
+"，移动计算更为重要。尽管如此，在移动平台上进行 Python 编程的工具并没有太多好"
+"的选择，且跨平台移动编码仍然难以实现。"
 
 #: docs/en/about/history.md:60
 msgid ""
@@ -496,6 +552,9 @@ msgid ""
 "people have these devices, why shouldn't they be able to write software for "
 "them in Python."
 msgstr ""
+"BeeWare 将移动平台以及其他新兴平台（如手表和机顶盒）视为计算生态系统中的一等"
+"公民。因为如果人们有这些设备，为什么不能用 Python 编写可在这些设备运行的软件"
+"？"
 
 #: docs/en/about/history.md:62
 msgid "Native everywhere"
@@ -509,6 +568,9 @@ msgid ""
 "there's a menu bar on a window in an OS X app. Themes can get quite close - "
 "but there are always telltale signs."
 msgstr ""
+"使用主题实现跨平台很容易。不过，很容易发现使用主题构建的应用程序--它们的行为"
+"与其他应用程序不太一样。控件看起来不太对，或者在 OS X 应用程序的窗口上有一个"
+"菜单栏。主题可以做的很接近，但总会有蛛丝马迹。"
 
 #: docs/en/about/history.md:66
 msgid ""
@@ -517,6 +579,8 @@ msgid ""
 "and optimized, not a drawing engine that's been layered on top of a generic "
 "widget."
 msgstr ""
+"最重要的是，原生控件总是比主题通用控件更快。毕竟，您使用的是经过调整和优化的"
+"原生系统功能，而不是在通用控件之上叠加的绘图引擎。"
 
 #: docs/en/about/history.md:68
 msgid ""
@@ -526,12 +590,15 @@ msgid ""
 "usually get these affordances for free. If you reimplement widgets with a "
 "theme, you also have to re-implement the affordances."
 msgstr ""
+"主题也错过了原生平台的许多的无障碍优势。现代操作系统的作者花费了大量时间为行"
+"动不便、视力或认知能力受损的用户调整功能。如果使用原生控件，通常可以免费获得"
+"这些功能。如果使用主题的控件，也必须重新实现这些功能。"
 
 #: docs/en/about/history.md:70
 msgid ""
 "BeeWare uses native widgets and native functionality, rather than using a "
 "theme-based approach to application development."
-msgstr ""
+msgstr "BeeWare 使用原生控件和原生功能，而不是使用基于主题的应用程序开发方法。"
 
 #: docs/en/about/history.md:72
 msgid "Python native"
@@ -554,7 +621,7 @@ msgstr ""
 msgid ""
 "We're also looking to the future - this means that we support Python 3 "
 "exclusively."
-msgstr ""
+msgstr "我们还着眼于未来--这意味着我们只支持 Python 3。"
 
 #: docs/en/about/history.md:78
 msgid "Native experience"
@@ -570,6 +637,10 @@ msgid ""
 "or a simple executable package. End users shouldn't know that you've written "
 "the application in Python."
 msgstr ""
+"任何工具的使用体验都始于安装过程。BeeWare “到处原生”理念的一部分就是采用适当"
+"的原生安装机制。如果您使用的是用户空间工具，则应将其作为一个软件包展示给您，"
+"并以与安装其他工具相同的方式进行安装 -- 无论是通过应用程序商店、安装程序或简"
+"单的可执行文件包。最终用户不应该知道你是用 Python 编写应用程序的。"
 
 #: docs/en/about/index.md:1
 msgid "About"
@@ -583,7 +654,7 @@ msgstr ""
 msgid ""
 "This is BeeWare. We're incredibly excited about what the future holds for "
 "Python. We hope you'll join us on this journey."
-msgstr ""
+msgstr "这是 BeeWare。对于 Python 的未来，我们感到无比兴奋。希望您能加入我们的旅程。"
 
 #: docs/en/about/index.md:7
 msgid "[What is BeeWare?]{1}"
@@ -628,7 +699,7 @@ msgstr ""
 
 #: docs/en/about/overview.md:1
 msgid "What is BeeWare?"
-msgstr ""
+msgstr "什么是 BeeWare？"
 
 #: docs/en/about/overview.md:3
 msgid "Meet Brutus"
@@ -638,7 +709,7 @@ msgstr ""
 msgid ""
 "Brutus the Bee is the mascot of the BeeWare project. He's a busy little "
 "worker bee."
-msgstr ""
+msgstr "蜜蜂 Brutus 是 BeeWare 项目的吉祥物。他是一只忙碌的小工蜂。"
 
 #: docs/en/about/overview.md:9
 msgid ""
@@ -648,6 +719,9 @@ msgid ""
 "shepherds of the community, and we'll provide direction, but we know the "
 "real work is done by the community as a whole."
 msgstr ""
+"BeeWare 项目用**养蜂人** (apiarist) 这个名字来描述核心团队。这也反映了核心团"
+"队希望与社区建立的关系：我们是社区的牧羊人；我们将提供指导，但我们知道，真正"
+"的工作是由整个社区来完成的。"
 
 #: docs/en/about/overview.md:11
 msgid "A first-timer's introduction to BeeWare"
@@ -660,6 +734,9 @@ msgid ""
 "take the power of Python as a language, and use it to enable users of all "
 "skill levels to develop applications with native user interfaces."
 msgstr ""
+"Python 已经证明了自己是一门能力超强的语言--对于新手来说平易近人，而在专家手中"
+"则功能强大。BeeWare 项目皆在将 Python 作为一门编程语言的力量用于让各个能力级"
+"别的用户开发有原生用户界面的应用程序。"
 
 #: docs/en/about/overview.md:18
 msgid "Tools to package a Python project, so it can run on those devices,"
@@ -675,6 +752,8 @@ msgid ""
 "newcomers to use in a Django Girls-like setting; but powerful enough that "
 "they could be used to drive the next Instagram, Pinterest or Disqus."
 msgstr ""
+"我们的目标是让这套工具简单易用，适合新手在类似 Django Girls 的环境中使用；但"
+"又足够强大，强大到可以用来推动下一个 Instagram、Pinterest 或 Disqus。"
 
 #: docs/en/about/overview.md:24
 msgid ""
@@ -686,6 +765,10 @@ msgid ""
 "resources for people to start engaging, and continue to engage with the "
 "community."
 msgstr ""
+"不过，我们的目标不仅仅是软件。我们还致力于成为一个具有社会良知的项目。我们的"
+"目标是发展和维护一个多元与包容的社区，且我们有严格执行的行为准则。我们还希望"
+"发展一个健康和可持续发展的社区，一个意识到自己的心理健康问题的社区，并为人们"
+"开始参与社区活动提供资源、并继续参与社区活动。"
 
 #: docs/en/about/overview.md:26
 msgid "Where to from here?"
@@ -709,7 +792,7 @@ msgstr ""
 
 #: docs/en/about/team.md:1
 msgid "The Bee Team"
-msgstr ""
+msgstr "蜜蜂团队"
 
 #: docs/en/about/team.md:3
 msgid "{{ generate_team_page(team, page) }}"
@@ -721,6 +804,8 @@ msgid ""
 "Mandriva Linux days, and has recently moved into acting like he knows how to "
 "write software."
 msgstr ""
+"从 Mandriva Linux 时代起，李江枫就一直在假装自己是系统管理员，最近又开始装得"
+"像他知道如何编写软件。"
 
 #: docs/en/about/team/cflee.md:3
 msgid ""
@@ -728,18 +813,22 @@ msgid ""
 "fountain pens and mechanical keyboards. He has yet to learn the lesson of "
 "not mixing inky fingers with pretty keycaps."
 msgstr ""
+"不敲代码减压的时候，他的时间都花在摆弄钢笔和机械键盘上。他还没有学到不要把墨"
+"色手指和漂亮键帽混在一起。"
 
 #: docs/en/about/team/danyeaw.md:1
 msgid ""
 "Dan leads teams to design safety in to complex automotive and mobility "
 "systems, and dreams of using BeeWare tools to help model these systems."
 msgstr ""
+"Dan 带领团队为复杂的汽车和移动系统进行安全设计，他梦想使用BeeWare工具来帮助这"
+"些系统建模。"
 
 #: docs/en/about/team/danyeaw.md:3
 msgid ""
 "When not hacking on open source projects, Dan likes to hang with his kids, "
 "brew beer, and play soccer."
-msgstr ""
+msgstr "在不从事开源项目的黑客工作时，Dan 喜欢和他的孩子玩、酿造啤酒、和踢足球。"
 
 #: docs/en/about/team/eliasdorneles.md:1
 msgid ""
@@ -747,10 +836,12 @@ msgid ""
 "source stuff. At home, he likes to read, cook and to play Beatles songs on "
 "his guitar."
 msgstr ""
+"埃利亚斯是一名合格的牦牛剃毛匠。他喜欢摆弄 Python 和开源软件。在家里，他喜欢"
+"阅读、烹饪和用吉他弹奏披头士的歌曲。"
 
 #: docs/en/about/team/eliasdorneles.md:3
 msgid "Elias gets by with a little help from his friends."
-msgstr ""
+msgstr "伊莱亚斯在朋友的帮助下勉强度日。"
 
 #: docs/en/about/team/flowerncsu.md:1
 msgid ""
@@ -759,6 +850,9 @@ msgid ""
 "cool things. She is among the organizers of PyLadies RDU, and can often be "
 "found making things out of yarn when not making things out of code."
 msgstr ""
+"夏洛特从事编码工作的年头比她愿意承认的要长，而且她热衷于创建很酷的东西，并帮"
+"助其他人学习如何创建很酷的东西。她是 PyLadies RDU 的组织者之一，在不用代码做"
+"东西是用毛线做东西。"
 
 #: docs/en/about/team/freakboy3742.md:1
 msgid ""
@@ -767,6 +861,9 @@ msgid ""
 "Software Foundation. He has been a member of the CPython core team since May "
 "2024."
 msgstr ""
+"罗素-基思-马吉博士是 BeeWare 项目的创始人。他于 2006 年加入 Django 核心团队，"
+"并担任 Django 软件基金会主席达 5 年之久。自 2024 年 5 月以来，他一直是 "
+"CPython 核心团队的成员。"
 
 #: docs/en/about/team/freakboy3742.md:3
 msgid ""
@@ -795,6 +892,9 @@ msgid ""
 "Toga and Travertino, they're probably building yet another shelving or other "
 "storage unit in their house."
 msgstr ""
+"作为漫画家、机械师、焊工、木匠和程序员，Charles 戴过很多帽子（但更常见的是戴"
+"头巾）。当 Charles 不以制作剧场布景为生时，也不是再追 Toga 和 Travertino 中的"
+"牦牛时候，Charles 很可能又会正在自己的房子里搭建另一个货架或其他存储单元。"
 
 #: docs/en/about/team/hawkowl.md:1
 msgid ""
@@ -803,10 +903,13 @@ msgid ""
 "profit companies. She's so good at talking endlessly about Twisted that "
 "Russell even once invited her to keynote on it."
 msgstr ""
+"安布尔-布朗在网上假装猫头鹰。当她不发布或开发 Twisted 时，她会为各种商业和非"
+"盈利公司开发软件。她非常擅长滔滔不绝地谈 Twisted，罗素甚至曾邀请她就 Twisted "
+"发表主题演讲。"
 
 #: docs/en/about/team/hawkowl.md:3
 msgid "Also, she likes people tweeting pictures of owls at her."
-msgstr ""
+msgstr "此外，她还喜欢别人在 Twitter 上向她发猫头鹰的照片。"
 
 #: docs/en/about/team/kattni.md:1
 msgid ""
@@ -825,6 +928,9 @@ msgid ""
 "possible to use Python in Android apps. With BeeWare, he's now looking "
 "forward to expanding that mission to all desktop and mobile platforms."
 msgstr ""
+"Malcolm 是 Chaquopy 的创建者，Chaquopy 的目标是在 Android 应用程序中尽可能轻"
+"松地使用 Python。现在，他希望通过 BeeWare 将这一使命扩展到所有桌面和移动平台"
+"。"
 
 #: docs/en/about/team/mhsmith.md:3
 msgid ""
@@ -836,11 +942,11 @@ msgstr ""
 msgid ""
 "Olga is a python and BeeWare enthusiast, also interested in NLP, geography "
 "and languages."
-msgstr ""
+msgstr "奥尔加是一名 Python 和 BeeWare 爱好者，对 NLP，地理和语言也感兴趣。"
 
 #: docs/en/about/team/obulat.md:3
 msgid "She also enjoys hanging out with kids."
-msgstr ""
+msgstr "她还喜欢和孩子们在一起。"
 
 #: docs/en/about/team/phildini.md:1
 msgid ""
@@ -850,6 +956,10 @@ msgid ""
 "gives talks at conferences. Philip lives in Alameda, California with his "
 "wife and her cat. Philip believes in the web."
 msgstr ""
+"菲利普为计算机和人类编写代码。他的第一计算爱好是 Python，但也经常被迫编写 "
+"JavaScript 和 Swift。当他不为金钱、开源或自己的疯狂项目编写代码时，他会在各种"
+"会议上发表演讲。菲利普住在加利福尼亚州的阿拉米达，与妻子和她的猫生活在一起。"
+"菲利普相信网络。"
 
 #: docs/en/about/team/rmartin16.md:1
 msgid ""
@@ -866,6 +976,8 @@ msgid ""
 "enjoyed writing and sharing code. When away from a computer, you will find "
 "him hiking or sailing along the English coast."
 msgstr ""
+"Sam 是一名物理学家和软件工程师。他在实验室自动采集数据时开始接触 Python，并很"
+"快意识到自己喜欢编写和分享代码。离开电脑时，他会徒步旅行或沿着英国海岸航行。"
 
 #: docs/en/about/team/saroad2.md:1
 msgid ""
@@ -874,6 +986,9 @@ msgid ""
 "He's also a poet who published two books in Hebrew, \"Mountains and "
 "Valleys\" and \"The Emissary\"."
 msgstr ""
+"萨吉-沙杜尔是一名软件工程师和数学家。他拥有数学学士学位，最近正在攻读第二个物"
+"理学学士学位。他还是一位诗人，出版过两本希伯来文书籍，分别是《山与谷》和《使"
+"者》。"
 
 #: docs/en/about/team/swenson.md:1
 msgid ""
@@ -885,6 +1000,11 @@ msgid ""
 "and small, such as Simple, Google, and the US Government, and wrote a book "
 "on cryptography. Swenson is an organizer of PyDX. Swenson is a cupcake."
 msgstr ""
+"克里斯托弗-斯文森（Dr. Christopher Swenson）博士是一名软件工程师、计算机科学"
+"家和数学家。大约从 2004 年起，Swenson 就开始使用 Python，在知道开源是什么钱就"
+"开始接触开源。Swenson 非常喜欢排序，并维护着一个开源的高性能 C 语言排序库。"
+"Swenson 已将他的劳动成果卖给大小公司，如 Simple、谷歌和美国政府，还写了一本关"
+"于密码学的书。斯文森是 PyDX 的组织者。"
 
 #: docs/en/community/code-of-conduct.md:2
 #: docs/en/community/code-of-conduct.md:6
@@ -914,6 +1034,8 @@ msgid ""
 "merging code, mentoring new contributors, and architecture of the BeeWare "
 "project as a whole."
 msgstr ""
+"这些包括但不限于回复问题、审查和合并代码、指导新的贡献者以及 BeeWare 项目的整"
+"体架构。"
 
 #: docs/en/community/governance.md:7
 msgid ""
@@ -922,10 +1044,13 @@ msgid ""
 "the vision of the whole organization, and is entrusted to make a final "
 "decision if the community cannot arrive at a consensus."
 msgstr ""
+"有一些人，我们信任他们，让他们做出代码决定；有一些人，我们信任他们，让他们做"
+"出代码和组织决定；还有一个人负责引导整个组织的愿景，并在社区无法达成共识时受"
+"托做出最终决定。"
 
 #: docs/en/community/governance.md:9
 msgid "These levels can be described as follows:"
-msgstr ""
+msgstr "这些级别可描述如下："
 
 #: docs/en/community/governance.md:11
 msgid "Bee, or Worker Bee:"
@@ -1002,7 +1127,7 @@ msgstr ""
 msgid ""
 "As with any project with more than one person with commit rights, there are "
 "a number of general guidelines that the team should follow:"
-msgstr ""
+msgstr "与任何拥有多人提交权的项目一样，团队应遵循一些一般准则："
 
 #: docs/en/community/governance.md:32
 msgid "**Be a good representation of the project to the wider community**"
@@ -1098,6 +1223,11 @@ msgid ""
 "in the project in general may ask to be given permission to commit to the "
 "project."
 msgstr ""
+"新的养蜂人是否加入团队完全由现有的核心团队决定。虽然目前还没有这方面的明确规"
+"则，但一般来说，如果某人对 BeeWare 项目做出了坚实的贡献，则会被邀请成为项目的"
+"养蜂人。这也可以扩展到具有特定可能现有团队所缺乏的领域知识（例如，iOS/macOS）"
+"的人。这也不一定要基于 commits。任何能证明对整个项目有既得利益的人都可以要求"
+"获得向项目 commit 的许可。"
 
 #: docs/en/community/governance.md:54
 msgid ""
@@ -1114,6 +1244,8 @@ msgid ""
 "one thing. There are many apiarists, and many more beside who can offer "
 "help, advice and mentorship."
 msgstr ""
+"任何养蜂人，不管是新手还是老手，都没有期望作为任何一个项目的唯一维护者。有很"
+"多养蜂人，还有更多的人可以提供帮助、建议和指导。"
 
 #: docs/en/community/governance.md:58
 msgid "\"Commit bit\"?"
@@ -1127,10 +1259,14 @@ msgid ""
 "have write-access to a code base. In GitHub terms, this means they have the "
 "ability to merge Pull Requests and commit code directly to the project."
 msgstr ""
+"在 Unix 系统中，一个文件中的单个位用来表示执行文件的权限。在源代码控制系统中"
+"，也有类似的位表示合并代码的权限。如果说某人拥有“commit 位”意味着他们拥有代码"
+"库的写入权限。用 GitHub 的术语来说，这意味着他们有能力合并拉取请求并将代码直"
+"接提交到项目。"
 
 #: docs/en/community/index.md:1
 msgid "Community"
-msgstr ""
+msgstr "社区"
 
 #: docs/en/community/index.md:3
 msgid "[BeeWare Community Code of Conduct]{1} { #beeware-code-of-conduct }"
@@ -1193,6 +1329,8 @@ msgid ""
 "start of last century. They were distributed based on merit in events or for "
 "other reasons, and hold deep personal value."
 msgstr ""
+"挑战硬币是一种军事传统，据说起源于上个世纪初。它们是因为事件中的功绩或其他原"
+"因分发，具有深厚的个人价值。"
 
 #: docs/en/contributing/challenge-coins.md:3
 msgid ""
@@ -1227,22 +1365,24 @@ msgid ""
 "The BeeWare Challenge Coins are die cast, 4.5cm (1 3/4\") in diameter, and "
 "are made of a nickel/zinc alloy with enamel highlights."
 msgstr ""
+"BeeWare 挑战硬币为压铸件，直径为 4.5 厘米（1 3/4 英寸），由镍/锌合金制成，带"
+"有珐琅亮点。"
 
 #: docs/en/contributing/challenge-coins.md:15
 msgid "Any contribution to the BeeWare project earns you a coin."
-msgstr ""
+msgstr "第一次为 BeeWare 项目做出的任何贡献都会为您赢得一枚挑战币。"
 
 #: docs/en/contributing/challenge-coins.md:17
 msgid ""
 "It doesn't have to be a code contribution: a documentation update counts. A "
 "blog post. Helping someone during a sprint with their contribution."
-msgstr ""
+msgstr "不一定是代码贡献：文档更新也算。一篇博文也可以。在冲刺帮助他人贡献也一样。"
 
 #: docs/en/contributing/challenge-coins.md:19
 msgid ""
 "And as an additional incentive, for those people who help others get their "
 "challenge coins, we have a second coin: the Yak Herder"
-msgstr ""
+msgstr "作为额外奖励，对于帮助他人获得挑战币的人，我们还有第二枚币：牦牛牧民币"
 
 #: docs/en/contributing/challenge-coins.md:21
 msgid "![BeeWare Yak Herder Challenge Coin]{1}{ width=300px }"
@@ -1281,7 +1421,7 @@ msgstr ""
 
 #: docs/en/contributing/first-time-contributors.md:1
 msgid "First-time contributors"
-msgstr ""
+msgstr "首次贡献者"
 
 #: docs/en/contributing/first-time-contributors.md:3
 msgid "{% extends \"contribute/first-time-contributors.md\" %}"
@@ -1595,7 +1735,7 @@ msgstr ""
 
 #: docs/en/contributing/index.md:1
 msgid "Contributing"
-msgstr ""
+msgstr "贡献"
 
 #: docs/en/contributing/index.md:3
 msgid ""
@@ -1626,6 +1766,8 @@ msgid ""
 "community acknowledges that all contributions are important - not just the "
 "ones that come as a pull request on GitHub."
 msgstr ""
+"这不仅仅是代码的问题。一个成功的软件项目需要文档、设计技巧、反馈和错误报告。"
+"BeeWare 社区认为所有的贡献都是重要的，而不仅仅是 GitHub 上的拉取请求。"
 
 #: docs/en/contributing/index.md:11
 msgid ""
@@ -1674,7 +1816,7 @@ msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:1
 msgid "Sprint Guide"
-msgstr ""
+msgstr "冲刺指南"
 
 #: docs/en/contributing/sprint-guide.md:3
 msgid "Welcome to the BeeWare Sprints!"
@@ -1686,6 +1828,8 @@ msgid ""
 "introduced yourself to one of the Bee Team, please do so. Once you've done "
 "that, head back here to get started."
 msgstr ""
+"欢迎！很高兴您决定加入我们！如果您还没有向蜜蜂团队的成员自我介绍，请尽快这样"
+"做。一旦您完成了自我介绍，请返回这里开始您的工作。"
 
 #: docs/en/contributing/sprint-guide.md:7
 msgid "What is a sprint?"
@@ -1699,6 +1843,9 @@ msgid ""
 "energy, enthusiasm and interest that a conference has generated into "
 "improvements in the software we use on a daily basis."
 msgstr ""
+"冲刺是一个非结构化的机会，可以花几个小时或几天的时间在开源项目上协作工作。它"
+"们通常与会议相关联；会议之后的冲刺阶段提供了一个机会，可以将会议带来的能量、"
+"热情和兴趣转化为对我们日常使用软件的改进。"
 
 #: docs/en/contributing/sprint-guide.md:11
 msgid ""
@@ -1706,6 +1853,8 @@ msgid ""
 "contributing to the project. Our hope is that you'll have so much fun "
 "contributing during the sprint that you'll go home and keep contributing!"
 msgstr ""
+"冲刺也是向人们介绍如何为项目做出贡献的机会。我们希望您能在冲刺时获得极大的乐"
+"趣，大到您回家后会继续贡献！"
 
 #: docs/en/contributing/sprint-guide.md:13
 msgid ""
@@ -1724,6 +1873,9 @@ msgid ""
 "even the process of going through bugs that were reported years ago and "
 "determining that they've been fixed along the way is a valuable contribution."
 msgstr ""
+"代码也不是您做出贡献的唯一方式。像 BeeWare 这样的项目需要的不仅仅是代码--我们"
+"需要有人来撰写、校对和翻译文档；我们需要有人来改进网页的设计；我们甚至需要有"
+"人来检查多年前报告过的错误，并确定它们是否已经被修复，也是一项宝贵的贡献。"
 
 #: docs/en/contributing/sprint-guide.md:17
 msgid "The Initial Questions"
@@ -1738,6 +1890,9 @@ msgid ""
 "being asked - don't worry about that! Let us know what you do know, and "
 "we'll work together to figure it out from there."
 msgstr ""
+"首先，我们会问您几个问题，以便了解您的兴趣和经验。这将帮助我们找到您贡献的最"
+"佳方式。请仔细阅读这些问题，做好笔记，然后找到蜜蜂团队的成员，分享您的答案。"
+"如果您不理解问的问题，不用担心！让我们知道你所知道的，我们会一起从那里开始。"
 
 #: docs/en/contributing/sprint-guide.md:21
 msgid "**Have you used BeeWare before?**"
@@ -1839,6 +1994,8 @@ msgid ""
 "some follow up questions; but then they'll point you in the direction of a "
 "area where you should be able to make a contribution."
 msgstr ""
+"现在，找一位蜜蜂团队成员来分享您的答案。他们可能会问您一些后续问题；但随后，"
+"他们会给你指出你应该能够做出贡献的方向。"
 
 #: docs/en/contributing/sprint-guide.md:53
 msgid "Find Your Issue"
@@ -1866,6 +2023,12 @@ msgid ""
 "underlying cause. These issues are tagged \"good first issue\" to make them "
 "easier to find."
 msgstr ""
+"GitHub 提供的问题列表可让 BeeWare（及其他项目）跟踪所有已报告的问题。这包括明"
+"确的错误、*可能*是错误的意外行为、对新功能的请求、对更多文档的请求--任何可以"
+"改进 BeeWare 的方法。随着新问题的报告，蜜蜂团队会将其中的一些问题标记为非常适"
+"合首次贡献者的问题。这些问题并不要求*立即*解决，但定义明确或易于重现，并且很"
+"可能 对根本原因有很好的线索。这些问题被标记为 “good first issue” 标签，以方便"
+"查找。"
 
 #: docs/en/contributing/sprint-guide.md:59
 msgid ""
@@ -1906,12 +2069,19 @@ msgid ""
 "end up with two people working on the same issue - leaving a comment is a "
 "light-weight way to coordinate between contributors."
 msgstr ""
+"找到感兴趣的问题后，阅读帖子上的评论，并在讨论中发表评论，说明您正在研究这个"
+"问题（例如，“Looking into this at the PyCon US 2025 sprints”）。BeeWare 不会"
+"明确“分配”问题 - 我们接受任何人的贡献。但是，在冲刺时，我们需要确保不会出现两"
+"个人同时处理同一个问题的情况。留下评论是在贡献者之间进行协调的一种轻量级方法"
+"。"
 
 #: docs/en/contributing/sprint-guide.md:75
 msgid ""
 "If you still can't find anything you'd like to do, find a Bee Team member "
 "and they'll help you narrow down to a specific issue."
 msgstr ""
+"如果您仍然找不到您想做的事情，请联系蜜蜂团队的成员，他们会帮助您缩小范围，找"
+"到具体问题。"
 
 #: docs/en/contributing/sprint-guide.md:77
 msgid "Set up a development environment"
@@ -1923,6 +2093,8 @@ msgid ""
 "environment so you can work on a fix. Each BeeWare project has its own "
 "contribution guide:"
 msgstr ""
+"发现问题后，您需要设置开发环境，以便修复问题。每个 BeeWare 项目都有自己的贡献"
+"指南："
 
 #: docs/en/contributing/sprint-guide.md:81
 msgid "[Briefcase]{1}"
@@ -1945,10 +2117,14 @@ msgid ""
 "won't hit the same problem, improving the contribution guide is a valuable "
 "contribution!"
 msgstr ""
+"如果项目不在此列表中，请查看项目 README，了解如何配置的详细信息。如果有任何说"
+"明不合理（或找不到相关说明），请联系蜜蜂团队的成员，他们会帮您解决困难。如果"
+"您认为可以改进指南，使其他人不会遇到同样的问题，那么改进贡献指南也是一项宝贵"
+"的贡献！"
 
 #: docs/en/contributing/sprint-guide.md:87
 msgid "Now you can start working on your issue!"
-msgstr ""
+msgstr "现在，您可以开始解决您的问题了！"
 
 #: docs/en/contributing/sprint-guide.md:89
 msgid "What happens after I submit my PR?"
@@ -1960,6 +2136,8 @@ msgid ""
 "the automated checks, you're ready for a review. Let one of the core team "
 "know that you've got a PR ready for review, and they'll take a look."
 msgstr ""
+"一旦您提交了拉取请求，并且拉取请求通过了所有自动检查后，您就可以请求审核了。"
+"让核心团队中的一位成员知道您的 PR 已准备好接受审核，然后他们就会来看看。"
 
 #: docs/en/contributing/sprint-guide.md:93
 msgid ""
@@ -1968,6 +2146,9 @@ msgid ""
 "convention that you haven't followed. Don't be discouraged! Nobody - not "
 "even the core team - gets PRs 100% correct on the first try."
 msgstr ""
+"如果这是您的第一个 PR (拉取请求)，审查时我们很可能会发现一些问题。这可能是你"
+"没有考虑到的边缘情况，也可能是你没有遵循的代码约定。不要气馁！没有人第一次就"
+"能 100% 正确地完成 PR。"
 
 #: docs/en/contributing/sprint-guide.md:95
 msgid ""
@@ -1989,6 +2170,9 @@ msgid ""
 "haven't explained it well enough. We're eager to help - and we want to make "
 "sure you have a successful sprint."
 msgstr ""
+"如果您在途中遇到困难，请联系蜜蜂团队的成员。不要害怕提出*任何*问题。如果您遇"
+"到困难，我们希望让您摆脱困境。如果您感到困惑，那是因为主题复杂，而我们还没有"
+"解释清楚。我们渴望帮助--我们希望确保您有一个成功的冲刺。"
 
 #: docs/en/contributing/sprint-guide.md:101
 msgid "What if I don't complete my contribution during the sprint?"
@@ -2001,6 +2185,9 @@ msgid ""
 "of the year. The Bee Team are available to help with any part of this "
 "process."
 msgstr ""
+"没问题！您全年都可以提交贡献。冲刺的目的之一也是为了鼓励您在一年的其他时间继"
+"续作出贡献，且让您有能力这样做。蜜蜂团队将可以在这整个过程中提供任何您所需要"
+"的帮助。"
 
 #: docs/en/contributing/sprint-guide.md:105
 msgid ""
@@ -2020,6 +2207,8 @@ msgid ""
 "know. What worked for you? What didn't? What can we do better? And remember: "
 "fixing a problem with this Sprint Guide counts as a contribution to BeeWare!"
 msgstr ""
+"如果您对如何改进本冲刺指南有任何建议，请告诉我们。哪些方法对你有用？哪些没有"
+"？我们能做得更好吗？请记住：解决关于此冲刺指南的问题也算是对 BeeWare 的贡献！"
 
 #: docs/en/docs/index.md:1
 msgid "Documentation { .documentation }"
@@ -2052,7 +2241,7 @@ msgstr ""
 #: docs/en/docs/index.md:27
 #: docs/en/index.md:131
 msgid "A Python native, OS native GUI toolkit."
-msgstr ""
+msgstr "一个 Python 原生、操作系统原生图形用户界面工具包。"
 
 #: docs/en/docs/index.md:33
 msgid "[![Briefcase]{1}]{2}{ .featured-logo }"
@@ -2065,7 +2254,7 @@ msgstr ""
 #: docs/en/docs/index.md:37
 #: docs/en/index.md:141
 msgid "Convert a Python project into a standalone native application."
-msgstr ""
+msgstr "将 Python 项目转换为独立的原生应用程序。"
 
 #: docs/en/docs/index.md:42
 msgid "Other tools { .other-tools }"
@@ -2099,7 +2288,7 @@ msgstr ""
 
 #: docs/en/docs/index.md:67
 msgid "Utilities"
-msgstr ""
+msgstr "实用工具"
 
 #: docs/en/docs/index.md:69
 msgid "Pieces used by other BeeWare tools that can be useful on their own."
@@ -2116,7 +2305,7 @@ msgstr ""
 #: docs/en/docs/index.md:81
 msgid ""
 "A library for bridging between Python and the Objective-C language runtimes."
-msgstr ""
+msgstr "用于连接 Python 和 Objective-C 语言的运行时库。"
 
 #: docs/en/docs/index.md:89
 msgid "[![Brutus the Bee]{1}]{2}{ .other-tools-logo }"
@@ -2131,7 +2320,7 @@ msgstr ""
 msgid ""
 "A meta-package for building a version of Python that can be embedded into a "
 "macOS, iOS, tvOS or watchOS project."
-msgstr ""
+msgstr "用于构建可嵌入到 macOS、iOS、tvOS 或 watchOS 项目中的 Python 版本的元软件包。"
 
 #: docs/en/docs/index.md:105
 msgid "[![Chaquopy]{1}]{2}{ .other-tools-logo }"
@@ -2201,7 +2390,7 @@ msgstr ""
 #: docs/en/docs/index.md:141
 #: docs/en/index.md:91
 msgid "Stay in touch!"
-msgstr ""
+msgstr "保持联系！"
 
 #: docs/en/docs/index.md:143
 msgid ""
@@ -2242,7 +2431,7 @@ msgstr ""
 
 #: docs/en/index.md:35
 msgid "One codebase. Multiple apps."
-msgstr ""
+msgstr "一个代码库。多个应用程序。"
 
 #: docs/en/index.md:37
 msgid ""
@@ -2250,10 +2439,12 @@ msgid ""
 "platforms. No need to rewrite the app in multiple programming languages. It "
 "means **no issues** with build tools, environments, compatibility, etc."
 msgstr ""
+"BeeWare 允许您使用 Python 编写应用程序，并在多个平台上发布。无需使用多种编程"
+"语言重写应用程序。这意味着**不存在**构建工具、环境、兼容性等问题。"
 
 #: docs/en/index.md:39
 msgid "Python native tools..."
-msgstr ""
+msgstr "Python 原生工具..."
 
 #: docs/en/index.md:41
 msgid "![Python logo]{1}{ .index-main-python-logo }"
@@ -2267,10 +2458,14 @@ msgid ""
 "something? And shouldn't your tools **exploit all the capabilities of "
 "Python** as a language, not just the bits that map nicely to a C binding?"
 msgstr ""
+"Python 已经证明了自己是一门能力超强的语言--对于新手来说平易近人，而对于专家来"
+"说则功能强大。为什么不能在需要告诉计算机做某事的**任何地方使用 Python**？你的"
+"工具难道不应该**利用 Python 作为一门语言的所有能力**，而不仅仅是很好地映射到 "
+"C 语言绑定的部分吗？"
 
 #: docs/en/index.md:45
 msgid "...on mobile & desktop..."
-msgstr ""
+msgstr "...在移动与桌面..."
 
 #: docs/en/index.md:47
 msgid "![Cross-platform]{1}{ .index-main-cross-platform-logo }"
@@ -2283,6 +2478,9 @@ msgid ""
 "Shouldn't you be able to use Python in all those locations, and **exploit "
 "the unique capabilities of those platforms**?"
 msgstr ""
+"现代计算不是在 80x25 的命令行窗口中进行的。它发生在具有丰富用户界面的**手机、"
+"平板电脑和台式机**上。难道您不应该能够在所有这些地方使用 Python，并**利用这些"
+"平台的独特功能**吗？"
 
 #: docs/en/index.md:51
 msgid "...behaving natively. { .behaving-index }"
@@ -2300,10 +2498,13 @@ msgid ""
 "delivered. Why shouldn't your Python tools fit in just as well as a native "
 "tool?"
 msgstr ""
+"最终用户不应该关心他们的工具是用什么语言编写的。而这首先要从外观和行为上**像"
+"完全原生的工具**。原生的外观，原生的行为，以原生应用程序的方式发布。为什么你"
+"的 Python 工具不能像原生工具一样适用呢？"
 
 #: docs/en/index.md:57
 msgid "This is BeeWare."
-msgstr ""
+msgstr "这就是 BeeWare."
 
 #: docs/en/index.md:59
 msgid "![Brutus the Bee]{1}{ .index-main-brutus-logo }"
@@ -2316,10 +2517,13 @@ msgid ""
 "necessary to get that code running on **iOS, Android, macOS, Linux, Windows, "
 "tvOS, and more**."
 msgstr ""
+"这就是 BeeWare 所提供的。这些工具可帮助您编写拥有丰富、**原生的用户界面**的 "
+"Python 代码；BeeWare 也包含可使这些代码在 **iOS、Android、macOS、Linux、"
+"Windows、tvOS 等**上运行所需库与支持代码。"
 
 #: docs/en/index.md:63
 msgid "Open source"
-msgstr ""
+msgstr "开源"
 
 #: docs/en/index.md:65
 msgid "![Open source]{1}{ .index-main-open-source-logo }"
@@ -2335,7 +2539,7 @@ msgstr ""
 
 #: docs/en/index.md:69
 msgid "All contributions welcome"
-msgstr ""
+msgstr "欢迎所有贡献"
 
 #: docs/en/index.md:71
 msgid "![Hands]{1}{ .index-main-hands-logo }"
@@ -2348,10 +2552,13 @@ msgid ""
 "community acknowledges that **all contributions are important** — not just "
 "the ones that come as a pull request on GitHub."
 msgstr ""
+"但这不仅仅是代码的问题。一个成功的软件项目需要文档、设计技巧、反馈和错误报告"
+"。BeeWare 社区认为，**所有的贡献都是重要的**，而不仅仅是在 GitHub 上提出的拉"
+"取请求。"
 
 #: docs/en/index.md:75
 msgid "From diversity comes strength"
-msgstr ""
+msgstr "多元性带来力量"
 
 #: docs/en/index.md:77
 msgid "![Diversity]{1}{ .index-main-diversity-logo }"
@@ -2369,7 +2576,7 @@ msgstr ""
 
 #: docs/en/index.md:81
 msgid "Contribute!"
-msgstr ""
+msgstr "作出贡献！"
 
 #: docs/en/index.md:83
 msgid ""
@@ -2398,7 +2605,7 @@ msgstr ""
 
 #: docs/en/index.md:101
 msgid "Members"
-msgstr ""
+msgstr "会员"
 
 #: docs/en/index.md:103
 msgid ""
@@ -2662,3 +2869,6 @@ msgstr ""
 #: docs/en/membership/index.md:80
 msgid "David Cramer"
 msgstr ""
+
+#~ msgid "Commercial support"
+#~ msgstr "商业支持"

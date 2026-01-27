@@ -1,15 +1,17 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-26 21:50-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-07-20 14:03+0000\n"
+"Last-Translator: Ece Akdeniz <ecesel34@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/beeware/website/"
+"tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Translate Toolkit 3.17.5\n"
 
 #: docs/en/about/branding.md:1
@@ -35,6 +37,8 @@ msgid ""
 "BeeWare is a collection of tools and libraries to aid in writing application "
 "user interfaces in Python."
 msgstr ""
+"BeeWare, Python ile uygulama kullanıcı arayüzleri yazmayı kolaylaştıran "
+"araçlar ve kütüphanelerden oluşan bir koleksiyondur."
 
 #: docs/en/about/branding.md:11
 msgid "Long description"
@@ -47,6 +51,10 @@ msgid ""
 "iPhone, Android, Linux, macOS and Windows that are indistinguishable from "
 "natively written applications."
 msgstr ""
+"BeeWare, Python ile uygulama kullanıcı arayüzleri yazmayı kolaylaştıran "
+"araçlar ve kütüphanelerden oluşan bir koleksiyondur. Geliştiricilerin "
+"iPhone, Android, Linux, macOS ve Windows için, yerel olarak yazılmış "
+"uygulamalardan ayırt edilemeyen uygulamalar yazmalarını sağlar."
 
 #: docs/en/about/branding.md:15
 msgid "Logos"
@@ -126,8 +134,9 @@ msgid "[X-large]{1}"
 msgstr ""
 
 #: docs/en/about/contact.md:1
+#, fuzzy
 msgid "Contact"
-msgstr ""
+msgstr "İletişim"
 
 #: docs/en/about/contact.md:3
 msgid "Looking for help?"
@@ -213,10 +222,13 @@ msgid "Need help with your commercial BeeWare project?"
 msgstr ""
 
 #: docs/en/about/contact.md:32
+#, fuzzy
 msgid ""
 "Although BeeWare is an open source project, there are companies and "
 "individuals who can provide paid support, training, and consulting."
 msgstr ""
+"BeeWare açık kaynaklı bir proje olmasına rağmen, bazı şirketler ve Ücretli "
+"destek, eğitim ve danışmanlık sağlayabilecek kişiler."
 
 #: docs/en/about/contact.md:34
 msgid ""
@@ -270,19 +282,24 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/history.md:1
+#, fuzzy
 msgid "History and Philosophy"
-msgstr ""
+msgstr "Tarih ve Felsefe"
 
 #: docs/en/about/history.md:3
 msgid "History"
 msgstr ""
 
 #: docs/en/about/history.md:5
+#, fuzzy
 msgid ""
 "The BeeWare project started with a simple question: Why aren't the tools "
 "that we use as Python developers improving at the same rate as the rest of "
 "the technology we use on a daily basis?"
 msgstr ""
+"BeeWare projesi basit bir soruyla başladı: Neden araçlar Python "
+"geliştiricileri olarak kullandığımız, diğerleriyle aynı oranda gelişen "
+"günlük olarak kullandığımız teknolojinin bir parçası mı?"
 
 #: docs/en/about/history.md:7
 msgid ""
@@ -307,24 +324,34 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/history.md:11
+#, fuzzy
 msgid ""
 "And, yes, there are IDEs (Integrated Development Environments) that provide "
 "a native application experience for writing code. But those tools require "
 "you to adopt, wholesale, the IDE's way of looking at a project. They often "
 "introduce as many headaches to the development process as they solve."
 msgstr ""
+"Ve evet, IDE'ler (Entegre Geliştirme Ortamları) var. kod yazmak için yerel "
+"bir uygulama deneyimi sağlar. Ama bunlar araçları, IDE'nin bakış açısını "
+"toptan benimsemenizi gerektirir. proje. Genellikle geliştirme sürecine "
+"birçok baş ağrısı getirirler çözerken süreç."
 
 #: docs/en/about/history.md:13
+#, fuzzy
 msgid ""
 "And so, we're left with an interesting schism, between the \"old way\" of "
 "Unix development in a console window, and the \"new way\" of all-in-one IDEs."
 msgstr ""
+"Ve böylece, \"eski yöntem\" ile \"yeni yöntem\" arasında ilginç bir "
+"ayrılıkla karşı karşıya kalıyoruz. Konsol penceresinde Unix geliştirme ve "
+"hepsi bir arada aygıtın \"yeni yolu\" IDE'ler."
 
 #: docs/en/about/history.md:15
 msgid "The Unix Philosophy"
 msgstr ""
 
 #: docs/en/about/history.md:17
+#, fuzzy
 msgid ""
 "However, it doesn't have to be that way. The core tenet of the Unix "
 "Philosophy is that \"each tool does one thing, well\". This is a very "
@@ -332,53 +359,82 @@ msgid ""
 "toolchains by putting together a suite of extremely focussed, independent "
 "tools."
 msgstr ""
+"Ancak, bu şekilde olmak zorunda değildir. Unix'in temel ilkesi Felsefe "
+"şudur: \"her araç tek bir şeyi iyi yapar\". Bu çok önemli bir güçlü bir "
+"felsefeye sahiptir ve son derece son derece odaklanmış bir paketi bir araya "
+"getirerek güçlü araç zincirleri, bağımsız araçlar."
 
 #: docs/en/about/history.md:19
+#, fuzzy
 msgid ""
 "Unfortunately, most UNIX tools have convolved this to also mean \"all tools "
 "must use a console interface\". However, there's nothing in the UNIX "
 "philosophy that says that tools have to use a console interface - it's just "
 "turned out that way."
 msgstr ""
+"Ne yazık ki, çoğu UNIX aracı bunu aynı zamanda \"tüm araçları bir konsol "
+"arayüzü kullanmalıdır\". Ancak, bu belgede hiçbir şey yok. Araçların bir "
+"konsol arayüzü kullanması gerektiğini söyleyen UNIX felsefesi - sadece bu "
+"şekilde ortaya çıktı."
 
 #: docs/en/about/history.md:21
+#, fuzzy
 msgid ""
 "The BeeWare project started with the premise we can have the best of both "
 "worlds. We can have a chain of composable tools that each do one thing, "
 "well. But those tools can also expose their functionality using a rich "
 "graphical user interface."
 msgstr ""
+"BeeWare projesi, en iyisine sahip olabileceğimiz öncülüyle başladı her iki "
+"dünya. Her biri bir iş yapan birleşik araçlar zincirine sahip olabiliriz. "
+"şey, iyi. Ancak bu araçlar aynı zamanda işlevselliklerini bir zengin grafik "
+"kullanıcı arayüzü."
 
 #: docs/en/about/history.md:23
 msgid "More than just code"
 msgstr ""
 
 #: docs/en/about/history.md:25
+#, fuzzy
 msgid ""
 "It's about more than just code, though. A successful software project "
 "requires documentation, design skills, feedback and bug reports. The BeeWare "
 "community acknowledges that *all* contributions are important - not just the "
 "ones that come as a pull request on GitHub."
 msgstr ""
+"Ancak bu, koddan daha fazlasıdır. Başarılı bir yazılım projesi "
+"dokümantasyon, tasarım becerileri, geri bildirim ve hata raporları "
+"gerektirir. Bu BeeWare topluluğu *tüm* katkıların önemli olduğunu kabul "
+"eder - Sadece GitHub'da çekme isteği olarak gelenler değil."
 
 #: docs/en/about/history.md:27
+#, fuzzy
 msgid ""
 "Even then, it's easy to think of a project in a vacuum, as the sum of all "
 "contributions. But that's never the case. An open source project is about "
 "community."
 msgstr ""
+"O zaman bile, bir projeyi bir boşlukta, aşağıdakilerin toplamı olarak "
+"düşünmek kolaydır tüm katkılar. Ancak durum asla böyle değildir. Açık "
+"kaynaklı bir proje toplum hakkında."
 
 #: docs/en/about/history.md:29
 msgid "Diversity and inclusion"
 msgstr ""
 
 #: docs/en/about/history.md:31
+#, fuzzy
 msgid ""
 "A diverse community is a strong community. This means accepting people of "
 "all levels of experience, from all backgrounds, of all races, creeds, "
 "orientations and expressions. The BeeWare project is committed to developing "
 "and maintaining a inclusive, diverse and welcoming community."
 msgstr ""
+"Çeşitliliğe sahip bir toplum güçlü bir toplumdur. Bu, insanları kabul etmek "
+"anlamına gelir Her deneyim seviyesinden, her geçmişten, her ırktan, her "
+"inançtan, yönelimler ve ifadeler. BeeWare projesi aşağıdakileri taahhüt "
+"etmektedir Kapsayıcı, çeşitlilik içeren ve misafirperver bir toplum "
+"geliştirmek ve sürdürmek."
 
 #: docs/en/about/history.md:33
 msgid ""
@@ -393,6 +449,7 @@ msgid "Healthy and sustainable"
 msgstr ""
 
 #: docs/en/about/history.md:37
+#, fuzzy
 msgid ""
 "It's also important to make sure that the community is accessible and "
 "sustainable. It's unfortunately become an accepted part of Open Source "
@@ -401,8 +458,15 @@ msgid ""
 "people able to spend their free time volunteering are those that *have* free "
 "time."
 msgstr ""
+"Topluluğun erişilebilir olduğundan emin olmak da önemlidir ve "
+"sürdürülebilir. Ne yazık ki Açık Kaynak'ın kabul edilmiş bir parçası haline "
+"geldi \"gerçek\" Açık Kaynak projelerinin tamamen geliştirilmesi gerektiğine "
+"dair kültür gönüllüler tarafından. Bu durum birçok grup için giriş engeli "
+"teşkil etmektedir - Boş zamanlarını gönüllülük yaparak geçirebilenler sadece "
+"*Boş zamanım var."
 
 #: docs/en/about/history.md:39
+#, fuzzy
 msgid ""
 "It also frequently leads to burnout and other mental health issues amongst "
 "contributors. The fact that depression, anxiety, and burnout are so common "
@@ -412,8 +476,17 @@ msgid ""
 "software bug would be addressed - with immediate workarounds, and long term "
 "plans to remove the systemic cause of the problem."
 msgstr ""
+"Ayrıca sıklıkla tükenmişliğe ve diğer ruh sağlığı sorunlarına yol açar "
+"katkıda bulunanlar arasında. Depresyon, anksiyete ve tükenmişliğin yazılım "
+"geliştirme topluluklarında bu kadar yaygın olması bir Bir onur nişanı ya da "
+"bir geliştirme ekibinin ne kadar kararlı olduğunun bir göstergesi olabilir. "
+"Bu, doğrudan ele alınması ve üzerine gidilmesi gereken bir sorundur bir "
+"yazılım hatasının ele alınmasıyla aynı şekilde - derhal geçici çözümler ve "
+"sorunun sistemik nedenini ortadan kaldırmaya yönelik uzun vadeli planlar "
+"Sorun."
 
 #: docs/en/about/history.md:41
+#, fuzzy
 msgid ""
 "While we place incredible value on the contributions of volunteers, we also "
 "know that volunteer efforts alone aren't the way to develop a healthy and "
@@ -425,6 +498,16 @@ msgid ""
 "meaningful ways, and wherever possible, compensate people for their work - "
 "without compromising the ideals of Open Source development."
 msgstr ""
+"Gönüllülerin katkılarına inanılmaz değer verirken, biz de aynı zamanda "
+"gönüllü çabaların tek başına bir sivil toplum örgütü geliştirmenin yolu "
+"olmadığını da bilir. sağlıklı ve sürdürülebilir bir toplum. Bu nedenle, "
+"finansal BeeWare'in işletilmesinde sürdürülebilirlik kilit bir husustur "
+"proje. Toplum olarak, paranın oynadığı rolü göz ardı etmiyoruz İnsanların iş "
+"hayatına başlamalarına ve devam etmelerine olanak tanıyan kaynakları "
+"sağlamada katkıda bulunacağız. Toplum olarak, aşağıdakiler için kabul "
+"edilmiş mekanizmalar sağlayacağız bireylerin çalışmalarından anlamlı "
+"yollarla para kazanmalarını sağlamak ve her yerde mümkünse, insanlara "
+"yaptıkları işlerin karşılığını verin. Açık Kaynak geliştirme idealleri."
 
 #: docs/en/about/history.md:43
 msgid "The goal"
@@ -432,6 +515,7 @@ msgstr ""
 
 #: docs/en/about/history.md:45
 #: docs/en/about/overview.md:15
+#, fuzzy
 msgid ""
 "The end goal of the BeeWare project: To be able to do for mobile and desktop "
 "user-facing software the same thing that Django has done for web software - "
@@ -439,6 +523,11 @@ msgid ""
 "them to develop rich, native user interfaces, and deploy them to their "
 "devices. This includes:"
 msgstr ""
+"BeeWare projesinin nihai hedefi: Mobil cihazlar için yapabilme ve Django'nun "
+"web için yaptığının aynısını masaüstü kullanıcıya yönelik yazılım yazılım - "
+"kullanıcıların eline bir dizi araç ve kütüphane vermek zengin, yerel "
+"kullanıcı arayüzleri geliştirmelerini ve dağıtmalarını sağlayan cihazlarına "
+"yükleyebilirsiniz. Buna şunlar dahildir:"
 
 #: docs/en/about/history.md:47
 #: docs/en/about/overview.md:17
@@ -459,13 +548,19 @@ msgid "Tools to help develop, debug, analyze and these projects."
 msgstr ""
 
 #: docs/en/about/history.md:52
+#, fuzzy
 msgid ""
 "This aim is that this set of tools will be easy enough to use for complete "
 "newcomers to use in a Django Girls-like setting; but powerful enough that "
 "they could be used to drive the next Instagram, Pinterest or Disqus."
 msgstr ""
+"Bu amaç, bu araç setinin aşağıdakiler için kullanımı yeterince kolay "
+"olmasıdır Django Girls benzeri bir ortamda kullanmak için tamamen yeni "
+"gelenler; ancak güçlü bir sonraki Instagram, Pinterest veya Pinterest'i "
+"yönlendirmek için kullanılabilecek kadar Disqus."
 
 #: docs/en/about/history.md:54
+#, fuzzy
 msgid ""
 "Most importantly, it aims to do all this as an Open Source community. The "
 "Open Source development process has proven itself to be the most reliable "
@@ -473,12 +568,19 @@ msgid ""
 "access the software means that everyone can start with the same set of "
 "excellent tools, be they expert or enthusiastic amateur."
 msgstr ""
+"En önemlisi, tüm bunları bir Açık Kaynak topluluğu olarak yapmayı "
+"hedeflemektedir. Açık Kaynak geliştirme süreci kendini en iyi şekilde "
+"kanıtlamıştır. sağlam ve güvenilir yazılım geliştirmenin güvenilir bir yolu "
+"ve herkesin yazılıma erişebilmesi, herkesin yazılımla başlayabileceği "
+"anlamına gelir. İster uzman ister hevesli amatör olsunlar, aynı mükemmel "
+"araç setine sahiptirler."
 
 #: docs/en/about/history.md:56
 msgid "Python everywhere"
 msgstr ""
 
 #: docs/en/about/history.md:58
+#, fuzzy
 msgid ""
 "A modern computing project can't ignore the biggest development in computing "
 "of the last 10 years. Python prides itself on being a cross-platform "
@@ -488,20 +590,33 @@ msgid ""
 "programming on mobile platforms, and cross-platform mobile coding is still "
 "elusive."
 msgstr ""
+"Modern bir bilgi işlem projesi, bilgisayar teknolojilerindeki en büyük "
+"gelişmeyi göz ardı edemez. son 10 yılın bilgi işlem. Python bir bilgisayar "
+"yazılımı çapraz platform dili. 10 yıl önce, çapraz platform olmak demek "
+"Windows, macOS ve Linux için mevcuttur. Bugünlerde mobil bilgi işlem çok "
+"daha önemli. Buna rağmen, aşağıdakiler için çok fazla iyi seçenek yoktur "
+"Mobil platformlarda Python programlama ve platformlar arası mobil kodlama "
+"hala zor."
 
 #: docs/en/about/history.md:60
+#, fuzzy
 msgid ""
 "BeeWare embraces mobile and other emerging platforms (like watches and set-"
 "top-boxes) as a first class citizen of the computing ecosystem - because if "
 "people have these devices, why shouldn't they be able to write software for "
 "them in Python."
 msgstr ""
+"BeeWare, mobil ve diğer gelişmekte olan platformları (saatler ve set üstü "
+"kutular) bilişim ekosisteminin birinci sınıf vatandaşı olarak - çünkü "
+"insanlar bu cihazlara sahipse, neden bu cihazları Python'da onlar için "
+"yazılım yazmak."
 
 #: docs/en/about/history.md:62
 msgid "Native everywhere"
 msgstr ""
 
 #: docs/en/about/history.md:64
+#, fuzzy
 msgid ""
 "It's easy to use themes to achieve cross-platform. However, it's easy to "
 "spot apps that have been built using themes - they're the ones that don't "
@@ -509,16 +624,27 @@ msgid ""
 "there's a menu bar on a window in an OS X app. Themes can get quite close - "
 "but there are always telltale signs."
 msgstr ""
+"Çapraz platform elde etmek için temaları kullanmak kolaydır. Ancak, bunu "
+"yapmak çok kolay. temalar kullanılarak oluşturulmuş uygulamaları tespit "
+"edin - bunlar diğer uygulamalar gibi davranmıyor. Widget'lar *tam olarak* "
+"doğru görünmüyor, veya bir OS X uygulamasındaki bir pencerede bir menü "
+"çubuğu vardır. Temalar oldukça yakın - ama her zaman açık işaretler vardır."
 
 #: docs/en/about/history.md:66
+#, fuzzy
 msgid ""
 "On top of that, native widgets are always faster than a themed generic "
 "widget. After all, you're using native system capability that has been tuned "
 "and optimized, not a drawing engine that's been layered on top of a generic "
 "widget."
 msgstr ""
+"Bunun da ötesinde, yerel widget'lar her zaman temalı genel bir widget'tan "
+"daha hızlıdır. Widget. Ne de olsa, yerel sistem yeteneklerini "
+"kullanıyorsunuz. ayarlanmış ve optimize edilmiş bir çizim motoru değil genel "
+"bir widget."
 
 #: docs/en/about/history.md:68
+#, fuzzy
 msgid ""
 "Themes also miss many of the accessibility benefits of native platforms. "
 "Modern OS authors spend a lot of time tuning affordances for people with "
@@ -526,12 +652,22 @@ msgid ""
 "usually get these affordances for free. If you reimplement widgets with a "
 "theme, you also have to re-implement the affordances."
 msgstr ""
+"Temalar ayrıca yerel platformların erişilebilirlik avantajlarının çoğunu da "
+"kaçırıyor. Modern işletim sistemi yazarları, aşağıdaki özelliklere sahip "
+"kişiler için kolaylıkları ayarlamak için çok zaman harcıyor hareket "
+"kabiliyeti, görme veya biliş bozukluğu. Yerel widget'lar kullanıyorsanız "
+"genellikle bu olanaklara ücretsiz olarak sahip olursunuz. Widget'ları şu "
+"şekilde yeniden uygularsanız bir tema oluşturduğunuzda, olanakları da "
+"yeniden uygulamanız gerekir."
 
 #: docs/en/about/history.md:70
+#, fuzzy
 msgid ""
 "BeeWare uses native widgets and native functionality, rather than using a "
 "theme-based approach to application development."
 msgstr ""
+"BeeWare, yerel widget'ları ve yerel işlevleri kullanmak yerine uygulama "
+"geliştirmeye yönelik tema tabanlı bir yaklaşım."
 
 #: docs/en/about/history.md:72
 msgid "Python native"
@@ -551,16 +687,20 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/history.md:76
+#, fuzzy
 msgid ""
 "We're also looking to the future - this means that we support Python 3 "
 "exclusively."
 msgstr ""
+"Ayrıca geleceğe de bakıyoruz - bu Python 3'ü desteklediğimiz anlamına "
+"geliyor Sadece."
 
 #: docs/en/about/history.md:78
 msgid "Native experience"
 msgstr ""
 
 #: docs/en/about/history.md:80
+#, fuzzy
 msgid ""
 "The experience of using any tool starts with the installation process. Part "
 "of BeeWare's \"Native everywhere\" philosophy is adopting appropriate native "
@@ -570,6 +710,13 @@ msgid ""
 "or a simple executable package. End users shouldn't know that you've written "
 "the application in Python."
 msgstr ""
+"Herhangi bir aracı kullanma deneyimi kurulum süreci ile başlar. BeeWare'in "
+"\"Her yerde yerel\" felsefesinin bir parçası da uygun kurulum için yerel "
+"mekanizmalar. Eğer bir kullanıcı alanı aracı kullanıyorsanız, içine "
+"kurulacak bir paket olarak size sunulmalıdır. başka herhangi bir aracı "
+"yüklediğiniz gibi - bir uygulama aracılığıyla deposu, bir yükleyici veya "
+"basit bir çalıştırılabilir paket. Son kullanıcılar uygulamayı Python'da "
+"yazdığınızı biliyorsunuz."
 
 #: docs/en/about/index.md:1
 msgid "About"
@@ -584,6 +731,8 @@ msgid ""
 "This is BeeWare. We're incredibly excited about what the future holds for "
 "Python. We hope you'll join us on this journey."
 msgstr ""
+"Bu, BeeWare. Gelecekte Python'ı nelerin beklediği konusunda oldukça "
+"heyecanlıyız. Umarız bu yolculukta bize katılırsınız."
 
 #: docs/en/about/index.md:7
 msgid "[What is BeeWare?]{1}"
@@ -627,20 +776,23 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/overview.md:1
+#, fuzzy
 msgid "What is BeeWare?"
-msgstr ""
+msgstr "BeeWare nedir?"
 
 #: docs/en/about/overview.md:3
 msgid "Meet Brutus"
 msgstr ""
 
 #: docs/en/about/overview.md:7
+#, fuzzy
 msgid ""
 "Brutus the Bee is the mascot of the BeeWare project. He's a busy little "
 "worker bee."
-msgstr ""
+msgstr "Arı Brutus, BeeWare projesinin maskotudur. O meşgul bir küçük işçi arı."
 
 #: docs/en/about/overview.md:9
+#, fuzzy
 msgid ""
 "Fun fact: a person who keeps bees is called an **apiarist** - a name that "
 "the BeeWare project uses to describe the core team. This also reflects the "
@@ -648,18 +800,29 @@ msgid ""
 "shepherds of the community, and we'll provide direction, but we know the "
 "real work is done by the community as a whole."
 msgstr ""
+"Eğlenceli bilgi: Arı besleyen bir kişiye **apiarist** denir - bir isim "
+"BeeWare projesinin çekirdek ekibi tanımlamak için kullandığı. Bu aynı "
+"zamanda çekirdek ekibin kurumla kurmak istediği ilişkiyi yansıtır. Bizler "
+"toplumun çobanlarıyız ve topluma ancak asıl işin toplum tarafından "
+"yapıldığını biliyoruz. Bütün olarak."
 
 #: docs/en/about/overview.md:11
 msgid "A first-timer's introduction to BeeWare"
 msgstr ""
 
 #: docs/en/about/overview.md:13
+#, fuzzy
 msgid ""
 "Python has proven itself as a highly capable language - approachable for "
 "newcomers, but powerful in the hands of experts. The BeeWare Project aims to "
 "take the power of Python as a language, and use it to enable users of all "
 "skill levels to develop applications with native user interfaces."
 msgstr ""
+"Python son derece yetenekli bir dil olarak kendini kanıtlamıştır. yeni "
+"başlayanlar için, ancak uzmanların elinde güçlü. BeeWare Projesi Python'un "
+"bir dil olarak gücünü almayı ve bunu aşağıdakileri sağlamak için kullanmayı "
+"amaçlamaktadır Tüm beceri seviyelerindeki kullanıcılar, yerel kullanıcı ile "
+"uygulama geliştirmek için arayüzler."
 
 #: docs/en/about/overview.md:18
 msgid "Tools to package a Python project, so it can run on those devices,"
@@ -670,13 +833,19 @@ msgid "Tools to help develop, debug, analyze and deploy these projects."
 msgstr ""
 
 #: docs/en/about/overview.md:22
+#, fuzzy
 msgid ""
 "The aim is that this set of tools will be easy enough to use for complete "
 "newcomers to use in a Django Girls-like setting; but powerful enough that "
 "they could be used to drive the next Instagram, Pinterest or Disqus."
 msgstr ""
+"Amaç, bu araç setinin aşağıdakiler için kullanımı yeterince kolay olmasıdır "
+"Django Girls benzeri bir ortamda kullanmak için tamamen yeni gelenler; ancak "
+"güçlü bir sonraki Instagram, Pinterest veya Pinterest'i yönlendirmek için "
+"kullanılabilecek kadar Disqus."
 
 #: docs/en/about/overview.md:24
+#, fuzzy
 msgid ""
 "We're not just about software, though. We also aim to be a project with a "
 "social conscience. We aim to develop and maintain a diverse and inclusive "
@@ -686,6 +855,13 @@ msgid ""
 "resources for people to start engaging, and continue to engage with the "
 "community."
 msgstr ""
+"Biz sadece yazılımla ilgili değiliz. Aynı zamanda şu özelliklere sahip bir "
+"proje olmayı hedefliyoruz toplumsal bi̇r vi̇cdan. Çeşitliliğe sahip bir toplum "
+"geliştirmeyi ve sürdürmeyi hedefliyoruz. kapsayıcı bir topluluğuz ve "
+"titizlikle uygulanan bir Davranış Kurallarımız var. zorlanmıştır. Aynı "
+"zamanda sağlıklı ve sürdürülebilir bir toplum - kendi toplumunun ruh sağlığı "
+"sorunlarının farkında olan bir toplum ve insanların katılım sağlamaya "
+"başlamaları için kaynaklar sağlar, ve toplumla etkileşim kurmaya devam etmek."
 
 #: docs/en/about/overview.md:26
 msgid "Where to from here?"
@@ -708,65 +884,96 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team.md:1
+#, fuzzy
 msgid "The Bee Team"
-msgstr ""
+msgstr "Arı Ekibi"
 
 #: docs/en/about/team.md:3
 msgid "{{ generate_team_page(team, page) }}"
 msgstr ""
 
 #: docs/en/about/team/cflee.md:1
+#, fuzzy
 msgid ""
 "Chiang Fong has been pretending to be a systems administrator since the "
 "Mandriva Linux days, and has recently moved into acting like he knows how to "
 "write software."
 msgstr ""
+"Chiang Fong, sistem yöneticisi gibi davranmaya başladığından beri Mandriva "
+"Linux günleri ve son zamanlarda biliyormuş gibi davranmaya başladı yazılım "
+"nasıl yazılır."
 
 #: docs/en/about/team/cflee.md:3
+#, fuzzy
 msgid ""
 "When not poking at code to de-stress, he spends his time fiddling with "
 "fountain pens and mechanical keyboards. He has yet to learn the lesson of "
 "not mixing inky fingers with pretty keycaps."
 msgstr ""
+"Stres atmak için kodlarla uğraşmadığı zamanlarda zamanını dolmakalemler ve "
+"mekanik klavyeler. Henüz dersini almamış. mürekkepli parmaklarla güzel tuş "
+"kapaklarını karıştırmamak."
 
 #: docs/en/about/team/danyeaw.md:1
+#, fuzzy
 msgid ""
 "Dan leads teams to design safety in to complex automotive and mobility "
 "systems, and dreams of using BeeWare tools to help model these systems."
 msgstr ""
+"Dan, karmaşık otomotiv ve mobilite alanlarında güvenlik tasarımı yapan "
+"ekiplere liderlik ediyor sistemleri ve bu sistemleri modellemeye yardımcı "
+"olmak için BeeWare araçlarını kullanmayı hayal ediyor."
 
 #: docs/en/about/team/danyeaw.md:3
+#, fuzzy
 msgid ""
 "When not hacking on open source projects, Dan likes to hang with his kids, "
 "brew beer, and play soccer."
 msgstr ""
+"Dan, açık kaynak projelerini hacklemediği zamanlarda, arkadaşlarıyla "
+"takılmayı sever. çocuklar, bira yapmak ve futbol oynamak."
 
 #: docs/en/about/team/eliasdorneles.md:1
+#, fuzzy
 msgid ""
 "Elias is a certified yak-shaver. He likes to fiddle with Python and open "
 "source stuff. At home, he likes to read, cook and to play Beatles songs on "
 "his guitar."
 msgstr ""
+"Elias sertifikalı bir öküz tıraşçısıdır. Python ile oynamayı ve kaynak "
+"şeyler. Evde okumayı, yemek yapmayı ve Beatles şarkıları çalmayı seviyor "
+"gitarıyla."
 
 #: docs/en/about/team/eliasdorneles.md:3
+#, fuzzy
 msgid "Elias gets by with a little help from his friends."
-msgstr ""
+msgstr "Elias arkadaşlarından aldığı küçük bir yardımla geçiniyor."
 
 #: docs/en/about/team/flowerncsu.md:1
+#, fuzzy
 msgid ""
 "Charlotte has been coding for more years than she likes to admit, and has a "
 "passion for building cool things and helping other people learn how to build "
 "cool things. She is among the organizers of PyLadies RDU, and can often be "
 "found making things out of yarn when not making things out of code."
 msgstr ""
+"Charlotte kabul etmek istemediği kadar uzun yıllardır kod yazıyor ve harika "
+"şeyler inşa etmek ve diğer insanların öğrenmesine yardımcı olmak için bir "
+"tutkusu var nasıl havalı şeyler yapılacağını öğretiyor. PyLadies RDU'nun "
+"organizatörleri arasında yer almaktadır, ve bir şeyler yapmadığı zamanlarda "
+"genellikle iplikten bir şeyler yaparken bulunabilir kod dışı."
 
 #: docs/en/about/team/freakboy3742.md:1
+#, fuzzy
 msgid ""
 "Dr Russell Keith-Magee is the founder of the BeeWare project. He joined the "
 "Django core team in 2006, and for 5 years, was President of the Django "
 "Software Foundation. He has been a member of the CPython core team since May "
 "2024."
 msgstr ""
+"Dr Russell Keith-Magee, BeeWare projesinin kurucusudur. O da katıldı 2006'da "
+"Django çekirdek ekibine katıldı ve 5 yıl boyunca Django Yazılım Vakfı. "
+"CPython çekirdeğinin bir üyesi olmuştur Mayıs 2024'ten beri takım."
 
 #: docs/en/about/team/freakboy3742.md:3
 msgid ""
@@ -788,6 +995,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/halfwhitt.md:1
+#, fuzzy
 msgid ""
 "As a comic artist, machinist, welder, carpenter, and programmer, Charles has "
 "worn many hats (but more commonly sticks to a bandana). If they're not "
@@ -795,18 +1003,30 @@ msgid ""
 "Toga and Travertino, they're probably building yet another shelving or other "
 "storage unit in their house."
 msgstr ""
+"Bir çizgi roman sanatçısı, makinist, kaynakçı, marangoz ve programcı olarak "
+"Charles birçok şapka takmıştır (ama daha çok bandana takar). Eğer onlar "
+"yaşamak için tiyatro setleri inşa etmemek ya da aşağıya doğru yak "
+"kovalamamak Toga ve Travertino aracılığıyla, muhtemelen başka bir raflar "
+"veya evlerindeki başka bir depolama birimi."
 
 #: docs/en/about/team/hawkowl.md:1
+#, fuzzy
 msgid ""
 "Amber Brown pretends to be an owl on the internet. When she's not releasing "
 "or working on Twisted, she works on software for various commercial and non-"
 "profit companies. She's so good at talking endlessly about Twisted that "
 "Russell even once invited her to keynote on it."
 msgstr ""
+"Amber Brown internette bir baykuş gibi davranıyor. O olmadığı zaman "
+"Twisted'i yayınlamak veya üzerinde çalışmak, çeşitli yazılımlar üzerinde "
+"çalışıyor ticari ve kar amacı gütmeyen şirketler. Durmadan konuşmakta o "
+"kadar iyi ki Hatta Russell bir keresinde onu Twisted hakkında açılış "
+"konuşması yapmaya davet etti."
 
 #: docs/en/about/team/hawkowl.md:3
+#, fuzzy
 msgid "Also, she likes people tweeting pictures of owls at her."
-msgstr ""
+msgstr "Ayrıca, insanların ona baykuş resimleri tweetlemesinden hoşlanıyor."
 
 #: docs/en/about/team/kattni.md:1
 msgid ""
@@ -820,11 +1040,15 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/mhsmith.md:1
+#, fuzzy
 msgid ""
 "Malcolm is the creator of Chaquopy, which aims to make it as easy as "
 "possible to use Python in Android apps. With BeeWare, he's now looking "
 "forward to expanding that mission to all desktop and mobile platforms."
 msgstr ""
+"Malcolm, Chaquopy'nin yaratıcısıdır. Android uygulamalarında Python "
+"kullanmak mümkün. BeeWare ile şimdi Bu misyonu tüm masaüstü ve mobil "
+"platformlara genişletmek için sabırsızlanıyoruz."
 
 #: docs/en/about/team/mhsmith.md:3
 msgid ""
@@ -833,16 +1057,21 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/obulat.md:1
+#, fuzzy
 msgid ""
 "Olga is a python and BeeWare enthusiast, also interested in NLP, geography "
 "and languages."
 msgstr ""
+"Olga, NLP ile de ilgilenen bir python ve BeeWare meraklısıdır, coğrafya ve "
+"diller."
 
 #: docs/en/about/team/obulat.md:3
+#, fuzzy
 msgid "She also enjoys hanging out with kids."
-msgstr ""
+msgstr "Çocuklarla takılmaktan da hoşlanıyor."
 
 #: docs/en/about/team/phildini.md:1
+#, fuzzy
 msgid ""
 "Philip writes code for computers and for humans. His first computing love is "
 "Python, but is too often forced to write JavaScript and Swift. When he's not "
@@ -850,6 +1079,12 @@ msgid ""
 "gives talks at conferences. Philip lives in Alameda, California with his "
 "wife and her cat. Philip believes in the web."
 msgstr ""
+"Philip bilgisayarlar ve insanlar için kod yazıyor. Onun ilk bilgisayar "
+"Python'u seviyor, ancak sık sık JavaScript ve Swift yazmak zorunda kalıyor. "
+"Para için, Açık Kaynak için ya da kendi için kod yazmadığı zamanlarda çılgın "
+"projelere imza atıyor, konferanslarda konuşmalar yapıyor. Philip Alameda'da "
+"yaşıyor, Karısı ve kedisiyle birlikte Kaliforniya'da yaşıyor. Philip "
+"internete inanıyor."
 
 #: docs/en/about/team/rmartin16.md:1
 msgid ""
@@ -860,22 +1095,34 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/samschott.md:1
+#, fuzzy
 msgid ""
 "Sam is a physicist and a software engineer. He got introduced to Python "
 "while automating data acquisition in the lab and soon realised that he "
 "enjoyed writing and sharing code. When away from a computer, you will find "
 "him hiking or sailing along the English coast."
 msgstr ""
+"Sam bir fizikçi ve yazılım mühendisi. Python ile tanıştı Laboratuarda veri "
+"toplama işlemini otomatikleştirirken kısa süre sonra kod yazmaktan ve "
+"paylaşmaktan keyif aldım. Bilgisayardan uzaktayken İngiltere kıyılarında "
+"yürüyüş yaparken ya da yelken açarken bulabilirsiniz."
 
 #: docs/en/about/team/saroad2.md:1
+#, fuzzy
 msgid ""
 "Sagi Shadur is a software engineer and a mathematician. He has a B.Sc. in "
 "mathematics and these days he's on his way for a second B.Sc. in physics. "
 "He's also a poet who published two books in Hebrew, \"Mountains and "
 "Valleys\" and \"The Emissary\"."
 msgstr ""
+"Sagi Shadur bir yazılım mühendisi ve matematikçidir. Matematik alanında "
+"lisans derecesine sahip. matematik alanında lisans derecesine sahip ve "
+"bugünlerde ikinci bir lisans derecesi için yolda. Fizik. Aynı zamanda "
+"İbranice iki kitap yayınlamış bir şairdir: \"Dağlar and Valleys\" ve \"The "
+"Emissary\"."
 
 #: docs/en/about/team/swenson.md:1
+#, fuzzy
 msgid ""
 "Dr. Christopher Swenson is a software engineer, computer scientist, and "
 "occasional mathematician. Swenson has been working with Python since about "
@@ -885,6 +1132,14 @@ msgid ""
 "and small, such as Simple, Google, and the US Government, and wrote a book "
 "on cryptography. Swenson is an organizer of PyDX. Swenson is a cupcake."
 msgstr ""
+"Dr. Christopher Swenson bir yazılım mühendisi, bilgisayar bilimcisi ve ara "
+"sıra matematikçi. Swenson o zamandan beri Python ile çalışıyor 2004 yılı "
+"civarında ve açık kaynağın ne olduğunu bilmeden önce açık kaynakla kaynak "
+"gerçekten de öyleydi. Swenson sıralamayı çok seviyor ve açık bir kaynak "
+"yüksek performanslı C sıralama kütüphanesi. Swenson emeklerini sattı Simple, "
+"Google ve ABD'li şirketler gibi büyük ve küçük şirketlere Hükümeti'nde "
+"çalışmış ve kriptografi üzerine bir kitap yazmıştır. Swenson, Türkiye'de "
+"PyDX. Swenson bir kek."
 
 #: docs/en/community/code-of-conduct.md:2
 #: docs/en/community/code-of-conduct.md:6
@@ -909,23 +1164,32 @@ msgid ""
 msgstr ""
 
 #: docs/en/community/governance.md:5
+#, fuzzy
 msgid ""
 "These include, but aren't limited to, responding to issues, reviewing and "
 "merging code, mentoring new contributors, and architecture of the BeeWare "
 "project as a whole."
 msgstr ""
+"Bunlar arasında, bunlarla sınırlı olmamak üzere, sorunlara yanıt verme, "
+"gözden geçirme ve kod birleştirme, yeni katkıda bulunanlara mentorluk yapma "
+"ve BeeWare projesi bir bütün olarak."
 
 #: docs/en/community/governance.md:7
+#, fuzzy
 msgid ""
 "There are people we trust to make code decisions; there are people we trust "
 "to make code and organizational decisions; and there is a person who guides "
 "the vision of the whole organization, and is entrusted to make a final "
 "decision if the community cannot arrive at a consensus."
 msgstr ""
+"Kod kararlarını vermeleri için güvendiğimiz insanlar vardır. kod ve kurumsal "
+"kararlar almak için güven; ve bir kişi var Tüm organizasyonun vizyonuna "
+"rehberlik eden ve topluluk bir uzlaşmaya varamazsa nihai kararı verecektir."
 
 #: docs/en/community/governance.md:9
+#, fuzzy
 msgid "These levels can be described as follows:"
-msgstr ""
+msgstr "Bu seviyeler aşağıdaki gibi tanımlanabilir:"
 
 #: docs/en/community/governance.md:11
 msgid "Bee, or Worker Bee:"
@@ -999,10 +1263,13 @@ msgid "Guidelines (not actual rules)"
 msgstr ""
 
 #: docs/en/community/governance.md:30
+#, fuzzy
 msgid ""
 "As with any project with more than one person with commit rights, there are "
 "a number of general guidelines that the team should follow:"
 msgstr ""
+"Birden fazla kişinin taahhüt hakkına sahip olduğu her projede olduğu gibi "
+"ekibin izlemesi gereken bir dizi genel kural vardır:"
 
 #: docs/en/community/governance.md:32
 msgid "**Be a good representation of the project to the wider community**"
@@ -1087,6 +1354,7 @@ msgid "Becoming an Apiarist"
 msgstr ""
 
 #: docs/en/community/governance.md:52
+#, fuzzy
 msgid ""
 "Introduction of a new Apiarist into the team is at the sole discretion of "
 "the existing Core Team. While there are not currently any solid rules to "
@@ -1098,6 +1366,15 @@ msgid ""
 "in the project in general may ask to be given permission to commit to the "
 "project."
 msgstr ""
+"Ekibe yeni bir Arı Yetiştiricisinin katılması tamamen kendi takdirine "
+"bağlıdır mevcut Çekirdek Ekibin bir parçasıdır. Şu anda herhangi bir katı "
+"kural bulunmamakla birlikte Buna ek olarak, genel olarak, birileri bir arı "
+"kovanı için arıcı olmaya davet edilecektir. BeeWare projesine sağlam "
+"katkılarda bulunmuşlarsa proje. Bu, belirli bir etki alanına sahip birine de "
+"genişletilebilir eksik olabilecek bilgi birikimi (örneğin, iOS/macOS) mevcut "
+"ekip. Ayrıca taahhütlere dayalı olması da gerekmez. Kimse genel olarak proje "
+"ile ilgili bir menfaat sahibi olduğunu gösterebiliyorsa Projeye bağlanmak "
+"için izin verilmesini isteyin."
 
 #: docs/en/community/governance.md:54
 msgid ""
@@ -1109,17 +1386,21 @@ msgid ""
 msgstr ""
 
 #: docs/en/community/governance.md:56
+#, fuzzy
 msgid ""
 "Any Apiarist, new or old, isn't expected to be the sole maintainer of any "
 "one thing. There are many apiarists, and many more beside who can offer "
 "help, advice and mentorship."
 msgstr ""
+"Yeni ya da eski herhangi bir Arı Yetiştiricisi'nin herhangi bir şey. Pek çok "
+"arı yetiştiricisi var ve daha pek çoğu da yardım, tavsiye ve mentorluk sunar."
 
 #: docs/en/community/governance.md:58
 msgid "\"Commit bit\"?"
 msgstr ""
 
 #: docs/en/community/governance.md:60
+#, fuzzy
 msgid ""
 "In Unix systems, a single bit in a file is used to denote permission to "
 "execute a file. In source control systems, a similar bit exists to denote "
@@ -1127,10 +1408,17 @@ msgid ""
 "have write-access to a code base. In GitHub terms, this means they have the "
 "ability to merge Pull Requests and commit code directly to the project."
 msgstr ""
+"Unix sistemlerinde, bir dosyadaki tek bir bit aşağıdakilere izin verildiğini "
+"belirtmek için kullanılır bir dosyayı çalıştırmak. Kaynak kontrol "
+"sistemlerinde, benzer bir bit kodu birleştirme yeteneğini ifade eder. "
+"Birinin \"commit bit \"e sahip olduğunu söylemek için bir kod tabanına yazma "
+"erişimine sahip oldukları anlamına gelir. GitHub terimleriyle bu şu anlama "
+"gelir Pull Requests'i birleştirme ve kodu doğrudan Proje."
 
 #: docs/en/community/index.md:1
+#, fuzzy
 msgid "Community"
-msgstr ""
+msgstr "Topluluk"
 
 #: docs/en/community/index.md:3
 msgid "[BeeWare Community Code of Conduct]{1} { #beeware-code-of-conduct }"
@@ -1188,11 +1476,15 @@ msgid "What is the core team, and [what do they do]{1}?"
 msgstr ""
 
 #: docs/en/contributing/challenge-coins.md:1
+#, fuzzy
 msgid ""
 "Challenge Coins are a military tradition, which is said to originate at the "
 "start of last century. They were distributed based on merit in events or for "
 "other reasons, and hold deep personal value."
 msgstr ""
+"Challenge Coins, askeri bir gelenektir ve kökeninin geçen yüzyılın "
+"başlarında. Liyakate dayalı olarak dağıtıldılar olaylar ya da başka "
+"nedenlerle ve derin bir kişisel değere sahiptir."
 
 #: docs/en/contributing/challenge-coins.md:3
 msgid ""
@@ -1223,26 +1515,36 @@ msgid "///"
 msgstr ""
 
 #: docs/en/contributing/challenge-coins.md:13
+#, fuzzy
 msgid ""
 "The BeeWare Challenge Coins are die cast, 4.5cm (1 3/4\") in diameter, and "
 "are made of a nickel/zinc alloy with enamel highlights."
 msgstr ""
+"BeeWare Challenge Coin'ler kalıp döküm olup 4,5 cm (1 3/4\") çapındadır, ve "
+"emaye vurgulu nikel/çinko alaşımından yapılmıştır."
 
 #: docs/en/contributing/challenge-coins.md:15
+#, fuzzy
 msgid "Any contribution to the BeeWare project earns you a coin."
-msgstr ""
+msgstr "BeeWare projesine yaptığınız her katkı size bir jeton kazandırır."
 
 #: docs/en/contributing/challenge-coins.md:17
+#, fuzzy
 msgid ""
 "It doesn't have to be a code contribution: a documentation update counts. A "
 "blog post. Helping someone during a sprint with their contribution."
 msgstr ""
+"Bunun bir kod katkısı olması gerekmez: bir dokümantasyon güncellemesi "
+"sayılır. Bir blog yazısı. Bir sprint sırasında birine yardım etmek Katkı."
 
 #: docs/en/contributing/challenge-coins.md:19
+#, fuzzy
 msgid ""
 "And as an additional incentive, for those people who help others get their "
 "challenge coins, we have a second coin: the Yak Herder"
 msgstr ""
+"Ve ek bir teşvik olarak, başkalarına yardım eden kişiler için meydan okuma "
+"sikkelerinin ardından ikinci bir sikkemiz daha var: Yak Çobanı"
 
 #: docs/en/contributing/challenge-coins.md:21
 msgid "![BeeWare Yak Herder Challenge Coin]{1}{ width=300px }"
@@ -1280,8 +1582,9 @@ msgid "One happy BeeWare coin recipient. Photo by @atomimages"
 msgstr ""
 
 #: docs/en/contributing/first-time-contributors.md:1
+#, fuzzy
 msgid "First-time contributors"
-msgstr ""
+msgstr "İlk kez katkıda bulunanlar"
 
 #: docs/en/contributing/first-time-contributors.md:3
 msgid "{% extends \"contribute/first-time-contributors.md\" %}"
@@ -1594,8 +1897,9 @@ msgid "{% extends \"contribute/what/write-docs.md\" %}"
 msgstr ""
 
 #: docs/en/contributing/index.md:1
+#, fuzzy
 msgid "Contributing"
-msgstr ""
+msgstr "Katkıda Bulunmak"
 
 #: docs/en/contributing/index.md:3
 msgid ""
@@ -1620,12 +1924,17 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/index.md:9
+#, fuzzy
 msgid ""
 "It's not just about code. A successful software project requires "
 "documentation, design skills, feedback and bug reports. The BeeWare "
 "community acknowledges that all contributions are important - not just the "
 "ones that come as a pull request on GitHub."
 msgstr ""
+"Bu sadece kodla ilgili değil. Başarılı bir yazılım projesi şunları "
+"gerektirir dokümantasyon, tasarım becerileri, geri bildirim ve hata "
+"raporları. BeeWare toplum tüm katkıların önemli olduğunu kabul eder - sadece "
+"GitHub'da çekme isteği olarak gelenler."
 
 #: docs/en/contributing/index.md:11
 msgid ""
@@ -1673,25 +1982,31 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:1
+#, fuzzy
 msgid "Sprint Guide"
-msgstr ""
+msgstr "Sprint Kılavuzu"
 
 #: docs/en/contributing/sprint-guide.md:3
 msgid "Welcome to the BeeWare Sprints!"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:5
+#, fuzzy
 msgid ""
 "Welcome! We're so excited you've decided to join us! If you haven't already "
 "introduced yourself to one of the Bee Team, please do so. Once you've done "
 "that, head back here to get started."
 msgstr ""
+"Hoş geldiniz! Bize katılmaya karar verdiğiniz için çok heyecanlıyız! Eğer "
+"daha önce Kendinizi Arı Ekibi'nden biriyle tanıştırdıysanız, lütfen bunu "
+"yapın. Bir kez Bunu yaptıysanız, başlamak için buraya geri dönün."
 
 #: docs/en/contributing/sprint-guide.md:7
 msgid "What is a sprint?"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:9
+#, fuzzy
 msgid ""
 "A sprint is an unstructured opportunity to spend a few hours or days working "
 "collaboratively on an Open Source project. They're often tied to a "
@@ -1699,13 +2014,22 @@ msgid ""
 "energy, enthusiasm and interest that a conference has generated into "
 "improvements in the software we use on a daily basis."
 msgstr ""
+"Sprint, birkaç saat veya gün geçirmek için yapılandırılmamış bir fırsattır "
+"bir Açık Kaynak projesi üzerinde işbirliği içinde çalışmak. Bunlar "
+"genellikle bir konferans; bir konferanstan sonra yapılan bir sprint Bir "
+"konferansın yarattığı enerjiyi, coşkuyu ve ilgiyi dönüştürmek günlük olarak "
+"kullandığımız yazılımlarda iyileştirmeler yapmak."
 
 #: docs/en/contributing/sprint-guide.md:11
+#, fuzzy
 msgid ""
 "Sprints are also an opportunity to introduce people to the process of "
 "contributing to the project. Our hope is that you'll have so much fun "
 "contributing during the sprint that you'll go home and keep contributing!"
 msgstr ""
+"Sprintler aynı zamanda insanları aşağıdaki süreçlerle tanıştırmak için bir "
+"fırsattır projeye katkıda bulunmak. Umuyoruz ki çok eğleneceksiniz sprint "
+"sırasında eve gideceğinize ve katkıda bulunmak!"
 
 #: docs/en/contributing/sprint-guide.md:13
 msgid ""
@@ -1717,6 +2041,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:15
+#, fuzzy
 msgid ""
 "Code isn't the only way you can contribute, either. A project like BeeWare "
 "is much more than just the code - we need people to write, proof-read and "
@@ -1724,12 +2049,19 @@ msgid ""
 "even the process of going through bugs that were reported years ago and "
 "determining that they've been fixed along the way is a valuable contribution."
 msgstr ""
+"Katkıda bulunmanın tek yolu kod yazmak da değildir. Gibi bir proje BeeWare "
+"koddan çok daha fazlasıdır - yazacak insanlara ihtiyacımız var, belgeleri "
+"düzeltmek ve çevirmek; belgeleri geliştirmek için insanlara ihtiyacımız var. "
+"web sayfalarının tasarımı; hatta hataların üzerinden geçme süreci Yıllar "
+"önce rapor edilmiş ve yol boyunca düzeltildikleri tespit edilmiş değerli bir "
+"katkıdır."
 
 #: docs/en/contributing/sprint-guide.md:17
 msgid "The Initial Questions"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:19
+#, fuzzy
 msgid ""
 "To get you started, we're going to ask a few questions so we can gauge your "
 "interests and experience. This will help us find the best way for you to "
@@ -1738,6 +2070,13 @@ msgid ""
 "being asked - don't worry about that! Let us know what you do know, and "
 "we'll work together to figure it out from there."
 msgstr ""
+"Başlamak için birkaç soru soracağız, böylece aşağıdakileri ölçebiliriz ilgi "
+"alanlarınız ve deneyimleriniz. Bu, aşağıdakiler için en iyi yolu bulmamıza "
+"yardımcı olacaktır katkıda bulunabilirsiniz. Sorular üzerinde çalışın, "
+"notlar alın ve ardından Arı Ekibinin bir üyesi ile görüşün ve cevaplarınızı "
+"paylaşın. Eğer anlamadıysanız sorulan soru - bu konuda endişelenmeyin! Ne "
+"sorduğunuzu bize bildirin Biliyorum ve bundan sonrasını birlikte çözmeye "
+"çalışacağız."
 
 #: docs/en/contributing/sprint-guide.md:21
 msgid "**Have you used BeeWare before?**"
@@ -1834,11 +2173,15 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:51
+#, fuzzy
 msgid ""
 "Now, find a member of the Bee Team to share your answers. They might ask "
 "some follow up questions; but then they'll point you in the direction of a "
 "area where you should be able to make a contribution."
 msgstr ""
+"Şimdi, cevaplarınızı paylaşmak için Arı Ekibinin bir üyesini bulun. Şunları "
+"sorabilirler bazı takip soruları; ancak daha sonra sizi sizin de katkıda "
+"bulunabileceğiniz bir alan."
 
 #: docs/en/contributing/sprint-guide.md:53
 msgid "Find Your Issue"
@@ -1854,6 +2197,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:57
+#, fuzzy
 msgid ""
 "GitHub provides a list of issues that allows BeeWare (and other projects) to "
 "keep track of all the problems that have been reported - that includes "
@@ -1866,6 +2210,17 @@ msgid ""
 "underlying cause. These issues are tagged \"good first issue\" to make them "
 "easier to find."
 msgstr ""
+"GitHub, BeeWare'in (ve diğer üreticilerin) sorunlarının bir listesini "
+"sağlar. projeler) bildirilen tüm sorunların kaydını tutmak için - açık "
+"hataları, hata olabilecek *beklenmedik davranışları içerir, yeni özellikler "
+"için talepler, daha fazla dokümantasyon için talepler - her şey BeeWare'in "
+"geliştirilebileceği bir yol olabilir. Yeni sorunlar ortaya çıktıkça rapor "
+"edildiğinde, Arı Ekibi bunlardan bazılarını iyi durumda olan sorunlar olarak "
+"işaretleyecektir. ilk kez katkıda bulunanlar için uygun - bir uzmanlık "
+"gerektirmeyen konular *ancak iyi tanımlanmış veya yeniden üretilmesi kolay "
+"ve muhtemelen altta yatan neden hakkında iyi bir ipucuna sahiptir. Bu "
+"sorunlar \"iyi\" olarak etiketlenir ilk sayı\" olarak tanımlayarak daha "
+"kolay bulunmalarını sağlamıştır."
 
 #: docs/en/contributing/sprint-guide.md:59
 msgid ""
@@ -1897,6 +2252,7 @@ msgid "Filtering GitHub issues by the \"good first issue\" label."
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:73
+#, fuzzy
 msgid ""
 "Once you've found an issue that looks interesting, read through any comments "
 "on the post, and post a comment in the discussion saying that you're looking "
@@ -1906,23 +2262,37 @@ msgid ""
 "end up with two people working on the same issue - leaving a comment is a "
 "light-weight way to coordinate between contributors."
 msgstr ""
+"İlginç görünen bir sayı bulduğunuzda, herhangi bir gönderiye yorum yapın ve "
+"tartışmaya şu şekilde bir yorum gönderin sorunu araştırıyorsunuz (örneğin, "
+"\"PyCon ABD'de bunu araştırıyorum 2025 sprint\"). BeeWare sorunları açıkça "
+"\"atamaz\" - biz kabul ederiz Herkesin katkısı olabilir. Ancak, bir sprint "
+"durumunda, şunları yapmamız gerekir aynı iş üzerinde çalışan iki kişi "
+"olmadığından emin olmak için sorunu - yorum bırakmak, iki taraf arasında "
+"koordinasyon sağlamanın hafif bir yoludur. katkıda bulunanlar."
 
 #: docs/en/contributing/sprint-guide.md:75
+#, fuzzy
 msgid ""
 "If you still can't find anything you'd like to do, find a Bee Team member "
 "and they'll help you narrow down to a specific issue."
 msgstr ""
+"Hala yapmak istediğiniz bir şey bulamıyorsanız, bir Arı Ekibi bulun üye olun "
+"ve belirli bir sorunu daraltmanıza yardımcı olsunlar."
 
 #: docs/en/contributing/sprint-guide.md:77
 msgid "Set up a development environment"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:79
+#, fuzzy
 msgid ""
 "Once you've found an issue, you'll need to set up your development "
 "environment so you can work on a fix. Each BeeWare project has its own "
 "contribution guide:"
 msgstr ""
+"Bir sorun bulduğunuzda, geliştirme sürecinizi ayarlamanız gerekir ortamını "
+"kullanarak bir düzeltme üzerinde çalışabilirsiniz. Her BeeWare projesinin "
+"kendi katkı rehberi:"
 
 #: docs/en/contributing/sprint-guide.md:81
 msgid "[Briefcase]{1}"
@@ -1937,6 +2307,7 @@ msgid "[Rubicon ObjC]{1}"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:85
+#, fuzzy
 msgid ""
 "If the project isn't on this list, check the project README for details on "
 "how to get set up. If any of the instructions don't make sense (or you can't "
@@ -1945,29 +2316,45 @@ msgid ""
 "won't hit the same problem, improving the contribution guide is a valuable "
 "contribution!"
 msgstr ""
+"Proje bu listede yer almıyorsa, ayrıntılar için proje README'sini kontrol "
+"edin nasıl kurulacağı hakkında. Talimatlardan herhangi biri mantıklı "
+"gelmiyorsa (veya bu talimatları bulamazsanız), Arı Ekibinin bir üyesini "
+"bulun ve sizi çözeceklerdir. Ve - eğer iyileştirebileceğinizi düşünüyorsanız "
+"Böylece diğer insanlar da aynı sorunla karşılaşmayacak ve katki rehberi̇ "
+"değerli̇ bi̇r katki!"
 
 #: docs/en/contributing/sprint-guide.md:87
+#, fuzzy
 msgid "Now you can start working on your issue!"
-msgstr ""
+msgstr "Artık sorununuz üzerinde çalışmaya başlayabilirsiniz!"
 
 #: docs/en/contributing/sprint-guide.md:89
 msgid "What happens after I submit my PR?"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:91
+#, fuzzy
 msgid ""
 "Once you've submitted your pull request, and the pull request is passing all "
 "the automated checks, you're ready for a review. Let one of the core team "
 "know that you've got a PR ready for review, and they'll take a look."
 msgstr ""
+"Çekme isteğinizi gönderdikten ve çekme isteği geçtikten sonra tüm otomatik "
+"kontrolleri yaptıktan sonra inceleme için hazırsınız. Çekirdekten birinin "
+"ekibi, incelemeye hazır bir halkla ilişkileriniz olduğunu bilir ve Bak."
 
 #: docs/en/contributing/sprint-guide.md:93
+#, fuzzy
 msgid ""
 "If this is your first PR, it's quite likely the review will find some "
 "problems. That might be an edge case you didn't consider, or a code "
 "convention that you haven't followed. Don't be discouraged! Nobody - not "
 "even the core team - gets PRs 100% correct on the first try."
 msgstr ""
+"Eğer bu sizin ilk PR'ınızsa, incelemenin bazı bulgulara ulaşması oldukça "
+"muhtemeldir. sorunlar. Bu, göz önünde bulundurmadığınız bir uç durum veya "
+"bir kod olabilir. takip etmediğiniz bir kongre. Cesaretiniz kırılmasın! Hiç "
+"kimse - değil çekirdek ekip bile - PR'ları ilk denemede %100 doğru yapar."
 
 #: docs/en/contributing/sprint-guide.md:95
 msgid ""
@@ -1982,6 +2369,7 @@ msgid "Help! I'm stuck!"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:99
+#, fuzzy
 msgid ""
 "If you get stuck at any point along the way, find a member of the Bee Team. "
 "Don't be afraid to ask *any* question. If you're stuck, we want to get you "
@@ -1989,6 +2377,11 @@ msgid ""
 "haven't explained it well enough. We're eager to help - and we want to make "
 "sure you have a successful sprint."
 msgstr ""
+"Yol boyunca herhangi bir noktada takılırsanız, bir Arı üyesi bulun Takım. "
+"Herhangi bir* soru sormaktan çekinmeyin. Eğer takılırsanız, size yardımcı "
+"olmak isteriz. sizi çözer. Kafanız karıştıysa, bunun nedeni konunun karmaşık "
+"ve biz bunu yeterince iyi açıklayamadık. Bu konuda istekliyiz. Yardım - ve "
+"başarılı bir sprint geçirdiğinizden emin olmak istiyoruz."
 
 #: docs/en/contributing/sprint-guide.md:101
 msgid "What if I don't complete my contribution during the sprint?"
@@ -2015,11 +2408,16 @@ msgid "Improving this guide"
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:109
+#, fuzzy
 msgid ""
 "If you've got any suggestions on how to improve this sprint guide, let us "
 "know. What worked for you? What didn't? What can we do better? And remember: "
 "fixing a problem with this Sprint Guide counts as a contribution to BeeWare!"
 msgstr ""
+"Bu sprint rehberini nasıl geliştirebileceğimize dair önerileriniz varsa, "
+"bize bildirin. Sizin için ne işe yaradı? Ne işe yaramadı? Neyi daha iyi "
+"yapabiliriz? Ve unutmayın: bir hatayı düzeltmek Bu Sprint Kılavuzu ile "
+"ilgili sorun, BeeWare'e bir katkı olarak sayılır!"
 
 #: docs/en/docs/index.md:1
 msgid "Documentation { .documentation }"
@@ -2051,8 +2449,9 @@ msgstr ""
 
 #: docs/en/docs/index.md:27
 #: docs/en/index.md:131
+#, fuzzy
 msgid "A Python native, OS native GUI toolkit."
-msgstr ""
+msgstr "Python yerel, işletim sistemi yerel GUI araç seti."
 
 #: docs/en/docs/index.md:33
 msgid "[![Briefcase]{1}]{2}{ .featured-logo }"
@@ -2064,8 +2463,9 @@ msgstr ""
 
 #: docs/en/docs/index.md:37
 #: docs/en/index.md:141
+#, fuzzy
 msgid "Convert a Python project into a standalone native application."
-msgstr ""
+msgstr "Bir Python projesini bağımsız bir yerel uygulamaya dönüştürün."
 
 #: docs/en/docs/index.md:42
 msgid "Other tools { .other-tools }"
@@ -2098,8 +2498,9 @@ msgid "A markup-based slide presentation tool."
 msgstr ""
 
 #: docs/en/docs/index.md:67
+#, fuzzy
 msgid "Utilities"
-msgstr ""
+msgstr "Yardımcı Programlar"
 
 #: docs/en/docs/index.md:69
 msgid "Pieces used by other BeeWare tools that can be useful on their own."
@@ -2114,9 +2515,12 @@ msgid "[Rubicon Objective-C]{1} { .rubicon-name }"
 msgstr ""
 
 #: docs/en/docs/index.md:81
+#, fuzzy
 msgid ""
 "A library for bridging between Python and the Objective-C language runtimes."
 msgstr ""
+"Python ve Objective-C dili arasında köprü kurmak için bir kütüphane çalışma "
+"zamanları."
 
 #: docs/en/docs/index.md:89
 msgid "[![Brutus the Bee]{1}]{2}{ .other-tools-logo }"
@@ -2128,10 +2532,13 @@ msgstr ""
 
 #: docs/en/docs/index.md:97
 #: docs/en/docs/index.md:113
+#, fuzzy
 msgid ""
 "A meta-package for building a version of Python that can be embedded into a "
 "macOS, iOS, tvOS or watchOS project."
 msgstr ""
+"Python'un gömülebilen bir sürümünü oluşturmak için bir meta-paket bir macOS, "
+"iOS, tvOS veya watchOS projesine dönüştürün."
 
 #: docs/en/docs/index.md:105
 msgid "[![Chaquopy]{1}]{2}{ .other-tools-logo }"
@@ -2245,11 +2652,16 @@ msgid "One codebase. Multiple apps."
 msgstr ""
 
 #: docs/en/index.md:37
+#, fuzzy
 msgid ""
 "BeeWare allows you to write your app in Python and release it on multiple "
 "platforms. No need to rewrite the app in multiple programming languages. It "
 "means **no issues** with build tools, environments, compatibility, etc."
 msgstr ""
+"BeeWare, uygulamanızı Python'da yazmanıza ve birden fazla platformda "
+"yayınlamanıza olanak tanır. Uygulamayı birden fazla programlama dilinde "
+"yeniden yazmanıza gerek yok. Bu, derleme araçları, ortamlar, uyumluluk vb. "
+"ile ilgili **sorun yok** anlamına gelir."
 
 #: docs/en/index.md:39
 msgid "Python native tools..."
@@ -2260,6 +2672,7 @@ msgid "![Python logo]{1}{ .index-main-python-logo }"
 msgstr ""
 
 #: docs/en/index.md:43
+#, fuzzy
 msgid ""
 "Python has proven itself as a highly capable language - approachable for "
 "newcomers, but powerful in the hands of experts. Why shouldn't you be able "
@@ -2267,6 +2680,12 @@ msgid ""
 "something? And shouldn't your tools **exploit all the capabilities of "
 "Python** as a language, not just the bits that map nicely to a C binding?"
 msgstr ""
+"Python, yeni başlayanlar için ulaşılabilir, ancak uzmanların elinde güçlü "
+"olan son derece yetenekli bir dil olarak kendini kanıtlamıştır. Neden bir "
+"bilgisayara bir şey yapmasını söylemeniz gereken her yerde **Python'u "
+"kullanamayasınız? Ve araçlarınız sadece bir C bağlayıcısına güzel bir "
+"şekilde eşleşen parçaları değil, bir dil olarak Python'un** tüm "
+"yeteneklerini kullanmamalı mı?"
 
 #: docs/en/index.md:45
 msgid "...on mobile & desktop..."
@@ -2277,12 +2696,17 @@ msgid "![Cross-platform]{1}{ .index-main-cross-platform-logo }"
 msgstr ""
 
 #: docs/en/index.md:49
+#, fuzzy
 msgid ""
 "Modern computing doesn't happen in an 80x25 console window. It happens on "
 "**phones, tablets, and desktop machines** with rich user interfaces. "
 "Shouldn't you be able to use Python in all those locations, and **exploit "
 "the unique capabilities of those platforms**?"
 msgstr ""
+"Modern bilişim 80x25 konsol penceresinde gerçekleşmiyor. Zengin kullanıcı "
+"arayüzlerine sahip **telefonlarda, tabletlerde ve masaüstü makinelerde** "
+"gerçekleşir. Python'u tüm bu konumlarda kullanabilmeniz ve **bu "
+"platformların benzersiz yeteneklerinden yararlanabilmeniz gerekmez mi?"
 
 #: docs/en/index.md:51
 msgid "...behaving natively. { .behaving-index }"
@@ -2293,6 +2717,7 @@ msgid "![Native]{1}{ .index-main-native-logo }"
 msgstr ""
 
 #: docs/en/index.md:55
+#, fuzzy
 msgid ""
 "End users shouldn't have to care what language their tools are written in. "
 "And that starts with looking and behaving **like completely native tools**. "
@@ -2300,6 +2725,10 @@ msgid ""
 "delivered. Why shouldn't your Python tools fit in just as well as a native "
 "tool?"
 msgstr ""
+"Son kullanıcılar araçlarının hangi dilde yazıldığını önemsememelidir. Bu da "
+"**tamamen yerel araçlar** gibi görünmek ve davranmakla başlar. Yerel "
+"görünüm, yerel davranış, yerel bir uygulamanın sunulduğu şekilde sunulur. "
+"Python araçlarınız neden yerel bir araç kadar iyi uyum sağlamasın?"
 
 #: docs/en/index.md:57
 msgid "This is BeeWare."
@@ -2310,12 +2739,17 @@ msgid "![Brutus the Bee]{1}{ .index-main-brutus-logo }"
 msgstr ""
 
 #: docs/en/index.md:61
+#, fuzzy
 msgid ""
 "This is what BeeWare provides. Tools to help you write Python code with a "
 "rich, **native user interface**; and the libraries and support code "
 "necessary to get that code running on **iOS, Android, macOS, Linux, Windows, "
 "tvOS, and more**."
 msgstr ""
+"BeeWare işte bunu sağlıyor. Zengin, **yerel bir kullanıcı arayüzü** ile "
+"Python kodu yazmanıza yardımcı olacak araçlar; ve bu kodu **iOS, Android, "
+"macOS, Linux, Windows, tvOS ve daha fazlasında** çalıştırmak için gerekli "
+"kütüphaneler ve destek kodu."
 
 #: docs/en/index.md:63
 msgid "Open source"
@@ -2342,12 +2776,17 @@ msgid "![Hands]{1}{ .index-main-hands-logo }"
 msgstr ""
 
 #: docs/en/index.md:73
+#, fuzzy
 msgid ""
 "But it's not just about code. A successful software project requires "
 "documentation, design skills, feedback and bug reports. The BeeWare "
 "community acknowledges that **all contributions are important** — not just "
 "the ones that come as a pull request on GitHub."
 msgstr ""
+"Ancak bu sadece kodla ilgili değildir. Başarılı bir yazılım projesi "
+"dokümantasyon, tasarım becerileri, geri bildirim ve hata raporları "
+"gerektirir. BeeWare topluluğu **tüm katkıların önemli olduğunu** kabul "
+"eder - sadece GitHub'da bir çekme isteği olarak gelenler değil."
 
 #: docs/en/index.md:75
 msgid "From diversity comes strength"
@@ -2368,8 +2807,9 @@ msgid ""
 msgstr ""
 
 #: docs/en/index.md:81
+#, fuzzy
 msgid "Contribute!"
-msgstr ""
+msgstr "Katkıda bulunun!"
 
 #: docs/en/index.md:83
 msgid ""
@@ -2397,8 +2837,9 @@ msgid "[Keep in touch!]{1}{ .index-main-keep-in-touch-button }"
 msgstr ""
 
 #: docs/en/index.md:101
+#, fuzzy
 msgid "Members"
-msgstr ""
+msgstr "Üyeler"
 
 #: docs/en/index.md:103
 msgid ""
@@ -2662,3 +3103,7 @@ msgstr ""
 #: docs/en/membership/index.md:80
 msgid "David Cramer"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Commercial support"
+#~ msgstr "Ticari destek"
