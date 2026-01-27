@@ -1,12 +1,12 @@
 ---
-title: We'll be at PyCaribbean 2017!
+title: We'll be at <nospell>PyCaribbean</nospell> 2017!
 date: 2017-02-18
 authors:
 - freakboy3742
 categories:
 - Events
 event:
-  name: PyCaribbean 2017
+  name: <nospell>PyCaribbean</nospell> 2017
   url: http://pycaribbean.com/
   date: 2017-02-18
   end_date: 2017-02-18

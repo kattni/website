@@ -4,6 +4,8 @@ hide:
     - toc
 ---
 
+<!-- rumdl-disable-file MD041 -->
+
 <div class="index-page" markdown="1">
 <div class="index-intro-full" markdown="1">
 
@@ -14,7 +16,7 @@ hide:
 
 # BeeWare { .index-intro-title }
 
-Write once. Deploy everywhere.
+Write once. Deploy everywhere. <!-- rumdl-disable-line MD013 -->
 { .index-intro-subtitle }
 
 <div class="index-intro-summary" markdown="1">
@@ -82,7 +84,7 @@ But it's not just about code. A successful software project requires documentati
 
 ![Diversity](images/diversity.png){ .index-main-diversity-logo }
 
-A diverse community is a strong community. This means accepting people of all levels of experience, from all backgrounds, of all races, creeds, orientations and expressions. The BeeWare project is committed to **developing and maintaining a diverse, welcoming community**. We have an **open offer to mentor anyone** who wants to get involved as a contributor, backed up by a [Code of Conduct](community/code-of-conduct.md)  that is rigorously enforced.
+A diverse community is a strong community. This means accepting people of all levels of experience, from all backgrounds, of all races, creeds, orientations and expressions. The BeeWare project is committed to **developing and maintaining a diverse, welcoming community**. We have an **open offer to mentor anyone** who wants to get involved as a contributor, backed up by a [Code of Conduct](community/code-of-conduct.md) that is rigorously enforced.
 
 ## Contribute!
 

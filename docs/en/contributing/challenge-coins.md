@@ -1,3 +1,5 @@
+# Challenge coins { #challenge-coins }
+
 Challenge Coins are a military tradition, which is said to originate at the start of last century. They were distributed based on merit in events or for other reasons, and hold deep personal value.
 
 To find out more about Challenge Coins, you can listen to the [99% Invisible](http://99percentinvisible.org/episode/coin-check/) podcast about them, or read up about them on [Wikipedia](https://en.wikipedia.org/wiki/Challenge_coin).
@@ -26,7 +28,7 @@ The front and back of the BeeWare Yak Herder Coin.
 
 ///
 
-The first run of 100 BeeWare Challenge Coins were commissioned thanks to financial support from MaxCDN. They also wrote an [article about BeeWare](https://web.archive.org/web/20170923205703/https://www.maxcdn.com/blog/beeware-be-sticky/) on their blog.
+The first run of 100 BeeWare Challenge Coins were commissioned thanks to financial support from <nospell>MaxCDN</nospell>. They also wrote an [article about BeeWare](https://web.archive.org/web/20170923205703/https://www.maxcdn.com/blog/beeware-be-sticky/) on their blog.
 
 [Revolution Systems](https://revsys.com) provided the funding for the second pressing of the BeeWare challenge coins.
 
@@ -36,6 +38,6 @@ The first run of 100 BeeWare Challenge Coins were commissioned thanks to financi
 
 /// caption
 
-One happy BeeWare coin recipient. Photo by @atomimages
+One happy BeeWare coin recipient. Photo by <nospell>@atomimages</nospell>
 
 ///

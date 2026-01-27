@@ -23,7 +23,7 @@ involvement:
   description: |-
     Once you're written your amazing new application using Python, the next
     problem you'll face is how to get that application into the hands of
-    users. If your users are familiar with pip and and venv, you can put pip
+    users. If your users are familiar with `pip` and and `venv`, you can put pip
     install instructions into a README, and leave it at that. But what if
     your audience aren't Python programmers? What if your app needs to be
     used by people who don't write Python at all? How do you distribute your

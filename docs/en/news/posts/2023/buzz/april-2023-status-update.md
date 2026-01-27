@@ -27,13 +27,13 @@ In non-PyCon activity:
 - We added the ability to [code sign Windows release artefacts](https://github.com/beeware/briefcase/pull/890).
 - We added a new distribution format for Windows apps - [simple ZIP archives](https://github.com/beeware/briefcase/pull/1183).
 - We modified Briefcase to [support PEP621 metadata standards](https://github.com/beeware/briefcase/pull/1219). Briefcase predates the definition of PEP621, but there's a lot of overlap in what PEP621 defines and what Briefcase defines, so it makes sense for Briefcase to adhere to the common standard. In future, we expect to see more convergence with PEP621 standards.
-- We landed major updates to [Briefcase's AppImage and Flatpak backends](https://github.com/beeware/briefcase/pull/1132). They now use Indygreg's [Standalone Python](https://github.com/indygreg/python-build-standalone); this significantly speeds up Flatpak builds, should be more stable on AppImage, allows us to switch to [manylinux](http://github.com/pypa/manylinux) base images - and it reduces the number of projects that BeeWare is responsible for maintaining.
+- We landed major updates to [Briefcase's AppImage and Flatpak backends](https://github.com/beeware/briefcase/pull/1132). They now use <nospell>Indygreg's</nospell> [Standalone Python](https://github.com/indygreg/python-build-standalone); this significantly speeds up Flatpak builds, should be more stable on AppImage, allows us to switch to [manylinux](http://github.com/pypa/manylinux) base images - and it reduces the number of projects that BeeWare is responsible for maintaining.
 - We got 2 more widgets to 100% GUI test coverage. One of these is the [base widget](https://github.com/beeware/toga/pull/1834), so we're now able to guarantee basic functionality across all widgets.
-- We migrated Toga's web backend to use the [Shoelace web components framework](https://github.com/beeware/toga/pull/1838). This is a much better match for Toga than Bootstrap was, as it is primarily focussed on rendering *widgets*, rather than HTML layout. We only have a handful of widgets ported over at this point - but the process of implementing widgets is relatively straightforward, so if you have web skills and are looking for a way to contribute, this would be a great place to get involved.
+- We migrated Toga's web backend to use the [Shoelace web components framework](https://github.com/beeware/toga/pull/1838). This is a much better match for Toga than Bootstrap was, as it is primarily focused on rendering *widgets*, rather than HTML layout. We only have a handful of widgets ported over at this point - but the process of implementing widgets is relatively straightforward, so if you have web skills and are looking for a way to contribute, this would be a great place to get involved.
 - We added support for [cursor visibility](https://github.com/beeware/toga/pull/1894), [full screen mode](https://github.com/beeware/toga/pull/1863) and [determining the current window](https://github.com/beeware/toga/pull/1871) on Windows.
-- We added an API for [catching a 'confirm' action on TextInput widgets](https://github.com/beeware/toga/pull/1880).
+- We added an API for [catching a 'confirm' action on `TextInput` widgets](https://github.com/beeware/toga/pull/1880).
 - We added support for [FreeBSD in Toga](https://github.com/beeware/toga/pull/1836).
-- We made a number of significant improvements to the Tox configurations to improve reliability, work around a bugs in the release of pip 23.1, speed up and parallelise test execution, enforce spelling and external linking in documentation, and to make easier to obtain coverage reports.
+- We made a number of significant improvements to the `tox` configurations to improve reliability, work around a bugs in the release of pip 23.1, speed up and parallelize test execution, enforce spelling and external linking in documentation, and to make easier to obtain coverage reports.
 
 ## What's next?
 
@@ -47,10 +47,10 @@ Want to get involved? Here are some open issues that would be a great place to g
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
 4. [Add support for the ANDROID\_HOME environment variable](https://github.com/beeware/briefcase/issues/463)
-5. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+5. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 6. [Detect a failure when trying to install on an Android device that is too old](https://github.com/beeware/briefcase/issues/1157)
 7. [Use the on-device clock to filter Android device logs](https://github.com/beeware/briefcase/issues/1146)
 8. [Add an APK packaging target for Android](https://github.com/beeware/briefcase/issues/1136)
 9. [Provide an option to override app settings from the command line](https://github.com/beeware/briefcase/issues/1115)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

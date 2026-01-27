@@ -15,7 +15,7 @@ Q1 2024 has seen some major progress - but as always, there's still plenty of wo
 
 The first quarter of 2024 has seen significant progress towards getting iOS and Android to Tier 3 supported status in CPython. [PEP 738](https://peps.python.org/pep-0738/) has been formally accepted by the CPython steering committee, and the vast majority of the changes needed to support [iOS](https://github.com/python/cpython/issues/114099) and [Android](https://github.com/python/cpython/issues/116622) have either been merged, or received substantial review from the CPython core team.
 
-We've also made progress on a number of long standing feature requests in Toga. We've added an OptionContainer for Android, so tab-based UIs can be used on all platforms. We've added a MapView widget that works on all desktop and mobile platforms. We've also added the start of hardware APIs, including Camera and Geolocation APIs.
+We've also made progress on a number of long standing feature requests in Toga. We've added an `OptionContainer` for Android, so tab-based UIs can be used on all platforms. We've added a `MapView` widget that works on all desktop and mobile platforms. We've also added the start of hardware APIs, including Camera and Geolocation APIs.
 
 ## Q2 priorities
 
@@ -25,7 +25,7 @@ Our Q2 goals are:
 - **Extend the BeeWare tutorial**. The BeeWare tutorial provides a good introduction to using Briefcase and Toga, but there are a number of common support questions that aren't covered by the tutorial, and some features that we've added since the tutorial last saw significant edits. We're going to revisit the tutorial, adding some extra steps to cover these new features and common issues.
 - **Attend PyCon US 2024** We're presenting a tutorial and a talk; we will have a booth in the community section; we'll be there for the full duration of the sprints; and we're also expecting to attend the language summit. It's going to be a busy 2 weeks - we hope we see you there!
 - **Start working on packaging for mobile platforms**. PEP 730 and PEP 738 cover the core of CPython itself, but Python is much more than just the core interpreter and standard library. There's also the ecosystem of third-party libraries, many of which have binary components. In this quarter, we're going to start looking at the changes that are needed to make it easy for the community to start packaging wheels for iOS and Android.
-- **Modify the App class to support other types of apps**. This includes adding an API for a "Simple App" that doesn't have a menu bar, finalising the API for document-based apps, and providing an API for system tray apps.
+- **Modify the App class to support other types of apps**. This includes adding an API for a "Simple App" that doesn't have a menu bar, finalizing the API for document-based apps, and providing an API for system tray apps.
 
 ## Longer term goals
 

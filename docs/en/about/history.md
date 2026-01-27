@@ -1,4 +1,4 @@
-# History and Philosophy
+# History and Philosophy { #history-and-philosophy }
 
 ## History
 
@@ -14,7 +14,7 @@ And so, we're left with an interesting schism, between the "old way" of Unix dev
 
 ### The Unix Philosophy
 
-However, it doesn't have to be that way. The core tenet of the Unix Philosophy is that "each tool does one thing, well". This is a very powerful philosophy, and it enables the composition of extremely powerful toolchains by putting together a suite of extremely focussed, independent tools.
+However, it doesn't have to be that way. The core tenet of the Unix Philosophy is that "each tool does one thing, well". This is a very powerful philosophy, and it enables the composition of extremely powerful toolchains by putting together a suite of extremely focused, independent tools.
 
 Unfortunately, most UNIX tools have convolved this to also mean "all tools must use a console interface". However, there's nothing in the UNIX philosophy that says that tools have to use a console interface - it's just turned out that way.
 
@@ -30,13 +30,13 @@ Even then, it's easy to think of a project in a vacuum, as the sum of all contri
 
 A diverse community is a strong community. This means accepting people of all levels of experience, from all backgrounds, of all races, creeds, orientations and expressions. The BeeWare project is committed to developing and maintaining a inclusive, diverse and welcoming community.
 
-To back this up, we have an open offer to mentor anyone who wants to get involved as a contributor, and a [Code of Conduct](../community/code-of-conduct.md) that is rigorously enforced. Any reports of violations of that code of conduct - even by senior community members - will be treated with respect and actioned appropriately.
+To back this up, we have an open offer to mentor anyone who wants to get involved as a contributor, and a [Code of Conduct](/community/code-of-conduct.md) that is rigorously enforced. Any reports of violations of that code of conduct - even by senior community members - will be treated with respect and acted upon appropriately.
 
 ### Healthy and sustainable
 
 It's also important to make sure that the community is accessible and sustainable. It's unfortunately become an accepted part of Open Source culture that "true" Open Source projects have to be developed entirely by volunteers. This acts as a barrier to entry for many groups - the only people able to spend their free time volunteering are those that *have* free time.
 
-It also frequently leads to burnout and other mental health issues amongst contributors. The fact that depression, anxiety, and burnout are so common in software development communities shouldn't be considered a badge of honour, or a demonstration of how committed a development team can be. It's a problem that needs to be tackled head on, and addressed in the same way a software bug would be addressed - with immediate workarounds, and long term plans to remove the systemic cause of the problem.
+It also frequently leads to burnout and other mental health issues amongst contributors. The fact that depression, anxiety, and burnout are so common in software development communities shouldn't be considered a badge of honor, or a demonstration of how committed a development team can be. It's a problem that needs to be tackled head on, and addressed in the same way a software bug would be addressed - with immediate workarounds, and long term plans to remove the systemic cause of the problem.
 
 While we place incredible value on the contributions of volunteers, we also know that volunteer efforts alone aren't the way to develop a healthy and sustainable community. For that reason, financial sustainability is a key consideration in the operation of the BeeWare project. As a community, we don't ignore the role that money has to play in providing the resources that allows people to begin and continue to contribute. We will, as a community, provide accepted mechanisms for individuals to monetize their work in meaningful ways, and wherever possible, compensate people for their work - without compromising the ideals of Open Source development.
 

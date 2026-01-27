@@ -7,7 +7,7 @@ categories:
 - Buzz
 ---
 
-One of the benefits of having the support of an organisation like Anaconda is that we are now in a position to make more concrete commitments on project goals, and the likely timeframe when key features will be delivered. To that end, in addition to monthly status updates, we're going to start publishing regular updates on our project roadmap so the community has a better idea what to expect over the coming months.
+One of the benefits of having the support of an organization like Anaconda is that we are now in a position to make more concrete commitments on project goals, and the likely timeframe when key features will be delivered. To that end, in addition to monthly status updates, we're going to start publishing regular updates on our project roadmap so the community has a better idea what to expect over the coming months.
 
 <!-- more -->
 
@@ -23,7 +23,7 @@ During Q3, we're planning to work on:
 
 ### Linux packaging
 
-Breifcase's AppImage packaging backend has had [a cluster of issues reported](https://github.com/beeware/briefcase/issues/718) related to inclusion of third party libraries, and the post-processing that needs to be performed on an AppImage. We've already started work on this during Q2; early in Q3, you should expect to see this work wrapped up. This will include:
+Briefcase's AppImage packaging backend has had [a cluster of issues reported](https://github.com/beeware/briefcase/issues/718) related to inclusion of third party libraries, and the post-processing that needs to be performed on an AppImage. We've already started work on this during Q2; early in Q3, you should expect to see this work wrapped up. This will include:
 
 - Adding support for linuxdeploy plugins for our existing AppImage backend; and
 - Adding a Flatpak backend.
@@ -32,9 +32,9 @@ Breifcase's AppImage packaging backend has had [a cluster of issues reported](ht
 
 Briefcase has an MSI packaging backend for Windows; and while this backend works, it doesn't deliver an end-user experience that is as polished as we'd like. We should be starting initial work on Windows packaging in the coming week, with the complete solution completed in early Q3. This will include:
 
-- Adding a stub binary for Windows apps, so that Briefcase apps present to the task manager with the apps name and icon, rather than "pythonw";
+- Adding a stub binary for Windows apps, so that Briefcase apps present to the task manager with the apps name and icon, rather than "`pythonw`";
 - Improving log capture on Windows, so that it is easier to diagnose when problems occur; and
-- Fixing some issues with the way the <span class="title-ref">site</span> is defined and used. This may also address some issues we've seen with binary modules in some Windows apps.
+- Fixing some issues with the way the `site` is defined and used. This may also address some issues we've seen with binary modules in some Windows apps.
 
 ### Binary modules
 
@@ -60,7 +60,7 @@ Testing is an ongoing process, so it's highly unlikely we'll have "100% test cov
 
 Briefcase is currently uses PyPI and pip as source of Python packages. However, PyPI and pip isn't the only packaging solution in the Python ecosystem - another commonly used packaging source is Conda.
 
-At this point, I must recognise the elephant in the room - Anaconda, the company that produced and maintains Conda, is my employer. However, I must stress that the fact this is on our roadmap is *not* as a result of a directive from my employer. The original [proposal for this idea](https://github.com/beeware/briefcase/issues/596) predates even my earliest hiring discussions with Anaconda. It is being pursued now for three reasons:
+At this point, I must recognize the elephant in the room - Anaconda, the company that produced and maintains Conda, is my employer. However, I must stress that the fact this is on our roadmap is *not* as a result of a directive from my employer. The original [proposal for this idea](https://github.com/beeware/briefcase/issues/596) predates even my earliest hiring discussions with Anaconda. It is being pursued now for three reasons:
 
 1. The key value of Conda is that it simplifies the process of delivering complex binary packages, and ensuring that the binary dependencies for those packages are isolated from any packages that might be present on the user's computer. This core problem statement shares a lot of similarities with the core problem associated with application packaging. Conda also has much more nuanced representation of hardware platforms, alternatives for binary artefacts, and options for custom repositories. There is a possibility that using Conda as a packaging base may simplify some of the problems we've seen with distributing binary dependencies.
 2. There is a significant portion of the Python community that have commercial needs that requires the use of the managed repositories provided by Anaconda, or are simply more familiar with Conda tooling than PyPI/pip.
@@ -85,7 +85,7 @@ We now have resources, so we can dedicate the time needed to upstream patches; a
 
 ### Toga 1.0
 
-The broad goal for "Toga 1.0" could be considered "Tkinter, but with some additional bells to show off". We want to deliver a core widget set of the "essentials", plus some nice features to show off, like WebViews and camera or GPS integration. The exact set of features for Toga 1.0 is still a subject for discussion; I'd expect to see a more concrete feature list and plan emerge in Q4.
+The broad goal for "Toga 1.0" could be considered "<nospell>Tkinter</nospell>, but with some additional bells to show off". We want to deliver a core widget set of the "essentials", plus some nice features to show off, like `WebView`s and camera or GPS integration. The exact set of features for Toga 1.0 is still a subject for discussion; I'd expect to see a more concrete feature list and plan emerge in Q4.
 
 ## Summary
 

@@ -23,7 +23,7 @@ The one area where we weren't able to make an progress was in packaging for mobi
 
 ## Q3 priorities
 
-The highest priority for Q3 is to get ready for the Python 3.13 release in early October. This involves finalising the work on the Android buildbot so that Android is officially Tier 3; preparing Briefcase and the Python builds that BeeWare supports to be ready for the 3.13 release; and doing as much work as we can on the packaging ecosystem so that package maintainers can publish wheels for iOS and Android.
+The highest priority for Q3 is to get ready for the Python 3.13 release in early October. This involves finalizing the work on the Android buildbot so that Android is officially Tier 3; preparing Briefcase and the Python builds that BeeWare supports to be ready for the 3.13 release; and doing as much work as we can on the packaging ecosystem so that package maintainers can publish wheels for iOS and Android.
 
 We'll also be attending [Kiwi PyCon](https://kiwipycon.nz) in August, and attending the Python Core Team summit in September.
 

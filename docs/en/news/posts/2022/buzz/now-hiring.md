@@ -9,7 +9,7 @@ categories:
 
 BeeWare is now hiring!
 
-The position is a full time, Mid- to Senior position. You will be working full time in the Open Source group at Anaconda, on the BeeWare suite of tools. Full details of the position [can be found on Greenhouse](https://boards.greenhouse.io/anaconda/jobs/4211521).
+The position is a full time, Mid- to Senior position. You will be working full time in the Open Source group at Anaconda, on the BeeWare suite of tools. Full details of the position can be found on Greenhouse.
 
 <!-- more -->
 
@@ -17,4 +17,4 @@ The position calls for an unusual combination of skills. The ideal candidate wou
 
 The job location requirements are also unusual. The position is remote; the position requires that your working hours need to be compatible with UTC+8. This means candidates from Australia, South East and South Asia will be a natural fit. European candidates will need to be prepared for early morning starts. US/Canadian candidates will need to be prepared for evening work (*very* late evenings if you're in CST or EST timezones). Anaconda has the capacity to hire in the UK, Germany, India, Australia, US, and Canada. If you're *not* a resident of one of those countries, it *may* be possible to hire you, but it will likely require you to operate as a private contractor rather than a salaried employee.
 
-I'm incredibly excited for what the future holds for BeeWare - if you'd like to come on this journey with me, [please apply](https://boards.greenhouse.io/anaconda/jobs/4211521) (and tell them Russell sent you)!
+I'm incredibly excited for what the future holds for BeeWare - if you'd like to come on this journey with me, please apply (and tell them Russell sent you)!

@@ -1,12 +1,12 @@
 ---
-title: We'll be at PyCon TW 2017!
+title: We'll be at PyCon <nospell>TW</nospell> 2017!
 date: 2017-06-09
 authors:
 - freakboy3742
 categories:
 - Events
 event:
-  name: PyCon TW 2017
+  name: PyCon <nospell>TW</nospell> 2017
   url: https://tw.pycon.org/2017/
   date: 2017-06-09
   end_date: 2017-06-09

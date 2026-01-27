@@ -28,7 +28,7 @@ involvement:
     gold-plated Lamborghinis.
 
     But it isn't always like that. In fact, it *usually* isn't. Venture
-    Capitalists (VC's) make their investments betting that 15 out of 20
+    Capitalists (VCs) make their investments betting that 15 out of 20
     businesses they invest in will outright fail, 4 will maybe get a payoff,
     and 1 will be a massive success. We always hear about the 1 - the
     Facebooks, the Instagrams, the WhatsApps. But we very rarely hear about

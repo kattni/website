@@ -25,7 +25,7 @@ February may be the shortest month, but that doesn't mean we've got any less pro
 - We [added an API for detecting the displays attached to a computer, and specifying the location of windows relative to those displays](https://github.com/beeware/toga/pull/1930).
 - We [added a pluggable API for image formats](https://github.com/beeware/toga/pull/2387). With this API, any third party library that has an internal format for images can implement support so that Toga can convert to and from images in that format.
 - We've significantly improved shortcut key handling on GTK and WinForms, including [improved coverage of non-alphanumeric keys](https://github.com/beeware/toga/pull/2415), and support for [numpad keys](https://github.com/beeware/toga/pull/2232).
-- We've [added a MapView widget](https://github.com/beeware/toga/pull/2379). This widget is in final review, but should land very soon.
+- We've [added a `MapView` widget](https://github.com/beeware/toga/pull/2379). This widget is in final review, but should land very soon.
 - We've improved error handling when the [Android emulator fails to start](https://github.com/beeware/briefcase/pull/1630). This should hopefully make it easier to identify the source of any emulator failures.
 - We've added the ability to run [Linux apps that have been built for different platforms](https://github.com/beeware/briefcase/pull/1603). Using Docker, it's now possible to run a Fedora system app on an Ubuntu machine, or any other combination of supported platforms.
 - We've added the ability to [pass extra arguments to Docker when building images](https://github.com/beeware/briefcase/pull/1661).
@@ -42,7 +42,7 @@ Want to get involved? Here are some open issues that would be a great place to g
 1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
-4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+4. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 5. [Add support for custom PyPI repositories](https://github.com/beeware/briefcase/issues/1270)
 6. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 7. [Correctly handle incomplete project deletions](https://github.com/beeware/briefcase/issues/394)
@@ -52,4 +52,4 @@ Want to get involved? Here are some open issues that would be a great place to g
 11. [Add an API to entirely replace the style of a widget](https://github.com/beeware/toga/issues/2305)
 12. [Add the ability to define content when creating a window](https://github.com/beeware/toga/issues/2307)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

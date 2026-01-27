@@ -13,7 +13,7 @@ Firstly, we're going to **move our real-time chat community from Gitter to Disco
 
 <!-- more -->
 
-When we originally set up Gitter, it was a strong option for a chat community - especially one that was focussed on a software project, due to its tight integration with GitHub. However, over the years, Gitter has undergone multiple changes of ownership, but has remained essentially unchanged - in some cases, it's gotten appreciably worse (their native iOS and Android clients are effectively deprecated). In the meantime, Discord has emerged as a dominant player for community chat. It has a robust mobile client, and really good tools for community moderation, as well as the option of hosting video and voice chats - something we hope to be able to use for coordinating virtual sprints.
+When we originally set up Gitter, it was a strong option for a chat community - especially one that was focused on a software project, due to its tight integration with GitHub. However, over the years, Gitter has undergone multiple changes of ownership, but has remained essentially unchanged - in some cases, it's gotten appreciably worse (their native iOS and Android clients are effectively deprecated). In the meantime, Discord has emerged as a dominant player for community chat. It has a robust mobile client, and really good tools for community moderation, as well as the option of hosting video and voice chats - something we hope to be able to use for coordinating virtual sprints.
 
 To join the new BeeWare Discord server, [visit this link](https://beeware.org/bee/chat/).
 

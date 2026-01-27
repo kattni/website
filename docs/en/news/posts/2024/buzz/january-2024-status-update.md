@@ -15,7 +15,7 @@ January has seen some long awaited and high profile features added to BeeWare.
 
 - [PEP 738](https://peps.python.org/pep-0738/), formalizing the introduction of Android as a Tier 3 platform in CPython, has been formally accepted as a draft. We're now revising the draft following community feedback, in anticipation of submitting the PEP for formal approval in the near future.
 - We added a cross-platform Camera API to Toga. This API has been [implemented for iOS and macOS](https://github.com/beeware/toga/pull/2266); the [implementation for Android](https://github.com/beeware/toga/pull/2353) is in final review.
-- We added an [OptionContainer widget for Android](https://github.com/beeware/toga/pull/2350). This now means that OptionContainer is available on every desktop and mobile platform.
+- We added an [`OptionContainer` widget for Android](https://github.com/beeware/toga/pull/2350). This now means that `OptionContainer` is available on every desktop and mobile platform.
 - We added the ability to [define a button with an Icon](https://github.com/beeware/toga/pull/2310). In addition, we've added some [major clarifications to the documentation about the difference between an Icon and an Image](https://github.com/beeware/toga/pull/2348).
 - We [reworked the way that widget IDs are handled](https://github.com/beeware/toga/pull/2320). This change was required due to a bug caused by the interaction of Python's garbage collector and the widget registry that prevented the re-use of widget IDs in some situations. The new implementation means that the widget registry behaves a lot more like a browser's DOM - a widget can only be discovered by ID when it is actually part of a widget layout.
 - We added Briefcase support for [Python 3.12 on Android](https://github.com/beeware/briefcase/pull/1596).
@@ -25,7 +25,7 @@ January has seen some long awaited and high profile features added to BeeWare.
 
 ## What's next?
 
-In February, we'll be focusing on the iOS and Android patches to CPython, and the finalisation of [PEP 738](https://peps.python.org/pep-0738/). While we're waiting for CPython patches to be reviewed, we'll be looking into geolocation and mapping functionality.
+In February, we'll be focusing on the iOS and Android patches to CPython, and the finalization of [PEP 738](https://peps.python.org/pep-0738/). While we're waiting for CPython patches to be reviewed, we'll be looking into geolocation and mapping functionality.
 
 ## Want to get involved?
 
@@ -34,7 +34,7 @@ Want to get involved? Here are some open issues that would be a great place to g
 1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
-4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+4. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 5. [Add support for custom PyPI repositories](https://github.com/beeware/briefcase/issues/1270)
 6. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 7. [Correctly handle incomplete project deletions](https://github.com/beeware/briefcase/issues/394)
@@ -44,4 +44,4 @@ Want to get involved? Here are some open issues that would be a great place to g
 11. [Add an API to entirely replace the style of a widget](https://github.com/beeware/toga/issues/2305)
 12. [Add the ability to define content when creating a window](https://github.com/beeware/toga/issues/2307)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

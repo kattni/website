@@ -20,12 +20,14 @@ This year our team has had the exciting opportunity to contribute to BeeWare for
 
 Meet the Team:
 
- - Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
- - Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
- - Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
- - Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
- - Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
- - Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
+<nospell>
+- Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
+- Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
+- Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
+- Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
+- Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
+- Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
+</nospell>
 
 In the first semester, our team gained exposure to the BeeWare ecosystem through tackling a variety of small bug fixes within Briefcase and Toga, creating widgets for the web backend in Toga and completing small research tasks into the mechanisms within the BeeWare tools. More details about our first semester contributions can be found [in our first semester report](https://beeware.org/news/buzz/2025-curtin-capstone-semester-end-blog). After this, the team split off into pairs to plan out larger deliverable contributions that would add or changes features within BeeWare.
 
@@ -37,9 +39,9 @@ It is these deliverables that the team worked on in the second semester.
 
 This semester, we delivered a functional prototype of a testing mechanism for Toga’s Web backend. This prototype addresses the problems identified in the [analysis we performed during our first semester](https://github.com/beeware/toga/issues/3545). The problem was straightforward: there wasn’t a practical, end-to-end way to run automated tests against Toga web apps running in the browser. Our prototype addresses this by introducing a structured communication bridge between the backend, and the frontend, widget proxies, and DOM probes. This enables end-to-end tests that tests both widget logic and rendered UI. At this stage, the work serves as a proof-of-concept approach rather than a finished product. It demonstrates that the core approach works reliably, though additional features and improvements remain to be implemented. Our proof-of-concept prototype can be found within our [draft pull request](https://github.com/beeware/toga/pull/3728).
 
-### Briefcase Web Development Optimisations
+### Briefcase Web Development Optimizations
 
-We also laid the groundwork for web platform development mode support in Briefcase by making the `dev` command platform-aware, and implementing virtual environment management. We [refactored the core `DevCommand` architecture](https://github.com/beeware/briefcase/pull/2419) by introducing platform-specific `DevCommand` subclasses like `StaticWebDevCommand` to handle platform-dependent workflows). Next, we [implemented virtual environment management](https://github.com/beeware/briefcase/pull/2420) by introducing the VirtualEnvironment context manager tool, which provides isolated, configurable virtual environments for development mode, and [improved the tracking of virtual environment usage by the dev command](https://github.com/beeware/briefcase/pull/2495). We also [modified the handling of local Python assets](https://github.com/beeware/briefcase/pull/2498) so they are installed in editable mode. This work establishes the foundation for exposing the app assets to a development web server allowing the live-reload workflow, ultimately speeding up the web development process.
+We also laid the groundwork for web platform development mode support in Briefcase by making the `dev` command platform-aware, and implementing virtual environment management. We [refactored the core `DevCommand` architecture](https://github.com/beeware/briefcase/pull/2419) by introducing platform-specific `DevCommand` subclasses like `StaticWebDevCommand` to handle platform-dependent workflows). Next, we [implemented virtual environment management](https://github.com/beeware/briefcase/pull/2420) by introducing the `VirtualEnvironment` context manager tool, which provides isolated, configurable virtual environments for development mode, and [improved the tracking of virtual environment usage by the dev command](https://github.com/beeware/briefcase/pull/2495). We also [modified the handling of local Python assets](https://github.com/beeware/briefcase/pull/2498) so they are installed in editable mode. This work establishes the foundation for exposing the app assets to a development web server allowing the live-reload workflow, ultimately speeding up the web development process.
 
 ### PyScript Briefcase and Toga Dependencies
 
@@ -47,9 +49,9 @@ Lastly, we worked on redesigning the Briefcase static web build pipeline to impl
 
 ## Lessons Learned
 
-This year with BeeWare has marked many valuable lessons taught outside of the class environment. Each of us have now made significant contributions to an Open Source project while meeting deadlines and attending weekly standup meetings. This process has allowed us to develop our skills in numerous ways. Below each of us will comment our individual lessons.
+This year with BeeWare has marked many valuable lessons taught outside of the class environment. Each of us have now made significant contributions to an Open Source project while meeting deadlines and attending weekly stand-up meetings. This process has allowed us to develop our skills in numerous ways. Below each of us will comment our individual lessons.
 
-### Kavidu:
+### <nospell>Kavidu</nospell>
 
 Working with BeeWare was my first professional experience outside of university. This was a huge opportunity for me to have hands-on exposure to real-world software development work within Open Source environments. I gained experience working with large community-based codebases through issue tracking and pull request management while teaming up with developers who used different time zones and technical expertise.
 
@@ -57,7 +59,7 @@ The experience helped me develop better abilities to work with others while impr
 
 Moreover, working with BeeWare provided me with essential knowledge about Open Source software engineering through its combination of technical and collaborative aspects. Throughout the process, I learned that the development of good software requires designers to create intentional systems while they must communicate effectively to build tools which enable others to continue improving the project after their contribution ends.
 
-### Mitchell:
+### Mitchell
 
 One of the most valuable lessons from BeeWare came while implementing a virtual environment context manager for Briefcase.
 
@@ -71,19 +73,19 @@ When someone needs virtual environment management six months from now in a compl
 
 Ultimately, the best code is not the code that works today but rather the code that's still working unchanged a year from now.
 
-### Veronica:
+### Veronica
 
 As this was my first experience contributing to a large, Open Source project, I learned how the workflow fits together—navigating existing code, writing clear issues and PRs, and contributing changes with clear commits and messages. I also learned to keep my work visible, pushing incremental changes, even when not fully finished, with clear notes on status and next steps so reviewers can follow my progress. That was a shift for me, as I used to wait for “finished” work before committing.
 
 Regular stand-ups, shared planning, and pairing on tasks taught me how to work effectively in a team. Through this, I developed stronger communication and collaboration skills and gained a better understanding of how individual contributions fit within a larger shared goal, especially when it comes to coding workflows.
 
-I've improved my Python skills and gained real experience with Pytest and Playwright while working on the Toga Web Testing prototype. Most importantly, I learned how to design a cross-process system that bridges a Pytest test runner to an app running in the browser, which gave me a much deeper understanding of both testing frameworks and web automation.
+I've improved my Python skills and gained real experience with `pytest` and Playwright while working on the Toga Web Testing prototype. Most importantly, I learned how to design a cross-process system that bridges a `pytest` test runner to an app running in the browser, which gave me a much deeper understanding of both testing frameworks and web automation.
 
-### Jaeden:
+### <nospell>Jaeden</nospell>
 
-Beginning with limited Python knowledge increased the learning curve for me however by reflecting at the end of this journey I can see the difference in skills I have gained. I am more confident and familiar now working on a project alongside other software engineers discussing ideas whilst maintaining professional communication practises via weekly standup calls and email. Working on Briefcase has taught me to simplify my code more. After regular code reviews from Russell, I realised my code was always more complicated than necessary and could often be simplified either by using in built Python functions or functions already defined somewhere in the codebase that I wasn't aware of.
+Beginning with limited Python knowledge increased the learning curve for me however by reflecting at the end of this journey I can see the difference in skills I have gained. I am more confident and familiar now working on a project alongside other software engineers discussing ideas whilst maintaining professional communication practices via weekly stand-up calls and email. Working on Briefcase has taught me to simplify my code more. After regular code reviews from Russell, I realized my code was always more complicated than necessary and could often be simplified either by using in built Python functions or functions already defined somewhere in the codebase that I wasn't aware of.
 
-### Callum:
+### <nospell>Callum</nospell>
 
 Throughout this project, I learned that effective communication is one of the most important aspects of collaborative software development. Working on the same codebase as others required constant coordination to prevent overlap and ensure our work aligned technically and conceptually. Regular discussions and updates helped us avoid duplicated effort and made it easier to maintain a shared understanding of the project’s direction.
 
@@ -91,20 +93,20 @@ I learned that transparency, even when work is still in progress, is far more va
 
 Finally, I learned the importance of handover reports and how essential they are for communicating the current state and future direction of a project. A well-written handover report provides clarity on what has been implemented, what has not worked as intended, and what areas require further development or refactoring. It also serves as a bridge for future contributors, ensuring that knowledge is not lost and that others can continue the work without repeating past mistakes. Through this process, I came to appreciate that clear documentation at the end of a project is just as valuable as the technical work itself, as it enables continuity and long-term maintainability.
 
-### Caydn:
+### <nospell>Caydn</nospell>
 
 This year has taught me how to work effectively within both a small team and a large Open Source project. It's been very eye opening navigating the expectations and workflows that come with contributing to a community-driven codebase. During the first semester, I found that I didn't know how much to push or when to create a PR. This meant that Russell couldn't perceive work being completed and that I could not receive help in situations where I was stuck. With our semester 2 work, especially as we were working in pairs, I made it a goal to commit and push any slight change. This drastically improved our collaboration efforts.
 
 I've also gained confidence and appreciation for modular architecture through working on the PyScript insertion system. Previously, having only worked on smaller codebases of my own or for group assignment work, I've never truly worked on multiple systems that would interact with each other. Having spent time reconfiguring dependencies within BeeWare, I've now learned the value of planning and researching before implementation. The untangling of Toga and the Static Web Template has been some of the most fun I've had within programming thus far. I'm looking forward to seeing how BeeWare continues to make use of and expand on this system.
 
-Collaborative feedback and reviews from Russell, Malcolm, and the team, especially Kavidu, have undoubtedly improved our code quality and allowed me to grow as a software engineer. While initially scary to have frequent check ins with my code, I've now placed much more importance in these reviews. Not only does it allow you to gain insight into what may be going wrong, but more experienced developers tend to impart their wisdom upon you. For me, this now means I pay much closer attention to deep indentation as well as the readability and traceability of my written code.
+Collaborative feedback and reviews from Russell, Malcolm, and the team, especially <nospell>Kavidu</nospell> have undoubtedly improved our code quality and allowed me to grow as a software engineer. While initially scary to have frequent check ins with my code, I've now placed much more importance in these reviews. Not only does it allow you to gain insight into what may be going wrong, but more experienced developers tend to impart their wisdom upon you. For me, this now means I pay much closer attention to deep indentation as well as the readability and traceability of my written code.
 
 ## Future work
 
 While we have delivered significant changes within the BeeWare ecosystem, continued efforts will be required to complete our works. Each deliverable varies in terms of remaining tasks.
 
-The Toga Web Testing prototype provides a strong foundation for a complete testing framework but remains at a proof-of-concept stage. Future work will focus on extending test coverage across more widgets, stabilising the proxy and RPC systems and integration with Briefcase to enable a unified startup process for web tests. More details on the current implementation and next steps can be found in the [Toga Web Testing Handover Report](https://github.com/beeware/toga/issues/3545#issuecomment-3425284525).
+The Toga Web Testing prototype provides a strong foundation for a complete testing framework but remains at a proof-of-concept stage. Future work will focus on extending test coverage across more widgets, stabilizing the proxy and <nospell>RPC</nospell> systems and integration with Briefcase to enable a unified startup process for web tests. More details on the current implementation and next steps can be found in the [Toga Web Testing Handover Report](https://github.com/beeware/toga/issues/3545#issuecomment-3425284525).
 
-The Briefcase Dev Command now has the basic foundations to support a true development workflow for web applications, enabling live-editing and hot-reload without requiring wheel builds. The remaining work focuses on implementing a parser to locate editable source code paths from `.pth` files, creating symlinks or file copies in the web project’s static directory so PyScript can load modules directly from local source files, generating the necessary HTML and PyScript configuration to run these modules in the browser, and integrating the development server to bring all these components together. Once completed, these enhancements will enable developers to modify Python source files and instantly see their changes reflected in the browser. More details on the current implementation and next steps can be found in [Briefcase Dev Command Optimisation Handover Report](https://github.com/beeware/briefcase/issues/2334#issuecomment-3443501856).
+The `briefcase dev` command now has the basic foundations to support a true development workflow for web applications, enabling live-editing and hot-reload without requiring wheel builds. The remaining work focuses on implementing a parser to locate editable source code paths from `.pth` files, creating symlinks or file copies in the web project’s static directory so PyScript can load modules directly from local source files, generating the necessary HTML and PyScript configuration to run these modules in the browser, and integrating the development server to bring all these components together. Once completed, these enhancements will enable developers to modify Python source files and instantly see their changes reflected in the browser. More details on the current implementation and next steps can be found in [Briefcase Dev Command Optimisation Handover Report](https://github.com/beeware/briefcase/issues/2334#issuecomment-3443501856).
 
 With the majority of the insertion system completed and merged, only one small cleanup task remains. Once sometime has passed and the current changes have been released, the static CSS files in Toga's web backend will need to be converted to inserts using the new configuration format. More details can be found in the [issue ticket](https://github.com/beeware/toga/issues/3822).

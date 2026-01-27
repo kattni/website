@@ -11,7 +11,7 @@ resource:
   url: https://opensource.com/article/17/4/cross-platform-development-python-and-beeware
   description: |-
     Katie wrote an article about BeeWare and her PyCon US 2017 talk for
-    OpenSource.com.
+    <nospell>OpenSource.com</nospell>.
 ---
 
 {{ generate_resource_post(resource) }}

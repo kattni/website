@@ -1,4 +1,4 @@
-# We need your help!
+# We need your help! { #we-need-your-help }
 
 Although the contributions of volunteers of are gratefully accepted, some things take money.
 
@@ -15,9 +15,10 @@ We have several levels of membership available, to fit a wide range of financial
 ### Enthusiasts
 
 If you'd like to provide basic support of the BeeWare project, we offer three tiers of support:
-* **Fan**: 5/month
-* **Enthusiast**: $10/month
-* **Super-Enthusiast**: $15/month
+
+- **Fan**: 5/month
+- **Enthusiast**: $10/month
+- **Super-Enthusiast**: $15/month
 
 You will receive a Sponsor badge on your profile, and your name will be listed on the BeeWare project website (unless you choose to make your sponsorship private).
 
@@ -41,17 +42,17 @@ If you use my work to support your large corporation, please consider sponsoring
 
 If you'd like to talk to someone about other branding or membership opportunities, or you'd like other payment options for your membership, please direct enquiries to [Russell Keith-Magee](mailto:russell@beeware.org).
 
-## Current Members
+## Current Members { #current-members }
 
 ### Gold Members
 
-<img class="anaconda_light_mode" src="../images/anaconda-dark.png" alt="Anaconda logo"/>
-<img class="anaconda_dark_mode" src="../images/anaconda-light.png" alt="Anaconda logo"/>
+<img class="anaconda_light_mode" src="../images/anaconda-dark.png" alt="Anaconda logo"/> <img class="anaconda_dark_mode" src="../images/anaconda-light.png" alt="Anaconda logo"/>
 
 With more than 45 million users, [Anaconda](https://anaconda.com/) is the most popular operating system for AI providing access to the foundational open-source Python packages used in modern AI, data science and machine learning through a seamless platform. Anaconda pioneered the use of Python for data science, championed its vibrant community, and continues to steward open-source projects that make tomorrow’s innovations possible. Their enterprise-grade solutions enable corporate, research, and academic institutions around the world to harness the power of open-source for competitive advantage, groundbreaking research, and a better world.
 
 ### Professional Members
 
+<nospell>
 <div class="pro-members" markdown="1">
 <div class="pro-member-avatar" markdown="1">![Lincoln Loop logo](images/lincolnloop.png)</div> <div class="pro-member-name">Lincoln Loop</div>
 </div>
@@ -61,9 +62,11 @@ With more than 45 million users, [Anaconda](https://anaconda.com/) is the most p
 <div class="pro-members" markdown="1">
 <div class="pro-member-avatar" markdown="1">![Matthias Kestenholz](images/mkestenholz.png)</div> <div class="pro-member-name">Matthias Kestenholz</div>
 </div>
+</nospell>
 
 ### Enthusiasts
 
+<nospell>
 - Timothy Bell
 - Wes Broadway
 - Gerard Blais
@@ -72,9 +75,12 @@ With more than 45 million users, [Anaconda](https://anaconda.com/) is the most p
 - Eric Froemling
 - Michal Sladek
 - Stefane Fermigier
-<!-- Github Sponsors -->
+</nospell>
+<!-- GitHub Sponsors -->
+<nospell>
 - Katie McLaughlin
 - Emil Lerner
 - Hassan Hashmi
 - Greg Turner
 - David Cramer
+</nospell>

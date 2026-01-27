@@ -13,8 +13,8 @@ In June, BeeWare made a lot of progress, landing lots of new features - many of 
 
 ## What we've done
 
-- We [added support for packaging console apps to Briefcase](https://github.com/beeware/briefcase/pull/1781). This involved adding a new `.pkg` packaging type for macOS, as well as a number of other improvements to the stub app and MSI packaging on Windows. In addition to providing a way to package console apps on macOS, the addition of `.pkg` format means it is now possible to distribute apps using centralised device management tooling (such as Kandji or FleetDM).
-- We modified Briefcase to [distribute the stub binaries as standalone artefacts, rather than including them in the app template](https://github.com/beeware/briefcase/pull/1849). We also [significantly optimised how Briefcase uses templates](https://github.com/beeware/briefcase/pull/1855). Between these two changes, the download size required for a first project on macOS has been reduced from around 200MB, to less than 4MB.
+- We [added support for packaging console apps to Briefcase](https://github.com/beeware/briefcase/pull/1781). This involved adding a new `.pkg` packaging type for macOS, as well as a number of other improvements to the stub app and MSI packaging on Windows. In addition to providing a way to package console apps on macOS, the addition of `.pkg` format means it is now possible to distribute apps using centralized device management tooling (such as <nospell>Kandji or FleetDM</nospell>).
+- We modified Briefcase to [distribute the stub binaries as standalone artefacts, rather than including them in the app template](https://github.com/beeware/briefcase/pull/1849). We also [significantly optimized how Briefcase uses templates](https://github.com/beeware/briefcase/pull/1855). Between these two changes, the download size required for a first project on macOS has been reduced from around 200MB, to less than 4MB.
 - We [isolated Briefcase's use of Cookiecutter](https://github.com/beeware/briefcase/pull/1864) so that all of Briefcase's cached content is contained in Briefcase's own cache folder.
 - We [added support for distribution certificates on macOS](https://github.com/beeware/briefcase/pull/1856).
 - We [modified Toga's APIs to use namedtuple types for Size and Position references](https://github.com/beeware/toga/pull/2585).
@@ -29,7 +29,7 @@ In June, BeeWare made a lot of progress, landing lots of new features - many of 
 
 ## What's next?
 
-Work on Toga's App interface isn't quite finished - we're expecting to finalise the Document API in the near future. Once that work is complete, our focus will be the mobile Python binary packaging ecosystem. The work we've done so far this year has led to CPython 3.13 formally supporting iOS and Android as Tier 3 supported platforms; the next step is ensuring that the rest of the community can build iOS and Android packages. This will involve improvements to tools like `pip`, `cibuildwheel`, `meson-python` and more. We expect that this work will take most of the rest of the quarter to release; but there should be some initial signs of progress by the end of the month.
+Work on Toga's App interface isn't quite finished - we're expecting to finalize the Document API in the near future. Once that work is complete, our focus will be the mobile Python binary packaging ecosystem. The work we've done so far this year has led to CPython 3.13 formally supporting iOS and Android as Tier 3 supported platforms; the next step is ensuring that the rest of the community can build iOS and Android packages. This will involve improvements to tools like `pip`, `cibuildwheel`, `meson-python` and more. We expect that this work will take most of the rest of the quarter to release; but there should be some initial signs of progress by the end of the month.
 
 ## Want to get involved?
 
@@ -38,11 +38,11 @@ Want to get involved? Here are some open issues that would be a great place to g
 1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
-4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+4. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 5. [Add support for custom PyPI repositories](https://github.com/beeware/briefcase/issues/1270)
 6. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 7. [Add an option to select the Android base image when creating new emulators](https://github.com/beeware/briefcase/issues/737)
 8. [Add an API to entirely replace the style of a widget](https://github.com/beeware/toga/issues/2305)
 9. [Correct the handling of quotation marks in Android apps](https://github.com/beeware/briefcase/issues/1876)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

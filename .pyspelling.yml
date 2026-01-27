@@ -1,5 +1,16 @@
 matrix:
 - name: markdown
+  hunspell:
+    d: en_US
+  aspell:
+    lang: en
+    d: en_US
+    mode:
+      - markdown
+      - url
+      - email
+    ignore-case: true  # I'm not sure this is doing anything.
+    ignore-accents: true  # I'm not sure this is doing anything.
   dictionary:
     wordlists:
     - docs/spelling_wordlist
@@ -17,32 +28,43 @@ matrix:
       - pymdownx.blocks.admonition
       - pymdownx.blocks.caption
       - pymdownx.blocks.tab
+      - pymdownx.details
   - pyspelling.filters.html:
-      comments: true
+      comments: false
       attributes:
         - title
         - alt
       ignores:
         - 'code'
         - 'pre'
+        - 'div'
+        - 'a'
         - 'nospell'
+        - 'script'
   - pyspelling.filters.context:
       context_visible_first: true
-      escapes: '\\[\\`~]'
       delimiters:
         # Ignore the Jinja directives
-        - open: '{%'
-          content: '[\d\D]*'
-          close: '%}'
+        - open: '{% '
+          close: ' %}'
         # Ignores the autorefs link targets
         - open: '\]\['
-          content: '[\d\D]*'
           close: '\]'
         # Ignore the single line Snippets syntax
-        - open: '-8<\-'
-          content: '[\d\D]*'
-          close: '\n'
-        # Ignore the multiline Snippets syntax
-        - open: '-8<\-\n'
-          content: '[\d\D]*'
-          close: '-8<-\n'
+        - open: '-8<- '
+          close: '$'
+        # Ignore the .md URLs - appears to be fixed by mode: url above
+        #- open: 'https?:'
+        #  close: '\.md(:[-\w]+)?'
+        # Ignore urls in frontmatter - This is still necessary with mode: url
+        - open: 'url: '
+          close: '$'
+        # Ignore toc in frontmatter
+        - open: '- toc'
+          close: '$'
+        # Ignore numbers with a suffix, e.g. dates
+        - open: '[0-9]+'
+          close: '[rshndt]*'
+        # Ignore version numbers - TODO: verify this does what I think it does
+        - open: '[0-9\.]+[a-z]*'
+          close: '[0-9]*'

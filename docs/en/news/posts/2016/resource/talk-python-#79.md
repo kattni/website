@@ -14,7 +14,7 @@ resource:
     there? Oh, wait, I want them to be native GUI applications. And I need
     them on mobile (Android, iOS, tvOS, and watchOS) as well as major
     desktop apps. I also need them to appear indistinguishable from native
-    apps (be a .app on macOS, .exe on Windows, etc).
+    apps (be a `.app` on macOS, `.exe` on Windows, etc).
 
     What technology would you use for this? This week I'll introduce you to
     a wide set of small, focused and powerful tools that make all of this,

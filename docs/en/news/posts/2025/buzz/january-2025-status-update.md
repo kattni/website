@@ -22,15 +22,15 @@ It's the start of a new year, and we've already seen some big improvements to Be
 - We [promoted Linux on ARM64 to a fully supported platform in Briefcase](https://github.com/beeware/briefcase/pull/2121).
 - We [improved error reporting when the underlying tools used by Briefcase fail](https://github.com/beeware/briefcase/pull/2121).
 - We [resolved some memory leaks in Toga's iOS backend](https://github.com/beeware/toga/pull/2853).
-- We [added an API to Toga's WebView for retrieving cookies](https://github.com/beeware/toga/pull/3068).
+- We [added an API to Toga's `WebView` for retrieving cookies](https://github.com/beeware/toga/pull/3068).
 - We [modified the constructor of Toga widgets to allow for style definitions to be provided as keyword arguments to the widget, rather than requiring a separate Pack object](https://github.com/beeware/toga/pull/3107).
 - We [added aliases for some common horizontal and vertical alignment style properties to Pack](https://github.com/beeware/toga/pull/3113).
 - We [added Row and Column functions](https://github.com/beeware/toga/pull/3116) as aliases for a Box with horizontal and vertical direction styles, respectively.
 - We added [event handlers for changes in focus and visibility on Toga Window objects](https://github.com/beeware/toga/pull/2096). This also provides a mechanism for mobile apps to respond to being moved to and from a background state.
 - We [migrated the Travertino codebase into the Toga repository](https://github.com/beeware/toga/pull/3086), and [got Travertino's test suite to 100% branch coverage](https://github.com/beeware/toga/pull/3129). This should make it easier to coordinate changes in Travertino with the corresponding changes in Toga.
 - We [corrected some issues with background color handling on iOS](https://github.com/beeware/toga/pull/3009).
-- We modified Rubicon ObjC to [add support for recent changes to the way Python manages asyncio event loops](https://github.com/beeware/rubicon-objc/pull/558).
-- We formally published [setuptools-dynamic-dependencies](https://pypi.org/project/setuptools-dynamic-dependencies/). This is a setuptools plugin that allows dependencies to be specified as dynamic properties. This is a tool that we've used for a while to ensure that `toga-cocoa==X` has a dependency on `toga-core==X`; it's now been formally published on PyPI for anyone to use.
+- We modified Rubicon ObjC to [add support for recent changes to the way Python manages `asyncio` event loops](https://github.com/beeware/rubicon-objc/pull/558).
+- We formally published [`setuptools-dynamic-dependencies`](https://pypi.org/project/setuptools-dynamic-dependencies/). This is a `setuptools` plugin that allows dependencies to be specified as dynamic properties. This is a tool that we've used for a while to ensure that `toga-cocoa==X` has a dependency on `toga-core==X`; it's now been formally published on PyPI for anyone to use.
 - We continued to work on binary iOS packaging. We're almost ready to submit some changes to `cibuildwheel` to formally add support for building iOS packages.
 
 ## What's next?
@@ -46,11 +46,11 @@ Want to get involved? Here are some open issues that would be a great place to g
 1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
-4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+4. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 5. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 6. [Add an option to select the Android base image when creating new emulators](https://github.com/beeware/briefcase/issues/737)
 7. [Add an API to request that an app be given focus](https://github.com/beeware/toga/issues/3032)
 8. [Investigate the source of a Table column resize issue on Windows](https://github.com/beeware/toga/issues/2974)
 9. [Correct the handling of double quotes in formal names](https://github.com/beeware/briefcase/issues/2071)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

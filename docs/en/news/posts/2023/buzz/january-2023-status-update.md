@@ -25,12 +25,12 @@ These releases incorporate changes going back months (and years); but we made so
 - Briefcase is now able to [reference local source packages when building Linux AppImage binaries](https://github.com/beeware/briefcase/pull/1058).
 - Some errors caused by the way the Windows Store version of Python handles local application data [have been corrected](https://github.com/beeware/briefcase/pull/1054).
 - Briefcase's help text now [shows the list of platforms and output formats](https://github.com/beeware/briefcase/pull/1005), rather than requiring an additional help call to retrieve that information.
-- Some issues with thread and asyncio safety in Rubicon ObjC were [identified and resolved](https://github.com/beeware/rubicon-objc/pull/246), along with an issue associated with the way some Objective C classes (such as NSWindow) are [renamed at runtime](https://github.com/beeware/rubicon-objc/pull/258).
+- Some issues with thread and `asyncio` safety in Rubicon ObjC were [identified and resolved](https://github.com/beeware/rubicon-objc/pull/246), along with an issue associated with the way some Objective C classes (such as `NSWindow`) are [renamed at runtime](https://github.com/beeware/rubicon-objc/pull/258).
 - Initial GUI testing backends for [macOS](https://github.com/beeware/toga/pull/1707), [iOS](https://github.com/beeware/toga/pull/1749) and [GTK](https://github.com/beeware/toga/pull/1755) were added.
 - A long standing issue with the [replacement of root window content](https://github.com/beeware/toga/issues/1439) on GTK and iOS has been resolved.
 - Coverage testing was [added to the Toga Android GUI test backend](https://github.com/beeware/toga/pull/1747).
-- An API was added to [allow scrolling MultilineTextInput widgets](https://github.com/beeware/toga/pull/1728) to the top and bottom of the widget content.
-- The work [moving Toga to use Setuptools-SCM](https://github.com/beeware/toga/pull/1675) was completed. Development versions of Toga will now report a specific version control commit; release versions have their version determined by the git tag used to produce the release.
+- An API was added to [allow scrolling `MultilineTextInput` widgets](https://github.com/beeware/toga/pull/1728) to the top and bottom of the widget content.
+- The work [moving Toga to use `setuptools-scm`](https://github.com/beeware/toga/pull/1675) was completed. Development versions of Toga will now report a specific version control commit; release versions have their version determined by the git tag used to produce the release.
 - We completed a major review of the way we're using GitHub issue labels, and modified those labels to be consistent across all repositories.
 
 ## What's next?
@@ -51,4 +51,4 @@ Want to get involved? Here are some open issues that would be a great place to g
 8. [Add a template branch option when creating a new project](https://github.com/beeware/briefcase/issues/1053)
 9. [Improve validation of project names in the Briefcase wizard](https://github.com/beeware/briefcase/issues/1011)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

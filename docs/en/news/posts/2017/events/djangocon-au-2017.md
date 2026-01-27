@@ -32,16 +32,16 @@ involvement:
 - type: talk
   team_members:
   - freakboy3742
-  title: Red User, Blue User, MyUser, auth.User
+  title: Red User, Blue User, <nospell>MyUser, auth.User</nospell>
   url: ''
   date: 2017-08-04
   end_date: 2017-08-04
   description: |-
-    Django's contrib.auth framework allows to you specify a custom user
+    Django's <nospell>contrib.auth</nospell> framework allows to you specify a custom user
     model. Why does this matter? When should you use a custom user model?
     And how do you live with it once you've got one?
 
-    Django's contrib.auth is a key part of most Django websites. However,
+    Django's <nospell>contrib.auth</nopell> is a key part of most Django websites. However,
     there are some important details you need to understand if you're going
     to make good use of custom user models. Some of these details are
     technical - for example, custom user models require some special

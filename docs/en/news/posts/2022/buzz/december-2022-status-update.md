@@ -20,7 +20,7 @@ During December:
 - We fixed a [bug preventing the use of local file references in requirements when building Linux AppImages](https://github.com/beeware/briefcase/pull/993). As a side effect, this change also makes it much easier to get a debug session inside the Docker container used to build AppImages.
 - We merged the [first draft of the Toga GUI testbed](https://github.com/beeware/toga/pull/1687). There is still a lot of work to be done on this testbed, but it provides a solid foundation on which we can build tests of Toga's cross-platform GUI behavior.
 - We added support for [mouse events on the Canvas on GTK](https://github.com/beeware/toga/pull/1710).
-- We corrected a bug on Windows where local date formats would cause the DateInput widget to crash.
+- We corrected a bug on Windows where local date formats would cause the `DateInput` widget to crash.
 - We fixed [a bug in Rubicon that would cause background threads to stall on iOS](https://github.com/beeware/rubicon-objc/pull/238).
 
 ## What's next?
@@ -39,4 +39,4 @@ Want to get involved? Here are some open issues that would be a great place to g
 6. [Add support for the ANDROID\_HOME environment variable](https://github.com/beeware/briefcase/issues/463)
 7. [Purge cache folders when installing app code in Briefcase](https://github.com/beeware/briefcase/issues/986)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

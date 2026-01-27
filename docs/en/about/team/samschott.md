@@ -1,1 +1,1 @@
-Sam is a physicist and a software engineer. He got introduced to Python while automating data acquisition in the lab and soon realised that he enjoyed writing and sharing code. When away from a computer, you will find him hiking or sailing along the English coast.
+Sam is a physicist and a software engineer. He got introduced to Python while automating data acquisition in the lab and soon realized that he enjoyed writing and sharing code. When away from a computer, you will find him hiking or sailing along the English coast.

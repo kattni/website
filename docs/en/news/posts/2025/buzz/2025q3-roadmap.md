@@ -13,7 +13,7 @@ In Q2, BeeWare reached some public milestones in our iOS binary packaging, and s
 
 ## Q2 progress
 
-In Q2, we continued to make progress on the state of binary packaging for iOS and Android. cibuildwheel 3.0 has now been released, incorporating the iOS support that we contributed; as a result, we've been able to start the process of submitting patches to Python projects to add iOS support. We're still waiting on a formal release of meson and meson-python that includes the iOS changes that we provided; once those releases occur, we'll be able to submit patches for even more projects. We also continued to work on supporting Android in cibuildwheel. This work is still in the review phase; we're hoping it will be concluded in the near future.
+In Q2, we continued to make progress on the state of binary packaging for iOS and Android. `cibuildwheel` 3.0 has now been released, incorporating the iOS support that we contributed; as a result, we've been able to start the process of submitting patches to Python projects to add iOS support. We're still waiting on a formal release of meson and meson-python that includes the iOS changes that we provided; once those releases occur, we'll be able to submit patches for even more projects. We also continued to work on supporting Android in `cibuildwheel`. This work is still in the review phase; we're hoping it will be concluded in the near future.
 
 A CPython buildbot for Emscripten is now live. The process of launching this buildbot revealed a number of bugs that required resolution; a small number of bugs still remain. We don't anticipate any issue resolving these before the 3.14.0 final release. The draft PEPs defining the Emscripten platform (PEP 776) and Emscripten wheel tagging (PEP 783) have not seen any major progress.
 
@@ -27,7 +27,7 @@ Lastly, we had a successful PyCon US attendance, presenting multiple talks, a tu
 
 In Q3, we will have two major areas of focus for BeeWare development.
 
-The first, unsurprisingly, is to continue working on binary packaging. We'll continue working on the cibuildwheel patch to support building Android wheels; and we'll continue the process of submitting patches for iOS support to notable packages. Some of this work is dependent on formal releases of meson and meson-python; we'll progress as fast as the published state of the ecosystem allows.
+The first, unsurprisingly, is to continue working on binary packaging. We'll continue working on the `cibuildwheel` patch to support building Android wheels; and we'll continue the process of submitting patches for iOS support to notable packages. Some of this work is dependent on formal releases of meson and meson-python; we'll progress as fast as the published state of the ecosystem allows.
 
 The second area of focus is generating iOS and Android binary artefacts as part of the CPython release process. This will hopefully also involve integrating iOS and Android into CPython's pre-merge CI tooling, which should limit the incidence of changes that are landed into CPython that break iOS and Android.
 

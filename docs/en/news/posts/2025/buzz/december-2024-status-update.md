@@ -15,7 +15,7 @@ Work in December (and the publication of this update!) was slowed by the end-of-
 
 - We added a [GTK implementation of Geolocation services](https://github.com/beeware/toga/pull/2999).
 - We made a number of improvements to Pack, Toga's style API. This includes [adding a "justify-content" style directive](https://github.com/beeware/toga/pull/3054), [adding a "gap" style directive](https://github.com/beeware/toga/pull/3036), and [updating a number of Pack properties to match their CSS names](https://github.com/beeware/toga/pull/3033).
-- We [standardised the way in which Toga widgets are instantiated](https://github.com/beeware/toga/pull/2942). This simplifies the implementation process, and guarantees that the initial styles added to a widget are always applied.
+- We [standardized the way in which Toga widgets are instantiated](https://github.com/beeware/toga/pull/2942). This simplifies the implementation process, and guarantees that the initial styles added to a widget are always applied.
 - We added an API for [reporting and controlling the state of Toga windows](https://github.com/beeware/toga/pull/2473).
 - We began modifying Toga to be [compatible with MicroPython](https://github.com/beeware/toga/pull/2976). MicroPython is significantly smaller than the full CPython install, reducing the startup time for web apps.
 - We updated [Briefcase's web template to use a more recent PyScript version](https://github.com/beeware/briefcase/pull/2080).
@@ -25,12 +25,12 @@ Work in December (and the publication of this update!) was slowed by the end-of-
 - We [corrected an error in the default D-Bus configuration of Flatpak apps](https://github.com/beeware/briefcase/pull/2075).
 - We resolved a [long-standing memory management issue in Rubicon](https://github.com/beeware/rubicon-objc/pull/543). This change removes almost all need for manual memory management of ObjC objects, making iOS and macOS development much more robust. It also resolves some memory leak issues on Toga's iOS backend.
 - We added support for CPython to [stream stdout and stderr to the system log on iOS and macOS](https://github.com/python/cpython/pull/127592). This change included a improved tool for running CPython test suites, making it possible to stream the output of a CPython test suite while the test suite is running, and to run the an arbitrary test suite, not just the CPython test suite.
-- Our patch [adding a test-sources configuration in cibuildwheel](https://github.com/pypa/cibuildwheel/pull/2062) has been accepted, and should be merged in a couple of days.
+- Our patch [adding a test-sources configuration in `cibuildwheel`](https://github.com/pypa/cibuildwheel/pull/2062) has been accepted, and should be merged in a couple of days.
 - We reviewed a large number of improvements to Emscripten support in CPython.
 
 ## What's next?
 
-We'll publish a full Q1 roadmap in a day or two; but our goal for January will be to continue the work we were doing in December. We'll continue to push patches upstream to support binary packaging, with iOS support for Pillow being the immediate goal. We'll continue to work on Python Emscripten support, and Toga's Web backend, with the eventual aim of getting the web backend to the same level of support as the other Toga backends. We're planning to publish new versions of Rubicon ObjC, Travertino and Toga in the coming days; these are major updates that will involve some minor backwards compatibilities. Lastly, we've had a number of reports of bugs with Briefcase's macOS notarization and Windows packaging which we will be investigating.
+We'll publish a full Q1 roadmap in a day or two; but our goal for January will be to continue the work we were doing in December. We'll continue to push patches upstream to support binary packaging, with iOS support for Pillow being the immediate goal. We'll continue to work on Python Emscripten support, and Toga's Web backend, with the eventual aim of getting the web backend to the same level of support as the other Toga backends. We're planning to publish new versions of Rubicon ObjC, Travertino and Toga in the coming days; these are major updates that will involve some minor backwards incompatibilities. Lastly, we've had a number of reports of bugs with Briefcase's macOS notarization and Windows packaging which we will be investigating.
 
 ## Want to get involved?
 
@@ -39,7 +39,7 @@ Want to get involved? Here are some open issues that would be a great place to g
 1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
-4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+4. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 5. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 6. [Add an option to select the Android base image when creating new emulators](https://github.com/beeware/briefcase/issues/737)
 7. [Add an API to request that an app be given focus](https://github.com/beeware/toga/issues/3032)
@@ -47,4 +47,4 @@ Want to get involved? Here are some open issues that would be a great place to g
 9. [Correct the handling of double quotes in formal names](https://github.com/beeware/briefcase/issues/2071)
 10. [Modify the default bootstrap to provide more helpful initial values](https://github.com/beeware/briefcase/issues/2006)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

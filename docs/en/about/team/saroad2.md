@@ -1,1 +1,1 @@
-Sagi Shadur is a software engineer and a mathematician. He has a B.Sc. in mathematics and these days he's on his way for a second B.Sc. in physics. He's also a poet who published two books in Hebrew, "Mountains and Valleys" and "The Emissary".
+<nospell>Sagi Shadur</nospell> is a software engineer and a mathematician. He has a B.Sc. in mathematics and these days he's on his way for a second B.Sc. in physics. He's also a poet who published two books in Hebrew, "Mountains and Valleys" and "The Emissary".

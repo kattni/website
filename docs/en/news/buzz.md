@@ -4,4 +4,4 @@ title: Buzz
 
 # The Buzz
 
-**The BeeWare Official Blog**
+**Welcome to the BeeWare Official Blog!**

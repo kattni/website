@@ -21,7 +21,7 @@ I'm incredibly excited to announce that I've found a solution.
 
 On March 21, I joined Anaconda as a Principal Engineer and Team Lead - and the team I will be leading will be focused 100% on BeeWare.
 
-Anaconda is no stranger to Open Source. In addition to indirectly funding a number of community efforts through their Anaconda Dividend program, they directly employ people to work on Numba, Dask, Pyston and more. BeeWare will be joining this stable of projects.
+Anaconda is no stranger to Open Source. In addition to indirectly funding a number of community efforts through their Anaconda Dividend program, they directly employ people to work on <nospell>Numba, Dask, Pyston</nospell> and more. BeeWare will be joining this stable of projects.
 
 Anaconda is supporting BeeWare in this way because they see the potential for Python as a language for GUI development - especially on mobile platforms. Python has established itself as an incredibly popular language in education, science, business and more - and in all those markets, there is potential to develop apps. By adding mobile platform support and app development to the list of tasks to which Python is already incredibly capable, Anaconda hopes to ensure the long term prospects of Python as a language, as well as ensuring a healthy market for the products they sell commercially.
 

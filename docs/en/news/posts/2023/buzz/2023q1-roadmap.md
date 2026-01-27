@@ -17,7 +17,7 @@ Progress in Q4 was not as significant as we originally planned. A combination of
 
 We were able to hit our goal for **Web deployment**. We've restored the Toga web backend to a working state, and we've added a Web deployment backend to Briefcase. There's still a lot of work required before Web deployment is a viable as a production solution, but the initial pieces are now in place.
 
-We were also able to hit our goals on **housekeeping**. We've made a lot of improvements to the base infrastructure of repositories, enabling Black, pre-commit, and towncrier in Toga, and improving coverage reporting (including getting to 100% branch coverage in Briefcase's test suite).
+We were also able to hit our goals on **housekeeping**. We've made a lot of improvements to the base infrastructure of repositories, enabling Black, pre-commit, and `towncrier` in Toga, and improving coverage reporting (including getting to 100% branch coverage in Briefcase's test suite).
 
 We've made significant progress on improving the **testing** story for BeeWare apps. We've added the ability for Briefcase projects to run normal Python test suites inside a packaged app, and we've demonstrated that we can use this capability to run CI for iOS and Android apps (as well as desktop platforms). This feature will be included in the next Briefcase release.
 
@@ -25,7 +25,7 @@ Using this new testing capability, we've started building a GUI test suite for T
 
 Our plans to release Toga v0.3 final have also been delayed. The process of adding SCM-based versioning to the repository (part of the housekeeping task) revealed a bug that prevented code running on Android; fixing that bug became a blocker on the release of Toga v0.3. We've now resolved that problem, so we should be able to release Toga v0.3 final as soon as the fix has been released into the BeeWare's Android tooling.
 
-Unfortunately, that leaves a lot on the Q4 TODO list. We haven't made any changes to the example apps; Toga documentation is mostly unchanged; we haven't been able to do any substantial Toga planning; and we haven't been able to add any native cross-platform hardware support.
+Unfortunately, that leaves a lot on the Q4 TODO list. We haven't made any changes to the example apps; Toga documentation is mostly unchanged; we haven't been able to do any substantial Toga planning; and we haven't been able to add any native cross-platform hardware support. <!-- rumdl-disable-line MD061 -->
 
 ## Q1 priorities
 

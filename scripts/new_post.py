@@ -170,7 +170,7 @@ def request_event_metadata():
         involvements.append(involvement_metadata)
 
         further_involvement = input("Is the team involved in another way? (y/N): ")
-        more = further_involvement[0].upper() == "Y"
+        more = further_involvement[:1].upper() == "Y"
 
     return {
         "title": f"We'll be at {event_name}!",
@@ -260,12 +260,17 @@ yaml.add_representer(str, NoAliasDumper.represent_str, Dumper=NoAliasDumper)
 
 def generate_entry(metadata, payload):
     """Generate a Markdown content file for a single entry."""
+    if metadata["categories"] == ["Events"]:
+        name = metadata["event"]["name"]
+    else:
+        name = metadata["title"]
+
     file_path = (
         Path(__file__).parent.parent
         / "docs/en/news/posts"
         / str(metadata["date"].year)
         / metadata["categories"][0].lower()
-        / f"{re.sub(r'[^\w ]', '', metadata['title']).lower().replace(' ', '-')}.md"
+        / f"{re.sub(r'[^\w ]', '', name).lower().replace(' ', '-')}.md"
     )
 
     file_path.parent.mkdir(parents=True, exist_ok=True)
@@ -301,3 +306,9 @@ if __name__ == "__main__":
         payload = "\n{{ generate_resource_post(resource) }}"
 
     generate_entry(metadata, payload)
+
+    if post_type == "event":
+        print()
+        print("**********************************************************")
+        print("* Don't forget to fill in long descriptions in the post! *")
+        print("**********************************************************")

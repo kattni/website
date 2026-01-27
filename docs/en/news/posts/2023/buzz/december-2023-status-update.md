@@ -17,7 +17,7 @@ December has been a short month due to end-of-year holidays, but BeeWare has sti
 - The [first patch to CPython that explicitly mentions iOS](https://github.com/python/cpython/pull/112738) has been merged. This is a relatively minor change that is required for building cross-platform binary modules; we'll start submitting more substantial patches in the new year.
 - [PEP738](https://peps.python.org/pep-0738/), formalizing the introduction of Android as a Tier 3 platform in CPython, has been drafted, and is [currently under discussion](https://discuss.python.org/t/pep-738-adding-android-as-a-supported-platform/40975).
 - [Chaquopy 15 was released](https://chaquo.com/chaquopy/chaquopy-version-15-0-1/), adding support for Python 3.12 on Android. This release also improves compatibility with Android Studio's transition away from Groovy, towards Kotlin for configuration.
-- An [implementation of OptionContainer was added for iOS](https://github.com/beeware/toga/pull/2259).
+- An [implementation of `OptionContainer` was added for iOS](https://github.com/beeware/toga/pull/2259).
 - A number of improvements were made to image handling, including [optimizations when creating images from internal APIs](https://github.com/beeware/toga/pull/2263), and a [correction to flexible image resizing behavior](https://github.com/beeware/toga/pull/2276).
 - A [long standing bug that would cause macOS tables to crash](https://github.com/beeware/toga/pull/2291) was resolved.
 - The [ability to define platform-specific icons](https://github.com/beeware/toga/pull/2260) was added to Toga.
@@ -26,7 +26,7 @@ December has been a short month due to end-of-year holidays, but BeeWare has sti
 
 ## What's next?
 
-When we return from the end-of-year break, we'll be back into developing Toga. In the near future, you should see an OptionContainer on Android, and permission support in Briefcase; once that work is wrapped, we'll start looking at more more hardware APIs and missing widgets. You should also start to see more patches land in CPython to support iOS, and the finalisation of [PEP 738](https://peps.python.org/pep-0738/).
+When we return from the end-of-year break, we'll be back into developing Toga. In the near future, you should see an `OptionContainer` on Android, and permission support in Briefcase; once that work is wrapped, we'll start looking at more more hardware APIs and missing widgets. You should also start to see more patches land in CPython to support iOS, and the finalization of [PEP 738](https://peps.python.org/pep-0738/).
 
 ## Want to get involved?
 
@@ -35,7 +35,7 @@ Want to get involved? Here are some open issues that would be a great place to g
 1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
-4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+4. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 5. [Add support for custom PyPI repositories](https://github.com/beeware/briefcase/issues/1270)
 6. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 7. [Correctly handle incomplete project deletions](https://github.com/beeware/briefcase/issues/394)
@@ -45,4 +45,4 @@ Want to get involved? Here are some open issues that would be a great place to g
 11. [Add an API to entirely replace the style of a widget](https://github.com/beeware/toga/issues/2305)
 12. [Add the ability to define content when creating a window](https://github.com/beeware/toga/issues/2307)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

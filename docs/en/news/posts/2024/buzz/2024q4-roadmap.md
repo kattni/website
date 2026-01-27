@@ -13,7 +13,7 @@ Q3 has seen some major progress against long term goals of the BeeWare project. 
 
 ## Q3 progress
 
-In Q3 the biggest milestone we achieved was the finalisation of Tier 3 support for Android in CPython. The last of the compatibility and documentation issues associated with Android have been resolved, and Android buildbots are now running for both x86\_64 and ARM64. Python 3.13.0 is due for release in about a week; we should be in a position to support this release very soon after the official release.
+In Q3 the biggest milestone we achieved was the finalization of Tier 3 support for Android in CPython. The last of the compatibility and documentation issues associated with Android have been resolved, and Android buildbots are now running for both x86\_64 and ARM64. Python 3.13.0 is due for release in about a week; we should be in a position to support this release very soon after the official release.
 
 We've also made significant progress on binary packaging. We've backported all the Python 3.13 patches for iOS into BeeWare's support for Python 3.9-3.12, and we've updated our Mobile Forge infrastructure to generate binary wheels for a number of popular packages. We've developed iOS compatibility patches for pip and crossenv; these patches have been submitted and received initial reviews; we'll continue to work with those projects to land these patches upstream.
 

@@ -27,7 +27,7 @@ The idea is that the benchmarking suite is not to be run as part of the full tes
 
 May 10th, 2018:
 
-```
+```console
 $ python setup.py test -s tests.test\_pystone test\_pystone
 (tests.test\_pystone.PystoneTest) ... Pystone(1.2) time for 50000
 passes = 101.833 This machine benchmarks at 490.998 pystones/second
@@ -43,7 +43,7 @@ passes = 102.247 This machine benchmarks at 489.014 pystones/second
 
 On current master (Aug 14th, 2018):
 
-```
+```console
 $ python setup.py test -s tests.test\_pystone test\_pystone
 (tests.test\_pystone.PystoneTest) ... Pystone(1.2) time for 50000
 passes = 11.2300 This machine benchmarks at 4452.37 pystones/second
@@ -65,7 +65,7 @@ Some things that I learned about VOC while working on this project:
 
 2\. Method calls in VOC are expensive. This is essentially due to the process of invoking a callable: you have to check that the method is defined on the object, then construct it (read: object creation!), and check the arguments, before it can actually be called. (This is done using reflection, which is super interesting and confusing in itself.) And this is the reason why [refactoring the Python comparison functions](https://github.com/beeware/voc/pull/875) made such a big performance impact, because we were able to circumvent this process.
 
-3\. Exception-heavy code is expensive. Again, this is not to say that the programmer is on the hook for being frugal when throwing exceptions, but that VOC benefits greatly by avoiding the use of exceptions internally except when strictly necessary. For instance, Python uses StopIteration exceptions to signal the end of a for loop, and they quickly rack up when you have nested loops (everything is ultimately related to object creation!). That was the motivation for the [nested loops optimization](https://github.com/beeware/voc/pull/881).
+3\. Exception-heavy code is expensive. Again, this is not to say that the programmer is on the hook for being frugal when throwing exceptions, but that VOC benefits greatly by avoiding the use of exceptions internally except when strictly necessary. For instance, Python uses `StopIteration` exceptions to signal the end of a for loop, and they quickly rack up when you have nested loops (everything is ultimately related to object creation!). That was the motivation for the [nested loops optimization](https://github.com/beeware/voc/pull/881).
 
 If I may be a bit more reflective here, one of the a-ha! moments I had this summer was realizing that to really optimize something, you have to understand where its biggest problems are first. I remember pitching to Russ at the start of the summer things like loop unrolling, constant folding, even converting to SSA-form (you know, stuff I heard about optimization in my compilers class) and he was saying to me, think simpler. While working on my project, I used a [profiler](https://www.ej-technologies.com/products/jprofiler/overview.html) to understand exactly which parts of VOC were slow, and that information drove the changes we implemented. I think it worked out pretty well!
 

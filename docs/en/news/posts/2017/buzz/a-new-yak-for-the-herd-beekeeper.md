@@ -11,7 +11,7 @@ Testing is a skill that is a vital part of every programmer's training. Learning
 
 <!-- more -->
 
-An important step in "levelling up" your testing experience is to start using a Continuous Integration, or CI service. A CI service is a tool that automatically runs your test suite every time someone makes a change - or every time someone proposes a change in the form of a pull request. Using a CI service makes sure that your code *always* passes your test suite - you can't accidentally slip in a change that breaks a test, because you'll get a big red warning notification.
+An important step in "leveling up" your testing experience is to start using a Continuous Integration, or CI service. A CI service is a tool that automatically runs your test suite every time someone makes a change - or every time someone proposes a change in the form of a pull request. Using a CI service makes sure that your code *always* passes your test suite - you can't accidentally slip in a change that breaks a test, because you'll get a big red warning notification.
 
 CI is such an important service that many companies exist solely to provide CI-as-a-service. The BeeWare project has, for various projects, used [TravisCI](https://travis-ci.org) and [CircleCI](https://circleci.com). Both these tools provide free tiers for open source projects, and have generously sponsored BeeWare with capacity upgrades at various times.
 
@@ -21,7 +21,7 @@ Firstly, our test suites - especially for [VOC](https://github.com/beeware/voc) 
 
 We've been able to speed up the duration of a test run by splitting up the test suite and running parts of the suite in parallel, but that forces us up against the second problem. Commercial CI services usually operate on a subscription model; higher subscriptions providing more simultaneous resources. However, our usage pattern is highly unusual. Most of the year, we get a slow trickle of pull requests that require testing. However, a couple of times a year, we have a large sprint, and we have a flood of contributions over a short period of time. At PyCon US, we have had groups of 40 people submitting patches - and they all need their submissions tested by CI. And time is a factor - the sprints only last a couple of days, so a fast turnaround on testing is essential.
 
-If we were to subscribe to the top tier subscription levels of CircleCi and TravisCI, we still wouldn't have enough resources to support a sprint - but we'd be *massively* overresourced for the rest of the year. We'd also have to pay $750 or more a month for this service, which is a budget we can't afford.
+If we were to subscribe to the top tier subscription levels of <nospell>CircleCi and TravisCI</nospell>, we still wouldn't have enough resources to support a sprint - but we'd be *massively* overresourced for the rest of the year. We'd also have to pay $750 or more a month for this service, which is a budget we can't afford.
 
 So - we had a problem. To run our test suite effectively, we needed massively parallelized resources to run a test suite quickly; and at certain times of the year, we need extremely large numbers of these resources.
 
@@ -37,9 +37,9 @@ I've been trying to find a CI service that can meet our needs for over a year. B
 
 - Amazon provides a API (EC2) that allows you to spool up machines of varying complexity (up to 64 CPUs, with almost 500GB of RAM), and pay by the minute for that usage.
 - Docker provides the tools for configuring, launching, and running code in an isolated fashion
-- Amazon also provides an API (ECS) to control the execution of Docker containers.
+- Amazon also provides an API (<nospell>ECS</nospell>) to control the execution of Docker containers.
 
-There's nothing specific about AWS EC2 or ECS either - you could just as easily use Linode and Kubernetes, or Docker Swarm, or Microsoft Azure... you just need to have the ability to easily spool up machines and run a Docker container. After all: a test suite is just a Docker container that runs a script that starts your test suite. A linting check is a Docker container that runs a script that lints your code. A contributor agreement check is a Docker container that checks the metadata associated with a pull request.
+There's nothing specific about AWS EC2 or <nospell>ECS</nospell> either - you could just as easily use Linode and Kubernetes, or Docker Swarm, or Microsoft Azure... you just need to have the ability to easily spool up machines and run a Docker container. After all: a test suite is just a Docker container that runs a script that starts your test suite. A linting check is a Docker container that runs a script that lints your code. A contributor agreement check is a Docker container that checks the metadata associated with a pull request.
 
 All you need then is a website that can receive GitHub event notifications, and start Docker containers in response.
 
@@ -49,7 +49,7 @@ BeeKeeper deploys as a Heroku website, written using Django. After configuring i
 
 BeeKeeper also allows the site admin to describe what resources will be used to satisfy builds. A task can say it needs a "High CPU" instance; but the BeeKeeper instance can determine what "High CPU" means - is it 4 CPUs or 32? When those machines are spooled up, how long will they be allowed to sit idle before being shut down again? How many machines should be sitting in the pool permanently? And what is the upper limit on machines that will be started?
 
-A companion tool to BeeKeeper is [Waggle](https://github.com/beeware/beekeeper). Waggle is a tool that prepares a local definition of a task so it can be used by BeeKeeper - it compiles the Docker image, and uploads it into ECS so that it can be referenced by tasks. (It's called "Waggle" because when worker bees discover a good source of nectar, they return to the hive and do a [waggle dance](https://en.wikipedia.org/wiki/Waggle_dance) that tells other bees how to find that source).
+A companion tool to BeeKeeper is [Waggle](https://github.com/beeware/beekeeper). Waggle is a tool that prepares a local definition of a task so it can be used by BeeKeeper - it compiles the Docker image, and uploads it into <nospell>ECS</nospell> so that it can be referenced by tasks. (It's called "Waggle" because when worker bees discover a good source of nectar, they return to the hive and do a [waggle dance](https://en.wikipedia.org/wiki/Waggle_dance) that tells other bees how to find that source).
 
 We've also provided a repository called [Comb](https://github.com/beeware/comb) (named after honey comb, the place bees store all the nectar they find) that defines the task configurations that a BeeKeeper instance can use. We've provided some simple definitions as part of the base Comb repository; each BeeKeeper deployment should have one of these repositories of its own.
 

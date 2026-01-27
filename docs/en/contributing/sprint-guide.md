@@ -1,4 +1,4 @@
-# Sprint Guide
+# Sprint Guide { #sprints }
 
 ## Welcome to the BeeWare Sprints!
 
@@ -20,7 +20,7 @@ To get you started, we're going to ask a few questions so we can gauge your inte
 
 1. **Have you used BeeWare before?**
 
-    If you haven't, start by working through the [BeeWare Tutorial](https://docs.beeware.org/en/latest/). It will give you an introduction for what the BeeWare project is, and how the pieces of the project fit together. If you hit any problems doing the tutorial, take notes - because ensuring nobody else has the same problem is a great topic for a first contribution!
+    If you haven't, start by working through the [BeeWare Tutorial](https://tutorial.beeware.org). It will give you an introduction for what the BeeWare project is, and how the pieces of the project fit together. If you hit any problems doing the tutorial, take notes - because ensuring nobody else has the same problem is a great topic for a first contribution!
 
     Once you've finished the tutorial up to at least step 4, move on to the next question.
 
@@ -34,7 +34,7 @@ To get you started, we're going to ask a few questions so we can gauge your inte
 
 4. **Are you familiar with GitHub contribution processes?**
 
-    Do you use GitHub (or a similar code-sharing site) for hosting your own code or contributing to others' projects? Do you know what CI (continuous integration) is? Have you contributed to a project that has pre-commit hooks? If I asked you to "rebase your PR against main", would you know what to do?
+    Do you use GitHub (or a similar code-sharing site) for hosting your own code or contributing to others' projects? Do you know what CI (continuous integration) is? Have you contributed to a project that has pre-commit hooks? If I asked you to "`rebase` your PR against main", would you know what to do?
 
 5. **Have you contributed to an Open Source project before?**
 
@@ -60,7 +60,7 @@ To filter a GitHub issue list by the "[good first issue](https://github.com/sear
 
 1. Click on the "Labels" button above the list of issues to activate the drop-down menu.
 2. Type the word "good" into the search box at the top of the drop-down menu.
-3.  Click on "good first issue" in the filtered list.
+3. Click on "good first issue" in the filtered list.
 
 ![Filtering GitHub issues by label](images/github-good-first-issue-filter.png)
 

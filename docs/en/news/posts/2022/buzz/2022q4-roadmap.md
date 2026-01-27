@@ -32,9 +32,9 @@ In Q4, we're planning to focus on:
 
 The primary focus for Q4 will be Toga. There are a number of pieces of work involved with this:
 
-- **Housekeeping** - Basic repository maintenance tasks, like enabling <span class="title-ref">black</span>, introducing pre-commit hooks, towncrier, and automating release infrastructure.
+- **Housekeeping** - Basic repository maintenance tasks, like enabling `black`, introducing pre-commit hooks, `towncrier`, and automating release infrastructure.
 - **Example consolidation** - Toga's examples folder has become a sprawling collection of code that is part documentation, part testbed. We need to start consolidating these examples into 2 apps - one that is a user-facing demonstrator of Toga features, and one that can be used as a functional test of Toga features.
-- **Testing** - Modernising and cleaning up the existing test suite, and working out how to automate GUI tests
+- **Testing** - Modernizing and cleaning up the existing test suite, and working out how to automate GUI tests
 - **Documentation** - Toga's documentation has lagged behind an acceptable standard for a long time,
 - **Planning** - Developing a clear plan for what will be in Toga 1.0
 - **Cross-platform hardware** - While it has always been *technically* possible to support the APIs needed to access device hardware, there hasn't been a cross-platform API for this work. In Q4, we hope to demonstrate at least 1 interesting piece of mobile device hardware.
@@ -55,7 +55,7 @@ With binary modules now being supported on both iOS and Android, and the introdu
 
 ### Toga 1.0
 
-The broad goal for "Toga 1.0" could be considered "Tkinter, but with some additional bells to show off". We want to deliver a core widget set of the "essentials", plus some nice features to show off, like WebViews and camera or GPS integration. We hope to establish the feature list for Toga 1.0 in Q4; once that plan is in place, we'll have a better idea of when we will be able to deliver on that plan.
+The broad goal for "Toga 1.0" could be considered "<nospell>Tkinter</nospell>, but with some additional bells to show off". We want to deliver a core widget set of the "essentials", plus some nice features to show off, like `WebView`s and camera or GPS integration. We hope to establish the feature list for Toga 1.0 in Q4; once that plan is in place, we'll have a better idea of when we will be able to deliver on that plan.
 
 ### A Forge for mobile packages
 

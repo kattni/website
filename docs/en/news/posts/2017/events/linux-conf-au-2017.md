@@ -49,7 +49,7 @@ involvement:
 - type: talk
   team_members:
   - glasnt
-  title: Javascript is Awe-ful
+  title: Javascript is <nospell>Awe-ful</nospell>
   url: https://www.youtube.com/watch?v=k3brfCZSFiQ
   date: 2017-01-18
   end_date: 2017-01-18
@@ -58,7 +58,7 @@ involvement:
     renaissance, it now has uses that extend beyond the browser.
 
     However, being a language that's extremely accessible, with a shallow
-    learning curve and large userbase, it's the subject of - at times -
+    learning curve and large user-base, it's the subject of - at times -
     vitriolic abuse from other language communities.
 
     Yes, JavaScript was created in a very short timeframe, and there are
@@ -67,7 +67,7 @@ involvement:
     it's able to prove it's versatility and usefulness. So why the hate?
 
     In this talk, we will discuss the history of JavaScript, it's future,
-    and how some it's 'wat's can be avoided in everyday use in other to
+    and how some it's <nospell>'wat's</nospell> can be avoided in everyday use in other to
     leverage the power of this universal language. We will also take a short
     tour through over a dozen other languages and some of their quirks, to
     prove how no language is without fault.

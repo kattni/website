@@ -14,7 +14,7 @@ In October, BeeWare saw some important releases, plus more good progress on bina
 ## What we've done
 
 - Most importantly, we released [Briefcase 0.3.20](https://pypi.org/project/briefcase/0.3.20/) and [Toga 0.4.8](https://pypi.org/project/toga/0.4.8/), including support for Python 3.13 - which includes the official support in Python for iOS and Android! This is a major milestone for BeeWare as a project, representing a significant portion of the work done over the last 12 months.
-- We've prepared an [initial patch to cibuildwheel that is able to build and test simple iOS wheels](https://github.com/freakboy3742/cibuildwheel/tree/ios-support). This patch isn't ready to submit upstream, but it is able to build simple iOS wheels.
+- We've prepared an [initial patch to `cibuildwheel` that is able to build and test simple iOS wheels](https://github.com/freakboy3742/cibuildwheel/tree/ios-support). This patch isn't ready to submit upstream, but it is able to build simple iOS wheels.
 - We've submitted a patch to Pillow to [isolate its build system from Homebrew when building on macOS](https://github.com/python-pillow/Pillow/pull/8497). This is essential for iOS support, as it's easy for Homebrew macOS ARM64 binaries to leak into iOS builds; but it also has benefits for macOS builds.
 - We've made [a number of improvements to multibuild](https://github.com/multi-build/multibuild), the tooling that Pillow uses to compile non-Python binary dependencies.
 - We've [modified the CPython iOS testbed project](https://github.com/python/cpython/pull/126169) so that it can be used as a testbed for *any* iOS Python project.
@@ -27,7 +27,7 @@ In October, BeeWare saw some important releases, plus more good progress on bina
 
 We will be continuing to work on binary packaging in November. We're using Pillow as a demonstrator for this work - it's a package that has a significant binary component, is widely used (including on mobile), but has a non-trivial build process (largely due to the non-Python binary dependencies). The hope is that by the time we're able to compile Pillow for iOS, we will have resolved many of the issues facing other binary packages. Our goal remains to have at least *some* third-party projects officially supporting iOS and Android by the end of the year, but this may be impeded by the sequence of dependencies that need to land and be published before upstream projects can accept iOS and Android patches.
 
-We'll also be speaking at [PyCon AU](https://2024.pycon.org.au) at the end of the month, including attending both days of the sprints. If you're able to make it to Narrm/Melbourne, we hope we'll see you there!
+We'll also be speaking at [PyCon AU](https://2024.pycon.org.au) at the end of the month, including attending both days of the sprints. If you're able to make it to <nospell>Narrm</nospell>/Melbourne, we hope we'll see you there!
 
 ## Want to get involved?
 
@@ -36,11 +36,11 @@ Want to get involved? Here are some open issues that would be a great place to g
 1. [Update the Toga testbed test suite to use Pixel 7 Pro device sizes](https://github.com/beeware/toga/issues/2251)
 2. [Filter out a message generated after Xcode updates](https://github.com/beeware/briefcase/issues/780)
 3. [Add the ability to configure the ABIs built by an Android project](https://github.com/beeware/briefcase/issues/808)
-4. [Rationalise the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
+4. [Rationalize the application of adhoc signing on macOS](https://github.com/beeware/briefcase/issues/1099)
 5. [Add support for custom PyPI repositories](https://github.com/beeware/briefcase/issues/1270)
 6. [Document how to debug an application in popular IDEs](https://github.com/beeware/briefcase/issues/1393)
 7. [Add an option to select the Android base image when creating new emulators](https://github.com/beeware/briefcase/issues/737)
 8. [Add an API to entirely replace the style of a widget](https://github.com/beeware/toga/issues/2305)
 9. [Correct the handling of quotation marks in Android apps](https://github.com/beeware/briefcase/issues/1876)
 
-Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.readthedocs.io/en/latest/how-to/contribute-code.html); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).
+Pick one of these tickets, drop a comment on the ticket to let others know you're looking at it, and try your hand at a PR! We have a [guide on setting up a Briefcase development environment](https://briefcase.beeware.org/en/latest/how-to/contribute/how/dev-environment/); but if you need any additional assistance or guidance, you can ask on the ticket, or join us on the [BeeWare Discord server](https://beeware.org/bee/chat/).

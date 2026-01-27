@@ -54,7 +54,7 @@ involvement:
 
     Katie has been a part of the tech industry for over ten years and a familiar face at local conferences for several years now. Attendees at last year's conference may recall her illuminating tour of the world of emoji.
 
-    As well as being an accomplished speaker, Katie is a long time volunteer and community builder in the world of open source. She has organised, chaired, and committed her way through many a group and is a Senior Apiarist on the BeeWare project. She was a recipient of this year's O'Reilly Open Source Awards and is also organising this year's DjangoCon AU Specialist Track. Phew!
+    As well as being an accomplished speaker, Katie is a long time volunteer and community builder in the world of open source. She has organized, chaired, and committed her way through many a group and is a Senior Apiarist on the BeeWare project. She was a recipient of this year's O'Reilly Open Source Awards and is also organizing this year's DjangoCon AU Specialist Track. Phew!
 
     A programming polyglot, she has worked in over a dozen languages and believes in choosing the right tool for the job. Which makes it extra lucky for us that she chooses to spend so much time in the Python world!
 

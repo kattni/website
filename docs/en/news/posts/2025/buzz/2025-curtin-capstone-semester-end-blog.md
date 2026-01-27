@@ -24,12 +24,14 @@ This year our team has had the exciting opportunity to contribute to BeeWare for
 
 Meet the Team:
 
- - Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
- - Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
- - Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
- - Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
- - Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
- - Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
+<nospell>
+- Kavidu Abeykoon Mudiyanselagedara ([kavi2du](https://github.com/kavi2du)); Information Technology
+- Callum Horton ([Stringer90](https://github.com/Stringer90)); Software Engineering
+- Caydn Lee ([caydnn](https://github.com/caydnn)); Software Engineering
+- Jaeden Mah ([JMah007](https://github.com/JMah007)); Computer Science
+- Mitchell Pontague ([mEp3ii2](https://github.com/mEp3ii2)); Software Engineering
+- Veronica Taniputra ([vt37](https://github.com/vt37)); Cyber Security
+</nospell>
 
 ## What We’ve Worked On
 
@@ -42,21 +44,21 @@ We were first tasked with contributing to a first timer issue before moving on t
 ### Briefcase Contributions
 
 - PR [#2198](https://github.com/beeware/briefcase/pull/2198): Add boolean question (feature)
-- PR [#2103](https://github.com/beeware/briefcase/pull/2203): Add XML content escaping filter to cookiecutter.py (feature)
+- PR [#2103](https://github.com/beeware/briefcase/pull/2203): Add XML content escaping filter to `cookiecutter.py` (feature)
 - PR [#2199](https://github.com/beeware/briefcase/pull/2199): Add catch exception when deleting JDK (bugfix)
 - PR [#2229](https://github.com/beeware/briefcase/pull/2229): Accept other changelog name and extension (feature)
-- PR [#2201](https://github.com/beeware/briefcase/pull/2201): Add ``--app`` option to briefcase build/package (feature)
-- PR [#2214](https://github.com/beeware/briefcase/pull/2214): Add ``--app`` option to briefcase create/update (feature)
-- PR [#2236](https://github.com/beeware/briefcase/pull/2236): Normalise contribution docs with Toga (documentation)
+- PR [#2201](https://github.com/beeware/briefcase/pull/2201): Add `--app` option to briefcase build/package (feature)
+- PR [#2214](https://github.com/beeware/briefcase/pull/2214): Add `--app` option to briefcase create/update (feature)
+- PR [#2236](https://github.com/beeware/briefcase/pull/2236): Normalize contribution docs with Toga (documentation)
 - PR [#54](https://github.com/beeware/briefcase-windows-VisualStudio-template/pull/54): Use XML content escaping filter to Visual Studio template. (bugfix) (work in progress)
 
 ### Toga Contributions
 
 - PR [#3259](https://github.com/beeware/toga/pull/3259): Add web screenshots (documentation)
 - PR [#3466](https://github.com/beeware/toga/pull/3466): Fix button click handling in Toga Web backend to correctly trigger event (bugfix)
-- PR [#3338](https://github.com/beeware/toga/pull/3338): DateInput (web widget)
-- PR [#3405](https://github.com/beeware/toga/pull/3405): TimeInput (web widget)
-- PR [#3362](https://github.com/beeware/toga/pull/3362): ScrollContainer (web widget)
+- PR [#3338](https://github.com/beeware/toga/pull/3338): `DateInput` (web widget)
+- PR [#3405](https://github.com/beeware/toga/pull/3405): `TimeInput` (web widget)
+- PR [#3362](https://github.com/beeware/toga/pull/3362): `ScrollContainer` (web widget)
 - PR [#3425](https://github.com/beeware/toga/pull/3425): Table (web widget) (work in progress)
 - PR [#3402](https://github.com/beeware/toga/pull/3402): Selection (web widget)
 - PR [#3527](https://github.com/beeware/toga/pull/3527): Slider (web widget)
@@ -77,17 +79,16 @@ More technical details and discussion can be found in our [Discussion Post](http
 
 ### PyScript Briefcase and Toga Dependencies
 
-During Mitchell’s development of the DateInput Web Widget, we discovered some issues resulting from how PyScript APIs were being used. This issue was resolved separately but sparked broader discussions about the ownership of PyScript, Shoelace, and Bootstrap within the wider BeeWare architecture. Currently, the Briefcase web template includes these directly in ``index.html``, but they should ideally be managed as dependencies of Toga.
+During Mitchell’s development of the `DateInput` Web Widget, we discovered some issues resulting from how PyScript APIs were being used. This issue was resolved separately but sparked broader discussions about the ownership of PyScript, Shoelace, and Bootstrap within the wider BeeWare architecture. Currently, the Briefcase web template includes these directly in `index.html`, but they should ideally be managed as dependencies of Toga.
 
 We’re proposing to shift ownership of these dependencies to Toga and other toolkits, enabling them to define their own configurations and inserts while keeping Briefcase focused purely on packaging. This would allow for clearer version control, better modularity, and easier maintenance across the ecosystem. This approach builds on prior work ([briefcase#1285](https://github.com/beeware/briefcase/pull/1285), [toga#1945](https://github.com/beeware/toga/pull/1945) and [briefcase-web-static-template#9](https://github.com/beeware/briefcase-web-static-template/pull/9)) and introduces a mechanism for toolkit-managed inserts and configuration. We plan on reviving parts of these to allow for Toga to specify PyScript versioning.
 
 More technical details and discussion can be found in our [Discussion Post](https://github.com/beeware/briefcase/discussions/2283) on Briefcase and the associated [Issue Ticket](https://github.com/beeware/briefcase/issues/2337).
 
+### Briefcase Web Development Optimizations
 
-### Briefcase Web Development Optimisations
+While contributing to Toga's web widgets, we noticed that testing even small changes requires rebuilding all project wheels (with `briefcase run web -r -u`), which can take a significant amount of time. This makes local development slow and interrupts the feedback loop needed for efficient frontend iteration.
 
-While contributing to Toga's web widgets, we noticed that testing even small changes requires rebuilding all project wheels (with ``briefcase run web -r -u``), which can take a significant amount of time. This makes local development slow and interrupts the feedback loop needed for efficient frontend iteration.
-
-To improve this we're going to be working on extending the ``dev`` command to be platform aware and make it so ``dev web`` utilises editbale installs to serve your project to the brower making it so with simple refresh of the browser you can quickly see your changes instead of waiting for a full wheel rebuild.
+To improve this we're going to be working on extending the `dev` command to be platform aware and make it so `dev web` utilizes editable installs to serve your project to the browser making it so with simple refresh of the browser you can quickly see your changes instead of waiting for a full wheel rebuild.
 
 More technical details and discussion can be found in our [Discussion Post](https://github.com/beeware/briefcase/discussions/2282) on Briefcase and the associated [Issue Ticket](https://github.com/beeware/briefcase/issues/2334).
