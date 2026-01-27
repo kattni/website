@@ -115,7 +115,7 @@ BeeWare is supported by users like you! Every little bit helps: [click here to c
 
 ### Gold Member { .index-sidebar-gold-member }
 
-<img class="anaconda_light_mode" src="images/anaconda-dark.png" alt="Anaconda logo"/> <img class="anaconda_dark_mode" src="images/anaconda-light.png" alt="Anaconda logo"/>
+<a href="https://www.anaconda.com/"><img class="anaconda_light_mode" src="images/anaconda-dark.png" alt="Anaconda logo"/> <img class="anaconda_dark_mode" src="images/anaconda-light.png" alt="Anaconda logo"/></a>
 
 ### Latest news
 
@@ -130,7 +130,7 @@ BeeWare is supported by users like you! Every little bit helps: [click here to c
 <div class="index-docs" markdown="1">
 <div class="index-docs-links" markdown="1">
 
-[![Tiberius](images/toga.png)](https://toga.beeware.org){ .index-docs-logo }
+[![Tiberius](images/toga.png)](https://toga.beeware.org)
 
 #### [Toga](https://toga.beeware.org) { .index-docs-name }
 
@@ -140,7 +140,7 @@ A Python native, OS native GUI toolkit.
 
 <div class="index-docs-links" markdown="1">
 
-[![Briefcase](images/briefcase.png)](https://briefcase.beeware.org){ .index-docs-logo }
+[![Briefcase](images/briefcase.png)](https://briefcase.beeware.org)
 
 #### [Briefcase](https://briefcase.beeware.org) { .index-docs-name }
 

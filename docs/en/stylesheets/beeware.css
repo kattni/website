@@ -127,7 +127,7 @@ h3.index-sidebar-gold-member {
     margin: 0;
 }
 
-.index-docs-logo img {
+.index-docs-links img {
     max-width: 60px;
     margin-right: 0.5rem;
 }
@@ -466,7 +466,7 @@ a.docs-tutorial-button:hover {
     margin-left: 5rem;
 }
 
-.featured-logo {
+.featured img {
     width: 150px;
     display: inline-block;
 }
@@ -487,16 +487,16 @@ h2.featured-name {
     padding-left: 1em;
 }
 
+.other-tools-package img {
+    display: inline-block;
+    width: 40px;
+}
+
 h4.podium-name,
 h4.rubicon-name,
 h4.python-apple-name,
 h4.chaquopy-name {
     margin-bottom: 0;
-}
-
-.other-tools-logo {
-    display: inline-block;
-    width: 40px;
 }
 
 div[class*="-info"] p {

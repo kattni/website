@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-26 21:50-0400\n"
+"POT-Creation-Date: 2026-01-27 02:24-0400\n"
 "PO-Revision-Date: 2025-11-03 17:51+0000\n"
 "Last-Translator: John <johnzhou721@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
@@ -131,11 +131,11 @@ msgid "[X-large]{1}"
 msgstr ""
 
 #: docs/en/about/contact.md:1
-msgid "Contact"
-msgstr "联系方式"
+msgid "Contact { #contact }"
+msgstr ""
 
 #: docs/en/about/contact.md:3
-msgid "Looking for help?"
+msgid "Looking for help? { #looking-for-help }"
 msgstr ""
 
 #: docs/en/about/contact.md:5
@@ -149,18 +149,18 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/contact.md:7
-msgid "Where can you find us?"
+msgid "Where can you find us? { #where-can-you-find-us }"
 msgstr ""
 
-#: docs/en/about/contact.md:8
+#: docs/en/about/contact.md:9
 msgid "You can engage with the BeeWare community in several different ways."
 msgstr ""
 
-#: docs/en/about/contact.md:10
-msgid "Discord"
+#: docs/en/about/contact.md:11
+msgid "Discord { #discord }"
 msgstr ""
 
-#: docs/en/about/contact.md:12
+#: docs/en/about/contact.md:13
 msgid ""
 "We use [Discord]{1} for real-time communication. You can introduce yourself "
 "in the #introductions channel. The #help-with-beeware channel is available "
@@ -170,21 +170,21 @@ msgid ""
 "progress and completed projects are all welcome!"
 msgstr ""
 
-#: docs/en/about/contact.md:14
-msgid "Mastodon"
+#: docs/en/about/contact.md:15
+msgid "Mastodon { #mastodon }"
 msgstr ""
 
-#: docs/en/about/contact.md:16
+#: docs/en/about/contact.md:17
 msgid ""
 "Follow [@beeware@fosstodon.org]{1} on Mastodon for day-to-day updates on the "
 "BeeWare project."
 msgstr ""
 
-#: docs/en/about/contact.md:18
-msgid "GitHub"
+#: docs/en/about/contact.md:19
+msgid "GitHub { #github }"
 msgstr ""
 
-#: docs/en/about/contact.md:20
+#: docs/en/about/contact.md:21
 msgid ""
 "A lot of project-specific communication happens on the GitHub Issues for "
 "each project. Links for our high-profile projects can be found on our "
@@ -192,7 +192,7 @@ msgid ""
 "{2} for the full list of repositories."
 msgstr ""
 
-#: docs/en/about/contact.md:22
+#: docs/en/about/contact.md:23
 msgid ""
 "We also use GitHub Discussions as a forum to discuss projects. If you have a "
 "question about how to use a BeeWare tool, open a discussion thread in the "
@@ -201,25 +201,25 @@ msgstr ""
 "我们还将 GitHub Discussions 用作讨论项目的论坛。如果您有关于如何使用 BeeWare "
 "工具的问题，请在该工具的代码库中开设讨论主题。"
 
-#: docs/en/about/contact.md:24
-msgid "Newsletter"
+#: docs/en/about/contact.md:25
+msgid "Newsletter { #newsletter }"
 msgstr ""
 
-#: docs/en/about/contact.md:26
+#: docs/en/about/contact.md:27
 msgid ""
 "Want to receive updates, hints, tips, and announcements related to BeeWare? "
 "[Sign up for the BeeWare Enthusiasts mailing list]{1}."
 msgstr ""
 
-#: docs/en/about/contact.md:28
+#: docs/en/about/contact.md:29
 msgid "Commercial support { #commercial-support }"
 msgstr ""
 
-#: docs/en/about/contact.md:30
+#: docs/en/about/contact.md:31
 msgid "Need help with your commercial BeeWare project?"
 msgstr ""
 
-#: docs/en/about/contact.md:32
+#: docs/en/about/contact.md:33
 msgid ""
 "Although BeeWare is an open source project, there are companies and "
 "individuals who can provide paid support, training, and consulting."
@@ -227,7 +227,7 @@ msgstr ""
 "虽然 BeeWare 是一个开源项目，但也有一些公司和个人可以提供有偿支持、培训和咨询"
 "。"
 
-#: docs/en/about/contact.md:34
+#: docs/en/about/contact.md:35
 msgid ""
 "Note that the core team will *not* provide free support or debugging help "
 "for commercial projects. If you're not able to post your question on a "
@@ -236,51 +236,51 @@ msgid ""
 "needs."
 msgstr ""
 
-#: docs/en/about/contact.md:36
+#: docs/en/about/contact.md:37
 msgid "Contact {1} for any inquiries about these services."
 msgstr ""
 
-#: docs/en/about/contact.md:38
-msgid "Reporting security issues"
+#: docs/en/about/contact.md:39
+msgid "Reporting security issues { #reporting-security-issues }"
 msgstr ""
 
-#: docs/en/about/contact.md:40
+#: docs/en/about/contact.md:41
 msgid ""
 "If you want to report a security problem with one of the BeeWare tools, "
 "please contact the [Core Team]{1}."
 msgstr ""
 
-#: docs/en/about/contact.md:42
-msgid "Reporting Code of Conduct issues"
-msgstr ""
-
 #: docs/en/about/contact.md:43
-msgid ""
-"If you have had an uncomfortable experience in a BeeWare community space, or "
-"want to report a behavior problem with someone who is a member of the "
-"BeeWare community, the [Core Team]{1} will be happy to manage your report in "
-"accordance with our [Code of Conduct reporting guide]{2}."
+msgid "Reporting Code of Conduct issues { #reporting-code-of-conduct-issues }"
 msgstr ""
 
 #: docs/en/about/contact.md:45
-msgid "Other enquiries"
+msgid ""
+"If you have had an uncomfortable experience in a BeeWare community space, or "
+"want to report a behavior problem with someone who is a member of the "
+"BeeWare community, the [Code of Conduct Response Team]{1} will be happy to "
+"manage your report in accordance with our [Code of Conduct]{2}."
 msgstr ""
 
 #: docs/en/about/contact.md:47
+msgid "Other enquiries { #other-enquiries }"
+msgstr ""
+
+#: docs/en/about/contact.md:49
 msgid ""
 "For all media enquiries, please contact Founding Apiarist [Russell Keith-"
 "Magee]{1} or Senior Apiarist [Philip James]{2}."
 msgstr ""
 
-#: docs/en/about/contact.md:49
+#: docs/en/about/contact.md:51
 msgid ""
 "For all other enquiries, please contact Founding Apiarist [Russell Keith-"
 "Magee]{1}."
 msgstr ""
 
 #: docs/en/about/history.md:1
-msgid "History and Philosophy"
-msgstr "历史与理念"
+msgid "History and Philosophy { #history-and-philosophy }"
+msgstr ""
 
 #: docs/en/about/history.md:3
 msgid "History"
@@ -345,11 +345,9 @@ msgid ""
 "However, it doesn't have to be that way. The core tenet of the Unix "
 "Philosophy is that \"each tool does one thing, well\". This is a very "
 "powerful philosophy, and it enables the composition of extremely powerful "
-"toolchains by putting together a suite of extremely focussed, independent "
+"toolchains by putting together a suite of extremely focused, independent "
 "tools."
 msgstr ""
-"然而，事实并非如此。Unix 哲学的核心原则是“每个工具只做好一件事”。它通过将一套"
-"极为专注、独立的工具组合在一起，从而形成了极为强大的工具链。"
 
 #: docs/en/about/history.md:19
 msgid ""
@@ -416,7 +414,8 @@ msgid ""
 "To back this up, we have an open offer to mentor anyone who wants to get "
 "involved as a contributor, and a [Code of Conduct]{1} that is rigorously "
 "enforced. Any reports of violations of that code of conduct - even by senior "
-"community members - will be treated with respect and actioned appropriately."
+"community members - will be treated with respect and acted upon "
+"appropriately."
 msgstr ""
 
 #: docs/en/about/history.md:35
@@ -441,15 +440,11 @@ msgid ""
 "It also frequently leads to burnout and other mental health issues amongst "
 "contributors. The fact that depression, anxiety, and burnout are so common "
 "in software development communities shouldn't be considered a badge of "
-"honour, or a demonstration of how committed a development team can be. It's "
-"a problem that needs to be tackled head on, and addressed in the same way a "
+"honor, or a demonstration of how committed a development team can be. It's a "
+"problem that needs to be tackled head on, and addressed in the same way a "
 "software bug would be addressed - with immediate workarounds, and long term "
 "plans to remove the systemic cause of the problem."
 msgstr ""
-"它还经常导致贡献者产生职业倦怠和其他心理健康问题。抑郁、焦虑和职业倦怠在软件"
-"开发社区中如此普遍的事实，不应被视为一种荣誉徽章，或证明开发团队有多么尽职尽"
-"责。这是一个需要正视和解决的问题，就像解决软件错误一样--立即解决方法，并制定"
-"长期计划，消除造成问题的系统性原因。"
 
 #: docs/en/about/history.md:41
 msgid ""
@@ -643,7 +638,7 @@ msgstr ""
 "单的可执行文件包。最终用户不应该知道你是用 Python 编写应用程序的。"
 
 #: docs/en/about/index.md:1
-msgid "About"
+msgid "About { #about }"
 msgstr ""
 
 #: docs/en/about/index.md:3
@@ -698,8 +693,8 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/overview.md:1
-msgid "What is BeeWare?"
-msgstr "什么是 BeeWare？"
+msgid "What is BeeWare? { #what-is-beeware }"
+msgstr ""
 
 #: docs/en/about/overview.md:3
 msgid "Meet Brutus"
@@ -791,8 +786,8 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team.md:1
-msgid "The Bee Team"
-msgstr "蜜蜂团队"
+msgid "The Bee Team { #the-bee-team }"
+msgstr ""
 
 #: docs/en/about/team.md:3
 msgid "{{ generate_team_page(team, page) }}"
@@ -800,12 +795,10 @@ msgstr ""
 
 #: docs/en/about/team/cflee.md:1
 msgid ""
-"Chiang Fong has been pretending to be a systems administrator since the "
-"Mandriva Linux days, and has recently moved into acting like he knows how to "
-"write software."
+"Chiang Fong{1} has been pretending to be a systems administrator since the "
+"{2}Mandriva{3} Linux days, and has recently moved into acting like he knows "
+"how to write software."
 msgstr ""
-"从 Mandriva Linux 时代起，李江枫就一直在假装自己是系统管理员，最近又开始装得"
-"像他知道如何编写软件。"
 
 #: docs/en/about/team/cflee.md:3
 msgid ""
@@ -847,12 +840,9 @@ msgstr "伊莱亚斯在朋友的帮助下勉强度日。"
 msgid ""
 "Charlotte has been coding for more years than she likes to admit, and has a "
 "passion for building cool things and helping other people learn how to build "
-"cool things. She is among the organizers of PyLadies RDU, and can often be "
-"found making things out of yarn when not making things out of code."
+"cool things. She is among the organizers of PyLadies {1}RDU{2}, and can "
+"often be found making things out of yarn when not making things out of code."
 msgstr ""
-"夏洛特从事编码工作的年头比她愿意承认的要长，而且她热衷于创建很酷的东西，并帮"
-"助其他人学习如何创建很酷的东西。她是 PyLadies RDU 的组织者之一，在不用代码做"
-"东西是用毛线做东西。"
 
 #: docs/en/about/team/freakboy3742.md:1
 msgid ""
@@ -940,9 +930,9 @@ msgstr ""
 
 #: docs/en/about/team/obulat.md:1
 msgid ""
-"Olga is a python and BeeWare enthusiast, also interested in NLP, geography "
-"and languages."
-msgstr "奥尔加是一名 Python 和 BeeWare 爱好者，对 NLP，地理和语言也感兴趣。"
+"Olga is a python and BeeWare enthusiast, also interested in {1}NLP{2}, "
+"geography and languages."
+msgstr ""
 
 #: docs/en/about/team/obulat.md:3
 msgid "She also enjoys hanging out with kids."
@@ -953,13 +943,9 @@ msgid ""
 "Philip writes code for computers and for humans. His first computing love is "
 "Python, but is too often forced to write JavaScript and Swift. When he's not "
 "writing code for money or for Open Source or for his own crazy projects, he "
-"gives talks at conferences. Philip lives in Alameda, California with his "
-"wife and her cat. Philip believes in the web."
+"gives talks at conferences. Philip lives in {1}Alameda{2}, California with "
+"his wife and her cat. Philip believes in the web."
 msgstr ""
-"菲利普为计算机和人类编写代码。他的第一计算爱好是 Python，但也经常被迫编写 "
-"JavaScript 和 Swift。当他不为金钱、开源或自己的疯狂项目编写代码时，他会在各种"
-"会议上发表演讲。菲利普住在加利福尼亚州的阿拉米达，与妻子和她的猫生活在一起。"
-"菲利普相信网络。"
 
 #: docs/en/about/team/rmartin16.md:1
 msgid ""
@@ -972,23 +958,18 @@ msgstr ""
 #: docs/en/about/team/samschott.md:1
 msgid ""
 "Sam is a physicist and a software engineer. He got introduced to Python "
-"while automating data acquisition in the lab and soon realised that he "
+"while automating data acquisition in the lab and soon realized that he "
 "enjoyed writing and sharing code. When away from a computer, you will find "
 "him hiking or sailing along the English coast."
 msgstr ""
-"Sam 是一名物理学家和软件工程师。他在实验室自动采集数据时开始接触 Python，并很"
-"快意识到自己喜欢编写和分享代码。离开电脑时，他会徒步旅行或沿着英国海岸航行。"
 
 #: docs/en/about/team/saroad2.md:1
 msgid ""
-"Sagi Shadur is a software engineer and a mathematician. He has a B.Sc. in "
+"Sagi Shadur{1} is a software engineer and a mathematician. He has a B.Sc. in "
 "mathematics and these days he's on his way for a second B.Sc. in physics. "
 "He's also a poet who published two books in Hebrew, \"Mountains and "
 "Valleys\" and \"The Emissary\"."
 msgstr ""
-"萨吉-沙杜尔是一名软件工程师和数学家。他拥有数学学士学位，最近正在攻读第二个物"
-"理学学士学位。他还是一位诗人，出版过两本希伯来文书籍，分别是《山与谷》和《使"
-"者》。"
 
 #: docs/en/about/team/swenson.md:1
 msgid ""
@@ -1006,19 +987,19 @@ msgstr ""
 "Swenson 已将他的劳动成果卖给大小公司，如 Simple、谷歌和美国政府，还写了一本关"
 "于密码学的书。斯文森是 PyDX 的组织者。"
 
-#: docs/en/community/code-of-conduct.md:2
-#: docs/en/community/code-of-conduct.md:6
-msgid "--8<-"
+#: docs/en/community/code-of-conduct.md:3
+#: docs/en/community/code-of-conduct.md:7
+msgid "-8<-"
 msgstr ""
 
-#: docs/en/community/code-of-conduct.md:4
+#: docs/en/community/code-of-conduct.md:5
 msgid ""
 "https://raw.githubusercontent.com/beeware/.github/refs/heads/main/"
 "CODE_OF_CONDUCT.md"
 msgstr ""
 
 #: docs/en/community/governance.md:1
-msgid "Governance"
+msgid "Governance { #governance }"
 msgstr ""
 
 #: docs/en/community/governance.md:3
@@ -1049,14 +1030,18 @@ msgstr ""
 "托做出最终决定。"
 
 #: docs/en/community/governance.md:9
-msgid "These levels can be described as follows:"
-msgstr "这些级别可描述如下："
-
-#: docs/en/community/governance.md:11
-msgid "Bee, or Worker Bee:"
+msgid "Team seniority"
 msgstr ""
 
-#: docs/en/community/governance.md:12
+#: docs/en/community/governance.md:11
+msgid "The different levels of seniority in the BeeWare project are:"
+msgstr ""
+
+#: docs/en/community/governance.md:13
+msgid "Bee, or Worker Bee"
+msgstr ""
+
+#: docs/en/community/governance.md:15
 msgid ""
 "Any member of the BeeWare community. Given we work in the open on GitHub, "
 "anyone can suggest changes to the code and have their code merged. The only "
@@ -1064,11 +1049,11 @@ msgid ""
 "member with the rights to do so."
 msgstr ""
 
-#: docs/en/community/governance.md:14
-msgid "Apiarist:"
+#: docs/en/community/governance.md:17
+msgid "Apiarist"
 msgstr ""
 
-#: docs/en/community/governance.md:15
+#: docs/en/community/governance.md:19
 msgid ""
 "A bee who has been recognized as a trusted contributor. These bees have "
 "demonstrated ability in relation to a specific part of the BeeWare project "
@@ -1078,140 +1063,140 @@ msgid ""
 "for the project where their expertise is recognized."
 msgstr ""
 
-#: docs/en/community/governance.md:17
-msgid "Senior Apiarists:"
+#: docs/en/community/governance.md:21
+msgid "Senior Apiarists"
 msgstr ""
 
-#: docs/en/community/governance.md:18
+#: docs/en/community/governance.md:23
 msgid ""
 "Apiarists with elevated access in GitHub, and also an added level of "
 "responsibility to oversee the project as a whole. They are able to make "
 "architectural decisions, but ultimately answer to the BDFN."
 msgstr ""
 
-#: docs/en/community/governance.md:20
-msgid "Founding Apiarist: [Russell Keith-Magee]{1}"
-msgstr ""
-
-#: docs/en/community/governance.md:21
-msgid "The man that first stood on a hill and spied a yak that needed shaving"
-msgstr ""
-
-#: docs/en/community/governance.md:22
-msgid "This role never changes, and continues ad infinitum"
-msgstr ""
-
-#: docs/en/community/governance.md:23
-msgid "This role is different to the BDFN role"
-msgstr ""
-
 #: docs/en/community/governance.md:25
-msgid "Bee-nevolent Dictator for Now (BDFN): [Russell Keith-Magee]{1}"
+msgid "Bee-nevolent Dictator for Now (BDFN)"
 msgstr ""
 
-#: docs/en/community/governance.md:26
+#: docs/en/community/governance.md:27
 msgid ""
 "A take on [Benevolent Dictator for Life]{1}, responsibility for the "
-"direction and decisions of the project ultimately lies with the BFDN. The "
+"direction and decisions of the project ultimately lies with the BDFN. The "
 "use of \"For Now\" as opposed to \"For Life\" is reference to the Django "
 "theme of not subjecting the responsibilities of core maintainer for a "
 "person's entire natural life. Life exists outside open source, and code/life "
 "balance and general well-being is a very important thing to keep in mind."
 msgstr ""
 
-#: docs/en/community/governance.md:28
+#: docs/en/community/governance.md:29
+msgid "The BDFN of BeeWare is [Russell Keith-Magee]{1}."
+msgstr ""
+
+#: docs/en/community/governance.md:31
+msgid "Founding Apiarist"
+msgstr ""
+
+#: docs/en/community/governance.md:33
+msgid ""
+"The man that first stood on a hill and spied a yak that needed shaving. This "
+"role never changes, and continues ad infinitum; however, it doesn't "
+"inherently transfer any additional power in the organization. At present, "
+"the Founding Apiarist is also the BDFN; but this may change over time."
+msgstr ""
+
+#: docs/en/community/governance.md:35
 msgid "Guidelines (not actual rules)"
 msgstr ""
 
-#: docs/en/community/governance.md:30
+#: docs/en/community/governance.md:37
 msgid ""
 "As with any project with more than one person with commit rights, there are "
 "a number of general guidelines that the team should follow:"
 msgstr "与任何拥有多人提交权的项目一样，团队应遵循一些一般准则："
 
-#: docs/en/community/governance.md:32
+#: docs/en/community/governance.md:39
 msgid "**Be a good representation of the project to the wider community**"
 msgstr ""
 
-#: docs/en/community/governance.md:33
+#: docs/en/community/governance.md:40
 msgid ""
 "**Treat every enquiry and contribution to any BeeWare project with respect**"
 msgstr ""
 
-#: docs/en/community/governance.md:34
+#: docs/en/community/governance.md:41
 msgid ""
 "Assume everyone has good intentions, even if they haven't chosen their words "
 "well"
 msgstr ""
 
-#: docs/en/community/governance.md:35
+#: docs/en/community/governance.md:42
 msgid ""
 "Assume that if someone has done something the \"wrong\" way, it's because "
 "we've failed in communicating process"
 msgstr ""
 
-#: docs/en/community/governance.md:36
+#: docs/en/community/governance.md:43
 msgid ""
 "Assume any expression of anger or frustration comes from a genuine place of "
 "wanting to use a BeeWare tool/library"
 msgstr ""
 
-#: docs/en/community/governance.md:37
+#: docs/en/community/governance.md:44
 msgid ""
 "Encourage other members of the community to reflect these ideals in their "
 "own communications, both inside and outside the BeeWare community"
 msgstr ""
 
-#: docs/en/community/governance.md:38
+#: docs/en/community/governance.md:45
 msgid "No Apiarist should commit their own code"
 msgstr ""
 
-#: docs/en/community/governance.md:38
+#: docs/en/community/governance.md:45
 msgid "Exception: \"Something is very broken and needs to be fixed now\""
 msgstr ""
 
-#: docs/en/community/governance.md:38
-#: docs/en/community/governance.md:41
+#: docs/en/community/governance.md:45
+#: docs/en/community/governance.md:48
 msgid "Exception: BDFN (this may change in the future)"
 msgstr ""
 
-#: docs/en/community/governance.md:41
+#: docs/en/community/governance.md:48
 msgid ""
 "All code submitted for review by a core team member should be reviewed by "
 "another team member"
 msgstr ""
 
-#: docs/en/community/governance.md:43
+#: docs/en/community/governance.md:50
 msgid "All code should pass Continuous Integration tests before being merged"
 msgstr ""
 
-#: docs/en/community/governance.md:43
+#: docs/en/community/governance.md:50
 msgid ""
 "Exception: code that is known to be broken and needs to be committed for "
 "other reasons"
 msgstr ""
 
-#: docs/en/community/governance.md:43
+#: docs/en/community/governance.md:50
 msgid "Exception: code in a repo with insufficient CI tests"
 msgstr ""
 
-#: docs/en/community/governance.md:43
+#: docs/en/community/governance.md:50
 msgid "Exception: Working and committed is better than perfect and not"
 msgstr ""
 
-#: docs/en/community/governance.md:47
+#: docs/en/community/governance.md:54
 msgid "Acceptance processes should be automated wherever possible"
 msgstr ""
 
-#: docs/en/community/governance.md:47
+#: docs/en/community/governance.md:54
 msgid "This means tests, linting, spell checking, coverage, and more"
 msgstr ""
 
-#: docs/en/community/governance.md:50
+#: docs/en/community/governance.md:57
 msgid "Becoming an Apiarist"
 msgstr ""
 
-#: docs/en/community/governance.md:52
+#: docs/en/community/governance.md:59
 msgid ""
 "Introduction of a new Apiarist into the team is at the sole discretion of "
 "the existing Core Team. While there are not currently any solid rules to "
@@ -1229,7 +1214,7 @@ msgstr ""
 "的人。这也不一定要基于 commits。任何能证明对整个项目有既得利益的人都可以要求"
 "获得向项目 commit 的许可。"
 
-#: docs/en/community/governance.md:54
+#: docs/en/community/governance.md:61
 msgid ""
 "All new apiarists will be 'inducted' (for lack of a better word) in the core "
 "values and guidelines of the project. A summary of the core values can be "
@@ -1238,7 +1223,7 @@ msgid ""
 "values over time."
 msgstr ""
 
-#: docs/en/community/governance.md:56
+#: docs/en/community/governance.md:63
 msgid ""
 "Any Apiarist, new or old, isn't expected to be the sole maintainer of any "
 "one thing. There are many apiarists, and many more beside who can offer "
@@ -1247,11 +1232,11 @@ msgstr ""
 "任何养蜂人，不管是新手还是老手，都没有期望作为任何一个项目的唯一维护者。有很"
 "多养蜂人，还有更多的人可以提供帮助、建议和指导。"
 
-#: docs/en/community/governance.md:58
+#: docs/en/community/governance.md:65
 msgid "\"Commit bit\"?"
 msgstr ""
 
-#: docs/en/community/governance.md:60
+#: docs/en/community/governance.md:67
 msgid ""
 "In Unix systems, a single bit in a file is used to denote permission to "
 "execute a file. In source control systems, a similar bit exists to denote "
@@ -1265,11 +1250,11 @@ msgstr ""
 "接提交到项目。"
 
 #: docs/en/community/index.md:1
-msgid "Community"
-msgstr "社区"
+msgid "Community { #community }"
+msgstr ""
 
 #: docs/en/community/index.md:3
-msgid "[BeeWare Community Code of Conduct]{1} { #beeware-code-of-conduct }"
+msgid "[BeeWare Community Code of Conduct]{1} { #code-of-conduct }"
 msgstr ""
 
 #: docs/en/community/index.md:5
@@ -1289,7 +1274,7 @@ msgstr ""
 
 #: docs/en/community/index.md:11
 msgid ""
-"We're a globally distributed online community, comprised primarily of "
+"We're a globally distributed online community, composed primarily of "
 "volunteers. While some of the core team are paid to work on BeeWare, the "
 "project is independently managed."
 msgstr ""
@@ -1316,7 +1301,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/community/index.md:19
-msgid "[Governance]{1} { #governance }"
+msgid "[Governance]{1}"
 msgstr ""
 
 #: docs/en/community/index.md:21
@@ -1324,6 +1309,10 @@ msgid "What is the core team, and [what do they do]{1}?"
 msgstr ""
 
 #: docs/en/contributing/challenge-coins.md:1
+msgid "Challenge coins { #challenge-coins }"
+msgstr ""
+
+#: docs/en/contributing/challenge-coins.md:3
 msgid ""
 "Challenge Coins are a military tradition, which is said to originate at the "
 "start of last century. They were distributed based on merit in events or for "
@@ -1332,35 +1321,35 @@ msgstr ""
 "挑战硬币是一种军事传统，据说起源于上个世纪初。它们是因为事件中的功绩或其他原"
 "因分发，具有深厚的个人价值。"
 
-#: docs/en/contributing/challenge-coins.md:3
+#: docs/en/contributing/challenge-coins.md:5
 msgid ""
 "To find out more about Challenge Coins, you can listen to the [99% Invisible]"
 "{1} podcast about them, or read up about them on [Wikipedia]{2}."
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:5
+#: docs/en/contributing/challenge-coins.md:7
 msgid "![BeeWare Challenge Coin]{1}{ width=300px }"
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:7
-#: docs/en/contributing/challenge-coins.md:23
-#: docs/en/contributing/challenge-coins.md:37
+#: docs/en/contributing/challenge-coins.md:9
+#: docs/en/contributing/challenge-coins.md:25
+#: docs/en/contributing/challenge-coins.md:39
 #: docs/en/contributing/sprint-guide.md:67
 msgid "/// caption"
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:9
+#: docs/en/contributing/challenge-coins.md:11
 msgid "The front and back of the BeeWare Challenge Coin."
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:11
-#: docs/en/contributing/challenge-coins.md:27
-#: docs/en/contributing/challenge-coins.md:41
+#: docs/en/contributing/challenge-coins.md:13
+#: docs/en/contributing/challenge-coins.md:29
+#: docs/en/contributing/challenge-coins.md:43
 #: docs/en/contributing/sprint-guide.md:71
 msgid "///"
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:13
+#: docs/en/contributing/challenge-coins.md:15
 msgid ""
 "The BeeWare Challenge Coins are die cast, 4.5cm (1 3/4\") in diameter, and "
 "are made of a nickel/zinc alloy with enamel highlights."
@@ -1368,60 +1357,60 @@ msgstr ""
 "BeeWare 挑战硬币为压铸件，直径为 4.5 厘米（1 3/4 英寸），由镍/锌合金制成，带"
 "有珐琅亮点。"
 
-#: docs/en/contributing/challenge-coins.md:15
+#: docs/en/contributing/challenge-coins.md:17
 msgid "Any contribution to the BeeWare project earns you a coin."
 msgstr "第一次为 BeeWare 项目做出的任何贡献都会为您赢得一枚挑战币。"
 
-#: docs/en/contributing/challenge-coins.md:17
+#: docs/en/contributing/challenge-coins.md:19
 msgid ""
 "It doesn't have to be a code contribution: a documentation update counts. A "
 "blog post. Helping someone during a sprint with their contribution."
 msgstr "不一定是代码贡献：文档更新也算。一篇博文也可以。在冲刺帮助他人贡献也一样。"
 
-#: docs/en/contributing/challenge-coins.md:19
+#: docs/en/contributing/challenge-coins.md:21
 msgid ""
 "And as an additional incentive, for those people who help others get their "
 "challenge coins, we have a second coin: the Yak Herder"
 msgstr "作为额外奖励，对于帮助他人获得挑战币的人，我们还有第二枚币：牦牛牧民币"
 
-#: docs/en/contributing/challenge-coins.md:21
+#: docs/en/contributing/challenge-coins.md:23
 msgid "![BeeWare Yak Herder Challenge Coin]{1}{ width=300px }"
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:25
+#: docs/en/contributing/challenge-coins.md:27
 msgid "The front and back of the BeeWare Yak Herder Coin."
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:29
+#: docs/en/contributing/challenge-coins.md:31
 msgid ""
 "The first run of 100 BeeWare Challenge Coins were commissioned thanks to "
-"financial support from MaxCDN. They also wrote an [article about BeeWare]{1} "
-"on their blog."
+"financial support from {1}MaxCDN{2}. They also wrote an [article about "
+"BeeWare]{3} on their blog."
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:31
+#: docs/en/contributing/challenge-coins.md:33
 msgid ""
 "[Revolution Systems]{1} provided the funding for the second pressing of the "
 "BeeWare challenge coins."
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:33
+#: docs/en/contributing/challenge-coins.md:35
 msgid ""
 "[GitHub]{1} provided the funding for the first pressing of the BeeWare Yak "
 "Herder challenge coins."
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:35
+#: docs/en/contributing/challenge-coins.md:37
 msgid "![A sprint attendee receiving a challenge coin]{1}{ width=300px }"
 msgstr ""
 
-#: docs/en/contributing/challenge-coins.md:39
-msgid "One happy BeeWare coin recipient. Photo by @atomimages"
+#: docs/en/contributing/challenge-coins.md:41
+msgid "One happy BeeWare coin recipient. Photo by {1}@atomimages"
 msgstr ""
 
 #: docs/en/contributing/first-time-contributors.md:1
-msgid "First-time contributors"
-msgstr "首次贡献者"
+msgid "First-time contributors { #first-time-contributors }"
+msgstr ""
 
 #: docs/en/contributing/first-time-contributors.md:3
 msgid "{% extends \"contribute/first-time-contributors.md\" %}"
@@ -1734,8 +1723,8 @@ msgid "{% extends \"contribute/what/write-docs.md\" %}"
 msgstr ""
 
 #: docs/en/contributing/index.md:1
-msgid "Contributing"
-msgstr "贡献"
+msgid "Contributing { #contributing }"
+msgstr ""
 
 #: docs/en/contributing/index.md:3
 msgid ""
@@ -1787,7 +1776,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/index.md:17
-msgid "[Sprints]{1} { #sprints }"
+msgid "[Sprints]{1}"
 msgstr ""
 
 #: docs/en/contributing/index.md:19
@@ -1800,7 +1789,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/index.md:21
-msgid "[Challenge coins]{1} { #challenge-coins }"
+msgid "[Challenge coins]{1}"
 msgstr ""
 
 #: docs/en/contributing/index.md:23
@@ -1815,8 +1804,8 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:1
-msgid "Sprint Guide"
-msgstr "冲刺指南"
+msgid "Sprint Guide { #sprints }"
+msgstr ""
 
 #: docs/en/contributing/sprint-guide.md:3
 msgid "Welcome to the BeeWare Sprints!"
@@ -1947,7 +1936,7 @@ msgid ""
 "Do you use GitHub (or a similar code-sharing site) for hosting your own code "
 "or contributing to others' projects? Do you know what CI (continuous "
 "integration) is? Have you contributed to a project that has pre-commit "
-"hooks? If I asked you to \"rebase your PR against main\", would you know "
+"hooks? If I asked you to \"`rebase` your PR against main\", would you know "
 "what to do?"
 msgstr ""
 
@@ -2231,33 +2220,35 @@ msgid "Featured tools { .featured-tools }"
 msgstr ""
 
 #: docs/en/docs/index.md:23
-msgid "[![Tiberius]{1}]{2}{ .featured-logo }"
+#: docs/en/index.md:127
+msgid "[![Tiberius]{1}]{2}"
 msgstr ""
 
 #: docs/en/docs/index.md:25
-msgid "[Toga]{1} { .featured-name }"
+msgid "[Toga]{1} { .featured-name #toga }"
 msgstr ""
 
 #: docs/en/docs/index.md:27
-#: docs/en/index.md:131
+#: docs/en/index.md:133
 msgid "A Python native, OS native GUI toolkit."
 msgstr "一个 Python 原生、操作系统原生图形用户界面工具包。"
 
 #: docs/en/docs/index.md:33
-msgid "[![Briefcase]{1}]{2}{ .featured-logo }"
+#: docs/en/index.md:137
+msgid "[![Briefcase]{1}]{2}"
 msgstr ""
 
 #: docs/en/docs/index.md:35
-msgid "[Briefcase]{1} { .featured-name }"
+msgid "[Briefcase]{1} { .featured-name #briefcase }"
 msgstr ""
 
 #: docs/en/docs/index.md:37
-#: docs/en/index.md:141
+#: docs/en/index.md:143
 msgid "Convert a Python project into a standalone native application."
 msgstr "将 Python 项目转换为独立的原生应用程序。"
 
 #: docs/en/docs/index.md:42
-msgid "Other tools { .other-tools }"
+msgid "Other tools { .other-tools #other-tools }"
 msgstr ""
 
 #: docs/en/docs/index.md:44
@@ -2275,7 +2266,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/docs/index.md:52
-msgid "[![Podium]{1}]{2}{ .other-tools-logo }"
+msgid "[![Podium]{1}]{2}"
 msgstr ""
 
 #: docs/en/docs/index.md:56
@@ -2295,7 +2286,7 @@ msgid "Pieces used by other BeeWare tools that can be useful on their own."
 msgstr ""
 
 #: docs/en/docs/index.md:73
-msgid "[![Rubicon]{1}]{2}{ .other-tools-logo }"
+msgid "[![Rubicon]{1}]{2}"
 msgstr ""
 
 #: docs/en/docs/index.md:77
@@ -2308,7 +2299,7 @@ msgid ""
 msgstr "用于连接 Python 和 Objective-C 语言的运行时库。"
 
 #: docs/en/docs/index.md:89
-msgid "[![Brutus the Bee]{1}]{2}{ .other-tools-logo }"
+msgid "[![Brutus the Bee]{1}]{2}"
 msgstr ""
 
 #: docs/en/docs/index.md:93
@@ -2323,7 +2314,7 @@ msgid ""
 msgstr "用于构建可嵌入到 macOS、iOS、tvOS 或 watchOS 项目中的 Python 版本的元软件包。"
 
 #: docs/en/docs/index.md:105
-msgid "[![Chaquopy]{1}]{2}{ .other-tools-logo }"
+msgid "[![Chaquopy]{1}]{2}"
 msgstr ""
 
 #: docs/en/docs/index.md:109
@@ -2388,7 +2379,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/docs/index.md:141
-#: docs/en/index.md:91
+#: docs/en/index.md:93
 msgid "Stay in touch!"
 msgstr "保持联系！"
 
@@ -2398,42 +2389,42 @@ msgid ""
 "mailing list]{2} for regular project updates."
 msgstr ""
 
-#: docs/en/index.md:4
+#: docs/en/index.md:6
 msgid "![Brutus the Bee]{1}{ .index-intro-beeware-logo }"
 msgstr ""
 
-#: docs/en/index.md:9
+#: docs/en/index.md:11
 msgid "BeeWare { .index-intro-title }"
 msgstr ""
 
-#: docs/en/index.md:11
-msgid "Write once. Deploy everywhere. { .index-intro-subtitle }"
+#: docs/en/index.md:13
+msgid "Write once. Deploy everywhere. {1} { .index-intro-subtitle }"
 msgstr ""
 
-#: docs/en/index.md:16
+#: docs/en/index.md:18
 msgid ""
 "Write your apps in Python and release them on iOS, Android, Windows, macOS, "
 "Linux, Web, and tvOS using rich, native user interfaces. Multiple apps, one "
 "codebase, with a fully native user experience on every platform."
 msgstr ""
 
-#: docs/en/index.md:22
+#: docs/en/index.md:24
 msgid "[Take the tutorial]{1}{ .intro-tutorial-button }"
 msgstr ""
 
-#: docs/en/index.md:24
+#: docs/en/index.md:26
 msgid "[I want to contribute]{1}{ .intro-contribute-button }"
 msgstr ""
 
-#: docs/en/index.md:26
+#: docs/en/index.md:28
 msgid "[Donate and support us!]{1}{ .intro-donate-button }"
 msgstr ""
 
-#: docs/en/index.md:35
+#: docs/en/index.md:37
 msgid "One codebase. Multiple apps."
 msgstr "一个代码库。多个应用程序。"
 
-#: docs/en/index.md:37
+#: docs/en/index.md:39
 msgid ""
 "BeeWare allows you to write your app in Python and release it on multiple "
 "platforms. No need to rewrite the app in multiple programming languages. It "
@@ -2442,15 +2433,15 @@ msgstr ""
 "BeeWare 允许您使用 Python 编写应用程序，并在多个平台上发布。无需使用多种编程"
 "语言重写应用程序。这意味着**不存在**构建工具、环境、兼容性等问题。"
 
-#: docs/en/index.md:39
+#: docs/en/index.md:41
 msgid "Python native tools..."
 msgstr "Python 原生工具..."
 
-#: docs/en/index.md:41
+#: docs/en/index.md:43
 msgid "![Python logo]{1}{ .index-main-python-logo }"
 msgstr ""
 
-#: docs/en/index.md:43
+#: docs/en/index.md:45
 msgid ""
 "Python has proven itself as a highly capable language - approachable for "
 "newcomers, but powerful in the hands of experts. Why shouldn't you be able "
@@ -2463,15 +2454,15 @@ msgstr ""
 "工具难道不应该**利用 Python 作为一门语言的所有能力**，而不仅仅是很好地映射到 "
 "C 语言绑定的部分吗？"
 
-#: docs/en/index.md:45
+#: docs/en/index.md:47
 msgid "...on mobile & desktop..."
 msgstr "...在移动与桌面..."
 
-#: docs/en/index.md:47
+#: docs/en/index.md:49
 msgid "![Cross-platform]{1}{ .index-main-cross-platform-logo }"
 msgstr ""
 
-#: docs/en/index.md:49
+#: docs/en/index.md:51
 msgid ""
 "Modern computing doesn't happen in an 80x25 console window. It happens on "
 "**phones, tablets, and desktop machines** with rich user interfaces. "
@@ -2482,15 +2473,15 @@ msgstr ""
 "平板电脑和台式机**上。难道您不应该能够在所有这些地方使用 Python，并**利用这些"
 "平台的独特功能**吗？"
 
-#: docs/en/index.md:51
+#: docs/en/index.md:53
 msgid "...behaving natively. { .behaving-index }"
 msgstr ""
 
-#: docs/en/index.md:53
+#: docs/en/index.md:55
 msgid "![Native]{1}{ .index-main-native-logo }"
 msgstr ""
 
-#: docs/en/index.md:55
+#: docs/en/index.md:57
 msgid ""
 "End users shouldn't have to care what language their tools are written in. "
 "And that starts with looking and behaving **like completely native tools**. "
@@ -2502,15 +2493,15 @@ msgstr ""
 "完全原生的工具**。原生的外观，原生的行为，以原生应用程序的方式发布。为什么你"
 "的 Python 工具不能像原生工具一样适用呢？"
 
-#: docs/en/index.md:57
+#: docs/en/index.md:59
 msgid "This is BeeWare."
 msgstr "这就是 BeeWare."
 
-#: docs/en/index.md:59
+#: docs/en/index.md:61
 msgid "![Brutus the Bee]{1}{ .index-main-brutus-logo }"
 msgstr ""
 
-#: docs/en/index.md:61
+#: docs/en/index.md:63
 msgid ""
 "This is what BeeWare provides. Tools to help you write Python code with a "
 "rich, **native user interface**; and the libraries and support code "
@@ -2521,15 +2512,15 @@ msgstr ""
 "Python 代码；BeeWare 也包含可使这些代码在 **iOS、Android、macOS、Linux、"
 "Windows、tvOS 等**上运行所需库与支持代码。"
 
-#: docs/en/index.md:63
+#: docs/en/index.md:65
 msgid "Open source"
 msgstr "开源"
 
-#: docs/en/index.md:65
+#: docs/en/index.md:67
 msgid "![Open source]{1}{ .index-main-open-source-logo }"
 msgstr ""
 
-#: docs/en/index.md:67
+#: docs/en/index.md:69
 msgid ""
 "The open source development process has proven itself to be the most "
 "reliable way to develop robust and reliable software. That's why the entire "
@@ -2537,15 +2528,15 @@ msgid ""
 "modify**."
 msgstr ""
 
-#: docs/en/index.md:69
+#: docs/en/index.md:71
 msgid "All contributions welcome"
 msgstr "欢迎所有贡献"
 
-#: docs/en/index.md:71
+#: docs/en/index.md:73
 msgid "![Hands]{1}{ .index-main-hands-logo }"
 msgstr ""
 
-#: docs/en/index.md:73
+#: docs/en/index.md:75
 msgid ""
 "But it's not just about code. A successful software project requires "
 "documentation, design skills, feedback and bug reports. The BeeWare "
@@ -2556,15 +2547,15 @@ msgstr ""
 "。BeeWare 社区认为，**所有的贡献都是重要的**，而不仅仅是在 GitHub 上提出的拉"
 "取请求。"
 
-#: docs/en/index.md:75
+#: docs/en/index.md:77
 msgid "From diversity comes strength"
 msgstr "多元性带来力量"
 
-#: docs/en/index.md:77
+#: docs/en/index.md:79
 msgid "![Diversity]{1}{ .index-main-diversity-logo }"
 msgstr ""
 
-#: docs/en/index.md:79
+#: docs/en/index.md:81
 msgid ""
 "A diverse community is a strong community. This means accepting people of "
 "all levels of experience, from all backgrounds, of all races, creeds, "
@@ -2574,11 +2565,11 @@ msgid ""
 "backed up by a [Code of Conduct]{1} that is rigorously enforced."
 msgstr ""
 
-#: docs/en/index.md:81
+#: docs/en/index.md:83
 msgid "Contribute!"
 msgstr "作出贡献！"
 
-#: docs/en/index.md:83
+#: docs/en/index.md:85
 msgid ""
 "If all this sounds interesting, why not take a look at the [BeeWare projects]"
 "{1} and see how you can use them when developing Python applications? Or, if "
@@ -2588,77 +2579,69 @@ msgid ""
 "[what you can do to help]{4}."
 msgstr ""
 
-#: docs/en/index.md:87
+#: docs/en/index.md:89
 msgid "[Contribute to BeeWare]{1}{ .index-main-contribute-button }"
 msgstr ""
 
-#: docs/en/index.md:93
+#: docs/en/index.md:95
 msgid ""
 "Follow [@beeware@fosstodon.org]{1} on Mastodon, or [join the BeeWare "
 "enthusiasts mailing list]{2} for updates, hints, tips, and announcements "
 "related to the project."
 msgstr ""
 
-#: docs/en/index.md:97
+#: docs/en/index.md:99
 msgid "[Keep in touch!]{1}{ .index-main-keep-in-touch-button }"
 msgstr ""
 
-#: docs/en/index.md:101
+#: docs/en/index.md:103
 msgid "Members"
 msgstr "会员"
 
-#: docs/en/index.md:103
+#: docs/en/index.md:105
 msgid ""
 "BeeWare is supported by users like you! Every little bit helps: [click here "
 "to contribute]{1}."
 msgstr ""
 
-#: docs/en/index.md:108
+#: docs/en/index.md:110
 msgid "Gold Member { .index-sidebar-gold-member }"
 msgstr ""
 
-#: docs/en/index.md:112
+#: docs/en/index.md:114
 msgid "Latest news"
 msgstr ""
 
-#: docs/en/index.md:114
+#: docs/en/index.md:116
 msgid "{{ latest_news(files) }}"
 msgstr ""
 
-#: docs/en/index.md:116
+#: docs/en/index.md:118
 msgid "Upcoming events"
 msgstr ""
 
-#: docs/en/index.md:118
+#: docs/en/index.md:120
 msgid "{{ upcoming_events(files) }}"
 msgstr ""
 
-#: docs/en/index.md:120
+#: docs/en/index.md:122
 msgid "Documentation"
 msgstr ""
 
-#: docs/en/index.md:125
-msgid "[![Tiberius]{1}]{2}{ .index-docs-logo }"
-msgstr ""
-
-#: docs/en/index.md:127
+#: docs/en/index.md:129
 msgid "[Toga]{1} { .index-docs-name }"
 msgstr ""
 
-#: docs/en/index.md:135
-msgid "[![Briefcase]{1}]{2}{ .index-docs-logo }"
-msgstr ""
-
-#: docs/en/index.md:137
+#: docs/en/index.md:139
 msgid "[Briefcase]{1} { .index-docs-name }"
 msgstr ""
 
-#: docs/en/index.md:145
+#: docs/en/index.md:147
 msgid "[...and much more.]{1}"
 msgstr ""
 
 #: docs/en/membership/index.md:1
-msgid "We need your help!"
+msgid "We need your help! { #we-need-your-help }"
 msgstr ""
 
 #: docs/en/membership/index.md:3
@@ -2697,7 +2680,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/membership/index.md:15
-#: docs/en/membership/index.md:65
+#: docs/en/membership/index.md:67
 msgid "Enthusiasts"
 msgstr ""
 
@@ -2707,30 +2690,30 @@ msgid ""
 "three tiers of support:"
 msgstr ""
 
-#: docs/en/membership/index.md:18
+#: docs/en/membership/index.md:19
 msgid "**Fan**: 5/month"
 msgstr ""
 
-#: docs/en/membership/index.md:19
+#: docs/en/membership/index.md:20
 msgid "**Enthusiast**: $10/month"
 msgstr ""
 
-#: docs/en/membership/index.md:20
+#: docs/en/membership/index.md:21
 msgid "**Super-Enthusiast**: $15/month"
 msgstr ""
 
-#: docs/en/membership/index.md:22
+#: docs/en/membership/index.md:23
 msgid ""
 "You will receive a Sponsor badge on your profile, and your name will be "
 "listed on the BeeWare project website (unless you choose to make your "
 "sponsorship private)."
 msgstr ""
 
-#: docs/en/membership/index.md:24
+#: docs/en/membership/index.md:25
 msgid "Professional: $50/month"
 msgstr ""
 
-#: docs/en/membership/index.md:26
+#: docs/en/membership/index.md:27
 msgid ""
 "If you use BeeWare in a professional context, please consider sponsoring at "
 "the Professional level. You will receive a Sponsor badge on your profile, "
@@ -2738,11 +2721,11 @@ msgid ""
 "choose to make your sponsorship private)."
 msgstr ""
 
-#: docs/en/membership/index.md:28
+#: docs/en/membership/index.md:29
 msgid "Bronze Membership: $200/month"
 msgstr ""
 
-#: docs/en/membership/index.md:30
+#: docs/en/membership/index.md:31
 msgid ""
 "If you use my work to support your small business, please consider "
 "sponsoring at this level to ensure to tools you're using to generate revenue "
@@ -2751,11 +2734,11 @@ msgid ""
 "company on any list of companies offering BeeWare-related services."
 msgstr ""
 
-#: docs/en/membership/index.md:32
+#: docs/en/membership/index.md:33
 msgid "Silver Membership: $1000/month"
 msgstr ""
 
-#: docs/en/membership/index.md:34
+#: docs/en/membership/index.md:35
 msgid ""
 "If you use my work to support your established business, please consider "
 "sponsoring at this level to ensure to tools you're using to generate revenue "
@@ -2766,11 +2749,11 @@ msgid ""
 "related services."
 msgstr ""
 
-#: docs/en/membership/index.md:36
+#: docs/en/membership/index.md:37
 msgid "Gold Membership: $5000/month"
 msgstr ""
 
-#: docs/en/membership/index.md:38
+#: docs/en/membership/index.md:39
 msgid ""
 "If you use my work to support your large corporation, please consider "
 "sponsoring at this level to ensure to tools you're using to generate revenue "
@@ -2782,22 +2765,22 @@ msgid ""
 "core team."
 msgstr ""
 
-#: docs/en/membership/index.md:40
+#: docs/en/membership/index.md:41
 msgid "Alternative options"
 msgstr ""
 
-#: docs/en/membership/index.md:42
+#: docs/en/membership/index.md:43
 msgid ""
 "If you'd like to talk to someone about other branding or membership "
 "opportunities, or you'd like other payment options for your membership, "
 "please direct enquiries to [Russell Keith-Magee]{1}."
 msgstr ""
 
-#: docs/en/membership/index.md:44
-msgid "Current Members"
+#: docs/en/membership/index.md:45
+msgid "Current Members { #current-members }"
 msgstr ""
 
-#: docs/en/membership/index.md:46
+#: docs/en/membership/index.md:47
 msgid "Gold Members"
 msgstr ""
 
@@ -2818,57 +2801,110 @@ msgstr ""
 msgid "Professional Members"
 msgstr ""
 
-#: docs/en/membership/index.md:67
-msgid "Timothy Bell"
-msgstr ""
+#~ msgid "Contact"
+#~ msgstr "联系方式"
 
-#: docs/en/membership/index.md:68
-msgid "Wes Broadway"
-msgstr ""
+#~ msgid "History and Philosophy"
+#~ msgstr "历史与理念"
 
-#: docs/en/membership/index.md:69
-msgid "Gerard Blais"
-msgstr ""
+#~ msgid ""
+#~ "However, it doesn't have to be that way. The core tenet of the Unix "
+#~ "Philosophy is that \"each tool does one thing, well\". This is a very "
+#~ "powerful philosophy, and it enables the composition of extremely powerful "
+#~ "toolchains by putting together a suite of extremely focussed, independent "
+#~ "tools."
+#~ msgstr ""
+#~ "然而，事实并非如此。Unix 哲学的核心原则是“每个工具只做好一件事”。它通过将一套"
+#~ "极为专注、独立的工具组合在一起，从而形成了极为强大的工具链。"
 
-#: docs/en/membership/index.md:70
-msgid "Harry Percival"
-msgstr ""
+#~ msgid ""
+#~ "It also frequently leads to burnout and other mental health issues amongst "
+#~ "contributors. The fact that depression, anxiety, and burnout are so common "
+#~ "in software development communities shouldn't be considered a badge of "
+#~ "honour, or a demonstration of how committed a development team can be. It's "
+#~ "a problem that needs to be tackled head on, and addressed in the same way a "
+#~ "software bug would be addressed - with immediate workarounds, and long term "
+#~ "plans to remove the systemic cause of the problem."
+#~ msgstr ""
+#~ "它还经常导致贡献者产生职业倦怠和其他心理健康问题。抑郁、焦虑和职业倦怠在软件"
+#~ "开发社区中如此普遍的事实，不应被视为一种荣誉徽章，或证明开发团队有多么尽职尽"
+#~ "责。这是一个需要正视和解决的问题，就像解决软件错误一样--立即解决方法，并制定"
+#~ "长期计划，消除造成问题的系统性原因。"
 
-#: docs/en/membership/index.md:71
-msgid "Michael Field"
-msgstr ""
+#~ msgid "What is BeeWare?"
+#~ msgstr "什么是 BeeWare？"
 
-#: docs/en/membership/index.md:72
-msgid "Eric Froemling"
-msgstr ""
+#~ msgid "The Bee Team"
+#~ msgstr "蜜蜂团队"
 
-#: docs/en/membership/index.md:73
-msgid "Michal Sladek"
-msgstr ""
+#~ msgid ""
+#~ "Chiang Fong has been pretending to be a systems administrator since the "
+#~ "Mandriva Linux days, and has recently moved into acting like he knows how to "
+#~ "write software."
+#~ msgstr ""
+#~ "从 Mandriva Linux 时代起，李江枫就一直在假装自己是系统管理员，最近又开始装得"
+#~ "像他知道如何编写软件。"
 
-#: docs/en/membership/index.md:74
-msgid "Stefane Fermigier"
-msgstr ""
+#~ msgid ""
+#~ "Charlotte has been coding for more years than she likes to admit, and has a "
+#~ "passion for building cool things and helping other people learn how to build "
+#~ "cool things. She is among the organizers of PyLadies RDU, and can often be "
+#~ "found making things out of yarn when not making things out of code."
+#~ msgstr ""
+#~ "夏洛特从事编码工作的年头比她愿意承认的要长，而且她热衷于创建很酷的东西，并帮"
+#~ "助其他人学习如何创建很酷的东西。她是 PyLadies RDU 的组织者之一，在不用代码做"
+#~ "东西是用毛线做东西。"
 
-#: docs/en/membership/index.md:76
-msgid "Katie McLaughlin"
-msgstr ""
+#~ msgid ""
+#~ "Olga is a python and BeeWare enthusiast, also interested in NLP, geography "
+#~ "and languages."
+#~ msgstr "奥尔加是一名 Python 和 BeeWare 爱好者，对 NLP，地理和语言也感兴趣。"
 
-#: docs/en/membership/index.md:77
-msgid "Emil Lerner"
-msgstr ""
+#~ msgid ""
+#~ "Philip writes code for computers and for humans. His first computing love is "
+#~ "Python, but is too often forced to write JavaScript and Swift. When he's not "
+#~ "writing code for money or for Open Source or for his own crazy projects, he "
+#~ "gives talks at conferences. Philip lives in Alameda, California with his "
+#~ "wife and her cat. Philip believes in the web."
+#~ msgstr ""
+#~ "菲利普为计算机和人类编写代码。他的第一计算爱好是 Python，但也经常被迫编写 "
+#~ "JavaScript 和 Swift。当他不为金钱、开源或自己的疯狂项目编写代码时，他会在各种"
+#~ "会议上发表演讲。菲利普住在加利福尼亚州的阿拉米达，与妻子和她的猫生活在一起。"
+#~ "菲利普相信网络。"
 
-#: docs/en/membership/index.md:78
-msgid "Hassan Hashmi"
-msgstr ""
+#~ msgid ""
+#~ "Sam is a physicist and a software engineer. He got introduced to Python "
+#~ "while automating data acquisition in the lab and soon realised that he "
+#~ "enjoyed writing and sharing code. When away from a computer, you will find "
+#~ "him hiking or sailing along the English coast."
+#~ msgstr ""
+#~ "Sam 是一名物理学家和软件工程师。他在实验室自动采集数据时开始接触 Python，并很"
+#~ "快意识到自己喜欢编写和分享代码。离开电脑时，他会徒步旅行或沿着英国海岸航行。"
 
-#: docs/en/membership/index.md:79
-msgid "Greg Turner"
-msgstr ""
+#~ msgid ""
+#~ "Sagi Shadur is a software engineer and a mathematician. He has a B.Sc. in "
+#~ "mathematics and these days he's on his way for a second B.Sc. in physics. "
+#~ "He's also a poet who published two books in Hebrew, \"Mountains and "
+#~ "Valleys\" and \"The Emissary\"."
+#~ msgstr ""
+#~ "萨吉-沙杜尔是一名软件工程师和数学家。他拥有数学学士学位，最近正在攻读第二个物"
+#~ "理学学士学位。他还是一位诗人，出版过两本希伯来文书籍，分别是《山与谷》和《使"
+#~ "者》。"
 
-#: docs/en/membership/index.md:80
-msgid "David Cramer"
-msgstr ""
+#~ msgid "These levels can be described as follows:"
+#~ msgstr "这些级别可描述如下："
+
+#~ msgid "Community"
+#~ msgstr "社区"
+
+#~ msgid "First-time contributors"
+#~ msgstr "首次贡献者"
+
+#~ msgid "Contributing"
+#~ msgstr "贡献"
+
+#~ msgid "Sprint Guide"
+#~ msgstr "冲刺指南"
 
 #~ msgid "Commercial support"
 #~ msgstr "商业支持"

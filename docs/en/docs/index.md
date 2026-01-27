@@ -24,7 +24,7 @@ title: BeeWare docs
 
 <div class="toga" markdown="1">
 
-[![Tiberius](../images/toga.png)](https://toga.beeware.org){ .featured-logo }
+[![Tiberius](../images/toga.png)](https://toga.beeware.org)
 
 ## [Toga](https://toga.beeware.org) { .featured-name #toga }
 
@@ -34,7 +34,7 @@ A Python native, OS native GUI toolkit.
 
 <div class="briefcase" markdown="1">
 
-[![Briefcase](../images/briefcase.png)](https://briefcase.beeware.org){ .featured-logo }
+[![Briefcase](../images/briefcase.png)](https://briefcase.beeware.org)
 
 ## [Briefcase](https://briefcase.beeware.org) { .featured-name #briefcase }
 
@@ -53,7 +53,7 @@ Applications maintained by the BeeWare team that are built using BeeWare's tools
 
 <div class="other-tools-package" markdown="1">
 
-[![Podium](../images/podium.png)](https://github.com/beeware/podium){ .other-tools-logo }
+[![Podium](../images/podium.png)](https://github.com/beeware/podium)
 
 <div class="other-tools-info" markdown="1">
 
@@ -74,7 +74,7 @@ Pieces used by other BeeWare tools that can be useful on their own.
 
 <div class="other-tools-package" markdown="1">
 
-[![Rubicon](../images/rubicon.png)](https://rubicon.beeware.org){ .other-tools-logo }
+[![Rubicon](../images/rubicon.png)](https://rubicon.beeware.org)
 
 <div class="other-tools-info" markdown="1">
 
@@ -90,7 +90,7 @@ A library for bridging between Python and the Objective-C language runtimes.
 
 <div class="other-tools-package" markdown="1">
 
-[![Brutus the Bee](../images/brutus.png)](https://github.com/beeware/python-apple-support){ .other-tools-logo }
+[![Brutus the Bee](../images/brutus.png)](https://github.com/beeware/python-apple-support)
 
 <div class="other-tools-info" markdown="1">
 
@@ -106,7 +106,7 @@ A meta-package for building a version of Python that can be embedded into a macO
 
 <div class="other-tools-package" markdown="1">
 
-[![Chaquopy](../images/chaquopy.png)](https://chaquo.com/chaquopy/){ .other-tools-logo }
+[![Chaquopy](../images/chaquopy.png)](https://chaquo.com/chaquopy/)
 
 <div class="other-tools-info" markdown="1">
 

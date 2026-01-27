@@ -94,13 +94,13 @@ extra:
     - name: English
       link: /en/
       lang: en
-    - name: Arabic
+    - name: العَرَبِيَّة
       link: /ar/
       lang: ar
-    - name: Czech
+    - name: Čeština
       link: /cs/
       lang: cs
-    - name: Danish
+    - name: Dansk
       link: /da/
       lang: da
     - name: Deutsch
@@ -115,22 +115,22 @@ extra:
     - name: Italiano
       link: /it/
       lang: it
-    - name: Korean
+    - name: 한국어
       link: /ko/
       lang: ko
-    - name: Polish
+    - name: Polski
       link: /pl/
       lang: pl
-    - name: Portuguese
+    - name: Português
       link: /pt/
       lang: pt
-    - name: Turkish
+    - name: Türkçe
       link: /tr/
       lang: tr
-    - name: Chinese (Traditional)
+    - name: 中文(简体)
       link: /zh-cn/
       lang: zh-Hant
-    - name: Chinese (Taiwanese)
+    - name: 中文(繁體)
       link: /zh-tw/
       lang: zh-TW
 
