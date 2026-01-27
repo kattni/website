@@ -34,7 +34,7 @@ Briefcase has an MSI packaging backend for Windows; and while this backend works
 
 - Adding a stub binary for Windows apps, so that Briefcase apps present to the task manager with the apps name and icon, rather than "`pythonw`";
 - Improving log capture on Windows, so that it is easier to diagnose when problems occur; and
-- Fixing some issues with the way the  `site` is defined and used. This may also address some issues we've seen with binary modules in some Windows apps.
+- Fixing some issues with the way the `site` is defined and used. This may also address some issues we've seen with binary modules in some Windows apps.
 
 ### Binary modules
 
