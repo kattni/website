@@ -585,9 +585,11 @@ h1 .news {
     }
 }
 
+/* Maintains width of blog content when display reaches this size */
 @media screen and (max-width: 1220px) {
     .md-post__content p,
-    .md-post .post-title {
+    .md-post .post-title,
+    .md-content__inner {
         max-width: 45rem;
     }
 }

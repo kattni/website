@@ -109,9 +109,6 @@ extra:
     - name: Español
       link: /es/
       lang: es
-    - name: Farsi
-      link: /fa/
-      lang: fa
     - name: Français
       link: /fr/
       lang: fr
@@ -131,11 +128,11 @@ extra:
       link: /tr/
       lang: tr
     - name: Chinese (Traditional)
-      link: /zh_CN/
-      lang: zh_CN
+      link: /zh-cn/
+      lang: zh-Hant
     - name: Chinese (Taiwanese)
-      link: /zh_TW/
-      lang: zh_TW
+      link: /zh-tw/
+      lang: zh-TW
 
 
 extra_css:
