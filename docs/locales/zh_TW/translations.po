@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 02:24-0400\n"
+"POT-Creation-Date: 2026-01-28 01:50-0400\n"
 "PO-Revision-Date: 2025-07-04 20:36+0000\n"
 "Last-Translator: John <johnzhou721@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
@@ -851,14 +851,11 @@ msgid ""
 msgstr ""
 
 #: docs/en/about/team/cflee.md:3
-#, fuzzy
 msgid ""
-"When not poking at code to de-stress, he spends his time fiddling with "
+"When not poking at code to {1}de-stress{2}, he spends his time fiddling with "
 "fountain pens and mechanical keyboards. He has yet to learn the lesson of "
 "not mixing inky fingers with pretty keycaps."
 msgstr ""
-"在沒有琢磨程式碼來減壓的時候，他會花時間擺弄鋼筆和機械鍵盤。 鋼筆和機械鍵盤。"
-"他還沒有學會 不要把墨色的手指和漂亮的鍵蓋混在一起的教訓。"
 
 #: docs/en/about/team/danyeaw.md:1
 #, fuzzy
@@ -1714,6 +1711,7 @@ msgid ""
 msgstr ""
 
 #: docs/en/contributing/guide/index.md:1
+#: docs/en/titles.md:21
 msgid "Contribution guide"
 msgstr ""
 
@@ -2739,6 +2737,7 @@ msgid "{{ upcoming_events(files) }}"
 msgstr ""
 
 #: docs/en/index.md:122
+#: docs/en/titles.md:13
 msgid "Documentation"
 msgstr ""
 
@@ -2913,4 +2912,56 @@ msgstr ""
 
 #: docs/en/membership/index.md:53
 msgid "Professional Members"
+msgstr ""
+
+#: docs/en/titles.md:1
+msgid "About"
+msgstr ""
+
+#: docs/en/titles.md:3
+msgid "What is BeeWare?"
+msgstr ""
+
+#: docs/en/titles.md:5
+msgid "The Bee Team"
+msgstr ""
+
+#: docs/en/titles.md:7
+msgid "History and Philosophy"
+msgstr ""
+
+#: docs/en/titles.md:9
+msgid "Contact"
+msgstr ""
+
+#: docs/en/titles.md:11
+msgid "Branding Guidelines"
+msgstr ""
+
+#: docs/en/titles.md:15
+msgid "Community"
+msgstr ""
+
+#: docs/en/titles.md:17
+msgid "Contributing"
+msgstr ""
+
+#: docs/en/titles.md:19
+msgid "First-time contributors"
+msgstr ""
+
+#: docs/en/titles.md:23
+msgid "Sprint guide"
+msgstr ""
+
+#: docs/en/titles.md:25
+msgid "Challenge coins"
+msgstr ""
+
+#: docs/en/titles.md:27
+msgid "News"
+msgstr ""
+
+#: docs/en/titles.md:29
+msgid "Sponsor"
 msgstr ""

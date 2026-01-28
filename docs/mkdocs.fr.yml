@@ -13,11 +13,3 @@ plugins:
   macros:
     include_yaml:
         - team: fr/news/.authors.yml
-
-nav:
-  - About: Le About
-  - Documentation: Le Documentation
-  - Community: Le Community
-  - Contributing: Le Contributing
-  - News: Le News
-  - Sponsor: Le Sponsor

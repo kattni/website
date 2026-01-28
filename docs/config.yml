@@ -54,6 +54,7 @@ nav:
 
 not_in_nav: |
   /index.md
+  /titles.md
 
 exclude_docs: |  # This is the only way to keep the build from parsing the team bio files.
   !.*
