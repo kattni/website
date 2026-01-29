@@ -1840,7 +1840,7 @@ msgstr ""
 #: docs/en/contributing/guide/index.md:1
 #: docs/en/titles.md:21
 msgid "Contribution guide"
-msgstr ""
+msgstr "Guide de contribution"
 
 #: docs/en/contributing/guide/index.md:3
 msgid "{% extends \"contribute/index.md\" %}"
@@ -1966,8 +1966,7 @@ msgid ""
 msgstr ""
 "Il ne s'agit pas seulement de code. Un projet logiciel réussi nécessite de "
 "la documentation, des compétences en matière de conception, un retour "
-"d'information et des rapports de bogues. documentation, des compétences en "
-"matière de conception, un retour d'information et des rapports de bogues. La "
+"d'information et des rapports de bogues. La "
 "communauté BeeWare reconnaît que toutes les contributions sont importantes - "
 "et pas seulement celles qui viennent sous la forme d'une demande "
 "d'extraction sur GitHub."
@@ -2939,7 +2938,7 @@ msgstr ""
 #: docs/en/index.md:122
 #: docs/en/titles.md:13
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: docs/en/index.md:129
 msgid "[Toga]{1} { .index-docs-name }"
@@ -3116,7 +3115,7 @@ msgstr ""
 
 #: docs/en/titles.md:1
 msgid "About"
-msgstr ""
+msgstr "À propos"
 
 #: docs/en/titles.md:3
 msgid "What is BeeWare?"
@@ -3124,7 +3123,7 @@ msgstr ""
 
 #: docs/en/titles.md:5
 msgid "The Bee Team"
-msgstr ""
+msgstr "L'Équipe Abeille"
 
 #: docs/en/titles.md:7
 msgid "History and philosophy"
@@ -3136,11 +3135,11 @@ msgstr ""
 
 #: docs/en/titles.md:15
 msgid "Community"
-msgstr ""
+msgstr "Communauté"
 
 #: docs/en/titles.md:17
 msgid "Contributing"
-msgstr ""
+msgstr "Contribuant"
 
 #: docs/en/titles.md:19
 msgid "First-time contributors"
@@ -3156,8 +3155,8 @@ msgstr ""
 
 #: docs/en/titles.md:27
 msgid "News"
-msgstr ""
+msgstr "Nouvelles"
 
 #: docs/en/titles.md:29
 msgid "Sponsor"
-msgstr ""
+msgstr "Mécène"
