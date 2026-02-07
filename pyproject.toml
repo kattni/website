@@ -27,7 +27,7 @@ docs = [
 [tool.rumdl]
 flavor = "mkdocs"
 include = ["**/*.md"]
-exclude = ["comment.md", "docs-redirect/en/README.md", "CODE_OF_CONDUCT.md", "docs/en/titles.md"]
+exclude = ["comment.md", "docs-redirect/en/README.md"]
 respect-gitignore = true
 
 # Disable rules:
