@@ -66,21 +66,19 @@ With more than 45 million users, [Anaconda](https://anaconda.com/) is the most p
 
 ### Enthusiasts { #enthusiasts }
 
-<nospell>
-
 - Timothy Bell
-- Wes Broadway
-- Gerard Blais
+- <nospell>Wes Broadway</nospell>
+- <nospell>Gerard Blais</nospell>
 - Harry Percival
 - Michael Field
-- Eric Froemling
-- Michal Sladek
-- Stefane Fermigier
+- <nospell>Eric Froemling</nospell>
+- <nospell>Michal Sladek</nospell>
+- <nospell>Stefane Fermigier</nospell>
+
 <!-- GitHub Sponsors -->
+
 - Katie McLaughlin
 - Emil Lerner
-- Hassan Hashmi
+- <nospell>Hassan Hashmi</nospell>
 - Greg Turner
-- David Cramer
-
-</nospell>
+- <nospell>David Cramer</nospell>

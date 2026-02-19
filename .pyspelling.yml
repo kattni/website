@@ -2,7 +2,7 @@ matrix:
 - name: markdown
   aspell:
     lang: en
-    d: en_US  # Same as above.
+    d: en_US
     mode:
       - markdown
       - url
